@@ -1,0 +1,37 @@
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\IdData.Captura.resources
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\IdData.RepEdicao.resources
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\IdData.Principal.resources
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\IdData.Properties.Resources.resources
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\ResGen.read.1.tlog
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\ResGen.write.1.tlog
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\bin\Debug\IdData.exe
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\bin\Debug\IdData.pdb
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\IdData.exe
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\IdData.pdb
+D:\IDDATA\Softwares\Desenvolvedores\Assecont\Fontes IdData C#\obj\x86\Debug\IdData.exe
+D:\IDDATA\Softwares\Desenvolvedores\Assecont\Fontes IdData C#\obj\x86\Debug\IdData.pdb
+D:\IDDATA\Softwares\Desenvolvedores\Assecont\ID Data C#\obj\x86\Debug\IdData.exe
+D:\IDDATA\Softwares\Desenvolvedores\Assecont\ID Data C#\obj\x86\Debug\IdData.pdb
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.exe
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.pdb
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Captura.resources
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.RepEdicao.resources
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Principal.resources
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Properties.Resources.resources
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\ResGen.read.1.tlog
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\ResGen.write.1.tlog
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.pdb
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.ProgressImportacao.resources
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe.config
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe.manifest
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.application
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.exe.manifest
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.application
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\bin\Debug\IdData.exe.config
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\obj\x86\Debug\IdData.exe
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\obj\x86\Debug\IdData.pdb

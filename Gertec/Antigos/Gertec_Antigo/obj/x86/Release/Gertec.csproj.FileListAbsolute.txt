@@ -1,0 +1,6 @@
+C:\ProjetoRep\Gertec\C#\bin\Release\Gertec.exe.config
+C:\ProjetoRep\Gertec\C#\obj\x86\Release\Gertec.ImportacaoMarcacoes.resources
+C:\ProjetoRep\Gertec\C#\obj\x86\Release\Gertec.RepEdicao.resources
+C:\ProjetoRep\Gertec\C#\obj\x86\Release\Gertec.Principal.resources
+C:\ProjetoRep\Gertec\C#\obj\x86\Release\Gertec.Properties.Resources.resources
+C:\ProjetoRep\Gertec\C#\obj\x86\Release\Gertec.csproj.GenerateResource.Cache

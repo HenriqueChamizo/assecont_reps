@@ -1,0 +1,38 @@
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Athos\bin\Debug\Athos.exe.config
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Athos\obj\x86\Debug\Athos.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Athos\obj\x86\Debug\Athos.Properties.Resources.resources
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Athos\obj\x86\Debug\Athos.csproj.GenerateResource.Cache
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Athos\obj\x86\Debug\Athos.Principal.resources
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Athos\obj\x86\Debug\Interop.StarREP.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Athos\obj\x86\Debug\Athos.csproj.ResolveComReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Athos\bin\Debug\Athos.exe
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Athos\bin\Debug\Athos.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Athos\bin\Debug\AssepontoRep.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Athos\bin\Debug\AssepontoRep.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Athos\obj\x86\Debug\Athos.exe
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Athos\obj\x86\Debug\Athos.pdb
+C:\Arquivos\PROGS\Ponto2009\Rep\Athos\Exe C# Athos\bin\Debug\Athos.exe.config
+C:\Arquivos\PROGS\Ponto2009\Rep\Athos\Exe C# Athos\obj\x86\Debug\Athos.csproj.ResolveComReference.cache
+C:\Arquivos\PROGS\Ponto2009\Rep\Athos\Exe C# Athos\obj\x86\Debug\Athos.exe
+C:\Arquivos\PROGS\Ponto2009\Rep\Athos\Exe C# Athos\obj\x86\Debug\Athos.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Athos\Exe C# Athos\bin\Debug\Athos.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Athos\Exe C# Athos\obj\x86\Debug\Athos.csproj.ResolveComReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Athos\Exe C# Athos\obj\x86\Debug\Athos.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Athos\Exe C# Athos\obj\x86\Debug\Athos.pdb
+D:\BitBucket\Assecont\Relógios\Athos\Exe C# Athos\bin\Debug\Athos.exe.config
+D:\BitBucket\Assecont\Relógios\Athos\Exe C# Athos\obj\x86\Debug\Interop.StarREP.dll
+D:\BitBucket\Assecont\Relógios\Athos\Exe C# Athos\obj\x86\Debug\Athos.csproj.ResolveComReference.cache
+D:\BitBucket\Assecont\Relógios\Athos\Exe C# Athos\obj\x86\Debug\Athos.exe
+D:\BitBucket\Assecont\Relógios\Athos\Exe C# Athos\obj\x86\Debug\Athos.pdb
+D:\BitBucket\Assecont\Relógios\Athos\Exe C# Athos\bin\Debug\Athos.exe
+D:\BitBucket\Assecont\Relógios\Athos\Exe C# Athos\bin\Debug\Athos.pdb
+D:\BitBucket\Assecont\Relógios\Athos\Exe C# Athos\obj\x86\Debug\Athos.Principal.resources
+D:\BitBucket\Assecont\Relógios\Athos\Exe C# Athos\obj\x86\Debug\Athos.Properties.Resources.resources
+D:\BitBucket\Assecont\Relógios\Athos\Exe C# Athos\obj\x86\Debug\Athos.csproj.GenerateResource.Cache
+D:\BitBucket\Assecont\Relógios\Athos\Exe C# Athos\bin\Debug\AssepontoRep.dll
+D:\BitBucket\Assecont\Relógios\Athos\Exe C# Athos\bin\Debug\Assepontoweb.Classes.AppDatabases.dll
+D:\BitBucket\Assecont\Relógios\Athos\Exe C# Athos\bin\Debug\Assepontoweb.Classes.dll
+D:\BitBucket\Assecont\Relógios\Athos\Exe C# Athos\bin\Debug\Assepontoweb.Types.dll
+D:\BitBucket\Assecont\Relógios\Athos\Exe C# Athos\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+D:\BitBucket\Assecont\Relógios\Athos\Exe C# Athos\bin\Debug\Wr.Classes.Databases.dll
+D:\BitBucket\Assecont\Relógios\Athos\Exe C# Athos\bin\Debug\Wr.Classes.dll

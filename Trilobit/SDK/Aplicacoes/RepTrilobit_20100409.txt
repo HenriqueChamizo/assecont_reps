@@ -1,0 +1,6 @@
+12:24:41 - EnviarDadosSYNC - Ocorreu timeout de comunicação com 192.168.1.90:19001
+12:26:41 - EnviarDadosSYNC - Ocorreu timeout de comunicação com 192.168.1.90:19001
+12:28:44 - EnviarDadosSYNC - Ocorreu timeout de comunicação com 192.168.1.90:19001
+12:29:52 - EnviarDadosSYNC - Ocorreu timeout de comunicação com 192.168.0.90:19001
+12:31:35 - EnviarDadosSYNC - Ocorreu timeout de comunicação com 192.168.1.90:19001
+13:05:40 - EnviarDadosSYNC - Ocorreu timeout de comunicação com 192.168.1.90:8008

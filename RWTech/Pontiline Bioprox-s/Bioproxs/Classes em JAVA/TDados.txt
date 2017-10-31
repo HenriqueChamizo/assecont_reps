@@ -1,0 +1,29 @@
+public class TDados extends Structure {
+
+	public byte[] adcOUSubst = new byte[256]; // OK! Obs.: ShortString = 256
+												// bytes. [0]: deve conter a
+												// quantidade de bytes da
+												// string.
+	public byte[] pin = new byte[256]; // OK!
+	public byte[] pis = new byte[256]; // OK!
+	public byte[] identificador = new byte[256]; // OK!
+	public byte[] cei = new byte[256]; // OK!
+	public byte[] razaoSocial = new byte[256]; // OK!
+	public byte[] localPrestServ = new byte[256]; // OK!
+	public byte[] tipoId = new byte[256]; // OK!
+	public byte[] nome = new byte[256]; // OK!
+	public byte[] id_bio = new byte[256]; // OK!
+	public byte[] numCartao = new byte[256]; // OK!
+	public byte[] senha = new byte[256]; // OK!
+	public byte[] mestre = new byte[256]; // OK!
+	public byte[] verifica = new byte[256]; // OK!
+
+	@Override
+	protected List getFieldOrder() {
+		return Arrays.asList(new String[] { "adcOUSubst", "pin", "pis",
+				"identificador", "cei", "razaoSocial", "localPrestServ",
+				"tipoId", "nome", "id_bio", "numCartao", "senha", "mestre",
+				"verifica" });
+	}
+
+}

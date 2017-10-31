@@ -1,0 +1,17 @@
+c:\users\henriquec\documents\visual studio 2015\Projects\Rep200\Rep200\bin\Debug\Rep200.exe.config
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep200\Rep200\bin\Debug\Rep200.exe.config
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep200\Rep200\obj\Debug\Interop.zkemkeeperbz900.dll
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep200\Rep200\obj\Debug\Rep200.csproj.ResolveComReference.cache
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep200\Rep200\obj\Debug\Rep200.Properties.Resources.resources
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep200\Rep200\obj\Debug\Rep200.csproj.GenerateResource.Cache
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep200\Rep200\bin\Debug\Rep200.exe
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep200\Rep200\bin\Debug\Rep200.pdb
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep200\Rep200\bin\Debug\AssepontoRep.dll
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep200\Rep200\bin\Debug\Assepontoweb.Classes.AppDatabases.dll
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep200\Rep200\bin\Debug\Assepontoweb.Classes.dll
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep200\Rep200\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep200\Rep200\bin\Debug\Wr.Classes.Databases.dll
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep200\Rep200\bin\Debug\Wr.Classes.dll
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep200\Rep200\bin\Debug\Interop.zkemkeeperbz900.dll
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep200\Rep200\obj\Debug\Rep200.exe
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep200\Rep200\obj\Debug\Rep200.pdb

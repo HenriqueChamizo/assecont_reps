@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="UFE30_DemoCS">
+</Property><Property Name="Solution File" Value="C:\Program Files\Suprema\Suprema PC SDK31\samples\VS80\UFE30_DemoCS\UFE30_DemoCS.sln">
+</Property><Property Name="User Options File" Value="C:\Program Files\Suprema\Suprema PC SDK31\samples\VS80\UFE30_DemoCS\UFE30_DemoCS.suo">
+</Property><Property Name="Date" Value="quinta-feira, 9 de dezembro de 2010">
+</Property><Property Name="Time" Value="14:51">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="UFE30_DemoCS.sln" Description="File successfully backed up as C:\Program Files\Suprema\Suprema PC SDK31\samples\VS80\UFE30_DemoCS\Backup\UFE30_DemoCS.sln">
+</Event><Event ErrorLevel="0" Project="" Source="UFE30_DemoCS.suo" Description="File successfully backed up as C:\Program Files\Suprema\Suprema PC SDK31\samples\VS80\UFE30_DemoCS\Backup\UFE30_DemoCS.suo">
+</Event><Event ErrorLevel="0" Project="UFE30_DemoCS" Source="UFE30_DemoCS.csproj" Description="Project file successfully backed up as C:\Program Files\Suprema\Suprema PC SDK31\samples\VS80\UFE30_DemoCS\Backup\UFE30_DemoCS.csproj">
+</Event><Event ErrorLevel="0" Project="UFE30_DemoCS" Source="UFE30_DemoCS.csproj.user" Description="Project user file successfully backed up as C:\Program Files\Suprema\Suprema PC SDK31\samples\VS80\UFE30_DemoCS\Backup\UFE30_DemoCS.csproj.user">
+</Event><Event ErrorLevel="0" Project="UFE30_DemoCS" Source="UFE30_Demo.cs" Description="File successfully backed up as C:\Program Files\Suprema\Suprema PC SDK31\samples\VS80\UFE30_DemoCS\Backup\UFE30_Demo.cs">
+</Event><Event ErrorLevel="0" Project="UFE30_DemoCS" Source="UFE30_Demo.Designer.cs" Description="File successfully backed up as C:\Program Files\Suprema\Suprema PC SDK31\samples\VS80\UFE30_DemoCS\Backup\UFE30_Demo.Designer.cs">
+</Event><Event ErrorLevel="0" Project="UFE30_DemoCS" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Program Files\Suprema\Suprema PC SDK31\samples\VS80\UFE30_DemoCS\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="UFE30_DemoCS" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Program Files\Suprema\Suprema PC SDK31\samples\VS80\UFE30_DemoCS\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="UFE30_DemoCS" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Program Files\Suprema\Suprema PC SDK31\samples\VS80\UFE30_DemoCS\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="UFE30_DemoCS" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Program Files\Suprema\Suprema PC SDK31\samples\VS80\UFE30_DemoCS\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="UFE30_DemoCS" Source="UFE30_Demo.resx" Description="File successfully backed up as C:\Program Files\Suprema\Suprema PC SDK31\samples\VS80\UFE30_DemoCS\Backup\UFE30_Demo.resx">
+</Event><Event ErrorLevel="0" Project="UFE30_DemoCS" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Program Files\Suprema\Suprema PC SDK31\samples\VS80\UFE30_DemoCS\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="UFE30_DemoCS" Source="Properties\app.manifest" Description="File successfully backed up as C:\Program Files\Suprema\Suprema PC SDK31\samples\VS80\UFE30_DemoCS\Backup\Properties\app.manifest">
+</Event><Event ErrorLevel="1" Project="UFE30_DemoCS" Source="UFE30_DemoCS.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="UFE30_DemoCS" Source="UFE30_DemoCS.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UFE30_DemoCS" Source="UFE30_DemoCS.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UFE30_DemoCS.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="UFE30_DemoCS.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UFE30_DemoCS" Source="UFE30_DemoCS.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

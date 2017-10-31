@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008/04/25 10:50:11.046.pas,C:\Documents and Settings\Eduardo Andrade\Meus documentos\Borland Studio Projects\Unit1.pas=D:\Eduardo\Projetos\ComunicaDSP\uD10SF01A.pas</Transaction>
+    <Transaction>2008/04/25 10:50:11.046.dfm,C:\Documents and Settings\Eduardo Andrade\Meus documentos\Borland Studio Projects\Unit1.dfm=D:\Eduardo\Projetos\ComunicaDSP\uD10SF01A.dfm</Transaction>
+    <Transaction>2008/04/25 10:50:21.609.bdsproj,C:\Documents and Settings\Eduardo Andrade\Meus documentos\Borland Studio Projects\Project1.bdsproj=D:\Eduardo\Projetos\ComunicaDSP\prjComunicaDSP.bdsproj</Transaction>
+    <Transaction>2008/10/17 11:52:43.437.bdsproj,E:\Eduardo\7x\Henry7x\SDK\Delphi\ComunicaDSP\prjComunicaDSP.bdsproj=E:\Eduardo\7x\Henry7x\SDK\Delphi\ComunicaDSP\ComunicaDSP.bdsproj</Transaction>
+  </Transactions>
+</BorlandProject>

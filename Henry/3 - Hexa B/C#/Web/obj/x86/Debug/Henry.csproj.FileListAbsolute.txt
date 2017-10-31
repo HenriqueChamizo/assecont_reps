@@ -1,0 +1,102 @@
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\Henry.Properties.Resources.resources
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Henry.exe
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Henry.pdb
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\Henry.exe
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\Henry.pdb
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Henry.exe.config
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\AssepontoRep.dll
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Wr.dll
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\AssepontoRep.pdb
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Wr.pdb
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\Henry.Principal.resources
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Henry.exe.config
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\Henry.exe
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\Henry.Principal.resources
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\Henry.Properties.Resources.resources
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Henry.exe
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Henry.pdb
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\AssepontoRep.dll
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Wr.dll
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\AssepontoRep.pdb
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Wr.pdb
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\Henry.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\bin\Debug\Henry.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\obj\x86\Debug\Henry.exe
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\obj\x86\Debug\Henry.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\obj\x86\Debug\Henry.Principal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\obj\x86\Debug\Henry.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\obj\x86\Debug\Henry.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\bin\Debug\Henry.exe
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\bin\Debug\Henry.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\bin\Debug\AssepontoRep.dll
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\bin\Debug\AssepontoRep.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\obj\x86\Debug\Henry.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa\C#\Henry\bin\Debug\Henry.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa\C#\Henry\obj\x86\Debug\Henry.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa\C#\Henry\obj\x86\Debug\Henry.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa\C#\Henry\obj\x86\Debug\Henry.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa\C#\Henry\obj\x86\Debug\Henry.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa\C#\Henry\obj\x86\Debug\Henry.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa\C#\Henry\bin\Debug\Henry.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa\C#\Henry\bin\Debug\Henry.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa\C#\Henry\bin\Debug\AssepontoRep.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa\C#\Henry\bin\Debug\Wr.Classes.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Henry\bin\Debug\Henry.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Henry\obj\x86\Debug\Henry.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Henry\obj\x86\Debug\Henry.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Henry\bin\Debug\Henry.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Henry\bin\Debug\Henry.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Henry\bin\Debug\AssepontoRep.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Henry\bin\Debug\Wr.Classes.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Henry\obj\x86\Debug\Henry.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Henry\obj\x86\Debug\Henry.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Web\bin\Debug\Henry.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Web\obj\x86\Debug\Henry.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Web\obj\x86\Debug\Henry.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Web\obj\x86\Debug\Henry.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Web\obj\x86\Debug\Henry.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Web\bin\Debug\Henry.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Web\bin\Debug\Henry.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Web\bin\Debug\AssepontoRep.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Web\bin\Debug\Wr.Classes.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Web\bin\Debug\Assepontoweb.Classes.AppDatabases.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Web\bin\Debug\Wr.Classes.Databases.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\C#\Web\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+D:\Projetos\Relógios\Henry\3 - Hexa B\C#\Web\bin\Debug\Henry.exe.config
+D:\Projetos\Relógios\Henry\3 - Hexa B\C#\Web\obj\x86\Debug\Henry.exe
+D:\Projetos\Relógios\Henry\3 - Hexa B\C#\Web\obj\x86\Debug\Henry.pdb
+D:\Projetos\Relógios\Henry\3 - Hexa B\C#\Web\bin\Debug\Henry.exe
+D:\Projetos\Relógios\Henry\3 - Hexa B\C#\Web\bin\Debug\Henry.pdb
+D:\Projetos\Relógios\Henry\3 - Hexa B\C#\Web\obj\x86\Debug\Henry.Properties.Resources.resources
+D:\Projetos\Relógios\Henry\3 - Hexa B\C#\Web\obj\x86\Debug\Henry.csproj.GenerateResource.Cache
+D:\Projetos\Relógios\Henry\3 - Hexa B\C#\Web\bin\Debug\Assepontoweb.Classes.AppDatabases.dll
+D:\Projetos\Relógios\Henry\3 - Hexa B\C#\Web\bin\Debug\Wr.Classes.Databases.dll
+D:\Projetos\Relógios\Henry\3 - Hexa B\C#\Web\obj\x86\Debug\Henry.csprojResolveAssemblyReference.cache
+D:\BitBucket\Assecont\Relógios\Henry\3 - Hexa B\C#\Web\bin\Debug\Henry.exe.config
+D:\BitBucket\Assecont\Relógios\Henry\3 - Hexa B\C#\Web\obj\x86\Debug\Henry.exe
+D:\BitBucket\Assecont\Relógios\Henry\3 - Hexa B\C#\Web\obj\x86\Debug\Henry.pdb
+D:\BitBucket\Assecont\Relógios\Henry\3 - Hexa B\C#\Web\bin\Debug\Henry.exe
+D:\BitBucket\Assecont\Relógios\Henry\3 - Hexa B\C#\Web\bin\Debug\Henry.pdb
+D:\BitBucket\Assecont\Relógios\Henry\3 - Hexa B\C#\Web\obj\x86\Debug\Henry.Properties.Resources.resources
+D:\BitBucket\Assecont\Relógios\Henry\3 - Hexa B\C#\Web\obj\x86\Debug\Henry.csproj.GenerateResource.Cache
+D:\BitBucket\Assecont\Relógios\Henry\3 - Hexa B\C#\Web\bin\Debug\AssepontoRep.dll
+D:\BitBucket\Assecont\Relógios\Henry\3 - Hexa B\C#\Web\bin\Debug\Assepontoweb.Classes.AppDatabases.dll
+D:\BitBucket\Assecont\Relógios\Henry\3 - Hexa B\C#\Web\bin\Debug\Assepontoweb.Classes.dll
+D:\BitBucket\Assecont\Relógios\Henry\3 - Hexa B\C#\Web\bin\Debug\Assepontoweb.Types.dll
+D:\BitBucket\Assecont\Relógios\Henry\3 - Hexa B\C#\Web\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+D:\BitBucket\Assecont\Relógios\Henry\3 - Hexa B\C#\Web\bin\Debug\Wr.Classes.Databases.dll
+D:\BitBucket\Assecont\Relógios\Henry\3 - Hexa B\C#\Web\bin\Debug\Wr.Classes.dll
+C:\Disco D\BitBucket\assecont\Relogios\Henry\3 - Hexa B\C#\Web\bin\Debug\Henry.exe.config
+C:\Disco D\BitBucket\assecont\Relogios\Henry\3 - Hexa B\C#\Web\obj\x86\Debug\Henry.exe
+C:\Disco D\BitBucket\assecont\Relogios\Henry\3 - Hexa B\C#\Web\obj\x86\Debug\Henry.pdb
+C:\Disco D\BitBucket\assecont\Relogios\Henry\3 - Hexa B\C#\Web\bin\Debug\Henry.exe
+C:\Disco D\BitBucket\assecont\Relogios\Henry\3 - Hexa B\C#\Web\bin\Debug\Henry.pdb
+C:\Disco D\BitBucket\assecont\Relogios\Henry\3 - Hexa B\C#\Web\obj\x86\Debug\Henry.csprojResolveAssemblyReference.cache
+C:\Disco D\BitBucket\assecont\Relogios\Henry\3 - Hexa B\C#\Web\obj\x86\Debug\Henry.Properties.Resources.resources
+C:\Disco D\BitBucket\assecont\Relogios\Henry\3 - Hexa B\C#\Web\obj\x86\Debug\Henry.csproj.GenerateResource.Cache

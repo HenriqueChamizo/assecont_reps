@@ -1,0 +1,26 @@
+15/04/2016 15:56:46 URL: https://192.168.1.199/
+15/04/2016 15:56:46 Enviando: {"login":"admin","password":"admin"}
+15/04/2016 15:56:48 ERRO: O servidor cometeu uma violação de protocolo. Section=ResponseStatusLine
+   em System.Net.HttpWebRequest.GetResponse()
+   em Controlid.RestJSON.SendJson(String cIP, Object objSend, Type tpResult, String session)
+15/04/2016 15:56:48 Falta a configuração de permição de SSL auto assinado!
+Adicione as linhas abaixo no arquivo de configuração:
+
+<system.net>
+	<settings>
+		<httpWebRequest useUnsafeHeaderParsing="true"/>
+	</settings>
+</system.net>
+15/04/2016 16:01:46 URL: https://192.168.1.199/
+15/04/2016 16:01:46 Enviando: {"login":"admin","password":"admin"}
+15/04/2016 16:01:47 ERRO: O servidor cometeu uma violação de protocolo. Section=ResponseStatusLine
+   em System.Net.HttpWebRequest.GetResponse()
+   em Controlid.RestJSON.SendJson(String cIP, Object objSend, Type tpResult, String session)
+15/04/2016 16:01:47 Falta a configuração de permição de SSL auto assinado!
+Adicione as linhas abaixo no arquivo de configuração:
+
+<system.net>
+	<settings>
+		<httpWebRequest useUnsafeHeaderParsing="true"/>
+	</settings>
+</system.net>

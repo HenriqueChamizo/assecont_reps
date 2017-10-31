@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<MTEmpregador>
+  <MTEmpregador>
+    <TipoDoc>1</TipoDoc>
+    <Documento>11222333300012</Documento>
+    <CEI>000000000000</CEI>
+    <RazaoSocial>Teste S/A</RazaoSocial>
+    <Local>Rua Mario, 194</Local>
+  </MTEmpregador>
+</MTEmpregador>

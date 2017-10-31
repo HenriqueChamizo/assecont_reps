@@ -1,0 +1,361 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HumanAPIClient</name>
+    </assembly>
+    <members>
+        <member name="T:HumanAPIClient.Util.HttpClientHelper">
+            <summary>
+            Classe responsavel por possuir ferramentas http.
+            </summary>
+        </member>
+        <member name="M:HumanAPIClient.Util.HttpClientHelper.sendRequest(System.String,System.Net.HttpWebRequest)">
+            <summary>
+            Executa uma requicao.
+            </summary>
+            <param name="parameters"></param>
+            <param name="webRequest"></param>
+        </member>
+        <member name="M:HumanAPIClient.Util.HttpClientHelper.getResponse(System.Net.HttpWebRequest)">
+            <summary>
+            Busca os dados de resposta e formata em uma lista.
+            </summary>
+            <param name="webRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HumanAPIClient.Util.HttpClientHelper.getResponseAsStream(System.Net.HttpWebRequest)">
+            <summary>
+            Busca os dados de resposta e retorna uma stream.
+            </summary>
+            <param name="webRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HumanAPIClient.Util.HttpClientHelper.configureConection(System.String,System.String,System.String)">
+            <summary>
+            Configura uma conexao com o host
+            </summary>
+            <param name="host"></param>
+            <param name="contentType"></param>
+            <param name="method"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HumanAPIClient.Util.HttpClientHelper.configureConection(System.String,System.String,System.String,System.Net.IWebProxy)">
+            <summary>
+            Configura uma conexao com o host
+            </summary>
+            <param name="host"></param>
+            <param name="contentType"></param>
+            <param name="method"></param>
+            <param name="proxy"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HumanAPIClient.Service.Interface.IBaseServiceSending">
+            <summary>
+            Interface base para servicos que envolve envio de mensagens sms.
+            </summary>
+        </member>
+        <member name="M:HumanAPIClient.Service.Interface.IBaseServiceSending.send(HumanAPIClient.Model.Message)">
+            <summary>
+            Envia uma requisicao ao servidor para envio de mensagem sms.
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HumanAPIClient.Model.SimpleMessage">
+            <summary>
+            Classe responsavel por armazenar as informacoes de um sms.
+            </summary>
+        </member>
+        <member name="T:HumanAPIClient.Model.Message">
+            <summary>
+            Classe abstrata utilizada como molde para construcao de todo o tipo de classe
+            para envio de sms.
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Model.Message.callback">
+            <summary>
+            O callback que a mensagem (ou a lista de mensagens) irá ter. 
+            </summary>
+        </member>
+        <member name="M:HumanAPIClient.Model.Message.#ctor">
+            <summary>
+            Construtor da classe setando o callback default (Inativo).
+            </summary>
+        </member>
+        <member name="P:HumanAPIClient.Model.Message.Callback">
+            <summary>
+            O callback que a mensagem (ou a lista de mensagens) irá ter.
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Model.SimpleMessage.id">
+            <summary>
+            Id da mensagem
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Model.SimpleMessage.to">
+            <summary>
+            numero que sera enviado a mensagem
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Model.SimpleMessage.from">
+            <summary>
+            de quem e enviado a mensagem
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Model.SimpleMessage.message">
+            <summary>
+            mensagem a ser enviada
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Model.SimpleMessage.schedule">
+            <summary>
+            data de agendamento
+            </summary>
+        </member>
+        <member name="T:HumanAPIClient.Service.Interface.IMultipleBaseServiceSending">
+            <summary>
+            Interface base para envio de multiplos sms.
+            </summary>
+        </member>
+        <member name="M:HumanAPIClient.Service.Interface.IMultipleBaseServiceSending.query(System.String[])">
+            <summary>
+            Envia uma requisicao ao servidor para consulta de status de sms.
+            </summary>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HumanAPIClient.Util.Exceptions.ClientHumanException">
+            <summary>
+            Excessao personalizada da API.
+            </summary>
+        </member>
+        <member name="T:HumanAPIClient.Enum.LayoutTypeEnum">
+            <summary>
+            Enumerador para os tipos de layout existentes
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Enum.LayoutTypeEnum.TYPE_A">
+            <summary>
+            to;msg
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Enum.LayoutTypeEnum.TYPE_B">
+            <summary>
+            to;msg;from
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Enum.LayoutTypeEnum.TYPE_C">
+            <summary>
+            to;msg;id
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Enum.LayoutTypeEnum.TYPE_D">
+            <summary>
+            to;msg;id;from
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Enum.LayoutTypeEnum.TYPE_E">
+            <summary>
+            to;msg;id;from;schedule
+            </summary>
+        </member>
+        <member name="T:HumanAPIClient.Enum.CallbackTypeEnum">
+            <summary>
+            Enumerador para os tipos de callback.
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Enum.CallbackTypeEnum.INACTIVE">
+            <summary>
+            Nao realiza callback (padrao)
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Enum.CallbackTypeEnum.FINAL">
+            <summary>
+            Envia apenas o status final da mensagem
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Enum.CallbackTypeEnum.FULL">
+            <summary>
+            Envia os status intermediarios e final da mensagem.
+            </summary>
+        </member>
+        <member name="T:HumanAPIClient.Service.Base.BaseServiceSending">
+            <summary>
+            Classe abstrata que serve como base para todo o 
+            tipo de envio de requisicao para o gateway de sms.
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Service.Base.BaseServiceSending.BODY_MAX_LENGTH">
+            <summary>
+            Tamanho maximo da mensagem considerando "from"
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Service.Base.BaseServiceSending.ID_MAX_LENGTH">
+            <summary>
+            Pattern para formatacao de data
+            </summary>
+        </member>
+        <member name="M:HumanAPIClient.Service.Base.BaseServiceSending.send(System.String)">
+            <summary>
+            Envia uma requisicao para um sevidor
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HumanAPIClient.Service.Base.BaseServiceSending.validateMessage(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Valida parametros gerais da mensagem (campos obrigatorios, tamanho do texto, etc).
+            </summary>
+            <param name="to"></param>
+            <param name="message"></param>
+            <param name="id"></param>
+            <param name="from"></param>
+            <param name="schedule"></param>
+        </member>
+        <member name="M:HumanAPIClient.Service.Base.BaseServiceSending.validateMessage(System.String,System.String,System.String,System.String)">
+            <summary>
+            Valida parametros gerais da mensagem (campos obrigatorios, tamanho do texto, etc).
+            </summary>
+            <param name="to"></param>
+            <param name="message"></param>
+            <param name="id"></param>
+            <param name="from"></param>
+        </member>
+        <member name="M:HumanAPIClient.Service.Base.BaseServiceSending.validateMessage(System.String,System.String,System.String)">
+            <summary>
+            Valida parametros gerais da mensagem (campos obrigatorios, tamanho do texto, etc).
+            </summary>
+            <param name="to"></param>
+            <param name="message"></param>
+            <param name="from"></param>
+        </member>
+        <member name="M:HumanAPIClient.Service.Base.BaseServiceSending.validateMessage(System.String,System.String)">
+            <summary>
+            Valida parametros gerais da mensagem (campos obrigatorios, tamanho do texto, etc).
+            </summary>
+            <param name="to"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:HumanAPIClient.Service.Base.BaseServiceSending.validateAccountAndPassword">
+            <summary>
+            Valida a conta e a senha.
+            </summary>
+        </member>
+        <member name="M:HumanAPIClient.Service.QueryMessage.sendMoRequest(System.String)">
+            <summary>
+            Envia uma requisicao para um sevidor e retorna a resposta como uma stream
+            </summary>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HumanAPIClient.Model.MultipleMessage">
+            <summary>
+            Classe abstrata que é utilizada como modelos para 
+            os tipos de mensagens multiplas possiveis.
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Model.MultipleMessage.type">
+            <summary>
+            Tipo de layout da lista ou arquivo a ser enviado
+            </summary>
+        </member>
+        <member name="M:HumanAPIClient.Model.MultipleMessage.#ctor(HumanAPIClient.Enum.LayoutTypeEnum)">
+            <summary>
+            Contrutor da classe informando o tipo de layout do arquivo ou lista
+            </summary>
+            <param name="type"></param>
+        </member>
+        <member name="P:HumanAPIClient.Model.MultipleMessage.Type">
+            <summary>
+            Seta e retorna o tipo de layout do arquivo ou lista
+            </summary>
+        </member>
+        <member name="P:HumanAPIClient.Model.MultipleMessage.Content">
+            <summary>
+            Retorna o conteudo a ser enviado
+            </summary>
+        </member>
+        <member name="T:HumanAPIClient.Model.FileResource">
+            <summary>
+            Classe responsavel por armazenar um arquivo com seu tipo de layout para ser enviada 
+            para o gateway de sms.
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Model.FileResource.content">
+            <summary>
+            Arquivo que armazena o conteudo
+            </summary>
+        </member>
+        <member name="M:HumanAPIClient.Model.FileResource.#ctor(System.IO.FileInfo,HumanAPIClient.Enum.LayoutTypeEnum)">
+            <summary>
+            Construtor da classe onde eh informado o arquivo e o tipo de layout
+            </summary>
+            <param name="file"></param>
+            <param name="type"></param>
+        </member>
+        <member name="M:HumanAPIClient.Model.FileResource.getFile">
+            <summary>
+            Retorna o arquivo amazenado
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HumanAPIClient.Service.Interface.ISimpleBaseServiceSending">
+            <summary>
+            Interface base para envio de mensagem sms simples.
+            </summary>
+        </member>
+        <member name="M:HumanAPIClient.Service.Interface.ISimpleBaseServiceSending.query(System.String)">
+            <summary>
+            Envia uma requisicao ao servidor para consulta de status de sms.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HumanAPIClient.Service.SimpleSending">
+            <summary>
+            Classe responsavel pelos servicos destinados ao envio de 
+            mensagens sms individuais para o gateway.
+            </summary>
+        </member>
+        <member name="M:HumanAPIClient.Service.SimpleSending.#ctor(System.String,System.String)">
+            <summary>
+            Construtor da classe que permite fornecer a conta e a senha
+            para autenticacao no gateway.
+            </summary>
+            <param name="account"></param>
+            <param name="password"></param>
+        </member>
+        <member name="M:HumanAPIClient.Service.MultipleSending.validateSend(HumanAPIClient.Model.MultipleMessage)">
+            <summary>
+            Valida os dados para envio de mensagem multipla
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HumanAPIClient.Service.MultipleSending.validateMessage(HumanAPIClient.Enum.LayoutTypeEnum,System.String)">
+            <summary>
+            Valida parametros gerais da mensagem (campos obrigatorios, tamanho do texto, etc).
+            </summary>
+            <param name="type"></param>
+            <param name="linha"></param>
+        </member>
+        <member name="T:HumanAPIClient.Model.ListResource">
+            <summary>
+            Classe responsavel por armazenar uma lista de sms 
+            para envio para o gateway de sms.
+            </summary>
+        </member>
+        <member name="F:HumanAPIClient.Model.ListResource.content">
+            <summary>
+            Lista de sms a ser enviada.
+            </summary>
+        </member>
+        <member name="M:HumanAPIClient.Model.ListResource.#ctor(System.String,HumanAPIClient.Enum.LayoutTypeEnum)">
+            <summary>
+            Construtor da classe informando a lista de sms e o tipo de layout da mesma.
+            </summary>
+            <param name="list"></param>
+            <param name="type"></param>
+        </member>
+    </members>
+</doc>

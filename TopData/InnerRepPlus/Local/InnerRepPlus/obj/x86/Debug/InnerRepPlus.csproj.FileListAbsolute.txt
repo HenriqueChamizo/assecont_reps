@@ -1,0 +1,27 @@
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\bin\Debug\InnerRepPlus.exe.config
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\obj\x86\Debug\InnerRepPlus.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\obj\x86\Debug\InnerRepPlus.Properties.Resources.resources
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\obj\x86\Debug\InnerRepPlus.csproj.GenerateResource.Cache
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\obj\x86\Debug\InnerRepPlus.Principal.resources
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\bin\Debug\AssepontoRep.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\obj\x86\Debug\InnerRepPlus.exe
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\obj\x86\Debug\InnerRepPlus.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\bin\Debug\InnerRepPlus.exe
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\bin\Debug\InnerRepPlus.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\bin\Debug\AssepontoRep.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\bin\Debug\Framework.Comunicacao.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\bin\Debug\GerenciadorRep.Bi.Dominio.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\bin\Debug\GerenciadorRep.Bi.Entidade.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\bin\Debug\GerenciadorRep.Ferramentas.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\bin\Debug\SNEntity.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\bin\Debug\Framework.Core.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\bin\Debug\GerenciadorRep.Da.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\bin\Debug\NITGEN.SDK.NBioBSP.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\bin\Debug\SNDA.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\bin\Debug\Interop.TemplateGerInner5.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\InnerRepPlus\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+S:\USUARIOS\Renne\Projetos\Relogios\TopData\InnerRepPlus\bin\Debug\InnerRepPlus.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\TopData\InnerRepPlus\obj\x86\Debug\InnerRepPlus.exe
+S:\USUARIOS\Renne\Projetos\Relogios\TopData\InnerRepPlus\obj\x86\Debug\InnerRepPlus.pdb

@@ -1,0 +1,8 @@
+C:\ProjetoRep\IdData\Interface Dll\1.5\bin\Debug\InterfaceIDSysR30.dll
+C:\ProjetoRep\IdData\Interface Dll\1.5\bin\Debug\InterfaceIDSysR30.pdb
+C:\ProjetoRep\IdData\Interface Dll\1.5\obj\Debug\ResolveAssemblyReference.cache
+C:\ProjetoRep\IdData\Interface Dll\1.5\obj\Debug\InterfaceIDSysR30.Properties.Resources.resources
+C:\ProjetoRep\IdData\Interface Dll\1.5\obj\Debug\GenerateResource.read.1.tlog
+C:\ProjetoRep\IdData\Interface Dll\1.5\obj\Debug\GenerateResource.write.1.tlog
+C:\ProjetoRep\IdData\Interface Dll\1.5\obj\Debug\InterfaceIDSysR30.dll
+C:\ProjetoRep\IdData\Interface Dll\1.5\obj\Debug\InterfaceIDSysR30.pdb

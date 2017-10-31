@@ -1,0 +1,70 @@
+C:\ProjetoRep\Trilobit\Trilobit\bin\Debug\Trilobit.exe.config
+C:\ProjetoRep\Trilobit\Trilobit\bin\Debug\Trilobit.exe
+C:\ProjetoRep\Trilobit\Trilobit\bin\Debug\Trilobit.pdb
+C:\ProjetoRep\Trilobit\Trilobit\bin\Debug\AssepontoRep.dll
+C:\ProjetoRep\Trilobit\Trilobit\bin\Debug\Wr.dll
+C:\ProjetoRep\Trilobit\Trilobit\bin\Debug\AssepontoRep.pdb
+C:\ProjetoRep\Trilobit\Trilobit\obj\Debug\Trilobit.csprojResolveAssemblyReference.cache
+C:\ProjetoRep\Trilobit\Trilobit\obj\Debug\Trilobit.Principal.resources
+C:\ProjetoRep\Trilobit\Trilobit\obj\Debug\Trilobit.Properties.Resources.resources
+C:\ProjetoRep\Trilobit\Trilobit\obj\Debug\Trilobit.csproj.GenerateResource.Cache
+C:\ProjetoRep\Trilobit\Trilobit\obj\Debug\Trilobit.exe
+C:\ProjetoRep\Trilobit\Trilobit\obj\Debug\Trilobit.pdb
+C:\Projetos Reps\Trilobit\Trilobit\bin\Debug\Trilobit.exe.config
+C:\Projetos Reps\Trilobit\Trilobit\obj\Debug\Trilobit.exe
+C:\Projetos Reps\Trilobit\Trilobit\obj\Debug\Trilobit.pdb
+C:\Projetos Reps\Trilobit\Trilobit\obj\Debug\Trilobit.csprojResolveAssemblyReference.cache
+C:\Projetos Reps\Trilobit\Trilobit\obj\Debug\Trilobit.Principal.resources
+C:\Projetos Reps\Trilobit\Trilobit\obj\Debug\Trilobit.Properties.Resources.resources
+C:\Projetos Reps\Trilobit\Trilobit\obj\Debug\Trilobit.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit\bin\Debug\Trilobit.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit\obj\Debug\Trilobit.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit\obj\Debug\Trilobit.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit\obj\Debug\Trilobit.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit\obj\Debug\Trilobit.Principal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit\obj\Debug\Trilobit.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit\obj\Debug\Trilobit.csproj.GenerateResource.Cache
+D:\BitBucket\Assecont\Relógios\Trilobit\Trilobit\bin\Debug\Trilobit.exe.config
+D:\BitBucket\Assecont\Relógios\Trilobit\Trilobit\obj\Debug\Trilobit.exe
+D:\BitBucket\Assecont\Relógios\Trilobit\Trilobit\obj\Debug\Trilobit.pdb
+D:\BitBucket\Assecont\Relógios\Trilobit\Trilobit\bin\Debug\Trilobit.exe
+D:\BitBucket\Assecont\Relógios\Trilobit\Trilobit\bin\Debug\Trilobit.pdb
+D:\BitBucket\Assecont\Relógios\Trilobit\Trilobit\bin\Debug\AssepontoRep.dll
+D:\BitBucket\Assecont\Relógios\Trilobit\Trilobit\bin\Debug\Assepontoweb.Classes.AppDatabases.dll
+D:\BitBucket\Assecont\Relógios\Trilobit\Trilobit\bin\Debug\Assepontoweb.Classes.dll
+D:\BitBucket\Assecont\Relógios\Trilobit\Trilobit\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+D:\BitBucket\Assecont\Relógios\Trilobit\Trilobit\bin\Debug\RepTrilobit.dll
+D:\BitBucket\Assecont\Relógios\Trilobit\Trilobit\bin\Debug\Wr.Classes.Databases.dll
+D:\BitBucket\Assecont\Relógios\Trilobit\Trilobit\bin\Debug\Wr.Classes.dll
+D:\BitBucket\Assecont\Relógios\Trilobit\Trilobit\obj\Debug\Trilobit.Principal.resources
+D:\BitBucket\Assecont\Relógios\Trilobit\Trilobit\obj\Debug\Trilobit.Properties.Resources.resources
+D:\BitBucket\Assecont\Relógios\Trilobit\Trilobit\obj\Debug\Trilobit.csproj.GenerateResource.Cache
+D:\BitBucket\Assecont\Relógios\Trilobit\Trilobit\bin\Debug\Assepontoweb.Types.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit\bin\Debug\Trilobit.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit\bin\Debug\Trilobit.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit\bin\Debug\AssepontoRep.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit\bin\Debug\Assepontoweb.Classes.AppDatabases.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit\bin\Debug\Assepontoweb.Classes.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit\bin\Debug\RepTrilobit.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit\bin\Debug\Wr.Classes.Databases.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit\bin\Debug\Wr.Classes.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit\bin\Debug\Assepontoweb.Types.dll
+D:\BitBucket\Assecont\Relógios\Trilobit\Trilobit\obj\Debug\Trilobit.csprojResolveAssemblyReference.cache
+C:\Disco D\BitBucket\assecont\Relogios\Trilobit\Trilobit\bin\Debug\Trilobit.exe.config
+C:\Disco D\BitBucket\assecont\Relogios\Trilobit\Trilobit\bin\Debug\Trilobit.exe
+C:\Disco D\BitBucket\assecont\Relogios\Trilobit\Trilobit\bin\Debug\Trilobit.pdb
+C:\Disco D\BitBucket\assecont\Relogios\Trilobit\Trilobit\bin\Debug\AssepontoRep.dll
+C:\Disco D\BitBucket\assecont\Relogios\Trilobit\Trilobit\bin\Debug\Assepontoweb.Classes.AppDatabases.dll
+C:\Disco D\BitBucket\assecont\Relogios\Trilobit\Trilobit\bin\Debug\Assepontoweb.Classes.dll
+C:\Disco D\BitBucket\assecont\Relogios\Trilobit\Trilobit\bin\Debug\Assepontoweb.Types.dll
+C:\Disco D\BitBucket\assecont\Relogios\Trilobit\Trilobit\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+C:\Disco D\BitBucket\assecont\Relogios\Trilobit\Trilobit\bin\Debug\RepTrilobit.dll
+C:\Disco D\BitBucket\assecont\Relogios\Trilobit\Trilobit\bin\Debug\Wr.Classes.Databases.dll
+C:\Disco D\BitBucket\assecont\Relogios\Trilobit\Trilobit\bin\Debug\Wr.Classes.dll
+C:\Disco D\BitBucket\assecont\Relogios\Trilobit\Trilobit\obj\Debug\Trilobit.csprojResolveAssemblyReference.cache
+C:\Disco D\BitBucket\assecont\Relogios\Trilobit\Trilobit\obj\Debug\Trilobit.Principal.resources
+C:\Disco D\BitBucket\assecont\Relogios\Trilobit\Trilobit\obj\Debug\Trilobit.Properties.Resources.resources
+C:\Disco D\BitBucket\assecont\Relogios\Trilobit\Trilobit\obj\Debug\Trilobit.csproj.GenerateResource.Cache
+C:\Disco D\BitBucket\assecont\Relogios\Trilobit\Trilobit\obj\Debug\Trilobit.exe
+C:\Disco D\BitBucket\assecont\Relogios\Trilobit\Trilobit\obj\Debug\Trilobit.pdb

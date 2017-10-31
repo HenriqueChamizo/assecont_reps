@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{767953FB-7B5B-4DB7-974D-644421676505}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DemoREP_CSharp</RootNamespace>
+    <AssemblyName>DemoREP_CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Frm_AjustaHorarioVerao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_AjustaHorarioVerao.Designer.cs">
+      <DependentUpon>Frm_AjustaHorarioVerao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_AtualizaDataHora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_AtualizaDataHora.Designer.cs">
+      <DependentUpon>Frm_AtualizaDataHora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_BuscaPonto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_BuscaPonto.Designer.cs">
+      <DependentUpon>Frm_BuscaPonto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_BuscaPontoAFD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_BuscaPontoAFD.Designer.cs">
+      <DependentUpon>Frm_BuscaPontoAFD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_CadastraEmpregador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_CadastraEmpregador.Designer.cs">
+      <DependentUpon>Frm_CadastraEmpregador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_CadastraFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_CadastraFuncionario.Designer.cs">
+      <DependentUpon>Frm_CadastraFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ConfiguraCodigoBarras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ConfiguraCodigoBarras.Designer.cs">
+      <DependentUpon>Frm_ConfiguraCodigoBarras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_DefineModoArquivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_DefineModoArquivo.Designer.cs">
+      <DependentUpon>Frm_DefineModoArquivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_DefineModoIP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_DefineModoIP.Designer.cs">
+      <DependentUpon>Frm_DefineModoIP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_DefineTimeout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_DefineTimeout.Designer.cs">
+      <DependentUpon>Frm_DefineTimeout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_IniciaDriver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_IniciaDriver.Designer.cs">
+      <DependentUpon>Frm_IniciaDriver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_LeEmpregador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_LeEmpregador.Designer.cs">
+      <DependentUpon>Frm_LeEmpregador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_LeStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_LeStatus.Designer.cs">
+      <DependentUpon>Frm_LeStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_LeTodosFuncionarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_LeTodosFuncionarios.Designer.cs">
+      <DependentUpon>Frm_LeTodosFuncionarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Principal.Designer.cs">
+      <DependentUpon>Frm_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="REPZPM_DLL.cs" />
+    <EmbeddedResource Include="Frm_AjustaHorarioVerao.resx">
+      <DependentUpon>Frm_AjustaHorarioVerao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AtualizaDataHora.resx">
+      <DependentUpon>Frm_AtualizaDataHora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_BuscaPonto.resx">
+      <DependentUpon>Frm_BuscaPonto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_BuscaPontoAFD.resx">
+      <DependentUpon>Frm_BuscaPontoAFD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_CadastraEmpregador.resx">
+      <DependentUpon>Frm_CadastraEmpregador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_CadastraFuncionario.resx">
+      <DependentUpon>Frm_CadastraFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ConfiguraCodigoBarras.resx">
+      <DependentUpon>Frm_ConfiguraCodigoBarras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DefineModoArquivo.resx">
+      <DependentUpon>Frm_DefineModoArquivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DefineModoIP.resx">
+      <DependentUpon>Frm_DefineModoIP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DefineTimeout.resx">
+      <DependentUpon>Frm_DefineTimeout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_IniciaDriver.resx">
+      <DependentUpon>Frm_IniciaDriver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_LeEmpregador.resx">
+      <DependentUpon>Frm_LeEmpregador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_LeStatus.resx">
+      <DependentUpon>Frm_LeStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_LeTodosFuncionarios.resx">
+      <DependentUpon>Frm_LeTodosFuncionarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Principal.resx">
+      <DependentUpon>Frm_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

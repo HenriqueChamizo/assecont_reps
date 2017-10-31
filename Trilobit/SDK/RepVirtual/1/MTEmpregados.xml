@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<MTEmpregados>
+  <MTEmpregados>
+    <PIS>000000000001</PIS>
+    <Nome>Func1</Nome>
+    <Cracha>1</Cracha>
+    <VerificarBiometria>0</VerificarBiometria>
+  </MTEmpregados>
+  <MTEmpregados>
+    <PIS>000000000002</PIS>
+    <Nome>Func2</Nome>
+    <Cracha>2</Cracha>
+    <VerificarBiometria>0</VerificarBiometria>
+  </MTEmpregados>
+  <MTEmpregados>
+    <PIS>000000000003</PIS>
+    <Nome>Func3</Nome>
+    <Cracha>3</Cracha>
+    <VerificarBiometria>0</VerificarBiometria>
+  </MTEmpregados>
+</MTEmpregados>

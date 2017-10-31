@@ -1,0 +1,1530 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RepCid</name>
+    </assembly>
+    <members>
+        <member name="T:Controlid.IRepCid">
+            <summary>
+            Interface para permitir acesso aos dados do equipamento
+            a partir de praticamente qualquer linguagem de programação,
+            através de objeto COM.
+            </summary>
+        </member>
+        <member name="M:Controlid.IRepCid.LerEmpregador(System.String@,System.Int32@,System.String@,System.String@,System.String@)">
+            <summary>
+            Obtém os dados da empresa cadastrada no equipamento
+            </summary>
+            <param name="documento">CNPJ ou CPF da empresa</param>
+            <param name="tipoDocumento">Indicativo se o documento é CNPJ ou CPF</param>
+            <param name="cei">CEI da empresa</param>
+            <param name="razaoSocial">Razão social da empresa</param>
+            <param name="endereco">Endereço da empresa</param>
+            <returns>Flag indicando se a empresa foi lida com sucesso</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.GravarEmpregador(System.String,System.Int32,System.String,System.String,System.String,System.Boolean@)">
+            <summary>
+            Alterar os dados da empresa cadastrada no equipamento
+            </summary>
+            <param name="documento">CNPJ ou CPF da empresa</param>
+            <param name="tipoDocumento">Indicativo se o documento é CNPJ ou CPF</param>
+            <param name="cei">CEI da empresa</param>
+            <param name="razaoSocial">Razão social da empresa</param>
+            <param name="endereco">Endereço da empresa</param>
+            <param name="gravou">Flag indicando se a empresa foi alterada com sucesso</param>
+            <returns>Flag indicando se a comunicação foi realizada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.ApagarTemplatesUsuario(System.Int64,System.Boolean@)">
+            <summary>
+            Remove os templates biométricos do funcionário indicado
+            </summary>
+            <param name="pis">PIS do funciónário que será removido os templates</param>
+            <param name="apagou">Flag indicando se os templates foram removidos com sucesso</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.GravarTemplateUsuario(System.Int64,System.Byte[],System.Boolean@)">
+            <summary>
+            Adiciona um template biométrico ao funcionário indicado<br/>
+            Utilize o método <see cref="M:Controlid.IRepCid.JoinTemplates(System.Byte[],System.Byte[],System.Byte[],System.Byte[]@)"/> para obter o templete biométrico
+            </summary>
+            <seealso cref="M:Controlid.IRepCid.JoinTemplates(System.Byte[],System.Byte[],System.Byte[],System.Byte[]@)"/>
+            <param name="pis">PIS do funcionário no qual será adicionado o novo template</param>
+            <param name="template_bin">Template biométrico</param>
+            <param name="gravou">Flag indicando se o template foi adicionado com sucesso</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.GravarTemplateUsuarioStr(System.Int64,System.String,System.Boolean@)">
+            <summary>
+            Adiciona um template biométrico codificado em base-64 ao funcionário indicado
+            </summary>
+            <param name="pis">PIS do funcionário no qual será adicionado o novo template</param>
+            <param name="template_base64">Template biométrico</param>
+            <param name="gravou">Flag indicando se o template foi adicionado com sucesso</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.CarregarTemplatesUsuario(System.Int64,System.Int32@)">
+            <summary>
+            Lê os templates biométricos do funcionário indicado e guarda na memória.
+            Para ter acesso aos templates, utilize as funções <see cref="M:Controlid.IRepCid.LerTemplate(System.Byte[]@)"/>
+            ou <see cref="M:Controlid.IRepCid.LerTemplateStr(System.String@)"/>.
+            </summary>
+            <seealso cref="M:Controlid.IRepCid.LerTemplate(System.Byte[]@)"/>
+            <seealso cref="M:Controlid.IRepCid.LerTemplateStr(System.String@)"/>
+            <param name="pis">PIS do funcionário do qual serão lidos os templates biométricos</param>
+            <param name="num_templates">Retorna o número de templates lidos</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.LerTemplate(System.Byte[]@)">
+            <summary>
+            Lê um a um os templates biométricos lidos na memória com a função
+            <see cref="M:Controlid.IRepCid.CarregarTemplatesUsuario(System.Int64,System.Int32@)"/>.
+            </summary>
+            <seealso cref="M:Controlid.IRepCid.CarregarTemplatesUsuario(System.Int64,System.Int32@)"/>
+            <seealso cref="M:Controlid.IRepCid.LerTemplateStr(System.String@)"/>
+            <param name="template_bin">Retorna com o próximo template biométrico lido, ou null.</param>
+            <returns>Flag indicando se havia template a ser lido.</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.LerTemplateStr(System.String@)">
+            <summary>
+            Lê um a um os templates biométricos lidos na memória com a função
+            <see cref="M:Controlid.IRepCid.CarregarTemplatesUsuario(System.Int64,System.Int32@)"/>.
+            </summary>
+            <seealso cref="M:Controlid.IRepCid.CarregarTemplatesUsuario(System.Int64,System.Int32@)"/>
+            <seealso cref="M:Controlid.IRepCid.LerTemplate(System.Byte[]@)"/>
+            <param name="template_base64">Retorna com o próximo template biométrico lido, ou null.</param>
+            <returns>Flag indicando se havia template a ser lido.</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.ExtractTemplate(System.Byte[],System.Int32,System.Int32,System.Byte[]@)">
+            <summary>
+            Obtém o template biométrico de uma imagem<br/>
+            Utilize os templates obtidos para gerar o template final através do método <see cref="M:Controlid.IRepCid.JoinTemplates(System.Byte[],System.Byte[],System.Byte[],System.Byte[]@)"/>
+            </summary>
+            <seealso cref="M:Controlid.IRepCid.ExtractTemplate(System.Byte[],System.Int32,System.Int32,System.Byte[]@)"/>
+            <param name="bytes">Imagem da digital da qual será extraido o template</param>
+            <param name="width">Largura da imagem</param>
+            <param name="height">Altura da imagem</param>
+            <param name="template_bin">Template biométrico gerado</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.JoinTemplates(System.Byte[],System.Byte[],System.Byte[],System.Byte[]@)">
+            <summary>
+            Cria o template final baseado nos template obtidos durante o cadastro do dedo<br/>
+            Para obter os templates auxiliares utilize o método <see cref="M:Controlid.IRepCid.ExtractTemplate(System.Byte[],System.Int32,System.Int32,System.Byte[]@)"/> 
+            </summary>
+            <seealso cref="M:Controlid.IRepCid.ExtractTemplate(System.Byte[],System.Int32,System.Int32,System.Byte[]@)"/>
+            <param name="template1_bin">Template da primeira leitura da digital</param>
+            <param name="template2_bin">Template da segunda leitura da digital</param>
+            <param name="template3_bin">Template da terceira leitura da digital</param>
+            <param name="resultado_bin">Template final</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.LerConfigRede(System.String@,System.String@,System.String@,System.UInt16@)">
+            <summary>
+            Lê os dados de rede do equipamento
+            </summary>
+            <param name="ip">Endereço IP do equipamento na rede</param>
+            <param name="netmask">Máscara de sub-rede</param>
+            <param name="gateway">Gateway</param>
+            <param name="porta">Porta</param>
+            <returns>Flag indicando se os dados foram lidos com sucesso</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.GravarConfigRede(System.String,System.String,System.String,System.UInt16,System.Boolean@)">
+            <summary>
+            Altera os dados de rede do equipamento. As configurações
+            são aplicadas no REP após fechar a conexão.
+            </summary>
+            <param name="ip">Endereço IP do equipamento na rede</param>
+            <param name="netmask">Máscara de sub-rede</param>
+            <param name="gateway">Gateway</param>
+            <param name="porta">Porta</param>
+            <param name="gravou">Flag indicando se os dados de rede foram alterados om sucesso</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.LerInfo(System.String@,System.UInt32@,System.UInt32@,System.UInt32@,System.UInt32@,System.UInt32@,System.UInt32@)">
+            <summary>
+            Obtém infomações do estado atual do equipamento
+            </summary>
+            <param name="sn">Número de série</param>
+            <param name="tam_bobina">Tamanho original da bobinha </param>
+            <param name="restante_bobina">Tamanho atual da bobina</param>
+            <param name="uptime">Tempo ligado</param>
+            <param name="cortes">Quantia de cortes efetuado pela impressora</param>
+            <param name="papel_acumulado">Qunatos metros já foram impressos</param>
+            <param name="nsr_atual">NSR atual</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.LerDataHora(System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+            Obtém data e hora atual do equipamento
+            </summary>
+            <param name="ano">Ano atual no equipamento</param>
+            <param name="mes">Mês atual no equipamento</param>
+            <param name="dia">Dia atual no equipamento</param>
+            <param name="hora">Hora atual no equipamento</param>
+            <param name="minuto">Minuto atual no equipamento</param>
+            <param name="segundo">Segundo atual no equipamento</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.GravarDataHora(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Altera a data e hora do equipamento
+            </summary>
+            <param name="ano">Ano a ser cadastrado no equipamento</param>
+            <param name="mes">Mês a ser cadastrado no equipamento</param>
+            <param name="dia">Dia a ser cadastrado no equipamento</param>
+            <param name="hora">Hora a ser cadastrado no equipamento</param>
+            <param name="minuto">Minuto a ser cadastrado no equipamento</param>
+            <param name="segundo">Segundo a ser cadastrado no equipamento</param>
+            <param name="gravou">Flag indicando se data e hora foram alteradas com sucesso</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.LerConfigHVerao(System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+            Obtém as configurações de horário de verão configuradas
+            no equipamento.
+            </summary>
+            <param name="iAno">Ano a partir do qual o horário de verão entra em vigor,
+            ou 0 se programação do início do horário de verão estiver desativada.</param>
+            <param name="iMes">Mes a partir do qual o horário de verão entra em vigor,
+            ou 0 se programação do início do horário de verão estiver desativada.</param>
+            <param name="iDia">Dia a partir do qual o horário de verão entra em vigor,
+            ou 0 se programação do início do horário de verão estiver desativada.</param>
+            <param name="fAno">Ano em que o horário de verão termina, ou 0 se
+            programação de término do horário de verão estiver desativada.</param>
+            <param name="fMes">Mes em que o horário de verão termina, ou 0 se
+            programação de término do horário de verão estiver desativada.</param>
+            <param name="fDia">Dia em que o horário de verão termina, ou 0 se
+            programação de término do horário de verão estiver desativada.</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi
+            executada com sucesso.</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.GravarConfigHVerao(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Grava configurações de horário de verão no equipamento.<br/>
+            Se iAno, iMes, iDia representarem uma data válida
+            no futuro, o REP vai entrar no horário de verão no dia selecionado
+            (ou seja, às 00:00:00 da data selecionada o horário do REP será
+            automaticamente alterado para 01:00:00).<br/>
+            Da mesma forma, se fAno, fMes, fDia representarem uma data válida
+            no futuro, o REP vai sair do horário de verão no dia selecionado
+            (ou seja, às 00:00:00 da data selecionada o horário do REP será
+            automaticamente alterado para 23:00:00 do dia anterior).<br/>
+            
+            Note que é possível especificar apenas o início, apenas o final ou
+            ambos para definir um período. Use iAno = iMes = iDia = 0 e
+            fAno = fMes = fDia = 0 para desabilitar a programação de horário
+            de verão.
+            </summary>
+            <param name="iAno">Ano a partir do qual o horário de verão entra em
+            vigor, ou 0 para desabilitar programação do início do horário de verão.</param>
+            <param name="iMes">Mes a partir do qual o horário de verão entra em
+            vigor, ou 0 para desabilitar programação do início do horário de verão.</param>
+            <param name="iDia">Dia a partir do qual o horário de verão entra em
+            vigor, ou 0 para desabilitar programação do início do horário de verão.</param>
+            <param name="fAno">Ano em que o horário de verão termina, ou 0 para
+            desabilitar programação de término do horário de verão.</param>
+            <param name="fMes">Mes em que o horário de verão termina, ou 0 para
+            desabilitar programação de término do horário de verão.</param>
+            <param name="fDia">Dia em que o horário de verão termina, ou 0 para
+            desabilitar programação de término do horário de verão.</param>
+            <param name="gravou">Indica se a operação foi bem-sucedida.</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi
+            executada com sucesso.</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.ProcurarREPs">
+            <summary>
+            Busca todos os equipamentos válidos conectados a rede. Mostra os mesmos resultados
+            que a <see cref="M:Controlid.IRepCid.ProcurarREPs"/>, mas em outro formato.
+            </summary>
+            <returns>Listagem dos equipamentos localizados (IP e porta de comunicacação), separados por ponto-e-vírgula.<br/>
+            Por exemplo:<br/>
+            "192.168.1.100:1818;192.168.1.77:1000;<br/>"
+            A ordem dos resultados pode variar em função das latências da rede.
+            </returns>
+        </member>
+        <member name="M:Controlid.IRepCid.CarregarUsuarios(System.Boolean,System.Int32@)">
+            <summary>
+            Lê os dados dos funcionários cadastrados no equipamento e guarda na memória.
+            Para ter acesso aos dados, utilize a função <see cref="M:Controlid.IRepCid.LerUsuario(System.Int64@,System.String@,System.Int32@,System.String@,System.String@,System.Int32@,System.Int32@,System.Int32@)"/>.
+            </summary>
+            <seealso cref="M:Controlid.IRepCid.LerUsuario(System.Int64@,System.String@,System.Int32@,System.String@,System.String@,System.Int32@,System.Int32@,System.Int32@)"/>
+            <param name="incluir_ndig">Flag indicando se deve ou não ser verificada a quantidade de digitais por funcionários. Se for true, pode tornar o processo mais lento, especialmente para grande número de usuários.</param>
+            <param name="num_usuarios">Retorna indicando o número total de usuários cadastrados no REP.</param>
+            <returns>Flag indicando se foi possível ler os funcionários do equipamento</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.LerUsuario(System.Int64@,System.String@,System.Int32@,System.String@,System.String@,System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+            Lê um a um os dados dos funcionários lidos na memória com a função
+            <see cref="M:Controlid.IRepCid.CarregarUsuarios(System.Boolean,System.Int32@)"/>
+            </summary>
+            <param name="pis">PIS do funcionário</param>
+            <param name="nome">Nome do funcionário</param>
+            <param name="codigo">Código do funcionário</param>
+            <param name="senha">Senha do funcionário</param>
+            <param name="barras">Código de barra do funcionário</param>
+            <param name="rfid">RFID do funcionário</param>
+            <param name="privilegios">Nível de acesso do funcionário</param>
+            <param name="ndig">Número de digitais cadastradas para o usuário, caso
+            <see cref="M:Controlid.IRepCid.CarregarUsuarios(System.Boolean,System.Int32@)"/> tiver sido chamada com incluir_ndig=true.
+            Caso contrário, <value>0</value>.</param>
+            <returns>Flag indicando se havia dados a serem lidos.</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.LerDadosUsuario(System.Int64,System.String@,System.Int32@,System.String@,System.String@,System.Int32@,System.Int32@)">
+            <summary>
+            Busca os dados de um funcionário no equipamento através do PIS
+            </summary>
+            <param name="pis">PIS do funcionário a ser buscado</param>
+            <param name="nome">Nome do funcionário buscado</param>
+            <param name="codigo">Código do funcionário buscado</param>
+            <param name="senha">Senha do funcionário buscado</param>
+            <param name="barras">Código de barra do funcionário buscado</param>
+            <param name="rfid">RFID do funcionário buscado</param>
+            <param name="privilegios">Nível de acesso do funcionário buscado</param>
+            <returns>Flag indicando se o usuário foi localizado no equipamento</returns>
+            <example>
+            <code language="C#">
+            RepCid rep = new RepCid();
+            Int64 pis = 1234567890;
+            string nome, senha, barras;
+            int codigo, rfid, privilegios;
+            if(rep.LerUsuarios(pis, out nome, out codigo, out senha, out barras, out rfid, out privilegios))
+                MessageBox.Show("Funcionário " + nome + " localizado.");
+            else
+                MessageBox.Show("Funcionário não localizado.");
+            </code>
+            </example>
+        </member>
+        <member name="M:Controlid.IRepCid.GravarUsuario(System.Int64,System.String,System.Int32,System.String,System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Adiciona um novo funcionario no equipamento
+            </summary>
+            <param name="pis">PIS do funcionário</param>
+            <param name="nome">Nome do funcionário</param>
+            <param name="senha">Senha do funcionário</param>
+            <param name="codigo">Código do funcionário</param>
+            <param name="barras">Código de barras do funcionário</param>
+            <param name="rfid">RFID do funcionário</param>
+            <param name="privilegios">Nível de acesso do funcionário</param>
+            <param name="gravou">Flag indicando se o funcionário foi cadastrado com sucesso</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.RemoverUsuario(System.Int64,System.Boolean@)">
+            <summary>
+            Exclui um funcionário do equipamento
+            </summary>
+            <param name="pis">PIS do funcionário de será removido</param>
+            <param name="removeu">Flag indicando se o funcionário foi removido com sucesso</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.ApagarAdmins(System.Boolean@)">
+            <summary>
+            Altera o nível de acesso de todos os usuários administradores para usuários comum.
+            </summary>
+            <param name="ok">Flag indicando se as alterações forma feitas com sucesso</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.Conectar(System.String,System.Int32,System.UInt32)">
+            <summary>
+            Conecta com equipamento via rede Ethernet TCP/IP<br/>
+            Quando terminar todas as tarefas que deseja realizar com o equipamento, utilize a função <see cref="M:Controlid.IRepCid.Desconectar"/><br/>
+            O REP derruba a conexão se ficar sem atividade durante 30 segundos.
+            </summary>
+            <seealso cref="M:Controlid.IRepCid.Desconectar"/>
+            <param name="ip">Endereço IP cadastrado no equipamento</param>
+            <param name="port">Porta cadastrada no equipamento</param>
+            <param name="passcode">Chave de acesso cadastrada no equipamento</param>
+            <returns>Status da conexão</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.Desconectar">
+            <summary>
+            Fecha a conexão com equipamento estabelecida através do método <see cref="M:Controlid.IRepCid.Conectar(System.String,System.Int32,System.UInt32)"/>
+            </summary>
+            <seealso cref="M:Controlid.IRepCid.Conectar(System.String,System.Int32,System.UInt32)"/>
+        </member>
+        <member name="M:Controlid.IRepCid.GetModeloVersao(System.String@)">
+            <summary>
+            Lê modelo / versão do REP conectado
+            </summary>
+            <param name="modelo">Modelo / Versão lidos do REP. Uma das opções a seguir:
+            	"iDX Bio 1.8"
+            	"iDX Card 1.8"
+            	"iDX Mult 1.8"
+            	"iDX Mult 1.18"
+            </param>
+            <returns>true se estiver conectado; false caso contrário.</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.GetLastLog(System.String@)">
+            <summary>
+            Obtém o Log mais recente gerado internamente.
+            </summary>
+            <param name="log">Log mais recente</param>
+            <returns>true em caso de sucesso.</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.BuscarAFD(System.Int32)">
+            <summary>
+            Busca todas as marcações apartir do NSR informado<br/>
+            Para acessar as informações localizadas utilize <see cref="M:Controlid.IRepCid.LerAFD(System.String@)"/>
+            </summary>
+            <seealso cref="M:Controlid.IRepCid.LerAFD(System.String@)"/>
+            <param name="nsr">Número de registro inicial da busca</param>
+            <returns>Flag indicando se foram localizadas marcações</returns>
+        </member>
+        <member name="M:Controlid.IRepCid.LerAFD(System.String@)">
+            <summary>
+            Lê as linhas localizadas pelo <see cref="M:Controlid.IRepCid.BuscarAFD(System.Int32)"/><br/>
+            </summary>
+            <seealso cref="M:Controlid.IRepCid.BuscarAFD(System.Int32)"/>
+            <param name="linha">Linha lida</param>
+            <returns>Flag indicando se havia linha à ser lida</returns>
+        </member>
+        <member name="T:Controlid.Empregador">
+            <summary>
+            Dados da empressa
+            </summary>
+        </member>
+        <member name="M:Controlid.Empregador.#ctor(System.String,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            Define os dados da empresa
+            </summary>
+            <param name="doc">CNPJ ou CPF da empresa</param>
+            <param name="tipodoc">Indicativo se o documento é CNPJ ou CPF</param>
+            <param name="cei">CEI da empresa</param>
+            <param name="razsoc">Razão social da empresa</param>
+            <param name="endereco">Endereço da empresa</param>
+        </member>
+        <member name="P:Controlid.Empregador.Documento">
+            <summary>
+            CNPJ ou CPF da empresa
+            </summary>
+        </member>
+        <member name="P:Controlid.Empregador.TipoDocumento">
+            <summary>
+            Indicativo se o documento é CNPJ ou CPF
+            </summary>
+        </member>
+        <member name="P:Controlid.Empregador.CEI">
+            <summary>
+            CEI da empresa
+            </summary>
+        </member>
+        <member name="P:Controlid.Empregador.RazaoSocial">
+            <summary>
+            Razão social da empresa
+            </summary>
+        </member>
+        <member name="P:Controlid.Empregador.Endereco">
+            <summary>
+            Endereço da empresa
+            </summary>
+        </member>
+        <member name="T:Controlid.Ethernet">
+            <summary>
+            Dados de rede do equipamento
+            </summary>
+        </member>
+        <member name="F:Controlid.Ethernet.IP">
+            <summary>
+            Endereço IP do equipamento na rede
+            </summary>
+        </member>
+        <member name="F:Controlid.Ethernet.Mask">
+            <summary>
+            Máscara de sub-rede
+            </summary>
+        </member>
+        <member name="F:Controlid.Ethernet.Gateway">
+            <summary>
+            Gateway
+            </summary>
+        </member>
+        <member name="F:Controlid.Ethernet.Port">
+            <summary>
+            Porta
+            </summary>
+        </member>
+        <member name="T:Controlid.RepCid">
+            <summary>
+            Acesso aos dados do equipamento
+            </summary>
+        </member>
+        <member name="M:Controlid.RepCid.LerDataHora">
+            <summary>
+            Obtém data e hora atual do equipamento
+            </summary>
+            <returns>Data e hora do equipamento</returns>
+        </member>
+        <member name="M:Controlid.RepCid.GravarDataHora(System.DateTime)">
+            <summary>
+            Altera a data e hora do equipamento
+            </summary>
+            <param name="dt">Data e hora que será cadastrada</param>
+            <returns>Flag indicando se data e hora foram alteradas com sucesso</returns>
+        </member>
+        <member name="M:Controlid.RepCid.LerEmpregador">
+            <summary>
+            Obtém os dados da empresa cadastrada no equipamento
+            </summary>
+            <seealso cref="T:Controlid.Empregador"/>
+            <returns>Dados da empresa cadastrada no equipamento</returns>
+        </member>
+        <member name="M:Controlid.RepCid.GravarEmpregador(System.String,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            Alterar os dados da empresa cadastrada no equipamento
+            </summary>
+            <param name="Documento">CNPJ ou CPF da empresa</param>
+            <param name="TipoDocumento">Indicativo se o documento é CNPJ ou CPF</param>
+            <param name="CEI">CEI da empresa</param>
+            <param name="RazaoSocial">Razão social da empresa</param>
+            <param name="Endereco">Endereço da empresa</param>
+            <returns>Flag indicando se a empresa foi alterada om sucesso</returns>
+        </member>
+        <member name="M:Controlid.RepCid.LerRede">
+            <summary>
+            Obtém os dados de rede do equipamento
+            </summary>
+            <seealso cref="T:Controlid.Ethernet"/>
+            <returns>Dado de rede do equipamento</returns>
+        </member>
+        <member name="M:Controlid.RepCid.GravarRede(System.String,System.String,System.String,System.UInt16)">
+            <summary>
+            Altera os dados de rede do equipamento
+            </summary>
+            <param name="IP">Endereço IP do equipamento na rede</param>
+            <param name="Mask">Máscara de sub-rede</param>
+            <param name="Gateway">Gateway</param>
+            <param name="Port">Porta</param>
+            <returns>Flag indicando se os dados de rede foram alterados om sucesso</returns>
+        </member>
+        <member name="M:Controlid.RepCid.LerConfigRede_vb6(System.String@,System.String@,System.String@,System.Int32@)">
+            <summary>
+            Lê os dados de rede do equipamento
+            </summary>
+            <param name="ip">Endereço IP do equipamento na rede</param>
+            <param name="netmask">Máscara de sub-rede</param>
+            <param name="gateway">Gateway</param>
+            <param name="porta">Porta</param>
+            <returns>Flag indicando se os dados foram lidos com sucesso</returns>
+        </member>
+        <member name="M:Controlid.RepCid.GravarConfigRede_vb6(System.String,System.String,System.String,System.Int32,System.Boolean@)">
+            <summary>
+            Altera os dados de rede do equipamento. As configurações
+            são aplicadas no REP após fechar a conexão.
+            </summary>
+            <param name="ip">Endereço IP do equipamento na rede</param>
+            <param name="netmask">Máscara de sub-rede</param>
+            <param name="gateway">Gateway</param>
+            <param name="porta">Porta</param>
+            <param name="gravou">Flag indicando se os dados de rede foram alterados om sucesso</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.RepCid.LerInfo_vb6(System.String@,System.String@,System.String@,System.String@,System.String@,System.String@,System.String@)">
+            <summary>
+            Obtém infomações do estado atual do equipamento
+            </summary>
+            <param name="sn">Número de série</param>
+            <param name="tam_bobina">Tamanho original da bobinha </param>
+            <param name="restante_bobina">Tamanho atual da bobina</param>
+            <param name="uptime">Tempo ligado</param>
+            <param name="cortes">Quantia de cortes efetuado pela impressora</param>
+            <param name="papel_acumulado">Qunatos metros já foram impressos</param>
+            <param name="nsr_atual">NSR atual</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.RepCid.LerDataHora(System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+            Obtém data e hora atual do equipamento
+            </summary>
+            <param name="ano">Ano atual no equipamento</param>
+            <param name="mes">Mês atual no equipamento</param>
+            <param name="dia">Dia atual no equipamento</param>
+            <param name="hora">Hora atual no equipamento</param>
+            <param name="minuto">Minuto atual no equipamento</param>
+            <param name="segundo">Segundo atual no equipamento</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.RepCid.GravarDataHora(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Altera a data e hora do equipamento
+            </summary>
+            <param name="ano">Ano a ser cadastrado no equipamento</param>
+            <param name="mes">Mês a ser cadastrado no equipamento</param>
+            <param name="dia">Dia a ser cadastrado no equipamento</param>
+            <param name="hora">Hora a ser cadastrado no equipamento</param>
+            <param name="minuto">Minuto a ser cadastrado no equipamento</param>
+            <param name="segundo">Segundo a ser cadastrado no equipamento</param>
+            <param name="gravou">Flag indicando se data e hora foram alteradas com sucesso</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.RepCid.LerConfigHVerao(System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+            Obtém as configurações de horário de verão configuradas
+            no equipamento.
+            </summary>
+            <param name="iAno">Ano a partir do qual o horário de verão entra em vigor,
+            ou 0 se programação do início do horário de verão estiver desativada.</param>
+            <param name="iMes">Mes a partir do qual o horário de verão entra em vigor,
+            ou 0 se programação do início do horário de verão estiver desativada.</param>
+            <param name="iDia">Dia a partir do qual o horário de verão entra em vigor,
+            ou 0 se programação do início do horário de verão estiver desativada.</param>
+            <param name="fAno">Ano em que o horário de verão termina, ou 0 se
+            programação de término do horário de verão estiver desativada.</param>
+            <param name="fMes">Mes em que o horário de verão termina, ou 0 se
+            programação de término do horário de verão estiver desativada.</param>
+            <param name="fDia">Dia em que o horário de verão termina, ou 0 se
+            programação de término do horário de verão estiver desativada.</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi
+            executada com sucesso.</returns>
+        </member>
+        <member name="M:Controlid.RepCid.GravarConfigHVerao(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Grava configurações de horário de verão no equipamento.<br/>
+            Se iAno, iMes, iDia representarem uma data válida
+            no futuro, o REP vai entrar no horário de verão no dia selecionado
+            (ou seja, às 00:00:00 da data selecionada o horário do REP será
+            automaticamente alterado para 01:00:00).<br/>
+            Da mesma forma, se fAno, fMes, fDia representarem uma data válida
+            no futuro, o REP vai sair do horário de verão no dia selecionado
+            (ou seja, às 00:00:00 da data selecionada o horário do REP será
+            automaticamente alterado para 23:00:00 do dia anterior).<br/>
+            
+            Note que é possível especificar apenas o início, apenas o final ou
+            ambos para definir um período. Use iAno = iMes = iDia = 0 e
+            fAno = fMes = fDia = 0 para desabilitar a programação de horário
+            de verão.
+            </summary>
+            <param name="iAno">Ano a partir do qual o horário de verão entra em
+            vigor, ou 0 para desabilitar programação do início do horário de verão.</param>
+            <param name="iMes">Mes a partir do qual o horário de verão entra em
+            vigor, ou 0 para desabilitar programação do início do horário de verão.</param>
+            <param name="iDia">Dia a partir do qual o horário de verão entra em
+            vigor, ou 0 para desabilitar programação do início do horário de verão.</param>
+            <param name="fAno">Ano em que o horário de verão termina, ou 0 para
+            desabilitar programação de término do horário de verão.</param>
+            <param name="fMes">Mes em que o horário de verão termina, ou 0 para
+            desabilitar programação de término do horário de verão.</param>
+            <param name="fDia">Dia em que o horário de verão termina, ou 0 para
+            desabilitar programação de término do horário de verão.</param>
+            <param name="gravou">Indica se a operação foi bem-sucedida.</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi
+            executada com sucesso.</returns>
+        </member>
+        <member name="M:Controlid.RepCid.ListarREPs">
+            <summary>
+            Busca todos os equipamentos válidos conectados a rede. Mostra os mesmos resultados
+            que a <see cref="M:Controlid.RepCid.ProcurarREPs"/>, mas em outro formato.
+            </summary>
+            <returns>Listagem dos equipamentos localizados.
+            A ordem dos resultados pode variar em função das latências da rede.
+            </returns>
+        </member>
+        <member name="M:Controlid.RepCid.ProcurarREPs">
+            <summary>
+            Busca todos os equipamentos válidos conectados a rede. Mostra os mesmos resultados
+            que a <see cref="M:Controlid.RepCid.ProcurarREPs"/>, mas em outro formato.
+            </summary>
+            <returns>Listagem dos equipamentos localizados, separados por ponto-e-vírgula.<br/>
+            Por exemplo:<br/>
+            "192.168.1.100:1818;192.168.1.77:1000;<br/>"
+            A ordem dos resultados pode variar em função das latências da rede.
+            </returns>
+        </member>
+        <member name="M:Controlid.RepCid.LerEmpregador(System.String@,System.Int32@,System.String@,System.String@,System.String@)">
+            <summary>
+            Obtém os dados da empresa cadastrada no equipamento
+            </summary>
+            <param name="documento">CNPJ ou CPF da empresa</param>
+            <param name="tipoDocumento">Indicativo se o documento é CNPJ ou CPF</param>
+            <param name="cei">CEI da empresa</param>
+            <param name="razaoSocial">Razão social da empresa</param>
+            <param name="endereco">Endereço da empresa</param>
+            <returns>Flag indicando se a empresa foi lida com sucesso</returns>
+        </member>
+        <member name="M:Controlid.RepCid.GravarEmpregador(System.String,System.Int32,System.String,System.String,System.String,System.Boolean@)">
+            <summary>
+            Alterar os dados da empresa cadastrada no equipamento
+            </summary>
+            <param name="documento">CNPJ ou CPF da empresa</param>
+            <param name="tipoDocumento">Indicativo se o documento é CNPJ ou CPF</param>
+            <param name="cei">CEI da empresa</param>
+            <param name="razaoSocial">Razão social da empresa</param>
+            <param name="endereco">Endereço da empresa</param>
+            <param name="gravou">Flag indicando se a empresa foi alterada com sucesso</param>
+            <returns>Flag indicando se a comunicação foi realizada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.RepCid.ApagarTemplatesUsuario_vb6(System.String,System.Boolean@)">
+            <summary>
+            Remove os templates biométricos do funcionário indicado
+            </summary>
+            <param name="pis">PIS do funciónário que será removido os templates</param>
+            <param name="apagou">Flag indicando se os templates foram removidos com sucesso</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+            <example>
+            <code language="C#">
+            RepCid rep = new RepCid();
+            bool flag;
+            
+            rep.ApagarTemplatesUsuario(1234567890, out flag);
+            
+            if(flag)
+                MessageBox.Show("Digitais removidas com sucesso.");
+            else
+                MessageBox.Show("Não foi possível remover as digitas.");
+            </code>
+            </example>
+        </member>
+        <member name="M:Controlid.RepCid.GravarTemplateUsuario_vb6(System.String,System.Byte[],System.Boolean@)">
+            <summary>
+            Adiciona um template biométrico ao funcionário indicado<br/>
+            Utilize o método <see cref="M:Controlid.RepCid.JoinTemplates(System.Byte[],System.Byte[],System.Byte[],System.Byte[]@)"/> para obter o templete biométrico
+            </summary>
+            <seealso cref="M:Controlid.RepCid.JoinTemplates(System.Byte[],System.Byte[],System.Byte[],System.Byte[]@)"/>
+            <param name="pis">PIS do funcionário no qual será adicionado o novo template</param>
+            <param name="template_bin">Template biométrico</param>
+            <param name="gravou">Flag indicando se o template foi adicionado com sucesso</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+            <example>
+            <code language="C#">
+            RepCid rep = new RepCid();
+            bool flag;
+            
+            rep.GravarTemplateUsuario(1234567890, Convert.FromBase64String(template), out flag);
+            
+            if(flag)
+                MessageBox.Show("Digital cadatrada com sucesso.");
+            else
+                MessageBox.Show("Não foi possível gravar a digital.");
+            </code>
+            </example>
+        </member>
+        <member name="M:Controlid.RepCid.GravarTemplateUsuarioStr_vb6(System.String,System.String,System.Boolean@)">
+            <summary>
+            Adiciona um template biométrico codificado em base-64 ao funcionário indicado
+            </summary>
+            <param name="pis">PIS do funcionário no qual será adicionado o novo template</param>
+            <param name="template_base64">Template biométrico</param>
+            <param name="gravou">Flag indicando se o template foi adicionado com sucesso</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.RepCid.CarregarTemplatesUsuario_vb6(System.String,System.Int32@)">
+            <summary>
+            Lê os templates biométricos do funcionário indicado e guarda na memória.
+            Para ter acesso aos templates, utilize as funções <see cref="M:Controlid.RepCid.LerTemplate(System.Byte[]@)"/>
+            ou <see cref="M:Controlid.RepCid.LerTemplateStr(System.String@)"/>.
+            </summary>
+            <seealso cref="M:Controlid.RepCid.LerTemplate(System.Byte[]@)"/>
+            <seealso cref="M:Controlid.RepCid.LerTemplateStr(System.String@)"/>
+            <param name="pis">PIS do funcionário do qual serão lidos os templates biométricos</param>
+            <param name="num_templates">Retorna o número de templates lidos</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+            <example>
+            <code language="C#">
+            RepCid rep = new RepCid();
+            int num_tmpls;
+            if (rep.CarregarTemplatesUsuario(1234567890, out num_tmpls))
+            {
+            	MessageBox.Show(num_tmpls.ToString() + " templates localizados.");
+            	string tmpl;
+            	while (rep.LerTemplateStr(out tmpl))
+            	{
+            		MessageBox.Show(tmpl);
+            	}
+            }
+            </code>
+            </example>
+        </member>
+        <member name="M:Controlid.RepCid.LerTemplate(System.Byte[]@)">
+            <summary>
+            Lê um a um os templates biométricos lidos na memória com a função
+            <see cref="M:Controlid.RepCid.CarregarTemplatesUsuario(System.Int64,System.Int32@)"/>.
+            </summary>
+            <seealso cref="M:Controlid.RepCid.CarregarTemplatesUsuario(System.Int64,System.Int32@)"/>
+            <seealso cref="M:Controlid.RepCid.LerTemplateStr(System.String@)"/>
+            <param name="template_bin">Retorna com o próximo template biométrico lido, ou null.</param>
+            <returns>Flag indicando se havia template a ser lido.</returns>
+            <example>
+            <code language="C#">
+            RepCid rep = new RepCid();
+            int num_tmpls;
+            if (rep.CarregarTemplatesUsuario(1234567890, out num_tmpls))
+            {
+            	MessageBox.Show(num_tmpls.ToString() + " templates localizados.");
+            	byte[] tmpl_bin;
+            	while (rep.LerTemplate(out tmpl_bin))
+            	{
+            		string tmpl_b64 = Convert.ToBase64String(tmpl_bin);
+            		MessageBox.Show(tmpl_b64);
+            	}
+            }
+            </code>
+            </example>
+        </member>
+        <member name="M:Controlid.RepCid.LerTemplateStr(System.String@)">
+            <summary>
+            Lê um a um os templates biométricos lidos na memória com a função
+            <see cref="M:Controlid.RepCid.CarregarTemplatesUsuario(System.Int64,System.Int32@)"/>.
+            </summary>
+            <seealso cref="M:Controlid.RepCid.CarregarTemplatesUsuario(System.Int64,System.Int32@)"/>
+            <seealso cref="M:Controlid.RepCid.LerTemplate(System.Byte[]@)"/>
+            <param name="template_base64">Retorna com o próximo template biométrico lido, ou null.</param>
+            <returns>Flag indicando se havia template a ser lido.</returns>
+            <example>
+            <code language="C#">
+            RepCid rep = new RepCid();
+            int num_tmpls;
+            if (rep.CarregarTemplatesUsuario(1234567890, out num_tmpls))
+            {
+            	MessageBox.Show(num_tmpls.ToString() + " templates localizados.");
+            	string tmpl_b64;
+            	while (rep.LerTemplate(out tmpl_b64))
+            	{
+            		MessageBox.Show(tmpl_b64);
+            	}
+            }
+            </code>
+            </example>
+        </member>
+        <member name="M:Controlid.RepCid.ExtractTemplate(System.Byte[],System.Int32,System.Int32,System.Byte[]@)">
+            <summary>
+            Obtém o template biométrico de uma imagem<br/>
+            Utilize os templates obtidos para gerar o template final através do método <see cref="M:Controlid.RepCid.JoinTemplates(System.Byte[],System.Byte[],System.Byte[],System.Byte[]@)"/>
+            </summary>
+            <seealso cref="M:Controlid.RepCid.ExtractTemplate(System.Byte[],System.Int32,System.Int32,System.Byte[]@)"/>
+            <param name="bytes">Imagem da digital da qual será extraido o template</param>
+            <param name="width">Largura da imagem</param>
+            <param name="height">Altura da imagem</param>
+            <param name="template_bin">Template biométrico gerado</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+            <example>
+            <code language="C#">
+            RepCid rep = new RepCid();
+            
+            Bitmap img = (...); // Imagem do sensor biometrico de mesa por exemplo.
+            int width = img.Width;   // NÃO DEVE SER MAIOR QUE 480. Em geral da ordem de ~240.
+            int height = img.Height; // NÃO DEVE SER MAIOR QUE 640. Em geral da ordem de ~320
+            byte[] bytes = new byte[width * height];
+            
+            for (int y = 0; y &lt; height; y++)
+            	for (int x = 0; x &lt; width; x++)
+            		bytes[y * width + x] = img.GetPixel(x, y).G;
+            
+            byte[] tmpl1, tmpl2, tmpl3;
+            if (rep.ExtractTemplate(bytes, width, height, out tmpl1) &amp;&amp; tmpl1 != null)
+            {
+            	MessageBox.Show("Template extraido com sucesso.");
+            
+            	// NÃO MOSTRADO AQUI: Extrair mais 2 imagens do mesmo dedo, deixar os 3 templates
+            	// nas variáveis tmpl1, tmpl2, tmpl3 e finalmente chamar
+            	// JoinTemplate para obter um template que representa os
+            	// 3 templates coletados.
+            	byte[] tmpl_final;
+            	if (rep.JoinTemplates(tmpl1, tmpl2, tmpl3, out tmpl_final) &amp;&amp; tmpl_final != null)
+            	{
+            		// Sucesso! Se quiser guardar o template em alguma base de dados:
+            		string tmpl_str = Convert.ToBase64String(tmpl_final);
+            	}
+            	else
+            		MessageBox.Show("Não foi possível juntar o template final.");
+            }
+            else
+            	MessageBox.Show("Não foi possível extrair o template.");
+            </code>
+            </example>
+        </member>
+        <member name="M:Controlid.RepCid.JoinTemplates(System.Byte[],System.Byte[],System.Byte[],System.Byte[]@)">
+            <summary>
+            Cria o template final baseado nos template obtidos durante o cadastro do dedo<br/>
+            Para obter os templates auxiliares utilize o método <see cref="M:Controlid.RepCid.ExtractTemplate(System.Byte[],System.Int32,System.Int32,System.Byte[]@)"/> 
+            </summary>
+            <seealso cref="M:Controlid.RepCid.ExtractTemplate(System.Byte[],System.Int32,System.Int32,System.Byte[]@)"/>
+            <param name="template1_bin">Template da primeira leitura da digital</param>
+            <param name="template2_bin">Template da segunda leitura da digital</param>
+            <param name="template3_bin">Template da terceira leitura da digital</param>
+            <param name="resultado_bin">Template final</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+        </member>
+        <member name="M:Controlid.RepCid.CarregarUsuarios(System.Boolean,System.Int32@)">
+            <summary>
+            Lê os dados dos funcionários cadastrados no equipamento e guarda na memória.
+            Para ter acesso aos dados, utilize a função <see cref="M:Controlid.RepCid.LerUsuario(System.Int64@,System.String@,System.Int32@,System.String@,System.String@,System.Int32@,System.Int32@,System.Int32@)"/>.
+            </summary>
+            <seealso cref="M:Controlid.RepCid.LerUsuario(System.Int64@,System.String@,System.Int32@,System.String@,System.String@,System.Int32@,System.Int32@,System.Int32@)"/>
+            <param name="incluir_ndig">Flag indicando se deve ou não ser verificada a quantidade de digitais por funcionários. Se for true, pode tornar o processo mais lento, especialmente para grande número de usuários.</param>
+            <param name="num_usuarios">Retorna indicando o número total de usuários cadastrados no REP.</param>
+            <returns>Flag indicando se foi possível ler os funcionários do equipamento</returns>
+            <example>
+            <code language="C#">
+            RepCid rep = new RepCid();
+            int num_usrs;
+            if(rep.CarregarUsuarios(false, out num_usrs))
+            	MessageBox.Show(num_usrs.ToString() + " funcionários cadastrados.");
+            else
+            	MessageBox.Show("Não foi possível carregar os funcionários:\r\n" + rep.LastLog);
+            </code>
+            </example>
+        </member>
+        <member name="M:Controlid.RepCid.LerUsuario_vb6(System.String@,System.String@,System.Int32@,System.String@,System.String@,System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+            Lê um a um os dados dos funcionários lidos na memória com a função
+            <see cref="M:Controlid.RepCid.CarregarUsuarios(System.Boolean,System.Int32@)"/>
+            </summary>
+            <param name="pis">PIS do funcionário</param>
+            <param name="nome">Nome do funcionário</param>
+            <param name="codigo">Código do funcionário</param>
+            <param name="senha">Senha do funcionário</param>
+            <param name="barras">Código de barra do funcionário</param>
+            <param name="rfid">RFID do funcionário</param>
+            <param name="privilegios">Nível de acesso do funcionário</param>
+            <param name="ndig">Número de digitais cadastradas para o usuário, caso
+            <see cref="M:Controlid.RepCid.CarregarUsuarios(System.Boolean,System.Int32@)"/> tiver sido chamada com incluir_ndig=true.
+            Caso contrário, <value>0</value>.</param>
+            <returns>Flag indicando se havia dados a serem lidos.</returns>
+        </member>
+        <member name="M:Controlid.RepCid.LerDadosUsuario_vb6(System.String,System.String@,System.Int32@,System.String@,System.String@,System.Int32@,System.Int32@)">
+            <summary>
+            Busca os dados de um funcionário no equipamento através do PIS
+            </summary>
+            <param name="pis">PIS do funcionário a ser buscado</param>
+            <param name="nome">Nome do funcionário buscado</param>
+            <param name="codigo">Código do funcionário buscado</param>
+            <param name="senha">Senha do funcionário buscado</param>
+            <param name="barras">Código de barra do funcionário buscado</param>
+            <param name="rfid">RFID do funcionário buscado</param>
+            <param name="privilegios">Nível de acesso do funcionário buscado</param>
+            <returns>Flag indicando se o usuário foi localizado no equipamento</returns>
+            <example>
+            <code language="C#">
+            RepCid rep = new RepCid();
+            Int64 pis = 1234567890;
+            string nome, senha, barras;
+            int codigo, rfid, privilegios;
+            if(rep.LerUsuarios(pis, out nome, out codigo, out senha, out barras, out rfid, out privilegios))
+                MessageBox.Show("Funcionário " + nome + " localizado.");
+            else
+                MessageBox.Show("Funcionário não localizado.");
+            </code>
+            </example>
+        </member>
+        <member name="M:Controlid.RepCid.RemoverUsuario_vb6(System.String,System.Boolean@)">
+            <summary>
+            Exclui um funcionário do equipamento
+            </summary>
+            <param name="pis">PIS do funcionário de será removido</param>
+            <param name="removeu">Flag indicando se o funcionário foi removido com sucesso</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+            <example>
+            <code language="C#">
+            RepCid rep = new RepCid();
+            bool flag;
+            rep.RemoverUsuario(1234567890, out flag);
+            if(flag)
+                MessageBox.Show("Funcionário removido com sucesso.");
+            else
+                MessageBox.Show("Não foi possivel remover o funcionário.");
+            </code>
+            </example>
+        </member>
+        <member name="M:Controlid.RepCid.GravarUsuario_vb6(System.String,System.String,System.Int32,System.String,System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Adiciona um novo funcionario no equipamento
+            </summary>
+            <param name="pis">PIS do funcionário</param>
+            <param name="nome">Nome do funcionário</param>
+            <param name="senha">Senha do funcionário</param>
+            <param name="codigo">Código do funcionário</param>
+            <param name="barras">Código de barras do funcionário</param>
+            <param name="rfid">RFID do funcionário</param>
+            <param name="privilegios">Nível de acesso do funcionário</param>
+            <param name="gravou">Flag indicando se o funcionário foi cadastrado com sucesso</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+            <example>
+            <code language="C#">
+            RepCid rep = new RepCid();
+            bool flag;
+            rep.GravarUsuario(1234567890, "João da Silva", 0, "", "", 0, 1, out flag);
+            if (flag)
+            	MessageBox.Show("Funcionário cadastrado com sucesso.");
+            else
+            	MessageBox.Show("Não foi possível cadastrar o funcionário.");
+            </code>
+            </example>
+        </member>
+        <member name="M:Controlid.RepCid.ApagarAdmins(System.Boolean@)">
+            <summary>
+            Altera o nível de acesso de todos os usuários administradores para usuários comum.
+            </summary>
+            <param name="ok">Flag indicando se as alterações forma feitas com sucesso</param>
+            <returns>Flag indicando se a comunicação com o equipamento foi executada com sucesso</returns>
+            <example>
+            <code language="C#">
+            RepCid rep = new RepCid();
+            bool flag;
+            rep.ApagarAdmins(out flag);
+            if(flag)
+                MessageBox.Show("Adminstradores alterados com sucesso");
+            else
+                MessageBox.Show("Não foi possível alterar os administradores");
+            </code>
+            </example>
+        </member>
+        <member name="M:Controlid.RepCid.BuscarAFD(System.Int32)">
+            <summary>
+            Busca todas as marcações apartir do NSR informado<br/>
+            Para acessar as informações localizadas utilize <see cref="M:Controlid.RepCid.LerAFD(System.String@)"/>
+            </summary>
+            <seealso cref="M:Controlid.RepCid.LerAFD(System.String@)"/>
+            <param name="nsr">Número de registro inicial da busca</param>
+            <returns>Flag indicando se foram localizadas marcações</returns>
+            <example>
+            <code language="C#">
+            RepCid rep = new RepCid();
+            if(!rep.BuscarAFD(1))
+            {
+                MessageBox.show("Nenhum registro localizado");
+            }
+            </code>
+            </example>
+        </member>
+        <member name="M:Controlid.RepCid.LerAFD(System.String@)">
+            <summary>
+            Lê as linhas localizadas pelo <see cref="M:Controlid.RepCid.BuscarAFD(System.Int32)"/><br/>
+            </summary>
+            <seealso cref="M:Controlid.RepCid.BuscarAFD(System.Int32)"/>
+            <param name="linha">Linha lida</param>
+            <returns>Flag indicando se havia linha à ser lida</returns>
+            <example>
+            <code language="C#">
+            RepCid rep = new RepCid();
+            rep.BuscarAFD(1);
+            string AFD = "";
+            string sLinha;
+            while(rep.LerAFD(out sLinha))
+            {
+                AFD += sLinha + "\r\n";
+            }
+            </code>
+            </example>
+        </member>
+        <member name="M:Controlid.RepCid.#ctor">
+            <summary>
+            Contrutor padrão (define os timeout a serem usados)
+            </summary>
+        </member>
+        <member name="M:Controlid.RepCid.GetModeloVersao(System.String@)">
+            <summary>
+            Lê modelo / versão do REP conectado
+            </summary>
+            <param name="modelo">Modelo / Versão lidos do REP. Uma das opções a seguir:
+            	"iDX Bio 1.8"
+            	"iDX Card 1.8"
+            	"iDX Mult 1.8"
+            	"iDX Mult 1.18"
+            	"iDClass X"
+            </param>
+            <returns>true se estiver conectado; false caso contrário.</returns>
+        </member>
+        <member name="M:Controlid.RepCid.Conectar_vb6(System.String,System.Int32,System.String)">
+             <summary>
+             Conecta com equipamento via rede Ethernet TCP/IP<br/>
+             Quando terminar todas as tarefas que deseja realizar com o equipamento, utilize a função <see cref="M:Controlid.RepCid.Desconectar"/><br/>
+             O REP derruba a conexão se ficar sem atividade durante 30 segundos.
+             </summary>
+             <seealso cref="M:Controlid.RepCid.Desconectar"/>
+             <param name="ip">Endereço IP cadastrado no equipamento</param>
+             <param name="port">Porta cadastrada no equipamento</param>
+             <param name="passcode">Chave de acesso cadastrada no equipamento</param>
+             <returns>Status da conexão</returns>
+             <example>
+             <code language="C#">
+             RepCid rep = new RepCid();
+             RepCid.ErrosRep status = rep.Conectar(123.145.167.189, 1234, 0);
+             
+             if (status == ErrosRep.OK)
+                MessageBox.Show("Conxão realizada com sucesso");
+             else if (status == ErrosRep.ErroAutenticacao)
+                MessageBox.Show("Chave de conexão inválida");
+             else if (status == ErrosRep.ErroConexao)
+                 MessageBox.Show("Não foi possível efetuar conexão");
+             else if (status == ErrosRep.ErroOutro)
+             {
+            		string log;
+            		if (!rep.GetLastLog(out log))
+            			log = "Erro obtendo log!";
+            		
+            		MessageBox.Show("Conexão não efetuada por motivo desconhecido: " + log);
+            	}
+            
+             rep.Desconectar();
+             </code>
+             </example>
+        </member>
+        <member name="M:Controlid.RepCid.Desconectar">
+            <summary>
+            Fecha a conexão com equipamento estabelecida através do método <see cref="M:Controlid.RepCid.Conectar(System.String,System.Int32,System.UInt32)"/>
+            </summary>
+            <seealso cref="M:Controlid.RepCid.Conectar(System.String,System.Int32,System.UInt32)"/>
+        </member>
+        <member name="M:Controlid.RepCid.GetLastLog(System.String@)">
+            <summary>
+            Obtém o Log mais recente gerado internamente.
+            </summary>
+            <param name="log">Log mais recente</param>
+            <returns>true em caso de sucesso.</returns>
+        </member>
+        <member name="P:Controlid.RepCid.TemplatesValues">
+            <summary>
+            Templates biométricos obtidos pelo método <see cref="M:Controlid.RepCid.CarregarTemplatesUsuario(System.Int64,System.Int32@)"/> concatenados, utilizando ';' como separador
+            </summary>
+            <seealso cref="M:Controlid.RepCid.CarregarTemplatesUsuario(System.Int64,System.Int32@)"/>
+        </member>
+        <member name="P:Controlid.RepCid.Usuarios">
+            <summary>
+            Relação de funcionários cadastrados no equipamento<br/>
+            Tal lista é populada através do método <see cref="M:Controlid.RepCid.CarregarUsuarios(System.Boolean,System.Int32@)"/>
+            </summary>
+        </member>
+        <member name="P:Controlid.RepCid.DefaultConnectTimeout">
+            <summary>
+            Define o TimeOut padrão da primeira conexão
+            </summary>
+        </member>
+        <member name="P:Controlid.RepCid.DefaultReceiveTimeout">
+            <summary>
+            Define o TimeOut padrão dos dados a serem recebidos
+            </summary>
+        </member>
+        <member name="P:Controlid.RepCid.DefaultSendTimeout">
+            <summary>
+            Define o TimeOut padrão dos dados a serem enviados
+            </summary>
+        </member>
+        <member name="P:Controlid.RepCid.ConnectTimeout">
+            <summary>
+            TimeOut da conexão
+            </summary>
+        </member>
+        <member name="P:Controlid.RepCid.ReceiveTimeout">
+            <summary>
+            TimeOut dos dados a serem recebidos
+            </summary>
+        </member>
+        <member name="P:Controlid.RepCid.SendTimeout">
+            <summary>
+            TimeOut dos dados a serem enviados
+            </summary>
+        </member>
+        <member name="P:Controlid.RepCid.IP">
+            <summary>
+            IP atual do REP conectado
+            </summary>
+        </member>
+        <member name="P:Controlid.RepCid.iDClassSession">
+            <summary>
+            Retorna se é um REP do tipo iDClass
+            </summary>
+        </member>
+        <member name="P:Controlid.RepCid.m_IsConnected">
+            <summary>
+            Retorna se o REP está conectado
+            </summary>
+        </member>
+        <member name="P:Controlid.RepCid.VersaoFW">
+            <summary>
+            Versão do firmware do equipamento conectado
+            </summary>
+        </member>
+        <member name="P:Controlid.RepCid.Modelo">
+            <summary>
+            Modelo do equipamento conectado
+            </summary>
+        </member>
+        <member name="T:Controlid.RepCid.ErrosRep">
+            <summary>
+            Status da tentativa de conxão com equipamento<br/>
+            Para conectar um equipamento utilize <see cref="M:Controlid.RepCid.Conectar(System.String,System.Int32,System.UInt32)"/>
+            </summary>
+            <seealso cref="M:Controlid.RepCid.Conectar(System.String,System.Int32,System.UInt32)"/>
+        </member>
+        <member name="F:Controlid.RepCid.ErrosRep.OK">
+            <summary>
+            Conxão realizada com sucesso
+            </summary>
+        </member>
+        <member name="F:Controlid.RepCid.ErrosRep.ErroConexao">
+            <summary>
+            Não foi possível efetuar conexão
+            </summary>
+        </member>
+        <member name="F:Controlid.RepCid.ErrosRep.ErroAutenticacao">
+            <summary>
+            Chave de conexão inválida
+            </summary>
+        </member>
+        <member name="F:Controlid.RepCid.ErrosRep.ErroNaoOcioso">
+            <summary>
+            Não foi possível conectar pois o equipamento está sendo utilizado
+            </summary>
+        </member>
+        <member name="F:Controlid.RepCid.ErrosRep.ErroOutro">
+            <summary>
+            Conexão não efetuada por motivo desconhecido
+            </summary>
+        </member>
+        <member name="T:Controlid.IRepCidUsb">
+            <summary>
+            Interface para permitir acesso às funções de Pen Drive
+            a partir de praticamente qualquer linguagem de programação,
+            através de objeto COM.
+            </summary>
+        </member>
+        <member name="M:Controlid.IRepCidUsb.GetLastError">
+            <summary>
+            Retorna a descrição do último erro que tenha causado uma função a retornar false.
+            </summary>
+            <returns>Descrição do último erro que tenha causado uma função a retornar false.</returns>
+        </member>
+        <member name="M:Controlid.IRepCidUsb.CarregarUsuarios(System.String,System.String,System.Int32@,System.Boolean@)">
+            <summary>
+            Le o conteudo de arquivos de usuários e armazena na memória.
+            Para buscar os registros lidos, utilize as funções <see cref="M:Controlid.IRepCidUsb.LerUsuario(System.Int64@,System.String@,System.UInt32@,System.String@,System.String@,System.UInt32@,System.Int32@,System.Int32@)"/>,
+            <see cref="M:Controlid.IRepCidUsb.CarregarTemplatesUsuario(System.Int64,System.Int32@)"/>, <see cref="M:Controlid.IRepCidUsb.LerTemplate(System.Byte[]@)"/> e
+            <see cref="M:Controlid.IRepCidUsb.LerTemplateStr(System.String@)"/>.
+            </summary>
+            <param name="fileNameUsuarios">Caminho completo do arquivo de usuários (usuarios.dat).</param>
+            <param name="fileNameDigitais">Caminho completo do arquivo de digitais (digitais.dat),
+            ou em branco para não carregar digitais.</param>
+            <param name="numUsrs">Devolve o número total de usuários encontrados no arquivo.</param>
+            <param name="leuDigitais">Retorna um valor informando se foi possível ler as digitais ou não.</param>
+            <returns>True em caso de sucesso; false caso contrário.</returns>
+        </member>
+        <member name="M:Controlid.IRepCidUsb.LerUsuario(System.Int64@,System.String@,System.UInt32@,System.String@,System.String@,System.UInt32@,System.Int32@,System.Int32@)">
+            <summary>
+            Lê um a um os dados dos funcionários lidos na memória com a função
+            <see cref="M:Controlid.IRepCidUsb.CarregarUsuarios(System.String,System.String,System.Int32@,System.Boolean@)"/>.
+            </summary>
+            <param name="pis">PIS do funcionário</param>
+            <param name="nome">Nome do funcionário</param>
+            <param name="codigo">Código do funcionário</param>
+            <param name="senha">Senha do funcionário</param>
+            <param name="barras">Código de barra do funcionário</param>
+            <param name="rfid">RFID do funcionário</param>
+            <param name="privilegios">Nível de acesso do funcionário</param>
+            <param name="num_templates">Número de digitais cadastradas para o usuário, ou
+            zero se não tiver carregado impressões digitais.</param>
+            <returns>True em caso de sucesso enquanto houver usuários a serem lidos;
+            false indica que todos os usuários já foram lidos.</returns>
+        </member>
+        <member name="M:Controlid.IRepCidUsb.CarregarTemplatesUsuario(System.Int64,System.Int32@)">
+            <summary>
+            Busca na memória as digitais do usuário especificado pelo número PIS,
+            e essas digitais poderão ser lidas a seguir com qualquer uma das funções
+            <see cref="M:Controlid.IRepCidUsb.LerTemplate(System.Byte[]@)"/> ou <see cref="M:Controlid.IRepCidUsb.LerTemplateStr(System.String@)"/>.
+            </summary>
+            <param name="pis">PIS do funcionário</param>
+            <param name="num_templates">Devolve o número de digitais encontradas para esse funcionário.</param>
+            <returns>True em caso de sucesso; false caso contrário.</returns>
+        </member>
+        <member name="M:Controlid.IRepCidUsb.LerTemplate(System.Byte[]@)">
+            <summary>
+            Lê uma a uma as digitais do funcionário especificado anteriormente ao
+            chamar a função <see cref="M:Controlid.IRepCidUsb.CarregarTemplatesUsuario(System.Int64,System.Int32@)"/>
+            </summary>
+            <param name="template_bin">Devolve um a um os templates (binário)
+            do funcionário.</param>
+            <returns>True em caso de sucesso enquanto houver digitais a serem lidas;
+            false indica que todas as digitais desse funcionário já foram lidas.</returns>
+        </member>
+        <member name="M:Controlid.IRepCidUsb.LerTemplateStr(System.String@)">
+            <summary>
+            Lê uma a uma as digitais do funcionário especificado anteriormente ao
+            chamar a função <see cref="M:Controlid.IRepCidUsb.CarregarTemplatesUsuario(System.Int64,System.Int32@)"/>
+            </summary>
+            <param name="template_base64">Devolve um a um os templates do funcionário,
+            codificados em Base64</param>
+            <returns>True em caso de sucesso enquanto houver digitais a serem lidas;
+            false indica que todas as digitais desse funcionário já foram lidas.</returns>
+        </member>
+        <member name="M:Controlid.IRepCidUsb.IniciaGravacao">
+            <summary>
+            Reseta o estado interno da DLL para começar a gravar dados de
+            usuários em Pen Drive.
+            </summary>
+        </member>
+        <member name="M:Controlid.IRepCidUsb.AdicionarUsuario(System.Int64,System.String,System.UInt32,System.String,System.String,System.UInt32,System.Int32)">
+            <summary>
+            Adiciona um usuário à lista em memória de usuários que serão gravados
+            em um arquivo quando a gravação for finalizada (função <see cref="M:Controlid.IRepCidUsb.FinalizarGravacao(System.String,System.String)"/>).
+            </summary>
+            <param name="pis">PIS do funcionário</param>
+            <param name="nome">Nome do funcionário</param>
+            <param name="codigo">Código do funcionário</param>
+            <param name="senha">Senha do funcionário</param>
+            <param name="barras">Código de barra do funcionário</param>
+            <param name="rfid">RFID do funcionário</param>
+            <param name="privilegios">Nível de acesso do funcionário</param>
+            <returns>True em caso de sucesso; false caso contrário.</returns>
+        </member>
+        <member name="M:Controlid.IRepCidUsb.AdicionarTemplate(System.Int64,System.Byte[])">
+            <summary>
+            Adiciona uma digital a um usuário que já tenha sido adicionado
+            à lista em memória (com a função <see cref="M:Controlid.IRepCidUsb.AdicionarUsuario(System.Int64,System.String,System.UInt32,System.String,System.String,System.UInt32,System.Int32)"/>).
+            Os dados serão gravados em arquivo quando a função <see cref="M:Controlid.IRepCidUsb.FinalizarGravacao(System.String,System.String)"/>
+            for chamada.
+            </summary>
+            <param name="pis">PIS do funcionário.</param>
+            <param name="template_bin">Template (binário) do funcionário.</param>
+            <returns>True em caso de sucesso; false caso contrário.</returns>
+        </member>
+        <member name="M:Controlid.IRepCidUsb.AdicionarTemplateStr(System.Int64,System.String)">
+            <summary>
+            Adiciona uma digital a um usuário que já tenha sido adicionado
+            à lista em memória (com a função <see cref="M:Controlid.IRepCidUsb.AdicionarUsuario(System.Int64,System.String,System.UInt32,System.String,System.String,System.UInt32,System.Int32)"/>).
+            Os dados serão gravados em arquivo quando a função <see cref="M:Controlid.IRepCidUsb.FinalizarGravacao(System.String,System.String)"/>
+            for chamada.
+            </summary>
+            <param name="pis">PIS do funcionário.</param>
+            <param name="template_base64">Template do funcionário, codificado
+            em Base64.</param>
+            <returns>True em caso de sucesso; false caso contrário.</returns>
+        </member>
+        <member name="M:Controlid.IRepCidUsb.FinalizarGravacao(System.String,System.String)">
+            <summary>
+            Grava no arquivo especificado os usuários que foram incluídos anteriormente
+            com as funções <see cref="M:Controlid.IRepCidUsb.AdicionarUsuario(System.Int64,System.String,System.UInt32,System.String,System.String,System.UInt32,System.Int32)"/>, <see cref="M:Controlid.IRepCidUsb.AdicionarTemplate(System.Int64,System.Byte[])"/>
+            e <see cref="M:Controlid.IRepCidUsb.AdicionarTemplateStr(System.Int64,System.String)"/>
+            </summary>
+            <param name="fileNameUsuarios">Caminho completo do arquivo de usuários (usuarios.dat).</param>
+            <param name="fileNameDigitais">Caminho completo do arquivo de digitais (digitais.dat),
+            ou em branco para não gravar digitais.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Controlid.RepCidUsb">
+            <summary>
+            Acesso às funções para leitura e gravação de dados
+            de usuários de Pen Drive do REP iDX
+            </summary>
+        </member>
+        <member name="M:Controlid.RepCidUsb.GetLastError">
+            <summary>
+            Retorna a descrição do último erro que tenha causado uma função a retornar false.
+            </summary>
+            <returns>Descrição do último erro que tenha causado uma função a retornar false.</returns>
+        </member>
+        <member name="M:Controlid.RepCidUsb.CarregarUsuarios(System.String,System.String,System.Int32@,System.Boolean@)">
+            <summary>
+            Le o conteudo de arquivos de usuários e armazena na memória.
+            Para buscar os registros lidos, utilize as funções <see cref="M:Controlid.RepCidUsb.LerUsuario(System.Int64@,System.String@,System.UInt32@,System.String@,System.String@,System.UInt32@,System.Int32@,System.Int32@)"/>,
+            <see cref="M:Controlid.RepCidUsb.CarregarTemplatesUsuario(System.Int64,System.Int32@)"/>, <see cref="M:Controlid.RepCidUsb.LerTemplate(System.Byte[]@)"/> e
+            <see cref="M:Controlid.RepCidUsb.LerTemplateStr(System.String@)"/>.
+            </summary>
+            <param name="fileNameUsuarios">Caminho completo do arquivo de usuários (usuarios.dat).</param>
+            <param name="fileNameDigitais">Caminho completo do arquivo de digitais (digitais.dat),
+            ou em branco para não carregar digitais.</param>
+            <param name="numUsrs">Devolve o número total de usuários encontrados no arquivo.</param>
+            <param name="leuDigitais">Retorna um valor informando se foi possível ler as digitais ou não.</param>
+            <returns>True em caso de sucesso; false caso contrário.</returns>
+        </member>
+        <member name="M:Controlid.RepCidUsb.LerUsuario(System.Int64@,System.String@,System.UInt32@,System.String@,System.String@,System.UInt32@,System.Int32@,System.Int32@)">
+            <summary>
+            Lê um a um os dados dos funcionários lidos na memória com a função
+            <see cref="M:Controlid.RepCidUsb.CarregarUsuarios(System.String,System.String,System.Int32@,System.Boolean@)"/>.
+            </summary>
+            <param name="pis">PIS do funcionário</param>
+            <param name="nome">Nome do funcionário</param>
+            <param name="codigo">Código do funcionário</param>
+            <param name="senha">Senha do funcionário</param>
+            <param name="barras">Código de barra do funcionário</param>
+            <param name="rfid">RFID do funcionário</param>
+            <param name="privilegios">Nível de acesso do funcionário</param>
+            <param name="num_templates">Número de digitais cadastradas para o usuário, ou
+            zero se não tiver carregado impressões digitais.</param>
+            <returns>True em caso de sucesso enquanto houver usuários a serem lidos;
+            false indica que todos os usuários já foram lidos.</returns>
+        </member>
+        <member name="M:Controlid.RepCidUsb.CarregarTemplatesUsuario(System.Int64,System.Int32@)">
+            <summary>
+            Busca na memória as digitais do usuário especificado pelo número PIS,
+            e essas digitais poderão ser lidas a seguir com qualquer uma das funções
+            <see cref="M:Controlid.RepCidUsb.LerTemplate(System.Byte[]@)"/> ou <see cref="M:Controlid.RepCidUsb.LerTemplateStr(System.String@)"/>.
+            </summary>
+            <param name="pis">PIS do funcionário</param>
+            <param name="num_templates">Devolve o número de digitais encontradas para esse funcionário.</param>
+            <returns>True em caso de sucesso; false caso contrário.</returns>
+        </member>
+        <member name="M:Controlid.RepCidUsb.LerTemplate(System.Byte[]@)">
+            <summary>
+            Lê uma a uma as digitais do funcionário especificado anteriormente ao
+            chamar a função <see cref="M:Controlid.RepCidUsb.CarregarTemplatesUsuario(System.Int64,System.Int32@)"/>
+            </summary>
+            <param name="template_bin">Devolve um a um os templates (binário)
+            do funcionário.</param>
+            <returns>True em caso de sucesso enquanto houver digitais a serem lidas;
+            false indica que todas as digitais desse funcionário já foram lidas.</returns>
+        </member>
+        <member name="M:Controlid.RepCidUsb.LerTemplateStr(System.String@)">
+            <summary>
+            Lê uma a uma as digitais do funcionário especificado anteriormente ao
+            chamar a função <see cref="M:Controlid.RepCidUsb.CarregarTemplatesUsuario(System.Int64,System.Int32@)"/>
+            </summary>
+            <param name="template_base64">Devolve um a um os templates do funcionário,
+            codificados em Base64</param>
+            <returns>True em caso de sucesso enquanto houver digitais a serem lidas;
+            false indica que todas as digitais desse funcionário já foram lidas.</returns>
+        </member>
+        <member name="M:Controlid.RepCidUsb.IniciaGravacao">
+            <summary>
+            Reseta o estado interno da DLL para começar a gravar dados de
+            usuários em Pen Drive.
+            </summary>
+        </member>
+        <member name="M:Controlid.RepCidUsb.AdicionarUsuario(System.Int64,System.String,System.UInt32,System.String,System.String,System.UInt32,System.Int32)">
+            <summary>
+            Adiciona um usuário à lista em memória de usuários que serão gravados
+            em um arquivo quando a gravação for finalizada (função <see cref="M:Controlid.RepCidUsb.FinalizarGravacao(System.String,System.String)"/>).
+            </summary>
+            <param name="pis">PIS do funcionário</param>
+            <param name="nome">Nome do funcionário</param>
+            <param name="codigo">Código do funcionário</param>
+            <param name="senha">Senha do funcionário</param>
+            <param name="barras">Código de barra do funcionário</param>
+            <param name="rfid">RFID do funcionário</param>
+            <param name="privilegios">Nível de acesso do funcionário</param>
+            <returns>True em caso de sucesso; false caso contrário.</returns>
+        </member>
+        <member name="M:Controlid.RepCidUsb.AdicionarTemplate(System.Int64,System.Byte[])">
+            <summary>
+            Adiciona uma digital a um usuário que já tenha sido adicionado
+            à lista em memória (com a função <see cref="M:Controlid.RepCidUsb.AdicionarUsuario(System.Int64,System.String,System.UInt32,System.String,System.String,System.UInt32,System.Int32)"/>).
+            Os dados serão gravados em arquivo quando a função <see cref="M:Controlid.RepCidUsb.FinalizarGravacao(System.String,System.String)"/>
+            for chamada.
+            </summary>
+            <param name="pis">PIS do funcionário.</param>
+            <param name="template_bin">Template (binário) do funcionário.</param>
+            <returns>True em caso de sucesso; false caso contrário.</returns>
+        </member>
+        <member name="M:Controlid.RepCidUsb.AdicionarTemplateStr(System.Int64,System.String)">
+            <summary>
+            Adiciona uma digital a um usuário que já tenha sido adicionado
+            à lista em memória (com a função <see cref="M:Controlid.RepCidUsb.AdicionarUsuario(System.Int64,System.String,System.UInt32,System.String,System.String,System.UInt32,System.Int32)"/>).
+            Os dados serão gravados em arquivo quando a função <see cref="M:Controlid.RepCidUsb.FinalizarGravacao(System.String,System.String)"/>
+            for chamada.
+            </summary>
+            <param name="pis">PIS do funcionário.</param>
+            <param name="template_base64">Template do funcionário, codificado
+            em Base64.</param>
+            <returns>True em caso de sucesso; false caso contrário.</returns>
+        </member>
+        <member name="M:Controlid.RepCidUsb.FinalizarGravacao(System.String,System.String)">
+            <summary>
+            Grava no arquivo especificado os usuários que foram incluídos anteriormente
+            com as funções <see cref="M:Controlid.RepCidUsb.AdicionarUsuario(System.Int64,System.String,System.UInt32,System.String,System.String,System.UInt32,System.Int32)"/>, <see cref="M:Controlid.RepCidUsb.AdicionarTemplate(System.Int64,System.Byte[])"/>
+            e <see cref="M:Controlid.RepCidUsb.AdicionarTemplateStr(System.Int64,System.String)"/>
+            </summary>
+            <param name="fileNameUsuarios">Caminho completo do arquivo de usuários (usuarios.dat).</param>
+            <param name="fileNameDigitais">Caminho completo do arquivo de digitais (digitais.dat),
+            ou em branco para não gravar digitais.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Controlid.RepCidUsbUserManagement">
+            <summary>
+            Importar/exportar funcionários via pendrive
+            </summary>
+        </member>
+        <member name="M:Controlid.RepCidUsbUserManagement.GravarDados(System.Collections.Generic.IList{Controlid.CidUsuario},System.IO.BinaryWriter,System.IO.BinaryWriter)">
+             <summary>
+             Gera um arquivo contendo dados dos funcionários informados, e outro contendo seus templates bométricos
+             </summary>
+             <param name="usrs">Lista de funcionários a serem gravados</param>
+             <param name="bwUsr">BinaryWriter do arquivo onde serão gravados os dados dos funcionários</param>
+             <param name="bwTmpl">BinaryWriter do arquivo onde serão gravaos os templates biométricos</param>
+             <example>
+             <code language="C#">
+             Stream user_s = new FileStream("usuarios.dat", FileMode.Create);
+             BinaryWriter user_bw = new BinaryWriter(user_s);
+             
+             Stream tmpl_s = new FileStream("digitais.dat", FileMode.Create);
+             BinaryWriter tmpl_bw = new BinaryWriter(tmpl_s);
+            
+             RepCidUsbUserManagement.GravarDados(lstUsuariosExportar, user_bw, tmpl_bw);
+            	user_bw.Close();
+            	tmpl_bw.Close();
+             </code>
+             </example>
+        </member>
+        <member name="M:Controlid.RepCidUsbUserManagement.LerDados(System.IO.BinaryReader,System.IO.BinaryReader)">
+            <summary>
+            Gera uma lista de funcionários segundo BinaryReaders informados
+            </summary>
+            <param name="brUsr">BinaryReader do arquivo de dados dos funcionários</param>
+            <param name="brTmpl">BinaryReader do arquivo de dados templates biométricos</param>
+            <returns>Lista dos funcionários importados</returns>
+            <example>
+            <code language="C#">
+            FileStream user_s = new FileStream("usuarios.dat", FileMode.Open);
+            BinaryReader user_br = new BinaryReader(user_s);
+            
+            FileStream tmpl_s = new FileStream("digitais.dat", FileMode.Open);
+            tmpl_br = new BinaryReader(tmpl_s);
+            
+            IList usrs = RepCidUsbUserManagement.LerDados(user_br, tmpl_br);
+            </code>
+            </example>
+        </member>
+        <member name="T:Controlid.CidUsuario">
+            <summary>
+            Dados do funcionário 
+            </summary>
+        </member>
+        <member name="P:Controlid.CidUsuario.Nome">
+            <summary>
+            Nome do funcionário
+            </summary>
+        </member>
+        <member name="P:Controlid.CidUsuario.PIS">
+            <summary>
+            PIS do funcionário
+            </summary>
+        </member>
+        <member name="P:Controlid.CidUsuario.Codigo">
+            <summary>
+            Código do funcionário
+            </summary>
+        </member>
+        <member name="P:Controlid.CidUsuario.Senha">
+            <summary>
+            Senha do funcionário
+            </summary>
+        </member>
+        <member name="P:Controlid.CidUsuario.Barras">
+            <summary>
+            Código de barras do funcionário
+            </summary>
+        </member>
+        <member name="P:Controlid.CidUsuario.RFID">
+            <summary>
+            RFID do funcionário
+            </summary>
+        </member>
+        <member name="P:Controlid.CidUsuario.Priv">
+            <summary>
+            Nível de acesso do funcionário
+            </summary>
+        </member>
+        <member name="P:Controlid.CidUsuario.Digitais">
+            <summary>
+            Templates biométricos do funcionário
+            </summary>
+        </member>
+        <member name="M:Controlid.Util.GetInt(System.Object)">
+            <summary>
+            Obtém o valor inteiro (converse se possivel)
+            </summary>
+        </member>
+        <member name="M:Controlid.Util.GetInt(System.Object,System.Int32)">
+            <summary>
+            Tenta obter um numero Int32 de um objeto qualquer, se der erro retorna 0
+            </summary>
+            <param name="oInt">Valor a ser obtido</param>
+            <param name="nDefault">Valor padrão se não for possivel converter</param>
+        </member>
+    </members>
+</doc>

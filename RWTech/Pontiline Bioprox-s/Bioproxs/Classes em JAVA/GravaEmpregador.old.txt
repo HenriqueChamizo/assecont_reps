@@ -1,0 +1,58 @@
+public ErroComunicacao GravaEmpregador(Empregador empregador) {
+
+		controle.s_tipo = 2; // Comunicação TCP/IP
+		controle.modelo = (byte) this.modeloRep;
+		controle.endereco = ConversaoDelphi.stringParaBytes(configuracao.getIP(), configuracao.getIP().length() + 1);
+		controle.porta = new Short(configuracao.getPorta());
+		controle.atual = 1; // Deve permanecer em 1
+		controle.total = 1; // Deve permanecer em 1
+
+		/* Inicia a comunicação */
+		controle.start = ConversaoDelphi.booleanParaByte(true);
+		dll._enviaEmpregadorTCP(dados, controle);
+
+		if (controle.erro != (byte) -1) {
+
+			/* Carrega dos dados de cadastro do empregador */
+			dados.adcOUSubst = ConversaoDelphi.stringParaBytes("W", dados.adcOUSubst.length); // Valor
+																								// diferente
+																								// de
+																								// A,
+																								// S
+																								// e
+																								// E,
+																								// sinalizando
+																								// adicionar
+																								// ou
+																								// substituir
+			if (empregador.getID() == 1) {
+				dados.identificador = ConversaoDelphi.stringParaBytes(Formatacao.SomenteNumeros(empregador.getCNPJ()), dados.identificador.length);
+				dados.tipoId = ConversaoDelphi.stringParaBytes("1", dados.tipoId.length);
+			} else {
+				dados.identificador = ConversaoDelphi.stringParaBytes(Formatacao.SomenteNumeros(empregador.getCPF()), dados.identificador.length);
+				dados.tipoId = ConversaoDelphi.stringParaBytes("2", dados.tipoId.length);
+			}
+			String cei = empregador.getCEI();
+			if (cei == null || (cei != null && cei.isEmpty())) {
+				dados.cei = ConversaoDelphi.stringParaBytes("0", dados.cei.length);
+			} else {
+				dados.cei = ConversaoDelphi.stringParaBytes(cei, dados.cei.length);
+			}
+			dados.razaoSocial = ConversaoDelphi.stringParaBytes(empregador.getRazaoSocial(), dados.razaoSocial.length);
+			dados.localPrestServ = ConversaoDelphi.stringParaBytes(empregador.getLocal(), dados.localPrestServ.length);
+
+			/* Efetiva o envio dos dados do empregador */
+			controle.start = ConversaoDelphi.booleanParaByte(false);
+			dll._enviaEmpregadorTCP(dados, controle);
+
+			if (controle.erro == -1) {
+				erro.setErro(ErroComunicacao.COMUNICACAO_NAO_ESTABELECIDA);
+			} else {
+				erro.setErro(controle.erro);
+				// dll._fecharComunicacao(); - Gerando exceção externa
+			}
+		} else {
+			erro.setErro(ErroComunicacao.COMUNICACAO_NAO_ESTABELECIDA);
+		}
+		return erro;
+	}

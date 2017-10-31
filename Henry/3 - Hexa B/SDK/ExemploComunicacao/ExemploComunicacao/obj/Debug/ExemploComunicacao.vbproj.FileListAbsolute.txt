@@ -1,0 +1,20 @@
+D:\Projetos\visual studio 2013\Projects\ExemploComunicacao\ExemploComunicacao\bin\Debug\ExemploComunicacao.exe.config
+D:\Projetos\visual studio 2013\Projects\ExemploComunicacao\ExemploComunicacao\bin\Debug\ExemploComunicacao.exe
+D:\Projetos\visual studio 2013\Projects\ExemploComunicacao\ExemploComunicacao\bin\Debug\ExemploComunicacao.pdb
+D:\Projetos\visual studio 2013\Projects\ExemploComunicacao\ExemploComunicacao\bin\Debug\ExemploComunicacao.xml
+D:\Projetos\visual studio 2013\Projects\ExemploComunicacao\ExemploComunicacao\obj\Debug\ExemploComunicacao.Form1.resources
+D:\Projetos\visual studio 2013\Projects\ExemploComunicacao\ExemploComunicacao\obj\Debug\ExemploComunicacao.Resources.resources
+D:\Projetos\visual studio 2013\Projects\ExemploComunicacao\ExemploComunicacao\obj\Debug\ExemploComunicacao.vbproj.GenerateResource.Cache
+D:\Projetos\visual studio 2013\Projects\ExemploComunicacao\ExemploComunicacao\obj\Debug\ExemploComunicacao.exe
+D:\Projetos\visual studio 2013\Projects\ExemploComunicacao\ExemploComunicacao\obj\Debug\ExemploComunicacao.xml
+D:\Projetos\visual studio 2013\Projects\ExemploComunicacao\ExemploComunicacao\obj\Debug\ExemploComunicacao.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\SDK\ExemploComunicacao\ExemploComunicacao\bin\Debug\ExemploComunicacao.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\SDK\ExemploComunicacao\ExemploComunicacao\obj\Debug\ExemploComunicacao.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\SDK\ExemploComunicacao\ExemploComunicacao\obj\Debug\ExemploComunicacao.xml
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\SDK\ExemploComunicacao\ExemploComunicacao\obj\Debug\ExemploComunicacao.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\SDK\ExemploComunicacao\ExemploComunicacao\bin\Debug\ExemploComunicacao.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\SDK\ExemploComunicacao\ExemploComunicacao\bin\Debug\ExemploComunicacao.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\SDK\ExemploComunicacao\ExemploComunicacao\bin\Debug\ExemploComunicacao.xml
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\SDK\ExemploComunicacao\ExemploComunicacao\obj\Debug\ExemploComunicacao.Form1.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\SDK\ExemploComunicacao\ExemploComunicacao\obj\Debug\ExemploComunicacao.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\3 - Hexa B\SDK\ExemploComunicacao\ExemploComunicacao\obj\Debug\ExemploComunicacao.vbproj.GenerateResource.Cache

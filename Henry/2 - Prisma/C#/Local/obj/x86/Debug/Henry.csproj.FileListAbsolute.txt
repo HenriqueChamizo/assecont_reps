@@ -1,0 +1,50 @@
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\Henry.Properties.Resources.resources
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Henry.exe
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Henry.pdb
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\Henry.exe
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\Henry.pdb
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Henry.exe.config
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\AssepontoRep.dll
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Wr.dll
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\AssepontoRep.pdb
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Wr.pdb
+C:\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\Henry.Principal.resources
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Henry.exe.config
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\Henry.exe
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\Henry.Principal.resources
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\Henry.Properties.Resources.resources
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Henry.exe
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Henry.pdb
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\AssepontoRep.dll
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Wr.dll
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\AssepontoRep.pdb
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\bin\Debug\Wr.pdb
+C:\Arquivos\Progs\Ponto2009\Rep\HenryNovo\C#\Henry\obj\x86\Debug\Henry.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\bin\Debug\Henry.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\obj\x86\Debug\Henry.exe
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\obj\x86\Debug\Henry.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\obj\x86\Debug\Henry.Principal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\obj\x86\Debug\Henry.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\obj\x86\Debug\Henry.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\bin\Debug\Henry.exe
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\bin\Debug\Henry.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\bin\Debug\AssepontoRep.dll
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\bin\Debug\AssepontoRep.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\HenryNovo\C#\Henry\obj\x86\Debug\Henry.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\2 - Prisma\C#\Henry\bin\Debug\Henry.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\2 - Prisma\C#\Henry\obj\x86\Debug\Henry.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\2 - Prisma\C#\Henry\obj\x86\Debug\Henry.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\2 - Prisma\C#\Henry\bin\Debug\Henry.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\2 - Prisma\C#\Henry\bin\Debug\Henry.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\2 - Prisma\C#\Henry\bin\Debug\AssepontoRep.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\2 - Prisma\C#\Henry\bin\Debug\Wr.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\2 - Prisma\C#\Henry\obj\x86\Debug\Henry.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\2 - Prisma\C#\Henry\obj\x86\Debug\Henry.Principal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\2 - Prisma\C#\Henry\obj\x86\Debug\Henry.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Henry\2 - Prisma\C#\Henry\obj\x86\Debug\Henry.csproj.GenerateResource.Cache

@@ -1,0 +1,674 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using IDSysR30_CSharp.Controller;
+
+namespace IDSysR30_CSharp.Forms
+{
+    public partial class frmMain : Form
+    {
+        private CController _objController;
+        private bool _bDLL_Loaded;
+        private bool _bConnected;
+
+        #region Constructor / Load / Closing
+
+            public frmMain()
+            {
+                InitializeComponent();
+
+                this._bDLL_Loaded = false;
+                this._bConnected = false;
+
+                this.tmrVerifyCommand = new Timer();
+                this.tmrVerifyCommand.Interval = 500;
+                this.tmrVerifyCommand.Enabled = false;
+                this.tmrVerifyCommand.Tick +=new EventHandler(tmrVerifyCommand_Tick);
+
+                this.Text = CDefines.SW_TITLE + " - DLL IDSysR30 vs. " + CDefines.DLL_VERSION;
+            }
+
+            private void frmMain_Load(object sender, EventArgs e)
+            {
+                try
+                {
+                    this._objController = new CController();
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show(exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                this.lblMonitor.Text = ":: Desconectado ::";
+                this.btnConnectServer.Enabled = true;
+                this.btnDisconnectServer.Enabled = false;
+                this.grpFunctions.Enabled = false;
+                this.grpOtherFunctions.Enabled = false;
+            }
+
+            private void frmMain_FormClosing(object sender, FormClosingEventArgs e)
+            {
+
+            }
+        
+            private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
+            {
+                this.tmrVerifyCommand.Enabled = false;
+
+                try
+                {
+                    this.tmrVerifyCommand.Dispose();
+                    this._objController = null;
+                }
+                catch (Exception exError)
+                {
+                    throw exError;
+                }
+            }
+
+        #endregion
+
+        #region DLL
+        
+            private void btnLoadDLL_Click(object sender, EventArgs e)
+            {
+                try
+                {
+                    this._bDLL_Loaded = this._objController.LoadDLL();
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro: " + exError, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                if (this._bDLL_Loaded == true)
+                {
+                    this.grpLoadDLL.Enabled = false;
+                    this.grpOtherFunctions.Enabled = true;
+                    this.grpFunctions.Enabled = this._bConnected;
+                }
+            }
+
+        #endregion
+
+        #region Connect
+
+            private void btnConnectServer_Click(object sender, EventArgs e)
+            {
+                try
+                {
+                    if (this.txtIPAddress.Text == "")
+                    {
+                        MessageBox.Show("Informe o endereço IP.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        this.txtIPAddress.Focus();
+                        return;
+                    }
+
+                    string strIPAddress = this.txtIPAddress.Text.Trim();
+
+                    if (this.txtTCPPort.Text == "")
+                    {
+                        MessageBox.Show("Informe a porta de comunicação.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        this.txtTCPPort.Focus();
+                        return;
+                    }
+
+                    int iPort = int.Parse(this.txtTCPPort.Text.Trim());
+
+                    if (this._objController.ConnectServer(strIPAddress, iPort))
+                    {
+                        this.tmrVerifyCommand.Enabled = true;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Erro: " + ex.Message.ToString(), this.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+
+            private void btnDisconnectServer_Click(object sender, EventArgs e)
+            {
+                try
+                {
+                    this._objController.DisconnectServer();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Erro: " + ex.Message.ToString(), this.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+
+            private void txtIPAddress_KeyDown(object sender, KeyEventArgs e)
+            {
+                if (e.KeyCode == Keys.Enter)
+                {
+                    this.btnConnectServer_Click(sender, e);
+                }
+            }
+
+        #endregion
+
+        #region Commands
+
+            private void btnAddUser_Click(object sender, EventArgs e)
+            {
+                string strPIS = "19";
+                string strUserName = "USUARIO ADICIONANDO";
+                uint uiKeyCode = 2;
+                string strBarCode = "0";
+                byte byFacilityCode = 0;
+                ushort usProxCode = 0;
+                byte byUserType = 0;
+                string strPassword = "";
+                System.IO.MemoryStream msPhoto = null;
+                ushort usSizeSample = 0;
+                byte byQuantitySamples = 0;
+                byte[] rgbyBiometrics = new byte[1];
+
+                try
+                {
+                    this._objController.AddUser(strPIS, strUserName, uiKeyCode, strBarCode, byFacilityCode, usProxCode, byUserType, strPassword, msPhoto, usSizeSample, byQuantitySamples, rgbyBiometrics);
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+            }
+
+            private void btnChangeUserData_Click(object sender, EventArgs e)
+            {
+                string strPIS = "19";
+                string strNewPIS = "35";
+                string strUserName = "USUARIO ALTERANDO";
+                uint uiKeyCode = 3;
+                string strBarCode = "11223344556677889900";
+                byte byFacilityCode = 0;
+                ushort usProxCode = 12345;
+                byte byUserType = 2;
+                string strPassword = "123";
+                System.IO.MemoryStream msPhoto = null;
+                ushort usSizeSample = 0;
+                byte byQuantitySamples = 0;
+                byte[] rgbyBiometrics = new byte[1];
+
+                try
+                {
+                    this._objController.ChangeUserData(strPIS, strNewPIS, strUserName, uiKeyCode, strBarCode, byFacilityCode, usProxCode, byUserType, strPassword, msPhoto, usSizeSample, byQuantitySamples, rgbyBiometrics);
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            private void btnDeleteUser_Click(object sender, EventArgs e)
+            {
+                string strPIS = "19";
+
+                try
+                {
+                    this._objController.DeleteUser(strPIS);
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            private void btnReadUserData_Click(object sender, EventArgs e)
+            {
+                string strPIS = "35";
+
+                try
+                {
+                    this._objController.ReadUserData(strPIS);
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            private void btnReadEmployerData_Click(object sender, EventArgs e)
+            {
+                try
+                {
+                    this._objController.ReadEmployerData();
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            private void btnSetEmployer_Click(object sender, EventArgs e)
+            {
+                byte byIdentifyType = 1;
+                string strCNPJ_CPF = "12345678000195";
+                string strCEI = "0";
+                string strEmployerName = "EMPRESA TESTE";
+                string strEmployerAddress = "ENDEREÇO DA EMPRESA TESTE";
+
+                try
+                {
+                    this._objController.SetEmployer(byIdentifyType, strCNPJ_CPF, strCEI, strEmployerName, strEmployerAddress);
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            private void btnSetDateTime_Click(object sender, EventArgs e)
+            {
+                byte byDay = (byte)DateTime.Now.Day;
+                byte byMonth = (byte)DateTime.Now.Month;
+                ushort usYear = (ushort)DateTime.Now.Year;
+                byte byHour = (byte)DateTime.Now.Hour;
+                byte byMinute = (byte)DateTime.Now.Minute;
+                byte bySecond = (byte)DateTime.Now.Second;
+
+                try
+                {
+                    this._objController.SetDateTime(byDay, byMonth, usYear, byHour, byMinute, bySecond);
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            private void btnSetREPCommunication_Click(object sender, EventArgs e)
+            {
+                byte byCommunicationType = 1;
+                string strIPEquipment = "192.168.10.31";
+                string strSubnetMask = "255.255.255.0";
+                string strIPGateway = "192.168.10.1";
+                ushort usTCPPort_Comm = 7000;
+                ushort usTCPPort_Alarm = 7001;
+                byte byBaudrate = 0;
+                byte bySerialAddress = 1;
+                byte byMulticastAddress = 240;
+                byte byBroadcastAddress = 255;
+
+                try
+                {
+                    this._objController.SetREPCommunication(byCommunicationType, strIPEquipment, strSubnetMask, strIPGateway, usTCPPort_Comm, usTCPPort_Alarm, byBaudrate, bySerialAddress, byMulticastAddress, byBroadcastAddress);
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            private void btnReadREPCommunication_Click(object sender, EventArgs e)
+            {
+                try
+                {
+                    this._objController.ReadREPCommunication();
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            private void btnRequestEventByNSR_Click(object sender, EventArgs e)
+            {
+                uint uiNSR = 1;
+
+                try
+                {
+                    this._objController.RequestEventByNSR(uiNSR);
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            private void btnRequestNFR_Click(object sender, EventArgs e)
+            {
+                try
+                {
+                    this._objController.RequestNFR();
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            private void btnRequestTotalNSR_Click(object sender, EventArgs e)
+            {
+                try
+                {
+                    this._objController.RequestTotalNSR();
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            private void btnRequestTotalUsers_Click(object sender, EventArgs e)
+            {
+                try
+                {
+                    this._objController.RequestTotalUsers();
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            private void btnRequestUserByIndex_Click(object sender, EventArgs e)
+            {
+                uint uiIndex = 1;
+
+                try
+                {
+                    this._objController.RequestUserByIndex(uiIndex);
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+        #endregion
+
+        #region Other Functions
+
+            private void btnIsHamsterConnected_Click(object sender, EventArgs e)
+            {
+                try
+                {
+                    if (this._objController.IsHamsterConnected())
+                    {
+                        MessageBox.Show("O Hamster está conectado.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("O Hamster não está conectado.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            private void btnGetTemplates_FIM01_Click(object sender, EventArgs e)
+            {
+                try
+                {
+                    if (this._objController.IsHamsterConnected() == false)
+                    {
+                        MessageBox.Show("O Hamster não está conectado.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    }
+
+                    byte[] rgbySample400_1 = new byte[400];
+                    byte byFingerPID_1 = 0;
+                    byte bySampleID_1 = 0;
+                    byte byQuality_1 = 0;
+                    byte[] rgbySample400_2 = new byte[400];
+                    byte byFingerPID_2 = 0;
+                    byte bySampleID_2 = 0;
+                    byte byQuality_2 = 0;
+                    bool bRotateSamples = true;
+
+                    if (this._objController.GetTemplates_FIM01(ref rgbySample400_1, ref byFingerPID_1, ref bySampleID_1, ref byQuality_1, ref rgbySample400_2, ref byFingerPID_2, ref bySampleID_2, ref byQuality_2, bRotateSamples) == false)
+                    {
+                        MessageBox.Show("Não foi possível realizar a captura das biometrias.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    } 
+                    
+                    MessageBox.Show("Biometria capturada com sucesso.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    frmGeneric formEvent = new frmGeneric(this._objController);
+                    formEvent.ShowDialog(this);
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            private void btnGetTemplates_FIM10_Click(object sender, EventArgs e)
+            {
+                try
+                {
+                    if (this._objController.IsHamsterConnected() == false)
+                    {
+                        MessageBox.Show("O Hamster não está conectado.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+
+                    byte[] rgbySample404_1 = new byte[404];
+                    byte byFingerPID_1 = 0;
+                    byte bySampleID_1 = 0;
+                    byte byQuality_1 = 0;
+                    byte[] rgbySample404_2 = new byte[404];
+                    byte byFingerPID_2 = 0;
+                    byte bySampleID_2 = 0;
+                    byte byQuality_2 = 0;
+                    bool bRotateSamples = true;
+
+                    if (this._objController.GetTemplates_FIM01(ref rgbySample404_1, ref byFingerPID_1, ref bySampleID_1, ref byQuality_1, ref rgbySample404_2, ref byFingerPID_2, ref bySampleID_2, ref byQuality_2, bRotateSamples) == false)
+                    {
+                        MessageBox.Show("Não foi possível realizar a captura das biometrias.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    }
+
+                    MessageBox.Show("Biometria capturada com sucesso.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    frmGeneric formEvent = new frmGeneric(this._objController);
+                    formEvent.ShowDialog(this);
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            private void btnFIM01_To_FIM10_Click(object sender, EventArgs e)
+            {
+                try
+                {
+                    if (this._objController.IsHamsterConnected() == false)
+                    {
+                        MessageBox.Show("O Hamster não está conectado.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    
+                    byte[] rgbySample400_1 = new byte[400];
+                    byte byFingerPID_1 = 0;
+                    byte bySampleID_1 = 0;
+                    byte byQuality_1 = 0;
+                    byte[] rgbySample400_2 = new byte[400];
+                    byte byFingerPID_2 = 0;
+                    byte bySampleID_2 = 0;
+                    byte byQuality_2 = 0;
+                    bool bRotateSamples = true;
+                    
+                    byte[] rgbySample404 = new byte[404];
+
+                    if (this._objController.GetTemplates_FIM01(ref rgbySample400_1, ref byFingerPID_1, ref bySampleID_1, ref byQuality_1, ref rgbySample400_2, ref byFingerPID_2, ref bySampleID_2, ref byQuality_2, bRotateSamples) == false)
+                    {
+                        MessageBox.Show("Não foi possível realizar a captura das biometrias.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    }
+
+                    if (this._objController.ConvertTemplate400ToTemplate404(rgbySample400_1, ref rgbySample404) == false)
+                    {
+                        MessageBox.Show("Conversão não realizada.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    }
+
+                    MessageBox.Show("Conversão realizada com sucesso.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            private void btnFIM10_To_FIM01_Click(object sender, EventArgs e)
+            {
+                try
+                {
+                    if (this._objController.IsHamsterConnected() == false)
+                    {
+                        MessageBox.Show("O Hamster não está conectado.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+
+                    byte[] rgbySample404_1 = new byte[404];
+                    byte byFingerPID_1 = 0;
+                    byte bySampleID_1 = 0;
+                    byte byQuality_1 = 0;
+                    byte[] rgbySample404_2 = new byte[404];
+                    byte byFingerPID_2 = 0;
+                    byte bySampleID_2 = 0;
+                    byte byQuality_2 = 0;
+                    bool bRotateSamples = true;
+                    
+                    byte[] rgbySample400 = new byte[400];
+
+                    if (this._objController.GetTemplates_FIM10(ref rgbySample404_1, ref byFingerPID_1, ref bySampleID_1, ref byQuality_1, ref rgbySample404_2, ref byFingerPID_2, ref bySampleID_2, ref byQuality_2, bRotateSamples) == false)
+                    {
+                        MessageBox.Show("Não foi possível realizar a captura das biometrias.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    }
+
+                    if (this._objController.ConvertTemplate404ToTemplate400(rgbySample404_1, ref rgbySample400) == false)
+                    {
+                        MessageBox.Show("Conversão não realizada.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    }
+
+                    MessageBox.Show("Conversão realizada com sucesso.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+        #endregion
+
+        #region Timers
+
+            private void tmrVerifyCommand_Tick(object sender, EventArgs e)
+            {
+                //if (this._eCurrentConnectionState == this._objController.GetConnectionState())
+                //{
+                //    return;
+                //}
+
+                try
+                {
+                    switch (this._objController.GetConnectionState())
+                    {
+                        case EConnectionState.None:
+                        case EConnectionState.Disconnected:
+                            {
+                                this.lblMonitor.Text = ":: Desconectado ::";
+                                this.btnConnectServer.Enabled = true;
+                                this.btnDisconnectServer.Enabled = false;
+                                this.grpFunctions.Enabled = false;
+                                this.tmrVerifyCommand.Enabled = false;
+
+                                this._bConnected = false;
+                            }
+                            break;
+                        case EConnectionState.AttemptConnection:
+                            {
+                                this.lblMonitor.Text = ":: Conectando... ::";
+                                this.btnConnectServer.Enabled = false;
+                                this.btnDisconnectServer.Enabled = true;
+                                this.grpFunctions.Enabled = false;
+
+                                this._bConnected = false;
+                            }
+                            break;
+                        case EConnectionState.AttemptConnectionFail:
+                            {
+                                this._objController.SetConnectionState(EConnectionState.Disconnected);
+
+                                this.lblMonitor.Text = ":: Falha na tentativa de conexão ::";
+                                MessageBox.Show("Falha na tentativa de conexão.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                                frmGeneric formEvent = new frmGeneric(this._objController);
+                                formEvent.ShowDialog(this);
+
+                                this._bConnected = false;
+                            }
+                            break;
+                        case EConnectionState.Connected:
+                            {
+                                this.lblMonitor.Text = ":: Conectado ::";
+                                this.btnConnectServer.Enabled = false;
+                                this.btnDisconnectServer.Enabled = true;
+                                this.grpFunctions.Enabled = true;
+
+                                this._bConnected = true;
+                            }
+                            break;
+                        case EConnectionState.SendingData:
+                            {
+                                this.lblMonitor.Text = ":: Enviando dados... ::";
+                                this.grpFunctions.Enabled = false;
+                                this.btnDisconnectServer.Enabled = true;
+                            }
+                            break;
+                        case EConnectionState.DataReceived:
+                            {
+                                this._objController.SetConnectionState(EConnectionState.Connected);
+
+                                this.lblMonitor.Text = ":: Resposta recebida ::";
+                                MessageBox.Show("Resposta do comando " + this._objController.GetCommand().ToString() + " recebida com sucesso.", ":: Resposta do ID REP ::", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                                frmGeneric formEvent = new frmGeneric(this._objController);
+                                formEvent.ShowDialog(this);
+                            }
+                            break;
+                        case EConnectionState.DataReceivedError:
+                            {
+                                this._objController.SetConnectionState(EConnectionState.Connected);
+
+                                this.lblMonitor.Text = ":: Resposta recebida com erro ::";
+                                MessageBox.Show("Resposta do comando " + this._objController.GetCommand().ToString() + " recebida com erro.", ":: Resposta do ID REP ::", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                
+                                frmGeneric formEvent = new frmGeneric(this._objController);
+                                formEvent.ShowDialog(this);
+                            }
+                            break;
+                        case EConnectionState.ConnectionError:
+                            {
+                                this._objController.SetConnectionState(EConnectionState.Disconnected);
+
+                                this.lblMonitor.Text = ":: Erro na conexão ::";
+                                MessageBox.Show("Erro na conexão com o equipamento.", CDefines.SW_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                                frmGeneric formEvent = new frmGeneric(this._objController);
+                                formEvent.ShowDialog(this);
+                            }
+                            break;
+                    }
+                }
+                catch (Exception exError)
+                {
+                    MessageBox.Show("Erro : " + exError.Message, "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+        #endregion
+    }
+}

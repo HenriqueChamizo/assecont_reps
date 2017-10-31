@@ -1,0 +1,23 @@
+public class TControle extends Structure {
+
+	public short total; // OK!
+	public short atual; // OK!
+	public byte start; // OK! (boolean=byte;true=1;false=0)
+	public byte erro; // OK!
+	public short porta; // OK!
+	public byte s_tipo; // OK!
+	public byte modelo; // OK!
+	public byte[] endereco = new byte[15 + 1]; // OK! [0]: indica o tamanho da
+												// string.
+	public byte[] backup = new byte[256 + 1]; // OK! [0]: indica o tamanho da
+												// string.
+	public int baudrate; // OK!
+
+	@Override
+	protected List getFieldOrder() {
+		return Arrays
+				.asList(new String[] { "total", "atual", "start", "erro",
+						"porta", "s_tipo", "modelo", "endereco", "backup",
+						"baudrate" });
+	}
+}

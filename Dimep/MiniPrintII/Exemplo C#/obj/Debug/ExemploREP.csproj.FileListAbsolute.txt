@@ -1,0 +1,14 @@
+C:\Exemplo C#\bin\Debug\ExemploREP.exe.config
+S:\USUARIOS\Renne\Projetos\Dimep Anterior\Exemplo C#\bin\Debug\ExemploREP.exe.config
+S:\USUARIOS\Renne\Projetos\Dimep Anterior\Exemplo C#\obj\Debug\ExemploREP.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Dimep Anterior\Exemplo C#\obj\Debug\ExemploREP.Forms.frmFormatoCartao.resources
+S:\USUARIOS\Renne\Projetos\Dimep Anterior\Exemplo C#\obj\Debug\ExemploREP.Forms.frmPrincipal.resources
+S:\USUARIOS\Renne\Projetos\Dimep Anterior\Exemplo C#\obj\Debug\ExemploREP.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Dimep Anterior\Exemplo C#\obj\Debug\ExemploREP.csproj.GenerateResource.Cache
+C:\ProjetoRep\Dimep_Atualizado\Exemplo C#\bin\Debug\ExemploREP.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Dimep\Exemplo C#\bin\Debug\ExemploREP.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Dimep\Exemplo C#\obj\Debug\ExemploREP.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Dimep\Exemplo C#\obj\Debug\ExemploREP.Forms.frmFormatoCartao.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Dimep\Exemplo C#\obj\Debug\ExemploREP.Forms.frmPrincipal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Dimep\Exemplo C#\obj\Debug\ExemploREP.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Dimep\Exemplo C#\obj\Debug\ExemploREP.csproj.GenerateResource.Cache

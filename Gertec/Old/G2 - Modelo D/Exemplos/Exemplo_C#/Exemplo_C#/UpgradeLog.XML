@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="REP_Prototipo">
+</Property><Property Name="Solution File" Value="C:\Progs\Ponto2009\Rep\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo.sln">
+</Property><Property Name="Date" Value="terça-feira, 4 de setembro de 2012">
+</Property><Property Name="Time" Value="11:18">
+</Property></Properties><Event ErrorLevel="0" Project="REP_Prototipo" Source="REP_Prototipo\REP_Prototipo.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="REP_Prototipo" Source="REP_Prototipo\REP_Prototipo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="REP_Prototipo.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="REP_Prototipo.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="REP_Prototipo" Source="REP_Prototipo\app.config" Description="File converted successfully. All &lt;supportedRuntime&gt; and &lt;requiredRuntime&gt; tags were removed to enable the project to build and run with Visual Studio 2005.">
+</Event><Event ErrorLevel="3" Project="REP_Prototipo" Source="REP_Prototipo\app.config" Description="Converted">
+</Event></UpgradeLog>

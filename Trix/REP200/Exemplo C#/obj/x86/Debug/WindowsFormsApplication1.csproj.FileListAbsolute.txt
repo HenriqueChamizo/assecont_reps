@@ -1,0 +1,44 @@
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\Interop.zkemkeeper.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\x86\Debug\Interop.zkemkeeper.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+E:\定制\demo编写\BZ900_demo\WindowsFormsApplication1\bin\x86\Debug\WindowsFormsApplication1.exe
+E:\定制\demo编写\BZ900_demo\WindowsFormsApplication1\bin\x86\Debug\WindowsFormsApplication1.pdb
+E:\定制\demo编写\BZ900_demo\WindowsFormsApplication1\bin\x86\Debug\Interop.zkemkeeper.dll
+E:\定制\demo编写\BZ900_demo\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\定制\demo编写\BZ900_demo\WindowsFormsApplication1\obj\x86\Debug\Interop.zkemkeeper.dll
+E:\定制\demo编写\BZ900_demo\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
+E:\定制\demo编写\BZ900_demo\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+E:\定制\demo编写\BZ900_demo\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\定制\demo编写\BZ900_demo\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+E:\定制\demo编写\BZ900_demo\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+E:\定制\demo编写\BZ900_demo\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+F:\工作交接-巴西\BZ900\demo\BZ900_demo\WindowsFormsApplication1\obj\x86\Debug\Interop.zkemkeeper.dll
+F:\工作交接-巴西\BZ900\demo\BZ900_demo\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
+F:\工作交接-巴西\BZ900\demo\BZ900_demo\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+F:\工作交接-巴西\BZ900\demo\BZ900_demo\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+F:\工作交接-巴西\BZ900\demo\BZ900_demo\WindowsFormsApplication1\bin\x86\Debug\WindowsFormsApplication1.exe
+F:\工作交接-巴西\BZ900\demo\BZ900_demo\WindowsFormsApplication1\bin\x86\Debug\WindowsFormsApplication1.pdb
+F:\工作交接-巴西\BZ900\demo\BZ900_demo\WindowsFormsApplication1\bin\x86\Debug\Interop.zkemkeeper.dll
+F:\工作交接-巴西\BZ900\demo\BZ900_demo\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\工作交接-巴西\BZ900\demo\BZ900_demo\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+F:\工作交接-巴西\BZ900\demo\BZ900_demo\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\工作交接-巴西\BZ900\demo\BZ900_demo\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\BitBucket\Assecont\Relogios\Trix\REP200\Exemplo C#\bin\x86\Debug\WindowsFormsApplication1.exe
+D:\BitBucket\Assecont\Relogios\Trix\REP200\Exemplo C#\bin\x86\Debug\WindowsFormsApplication1.pdb
+D:\BitBucket\Assecont\Relogios\Trix\REP200\Exemplo C#\bin\x86\Debug\Interop.zkemkeeperbz900.dll
+D:\BitBucket\Assecont\Relogios\Trix\REP200\Exemplo C#\obj\x86\Debug\Interop.zkemkeeperbz900.dll
+D:\BitBucket\Assecont\Relogios\Trix\REP200\Exemplo C#\obj\x86\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
+D:\BitBucket\Assecont\Relogios\Trix\REP200\Exemplo C#\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+D:\BitBucket\Assecont\Relogios\Trix\REP200\Exemplo C#\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\BitBucket\Assecont\Relogios\Trix\REP200\Exemplo C#\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\BitBucket\Assecont\Relogios\Trix\REP200\Exemplo C#\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\BitBucket\Assecont\Relogios\Trix\REP200\Exemplo C#\obj\x86\Debug\WindowsFormsApplication1.pdb
+D:\BitBucket\Assecont\Relogios\Trix\REP200\Exemplo C#\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache

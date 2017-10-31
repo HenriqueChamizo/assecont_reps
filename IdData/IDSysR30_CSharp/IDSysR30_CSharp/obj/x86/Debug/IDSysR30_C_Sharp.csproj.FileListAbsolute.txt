@@ -1,0 +1,28 @@
+D:\IDDATA\IDSysR30_C_Sharp\IDSysR30_C_Sharp\bin\Debug\IDSysR30_C_Sharp.exe
+D:\IDDATA\IDSysR30_C_Sharp\IDSysR30_C_Sharp\bin\Debug\IDSysR30_C_Sharp.pdb
+D:\IDDATA\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\IDDATA\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\IDSysR30_C_Sharp.Properties.Resources.resources
+D:\IDDATA\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\IDDATA\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\IDDATA\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\IDSysR30_C_Sharp.exe
+D:\IDDATA\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\IDSysR30_C_Sharp.pdb
+D:\IDDATA\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\IDSysR30_C_Sharp.FormMain.resources
+D:\IDDATA\DLL\IDSysR30\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\IDSysR30_C_Sharp.exe
+D:\IDDATA\DLL\IDSysR30\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\IDSysR30_C_Sharp.pdb
+D:\IDDATA\DLL\IDSysR30\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\IDDATA\DLL\IDSysR30\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\IDSysR30_C_Sharp.FormMain.resources
+D:\IDDATA\DLL\IDSysR30\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\IDSysR30_C_Sharp.Properties.Resources.resources
+D:\IDDATA\DLL\IDSysR30\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\IDDATA\DLL\IDSysR30\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\IDDATA\DLL\IDSysR30\IDSysR30_C_Sharp\IDSysR30_C_Sharp\bin\Debug\IDSysR30_C_Sharp.exe
+D:\IDDATA\DLL\IDSysR30\IDSysR30_C_Sharp\IDSysR30_C_Sharp\bin\Debug\IDSysR30_C_Sharp.pdb
+D:\IDDATA\Softwares\DLLs\IDSysR30\SW Exemplo\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\IDSysR30_C_Sharp.exe
+D:\IDDATA\Softwares\DLLs\IDSysR30\Softwares Exemplo\IDSysR30_C_Sharp\IDSysR30_C_Sharp\bin\Debug\IDSysR30_C_Sharp.exe
+D:\IDDATA\Softwares\DLLs\IDSysR30\Softwares Exemplo\IDSysR30_C_Sharp\IDSysR30_C_Sharp\bin\Debug\IDSysR30_C_Sharp.pdb
+D:\IDDATA\Softwares\DLLs\IDSysR30\Softwares Exemplo\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\IDDATA\Softwares\DLLs\IDSysR30\Softwares Exemplo\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\IDSysR30_C_Sharp.FormMain.resources
+D:\IDDATA\Softwares\DLLs\IDSysR30\Softwares Exemplo\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\IDSysR30_C_Sharp.Properties.Resources.resources
+D:\IDDATA\Softwares\DLLs\IDSysR30\Softwares Exemplo\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\IDDATA\Softwares\DLLs\IDSysR30\Softwares Exemplo\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\IDDATA\Softwares\DLLs\IDSysR30\Softwares Exemplo\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\IDSysR30_C_Sharp.exe
+D:\IDDATA\Softwares\DLLs\IDSysR30\Softwares Exemplo\IDSysR30_C_Sharp\IDSysR30_C_Sharp\obj\x86\Debug\IDSysR30_C_Sharp.pdb

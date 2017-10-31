@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{3dd9ffdd-53be-45fd-a7bd-ab002747d595}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>RepTrilobit.exe</DCC_DependencyCheckOutputName>
+    <MainSource>RepTrilobit.dpr</MainSource>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Define>DEBUG</DCC_Define>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters><Parameters Name="RunParams">/CNPJ:11.222.3333/0001-22</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">False</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1046</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Excluded_Packages>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <Excluded_Packages Name="C:\Progs\Componentes2007\Bpl\dxGDIPlusD11.bpl">ExpressGDI+ Library by Developer Express Inc.</Excluded_Packages>
+      <Excluded_Packages Name="C:\Progs\Componentes2007\Bpl\dxThemeD11.bpl">Express XP Theme Manager by Developer Express Inc.</Excluded_Packages>
+      <Excluded_Packages Name="C:\Progs\Componentes2007\Bpl\dxBarD11.bpl">ExpressBars by Developer Express Inc.</Excluded_Packages>
+      <Excluded_Packages Name="C:\Progs\Componentes2007\Bpl\dxComnD11.bpl">ExpressCommonLibrary by Developer Express Inc.</Excluded_Packages>
+      <Excluded_Packages Name="C:\Progs\Componentes2007\Bpl\QuickPdfRT_D7.bpl">EMS QuickPDF 1.0</Excluded_Packages>
+      <Excluded_Packages Name="C:\Progs\Componentes2007\Bpl\QR5RunD2007.bpl">QuickReport 5.00 Runtime Package</Excluded_Packages>
+      <Excluded_Packages Name="C:\Progs\Componentes2007\Bpl\dxBarExtItemsD11.bpl">ExpressBars extended items by Developer Express Inc.</Excluded_Packages>
+      <Excluded_Packages Name="C:\Progs\Componentes2007\Bpl\dxRibbonD11.bpl">ExpressBars Ribbon controls by Developer Express Inc.</Excluded_Packages>
+      <Excluded_Packages Name="C:\Progs\Componentes2007\Bpl\dclcxVerticalGridD11.bpl">ExpressVerticalGrid by Developer Express Inc.</Excluded_Packages>
+      <Excluded_Packages Name="C:\Progs\Componentes2007\Bpl\dcldxBarExtItemsD11.bpl">ExpressBars extended items by Developer Express Inc.</Excluded_Packages>
+      <Excluded_Packages Name="C:\Progs\Componentes2007\Bpl\dcldxRibbonD11.bpl">ExpressBars Ribbon controls by Developer Express Inc.</Excluded_Packages>
+    </Excluded_Packages><Source><Source Name="MainSource">RepTrilobit.dpr</Source></Source></Delphi.Personality><ModelSupport>False</ModelSupport></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="RepTrilobit.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="..\..\..\Componentes2007\ActiveX\RepTrilobit_TLB.pas" />
+    <DCCReference Include="..\..\..\Componentes2007\Wr\pDialogoVista_Parent.pas">
+      <Form>frmDialogoVista_Parent</Form>
+    </DCCReference>
+    <DCCReference Include="pDataModule.pas">
+      <Form>DM</Form>
+    </DCCReference>
+    <DCCReference Include="pPrincipal.pas">
+      <Form>frmRepTrilobitPrincipal</Form>
+    </DCCReference>
+    <DCCReference Include="pRepEdicao.pas">
+      <Form>frmRepEdicao</Form>
+    </DCCReference>
+    <DCCReference Include="uConsts.pas" />
+    <DCCReference Include="uFuncionarios.pas" />
+    <DCCReference Include="uJanelas.pas" />
+    <DCCReference Include="uVars.pas" />
+  </ItemGroup>
+</Project>

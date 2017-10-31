@@ -1,0 +1,4 @@
+3
+MascaraRede;255.255.255.0
+InicioHorarioVerao;20101118000000
+FimHorarioVerao;20110322000000

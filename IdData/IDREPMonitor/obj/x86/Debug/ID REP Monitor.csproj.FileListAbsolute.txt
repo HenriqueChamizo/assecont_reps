@@ -1,0 +1,30 @@
+D:\IDDATA\Softwares\ID REP Monitor\branches\1.2\ID REP Monitor\bin\Debug\ID REP Monitor.exe
+D:\IDDATA\Softwares\ID REP Monitor\branches\1.2\ID REP Monitor\bin\Debug\ID REP Monitor.pdb
+D:\IDDATA\Softwares\ID REP Monitor\branches\1.2\ID REP Monitor\bin\Debug\Communication.dll
+D:\IDDATA\Softwares\ID REP Monitor\branches\1.2\ID REP Monitor\bin\Debug\InterfaceIDSysR30.dll
+D:\IDDATA\Softwares\ID REP Monitor\branches\1.2\ID REP Monitor\bin\Debug\Communication.pdb
+D:\IDDATA\Softwares\ID REP Monitor\branches\1.2\ID REP Monitor\bin\Debug\InterfaceIDSysR30.pdb
+D:\IDDATA\Softwares\ID REP Monitor\branches\1.2\ID REP Monitor\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\IDDATA\Softwares\ID REP Monitor\branches\1.2\ID REP Monitor\obj\x86\Debug\ID_REP_Monitor.FormMain.resources
+D:\IDDATA\Softwares\ID REP Monitor\branches\1.2\ID REP Monitor\obj\x86\Debug\ID_REP_Monitor.Properties.Resources.resources
+D:\IDDATA\Softwares\ID REP Monitor\branches\1.2\ID REP Monitor\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\IDDATA\Softwares\ID REP Monitor\branches\1.2\ID REP Monitor\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\IDDATA\Softwares\ID REP Monitor\branches\1.2\ID REP Monitor\obj\x86\Debug\ID REP Monitor.exe
+D:\IDDATA\Softwares\ID REP Monitor\branches\1.2\ID REP Monitor\obj\x86\Debug\ID REP Monitor.pdb
+C:\idrep\IDREPMonitor\obj\x86\Debug\ID REP Monitor.exe
+C:\idrep\IDREPMonitor\obj\x86\Debug\ID REP Monitor.pdb
+C:\Progs\Ponto2009\Rep\IdData\IDREPMonitor\obj\x86\Debug\ID REP Monitor.exe
+C:\Progs\Ponto2009\Rep\IdData\IDREPMonitor\obj\x86\Debug\ID REP Monitor.pdb
+C:\Progs\Ponto2009\Rep\IdData\IDREPMonitor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Progs\Ponto2009\Rep\IdData\IDREPMonitor\obj\x86\Debug\ID_REP_Monitor.FormMain.resources
+C:\Progs\Ponto2009\Rep\IdData\IDREPMonitor\obj\x86\Debug\ID_REP_Monitor.Properties.Resources.resources
+C:\Progs\Ponto2009\Rep\IdData\IDREPMonitor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Progs\Ponto2009\Rep\IdData\IDREPMonitor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\IDREPMonitor\obj\x86\Debug\ID REP Monitor.exe
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\IDREPMonitor\obj\x86\Debug\ID REP Monitor.pdb
+C:\ProjetoRep\IdData\IDREPMonitor\obj\x86\Debug\ID REP Monitor.exe
+C:\ProjetoRep\IdData\IDREPMonitor\obj\x86\Debug\ID REP Monitor.pdb
+C:\ProjetoRep\IdData\IDREPMonitor\obj\x86\Debug\ID REP Monitor.csprojResolveAssemblyReference.cache
+C:\ProjetoRep\IdData\IDREPMonitor\obj\x86\Debug\ID_REP_Monitor.FormMain.resources
+C:\ProjetoRep\IdData\IDREPMonitor\obj\x86\Debug\ID_REP_Monitor.Properties.Resources.resources
+C:\ProjetoRep\IdData\IDREPMonitor\obj\x86\Debug\ID REP Monitor.csproj.GenerateResource.Cache

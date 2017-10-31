@@ -1,0 +1,38 @@
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-CS\bin\Debug\ftrScanAPI.dll
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-CS\bin\Debug\RepTestAPI.dll.config
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-CS\bin\Debug\RepTestAPI.dll
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-CS\bin\Debug\RepTestAPI.pdb
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-CS\bin\Debug\RepCid.dll
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-CS\bin\Debug\RepCid.xml
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-CS\obj\Debug\test-CS.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-CS\obj\Debug\RepTestAPI.dll
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-CS\obj\Debug\RepTestAPI.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-CS\bin\Debug\ftrScanAPI.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-CS\bin\Debug\RepTestAPI.dll.config
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-CS\bin\Debug\RepTestAPI.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-CS\bin\Debug\RepTestAPI.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-CS\bin\Debug\RepCid.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-CS\bin\Debug\RepCid.xml
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-CS\obj\Debug\test-CS.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-CS\obj\Debug\RepTestAPI.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-CS\obj\Debug\RepTestAPI.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-CS\bin\Debug\ftrScanAPI.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-CS\bin\Debug\RepTestAPI.dll.config
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-CS\bin\Debug\RepTestAPI.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-CS\bin\Debug\RepTestAPI.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-CS\bin\Debug\RepCid.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-CS\bin\Debug\RepCid.xml
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-CS\obj\Debug\test-CS.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-CS\obj\Debug\RepTestAPI.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-CS\obj\Debug\RepTestAPI.pdb
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-CS\bin\Debug\ftrScanAPI.dll
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-CS\bin\Debug\RepTestAPI.dll.config
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-CS\bin\Debug\RepTestAPI.dll
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-CS\bin\Debug\RepTestAPI.pdb
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-CS\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-CS\bin\Debug\RepCid.dll
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-CS\bin\Debug\RepCid.xml
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-CS\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-CS\obj\Debug\test-CS.csprojResolveAssemblyReference.cache
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-CS\obj\Debug\RepTestAPI.dll
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-CS\obj\Debug\RepTestAPI.pdb

@@ -1,0 +1,2 @@
+08:56:14 - EnviarDadosSYNC - Ocorreu timeout de comunicação com 192.168.1.123:19001
+08:57:05 - EnviarDadosSYNC - Ocorreu timeout de comunicação com 192.168.1.213:19001

@@ -1,0 +1,140 @@
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_AjustaHorarioVerao.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_AtualizaDataHora.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_BuscaPonto.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_BuscaPontoAFD.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_CadastraEmpregador.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_CadastraFuncionario.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_ConfiguraCodigoBarras.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_DefineModoArquivo.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_DefineModoIP.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_DefineTimeout.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_IniciaDriver.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_LeEmpregador.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_LeStatus.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_LeTodosFuncionarios.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_Principal.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Properties.Resources.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\bin\Debug\DemoREP_CSharp.exe
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\bin\Debug\DemoREP_CSharp.pdb
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.exe
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.pdb
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.exe
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.pdb
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\bin\Debug\DemoREP_CSharp.exe
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\bin\Debug\DemoREP_CSharp.pdb
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_AjustaHorarioVerao.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_AtualizaDataHora.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_BuscaPonto.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_BuscaPontoAFD.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_CadastraEmpregador.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_CadastraFuncionario.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_ConfiguraCodigoBarras.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_DefineModoArquivo.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_DefineModoIP.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_DefineTimeout.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_IniciaDriver.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_LeEmpregador.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_LeStatus.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_LeTodosFuncionarios.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_Principal.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Properties.Resources.resources
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\ZPM\Registro Eletrônico de Ponto - REP\Exemplos Linguagens\C#\DemoREP_CSharp\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.exe
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.pdb
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\bin\Debug\DemoREP_CSharp.exe
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\bin\Debug\DemoREP_CSharp.pdb
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_AjustaHorarioVerao.resources
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_AtualizaDataHora.resources
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_BuscaPonto.resources
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_BuscaPontoAFD.resources
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_CadastraEmpregador.resources
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_CadastraFuncionario.resources
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_ConfiguraCodigoBarras.resources
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_DefineModoArquivo.resources
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_DefineModoIP.resources
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_DefineTimeout.resources
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_IniciaDriver.resources
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_LeEmpregador.resources
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_LeStatus.resources
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_LeTodosFuncionarios.resources
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_Principal.resources
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Properties.Resources.resources
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Progs\Ponto2009\Rep\ZPM\DemoREP_CSharp\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.exe
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.pdb
+C:\ProjetoRep\ZPM\DemoREP_CSharp\bin\Debug\DemoREP_CSharp.exe
+C:\ProjetoRep\ZPM\DemoREP_CSharp\bin\Debug\DemoREP_CSharp.pdb
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_AjustaHorarioVerao.resources
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_AtualizaDataHora.resources
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_BuscaPonto.resources
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_BuscaPontoAFD.resources
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_CadastraEmpregador.resources
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_CadastraFuncionario.resources
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_ConfiguraCodigoBarras.resources
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_DefineModoArquivo.resources
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_DefineModoIP.resources
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_DefineTimeout.resources
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_IniciaDriver.resources
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_LeEmpregador.resources
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_LeStatus.resources
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_LeTodosFuncionarios.resources
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_Principal.resources
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Properties.Resources.resources
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\ProjetoRep\ZPM\DemoREP_CSharp\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.exe
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.pdb
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\bin\Debug\DemoREP_CSharp.exe
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\bin\Debug\DemoREP_CSharp.pdb
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.csprojResolveAssemblyReference.cache
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_AjustaHorarioVerao.resources
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_AtualizaDataHora.resources
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_BuscaPonto.resources
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_BuscaPontoAFD.resources
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_CadastraEmpregador.resources
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_CadastraFuncionario.resources
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_ConfiguraCodigoBarras.resources
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_DefineModoArquivo.resources
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_DefineModoIP.resources
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_DefineTimeout.resources
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_IniciaDriver.resources
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_LeEmpregador.resources
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_LeStatus.resources
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_LeTodosFuncionarios.resources
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_Principal.resources
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Properties.Resources.resources
+C:\ProjetoRep\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.exe
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM_Atualizado\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.pdb
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.exe
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.pdb
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\bin\Debug\DemoREP_CSharp.exe
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\bin\Debug\DemoREP_CSharp.pdb
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.csprojResolveAssemblyReference.cache
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_AjustaHorarioVerao.resources
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_AtualizaDataHora.resources
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_BuscaPonto.resources
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_BuscaPontoAFD.resources
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_CadastraEmpregador.resources
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_CadastraFuncionario.resources
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_ConfiguraCodigoBarras.resources
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_DefineModoArquivo.resources
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_DefineModoIP.resources
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_DefineTimeout.resources
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_IniciaDriver.resources
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_LeEmpregador.resources
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_LeStatus.resources
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_LeTodosFuncionarios.resources
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Frm_Principal.resources
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.Properties.Resources.resources
+D:\Projetos\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.csproj.GenerateResource.Cache
+D:\BitBucket\Assecont\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.exe
+D:\BitBucket\Assecont\Relógios\ZPM\DemoREP_CSharp\obj\x86\Debug\DemoREP_CSharp.pdb

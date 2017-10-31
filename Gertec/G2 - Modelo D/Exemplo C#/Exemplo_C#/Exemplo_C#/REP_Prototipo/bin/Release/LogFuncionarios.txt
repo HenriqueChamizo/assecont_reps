@@ -1,0 +1,45 @@
+
+Relatório de envio. Data de criação: 21/06/2016 15:22:37
+
+Relatório de envio. Data de criação: 21/06/2016 15:41:06
+90978280933 - ERRO:  Código de barras já cadastrado.
+Cadastro finalizado. Cadastrados com sucesso: 0,  Falha no cadastro: 1
+
+Relatório de envio. Data de criação: 21/06/2016 15:42:58
+90978280933 - ERRO:  Código de barras já cadastrado.
+Cadastro finalizado. Cadastrados com sucesso: 0,  Falha no cadastro: 1
+
+Relatório de envio. Data de criação: 21/06/2016 15:44:48
+90978280933 - ERRO:  Teclado já cadastrado.
+20654168061 - OK
+Cadastro finalizado. Cadastrados com sucesso: 1,  Falha no cadastro: 1
+
+Relatório de envio. Data de criação: 21/06/2016 15:45:46
+90978280933 - ERRO:  Teclado já cadastrado.
+20654168061 - ERRO:  Tamanho do teclado inválido.
+Cadastro finalizado. Cadastrados com sucesso: 0,  Falha no cadastro: 2
+
+Relatório de envio. Data de criação: 21/06/2016 15:46:41
+90978280933 - OK
+20654168061 - ERRO:  PIS já cadastrado.
+Cadastro finalizado. Cadastrados com sucesso: 1,  Falha no cadastro: 1
+
+Relatório de envio. Data de criação: 21/06/2016 15:48:40
+90978280933 - ERRO:  PIS já cadastrado.
+79591104002 - OK
+Cadastro finalizado. Cadastrados com sucesso: 1,  Falha no cadastro: 1
+
+Relatório de envio. Data de criação: 21/06/2016 15:49:54
+54922015553 - OK
+79591104002 - ERRO:  PIS já cadastrado.
+Cadastro finalizado. Cadastrados com sucesso: 1,  Falha no cadastro: 1
+
+Relatório de envio. Data de criação: 21/06/2016 15:51:05
+54922015553 - ERRO:  PIS já cadastrado.
+79591104002 - ERRO:  PIS já cadastrado.
+Cadastro finalizado. Cadastrados com sucesso: 0,  Falha no cadastro: 2
+
+Relatório de envio. Data de criação: 21/06/2016 15:54:32
+35195317800 - OK
+26868499335 - OK
+Cadastro finalizado. Cadastrados com sucesso: 2,  Falha no cadastro: 0

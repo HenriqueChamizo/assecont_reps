@@ -1,0 +1,13 @@
+C:\Progs\Ponto2009\Rep\Trix\Exe C#\Trix\bin\Debug\Trix.exe
+C:\Progs\Ponto2009\Rep\Trix\Exe C#\Trix\bin\Debug\Trix.pdb
+C:\Progs\Ponto2009\Rep\Trix\Exe C#\Trix\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Progs\Ponto2009\Rep\Trix\Exe C#\Trix\obj\x86\Debug\Trix.Captura.resources
+C:\Progs\Ponto2009\Rep\Trix\Exe C#\Trix\obj\x86\Debug\Trix.RepEdicao.resources
+C:\Progs\Ponto2009\Rep\Trix\Exe C#\Trix\obj\x86\Debug\Trix.Principal.resources
+C:\Progs\Ponto2009\Rep\Trix\Exe C#\Trix\obj\x86\Debug\Trix.Properties.Resources.resources
+C:\Progs\Ponto2009\Rep\Trix\Exe C#\Trix\obj\x86\Debug\ResGen.read.1.tlog
+C:\Progs\Ponto2009\Rep\Trix\Exe C#\Trix\obj\x86\Debug\ResGen.write.1.tlog
+C:\Progs\Ponto2009\Rep\Trix\Exe C#\Trix\obj\x86\Debug\Trix.exe
+C:\Progs\Ponto2009\Rep\Trix\Exe C#\Trix\obj\x86\Debug\Trix.pdb
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\Trix.exe
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\Trix.pdb

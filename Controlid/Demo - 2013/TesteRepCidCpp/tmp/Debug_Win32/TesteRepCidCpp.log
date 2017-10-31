@@ -1,0 +1,14 @@
+﻿Build started 19/09/2013 13:59:22.
+     1>Project "C:\ProjetoRep\ControlId\Demo\TesteRepCidCpp\TesteRepCidCpp.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "C:\ProjetoRep\ControlId\Demo\TesteRepCidCpp\\tmp\Debug_Win32\TesteRepCidCpp.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\ProjetoRep\ControlId\Demo\TesteRepCidCpp\Debug /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\ProjetoRep\ControlId\Demo\TesteRepCidCpp\\tmp\Debug_Win32\\" /Fd"C:\ProjetoRep\ControlId\Demo\TesteRepCidCpp\\tmp\Debug_Win32\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TesteRepCidCpp.cpp
+         TesteRepCidCpp.cpp
+     1>c:\projetorep\controlid\demo\testerepcidcpp\testerepcidcpp.cpp(17): error C3506: there is no typelib registered for LIBID '{2e6553ec-aa8b-40cc-aab3-7c5314781d63}'
+     1>c:\projetorep\controlid\demo\testerepcidcpp\testerepcidcpp.cpp(17): fatal error C1104: fatal error importing libid: '2e6553ec-aa8b-40cc-aab3-7c5314781d63'
+     1>Done Building Project "C:\ProjetoRep\ControlId\Demo\TesteRepCidCpp\TesteRepCidCpp.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.87

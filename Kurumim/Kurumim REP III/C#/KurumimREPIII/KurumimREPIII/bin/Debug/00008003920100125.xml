@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<FuncionariosPRV>
+  <Campos>
+    <Pis>020069350811</Pis>
+    <Cracha>0000000000004321</Cracha>
+    <IdBiometrico>0000000000</IdBiometrico>
+    <Nome>Odonias Araujo Ribeiro                              </Nome>
+    <UtilizaLeitorBio>NAO</UtilizaLeitorBio>
+    <Comando>-1</Comando>
+  </Campos>
+</FuncionariosPRV>

@@ -1,0 +1,72 @@
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-Form\bin\Debug\TesteRepCid.exe.config
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-Form\obj\x86\Debug\test-Form.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-Form\obj\x86\Debug\TesteRepCid.frmConfig.resources
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-Form\obj\x86\Debug\TesteRepCid.frmMain.resources
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-Form\obj\x86\Debug\TesteRepCid.frmUser.resources
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-Form\obj\x86\Debug\TesteRepCid.frmUsuarios.resources
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-Form\obj\x86\Debug\TesteRepCid.Properties.Resources.resources
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-Form\obj\x86\Debug\test-Form.csproj.GenerateResource.Cache
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-Form\bin\Debug\TesteRepCid.exe
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-Form\bin\Debug\TesteRepCid.pdb
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-Form\bin\Debug\RepCid.dll
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-Form\bin\Debug\RepCid.xml
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-Form\obj\x86\Debug\TesteRepCid.exe
+C:\Users\Administrador\Desktop\SDK_REP_iDX_2015-03-20\Demo\test-Form\obj\x86\Debug\TesteRepCid.pdb
+C:\Users\Administrador\Downloads\SDK_REP_iDX_2015-03-20\Demo\test-Form\bin\Debug\TesteRepCid.exe.config
+C:\Users\Administrador\Downloads\SDK_REP_iDX_2015-03-20\Demo\test-Form\obj\x86\Debug\TesteRepCid.exe
+C:\Users\Administrador\Downloads\SDK_REP_iDX_2015-03-20\Demo\test-Form\obj\x86\Debug\TesteRepCid.pdb
+C:\Users\Administrador\Downloads\SDK_REP_iDX_2015-03-20\Demo\test-Form\bin\Debug\TesteRepCid.exe
+C:\Users\Administrador\Downloads\SDK_REP_iDX_2015-03-20\Demo\test-Form\bin\Debug\TesteRepCid.pdb
+C:\Users\Administrador\Downloads\SDK_REP_iDX_2015-03-20\Demo\test-Form\bin\Debug\RepCid.dll
+C:\Users\Administrador\Downloads\SDK_REP_iDX_2015-03-20\Demo\test-Form\bin\Debug\RepCid.xml
+C:\Users\Administrador\Downloads\SDK_REP_iDX_2015-03-20\Demo\test-Form\obj\x86\Debug\test-Form.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Downloads\SDK_REP_iDX_2015-03-20\Demo\test-Form\obj\x86\Debug\TesteRepCid.frmConfig.resources
+C:\Users\Administrador\Downloads\SDK_REP_iDX_2015-03-20\Demo\test-Form\obj\x86\Debug\TesteRepCid.frmMain.resources
+C:\Users\Administrador\Downloads\SDK_REP_iDX_2015-03-20\Demo\test-Form\obj\x86\Debug\TesteRepCid.frmUser.resources
+C:\Users\Administrador\Downloads\SDK_REP_iDX_2015-03-20\Demo\test-Form\obj\x86\Debug\TesteRepCid.frmUsuarios.resources
+C:\Users\Administrador\Downloads\SDK_REP_iDX_2015-03-20\Demo\test-Form\obj\x86\Debug\TesteRepCid.Properties.Resources.resources
+C:\Users\Administrador\Downloads\SDK_REP_iDX_2015-03-20\Demo\test-Form\obj\x86\Debug\test-Form.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-Form\bin\Debug\TesteRepCid.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-Form\obj\x86\Debug\TesteRepCid.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-Form\obj\x86\Debug\TesteRepCid.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-Form\bin\Debug\TesteRepCid.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-Form\bin\Debug\TesteRepCid.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-Form\bin\Debug\RepCid.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-Form\bin\Debug\RepCid.xml
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-Form\obj\x86\Debug\test-Form.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-Form\obj\x86\Debug\TesteRepCid.frmConfig.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-Form\obj\x86\Debug\TesteRepCid.frmMain.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-Form\obj\x86\Debug\TesteRepCid.frmUser.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-Form\obj\x86\Debug\TesteRepCid.frmUsuarios.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-Form\obj\x86\Debug\TesteRepCid.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid_Atualizado\Demo\test-Form\obj\x86\Debug\test-Form.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-Form\bin\Debug\TesteRepCid.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\TesteRepCid.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\TesteRepCid.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-Form\bin\Debug\TesteRepCid.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-Form\bin\Debug\TesteRepCid.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-Form\bin\Debug\RepCid.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-Form\bin\Debug\RepCid.xml
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\test-Form.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\TesteRepCid.frmConfig.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\TesteRepCid.frmMain.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\TesteRepCid.frmUser.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\TesteRepCid.frmUsuarios.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\TesteRepCid.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\test-Form.csproj.GenerateResource.Cache
+D:\Projetos\Relógios\Controlid\Demo - 2015\test-Form\bin\Debug\TesteRepCid.exe.config
+D:\Projetos\Relógios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\TesteRepCid.exe
+D:\Projetos\Relógios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\TesteRepCid.pdb
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\bin\Debug\TesteRepCid.exe.config
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\bin\Debug\TesteRepCid.exe
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\bin\Debug\TesteRepCid.pdb
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\bin\Debug\RepCid.dll
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\TesteRepCid.frmConfig.resources
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\TesteRepCid.frmMain.resources
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\TesteRepCid.frmUser.resources
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\TesteRepCid.frmUsuarios.resources
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\TesteRepCid.Properties.Resources.resources
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\test-Form.csproj.GenerateResource.Cache
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\TesteRepCid.exe
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\TesteRepCid.pdb
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\obj\x86\Debug\test-Form.csprojResolveAssemblyReference.cache

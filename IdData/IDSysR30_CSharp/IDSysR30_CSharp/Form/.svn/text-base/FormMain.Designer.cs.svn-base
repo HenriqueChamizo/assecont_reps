@@ -1,0 +1,549 @@
+﻿namespace IDSysR30_CSharp.Forms
+{
+    partial class frmMain
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.pnlMain = new System.Windows.Forms.Panel();
+            this.grpLoadDLL = new System.Windows.Forms.GroupBox();
+            this.btnLoadDLL = new System.Windows.Forms.Button();
+            this.grpOtherFunctions = new System.Windows.Forms.GroupBox();
+            this.btnGetTemplates_FIM10 = new System.Windows.Forms.Button();
+            this.btnGetTemplates_FIM01 = new System.Windows.Forms.Button();
+            this.btnIsHamsterConnected = new System.Windows.Forms.Button();
+            this.lblMonitor = new System.Windows.Forms.Label();
+            this.btnDisconnectServer = new System.Windows.Forms.Button();
+            this.btnConnectServer = new System.Windows.Forms.Button();
+            this.grpFunctions = new System.Windows.Forms.GroupBox();
+            this.btnRequestNFR = new System.Windows.Forms.Button();
+            this.btnRequestUserByIndex = new System.Windows.Forms.Button();
+            this.btnRequestTotalUsers = new System.Windows.Forms.Button();
+            this.btnRequestTotalNSR = new System.Windows.Forms.Button();
+            this.btnReadREPCommunication = new System.Windows.Forms.Button();
+            this.btnSetREPCommunication = new System.Windows.Forms.Button();
+            this.btnRequestEventByNSR = new System.Windows.Forms.Button();
+            this.btnReadUserData = new System.Windows.Forms.Button();
+            this.btnSetEmployer = new System.Windows.Forms.Button();
+            this.btnDeleteUser = new System.Windows.Forms.Button();
+            this.btnSetDateTime = new System.Windows.Forms.Button();
+            this.btnReadEmployerData = new System.Windows.Forms.Button();
+            this.btnChangeUserData = new System.Windows.Forms.Button();
+            this.btnAddUser = new System.Windows.Forms.Button();
+            this.grpConnection = new System.Windows.Forms.GroupBox();
+            this.txtTCPPort = new System.Windows.Forms.TextBox();
+            this.txtIPAddress = new System.Windows.Forms.TextBox();
+            this.lblTCPPort = new System.Windows.Forms.Label();
+            this.lblIPAddress = new System.Windows.Forms.Label();
+            this.btnFIM01_To_FIM10 = new System.Windows.Forms.Button();
+            this.btnFIM10_To_FIM01 = new System.Windows.Forms.Button();
+            this.pnlMain.SuspendLayout();
+            this.grpLoadDLL.SuspendLayout();
+            this.grpOtherFunctions.SuspendLayout();
+            this.grpFunctions.SuspendLayout();
+            this.grpConnection.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // pnlMain
+            // 
+            this.pnlMain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlMain.BackColor = System.Drawing.Color.White;
+            this.pnlMain.Controls.Add(this.grpLoadDLL);
+            this.pnlMain.Controls.Add(this.grpOtherFunctions);
+            this.pnlMain.Controls.Add(this.lblMonitor);
+            this.pnlMain.Controls.Add(this.btnDisconnectServer);
+            this.pnlMain.Controls.Add(this.btnConnectServer);
+            this.pnlMain.Controls.Add(this.grpFunctions);
+            this.pnlMain.Controls.Add(this.grpConnection);
+            this.pnlMain.Location = new System.Drawing.Point(12, 12);
+            this.pnlMain.Name = "pnlMain";
+            this.pnlMain.Size = new System.Drawing.Size(456, 360);
+            this.pnlMain.TabIndex = 1;
+            // 
+            // grpLoadDLL
+            // 
+            this.grpLoadDLL.Controls.Add(this.btnLoadDLL);
+            this.grpLoadDLL.Location = new System.Drawing.Point(3, 81);
+            this.grpLoadDLL.Name = "grpLoadDLL";
+            this.grpLoadDLL.Size = new System.Drawing.Size(294, 48);
+            this.grpLoadDLL.TabIndex = 10;
+            this.grpLoadDLL.TabStop = false;
+            this.grpLoadDLL.Text = ":: Load / Inicialização ::";
+            // 
+            // btnLoadDLL
+            // 
+            this.btnLoadDLL.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLoadDLL.Location = new System.Drawing.Point(6, 19);
+            this.btnLoadDLL.Name = "btnLoadDLL";
+            this.btnLoadDLL.Size = new System.Drawing.Size(282, 23);
+            this.btnLoadDLL.TabIndex = 3;
+            this.btnLoadDLL.Text = "Load DLL";
+            this.btnLoadDLL.UseVisualStyleBackColor = false;
+            this.btnLoadDLL.Click += new System.EventHandler(this.btnLoadDLL_Click);
+            // 
+            // grpOtherFunctions
+            // 
+            this.grpOtherFunctions.Controls.Add(this.btnFIM10_To_FIM01);
+            this.grpOtherFunctions.Controls.Add(this.btnFIM01_To_FIM10);
+            this.grpOtherFunctions.Controls.Add(this.btnGetTemplates_FIM10);
+            this.grpOtherFunctions.Controls.Add(this.btnGetTemplates_FIM01);
+            this.grpOtherFunctions.Controls.Add(this.btnIsHamsterConnected);
+            this.grpOtherFunctions.Location = new System.Drawing.Point(303, 81);
+            this.grpOtherFunctions.Name = "grpOtherFunctions";
+            this.grpOtherFunctions.Size = new System.Drawing.Size(150, 276);
+            this.grpOtherFunctions.TabIndex = 9;
+            this.grpOtherFunctions.TabStop = false;
+            this.grpOtherFunctions.Text = ":: Outras Funções ::";
+            // 
+            // btnGetTemplates_FIM10
+            // 
+            this.btnGetTemplates_FIM10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnGetTemplates_FIM10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGetTemplates_FIM10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGetTemplates_FIM10.Location = new System.Drawing.Point(6, 73);
+            this.btnGetTemplates_FIM10.Name = "btnGetTemplates_FIM10";
+            this.btnGetTemplates_FIM10.Size = new System.Drawing.Size(138, 23);
+            this.btnGetTemplates_FIM10.TabIndex = 10;
+            this.btnGetTemplates_FIM10.Text = "GetTemplates_FIM10";
+            this.btnGetTemplates_FIM10.UseVisualStyleBackColor = false;
+            this.btnGetTemplates_FIM10.Click += new System.EventHandler(this.btnGetTemplates_FIM10_Click);
+            // 
+            // btnGetTemplates_FIM01
+            // 
+            this.btnGetTemplates_FIM01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnGetTemplates_FIM01.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGetTemplates_FIM01.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGetTemplates_FIM01.Location = new System.Drawing.Point(6, 44);
+            this.btnGetTemplates_FIM01.Name = "btnGetTemplates_FIM01";
+            this.btnGetTemplates_FIM01.Size = new System.Drawing.Size(138, 23);
+            this.btnGetTemplates_FIM01.TabIndex = 9;
+            this.btnGetTemplates_FIM01.Text = "GetTemplates_FIM01";
+            this.btnGetTemplates_FIM01.UseVisualStyleBackColor = false;
+            this.btnGetTemplates_FIM01.Click += new System.EventHandler(this.btnGetTemplates_FIM01_Click);
+            // 
+            // btnIsHamsterConnected
+            // 
+            this.btnIsHamsterConnected.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnIsHamsterConnected.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnIsHamsterConnected.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIsHamsterConnected.Location = new System.Drawing.Point(6, 15);
+            this.btnIsHamsterConnected.Name = "btnIsHamsterConnected";
+            this.btnIsHamsterConnected.Size = new System.Drawing.Size(138, 23);
+            this.btnIsHamsterConnected.TabIndex = 8;
+            this.btnIsHamsterConnected.Text = "IsHamsterConnected";
+            this.btnIsHamsterConnected.UseVisualStyleBackColor = false;
+            this.btnIsHamsterConnected.Click += new System.EventHandler(this.btnIsHamsterConnected_Click);
+            // 
+            // lblMonitor
+            // 
+            this.lblMonitor.BackColor = System.Drawing.Color.Silver;
+            this.lblMonitor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMonitor.ForeColor = System.Drawing.Color.White;
+            this.lblMonitor.Location = new System.Drawing.Point(3, 52);
+            this.lblMonitor.Name = "lblMonitor";
+            this.lblMonitor.Size = new System.Drawing.Size(348, 23);
+            this.lblMonitor.TabIndex = 5;
+            this.lblMonitor.Text = ":: Desconectado ::";
+            this.lblMonitor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnDisconnectServer
+            // 
+            this.btnDisconnectServer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnDisconnectServer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDisconnectServer.Enabled = false;
+            this.btnDisconnectServer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDisconnectServer.Location = new System.Drawing.Point(359, 46);
+            this.btnDisconnectServer.Name = "btnDisconnectServer";
+            this.btnDisconnectServer.Size = new System.Drawing.Size(88, 23);
+            this.btnDisconnectServer.TabIndex = 3;
+            this.btnDisconnectServer.Text = "Desconectar";
+            this.btnDisconnectServer.UseVisualStyleBackColor = false;
+            this.btnDisconnectServer.Click += new System.EventHandler(this.btnDisconnectServer_Click);
+            // 
+            // btnConnectServer
+            // 
+            this.btnConnectServer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnConnectServer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnConnectServer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConnectServer.Location = new System.Drawing.Point(359, 17);
+            this.btnConnectServer.Name = "btnConnectServer";
+            this.btnConnectServer.Size = new System.Drawing.Size(88, 23);
+            this.btnConnectServer.TabIndex = 2;
+            this.btnConnectServer.Text = "Conectar";
+            this.btnConnectServer.UseVisualStyleBackColor = false;
+            this.btnConnectServer.Click += new System.EventHandler(this.btnConnectServer_Click);
+            // 
+            // grpFunctions
+            // 
+            this.grpFunctions.Controls.Add(this.btnRequestNFR);
+            this.grpFunctions.Controls.Add(this.btnRequestUserByIndex);
+            this.grpFunctions.Controls.Add(this.btnRequestTotalUsers);
+            this.grpFunctions.Controls.Add(this.btnRequestTotalNSR);
+            this.grpFunctions.Controls.Add(this.btnReadREPCommunication);
+            this.grpFunctions.Controls.Add(this.btnSetREPCommunication);
+            this.grpFunctions.Controls.Add(this.btnRequestEventByNSR);
+            this.grpFunctions.Controls.Add(this.btnReadUserData);
+            this.grpFunctions.Controls.Add(this.btnSetEmployer);
+            this.grpFunctions.Controls.Add(this.btnDeleteUser);
+            this.grpFunctions.Controls.Add(this.btnSetDateTime);
+            this.grpFunctions.Controls.Add(this.btnReadEmployerData);
+            this.grpFunctions.Controls.Add(this.btnChangeUserData);
+            this.grpFunctions.Controls.Add(this.btnAddUser);
+            this.grpFunctions.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grpFunctions.Location = new System.Drawing.Point(3, 135);
+            this.grpFunctions.Name = "grpFunctions";
+            this.grpFunctions.Size = new System.Drawing.Size(294, 222);
+            this.grpFunctions.TabIndex = 4;
+            this.grpFunctions.TabStop = false;
+            this.grpFunctions.Text = ":: Funções Comunicação::";
+            // 
+            // btnRequestNFR
+            // 
+            this.btnRequestNFR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnRequestNFR.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRequestNFR.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRequestNFR.Location = new System.Drawing.Point(150, 106);
+            this.btnRequestNFR.Name = "btnRequestNFR";
+            this.btnRequestNFR.Size = new System.Drawing.Size(138, 23);
+            this.btnRequestNFR.TabIndex = 49;
+            this.btnRequestNFR.Text = "RequestNFR";
+            this.btnRequestNFR.UseVisualStyleBackColor = false;
+            this.btnRequestNFR.Click += new System.EventHandler(this.btnRequestNFR_Click);
+            // 
+            // btnRequestUserByIndex
+            // 
+            this.btnRequestUserByIndex.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnRequestUserByIndex.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRequestUserByIndex.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRequestUserByIndex.Location = new System.Drawing.Point(150, 193);
+            this.btnRequestUserByIndex.Name = "btnRequestUserByIndex";
+            this.btnRequestUserByIndex.Size = new System.Drawing.Size(138, 23);
+            this.btnRequestUserByIndex.TabIndex = 48;
+            this.btnRequestUserByIndex.Text = "RequestUserByIndex";
+            this.btnRequestUserByIndex.UseVisualStyleBackColor = false;
+            this.btnRequestUserByIndex.Click += new System.EventHandler(this.btnRequestUserByIndex_Click);
+            // 
+            // btnRequestTotalUsers
+            // 
+            this.btnRequestTotalUsers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnRequestTotalUsers.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRequestTotalUsers.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRequestTotalUsers.Location = new System.Drawing.Point(150, 164);
+            this.btnRequestTotalUsers.Name = "btnRequestTotalUsers";
+            this.btnRequestTotalUsers.Size = new System.Drawing.Size(138, 23);
+            this.btnRequestTotalUsers.TabIndex = 47;
+            this.btnRequestTotalUsers.Text = "RequestTotalUsers";
+            this.btnRequestTotalUsers.UseVisualStyleBackColor = false;
+            this.btnRequestTotalUsers.Click += new System.EventHandler(this.btnRequestTotalUsers_Click);
+            // 
+            // btnRequestTotalNSR
+            // 
+            this.btnRequestTotalNSR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnRequestTotalNSR.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRequestTotalNSR.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRequestTotalNSR.Location = new System.Drawing.Point(150, 135);
+            this.btnRequestTotalNSR.Name = "btnRequestTotalNSR";
+            this.btnRequestTotalNSR.Size = new System.Drawing.Size(138, 23);
+            this.btnRequestTotalNSR.TabIndex = 46;
+            this.btnRequestTotalNSR.Text = "RequestTotalNSR";
+            this.btnRequestTotalNSR.UseVisualStyleBackColor = false;
+            this.btnRequestTotalNSR.Click += new System.EventHandler(this.btnRequestTotalNSR_Click);
+            // 
+            // btnReadREPCommunication
+            // 
+            this.btnReadREPCommunication.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnReadREPCommunication.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReadREPCommunication.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReadREPCommunication.Location = new System.Drawing.Point(150, 48);
+            this.btnReadREPCommunication.Name = "btnReadREPCommunication";
+            this.btnReadREPCommunication.Size = new System.Drawing.Size(138, 23);
+            this.btnReadREPCommunication.TabIndex = 9;
+            this.btnReadREPCommunication.Text = "ReadREPCommunication";
+            this.btnReadREPCommunication.UseVisualStyleBackColor = false;
+            this.btnReadREPCommunication.Click += new System.EventHandler(this.btnReadREPCommunication_Click);
+            // 
+            // btnSetREPCommunication
+            // 
+            this.btnSetREPCommunication.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnSetREPCommunication.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSetREPCommunication.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSetREPCommunication.Location = new System.Drawing.Point(150, 19);
+            this.btnSetREPCommunication.Name = "btnSetREPCommunication";
+            this.btnSetREPCommunication.Size = new System.Drawing.Size(138, 23);
+            this.btnSetREPCommunication.TabIndex = 8;
+            this.btnSetREPCommunication.Text = "SetREPCommunication";
+            this.btnSetREPCommunication.UseVisualStyleBackColor = false;
+            this.btnSetREPCommunication.Click += new System.EventHandler(this.btnSetREPCommunication_Click);
+            // 
+            // btnRequestEventByNSR
+            // 
+            this.btnRequestEventByNSR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnRequestEventByNSR.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRequestEventByNSR.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRequestEventByNSR.Location = new System.Drawing.Point(150, 77);
+            this.btnRequestEventByNSR.Name = "btnRequestEventByNSR";
+            this.btnRequestEventByNSR.Size = new System.Drawing.Size(138, 23);
+            this.btnRequestEventByNSR.TabIndex = 10;
+            this.btnRequestEventByNSR.Text = "RequestEventByNSR";
+            this.btnRequestEventByNSR.UseVisualStyleBackColor = false;
+            this.btnRequestEventByNSR.Click += new System.EventHandler(this.btnRequestEventByNSR_Click);
+            // 
+            // btnReadUserData
+            // 
+            this.btnReadUserData.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnReadUserData.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReadUserData.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReadUserData.Location = new System.Drawing.Point(6, 106);
+            this.btnReadUserData.Name = "btnReadUserData";
+            this.btnReadUserData.Size = new System.Drawing.Size(138, 23);
+            this.btnReadUserData.TabIndex = 4;
+            this.btnReadUserData.Text = "ReadUserData";
+            this.btnReadUserData.UseVisualStyleBackColor = false;
+            this.btnReadUserData.Click += new System.EventHandler(this.btnReadUserData_Click);
+            // 
+            // btnSetEmployer
+            // 
+            this.btnSetEmployer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnSetEmployer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSetEmployer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSetEmployer.Location = new System.Drawing.Point(6, 164);
+            this.btnSetEmployer.Name = "btnSetEmployer";
+            this.btnSetEmployer.Size = new System.Drawing.Size(138, 23);
+            this.btnSetEmployer.TabIndex = 6;
+            this.btnSetEmployer.Text = "SetEmployer";
+            this.btnSetEmployer.UseVisualStyleBackColor = false;
+            this.btnSetEmployer.Click += new System.EventHandler(this.btnSetEmployer_Click);
+            // 
+            // btnDeleteUser
+            // 
+            this.btnDeleteUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnDeleteUser.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDeleteUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteUser.Location = new System.Drawing.Point(6, 77);
+            this.btnDeleteUser.Name = "btnDeleteUser";
+            this.btnDeleteUser.Size = new System.Drawing.Size(138, 23);
+            this.btnDeleteUser.TabIndex = 3;
+            this.btnDeleteUser.Text = "DeleteUser";
+            this.btnDeleteUser.UseVisualStyleBackColor = false;
+            this.btnDeleteUser.Click += new System.EventHandler(this.btnDeleteUser_Click);
+            // 
+            // btnSetDateTime
+            // 
+            this.btnSetDateTime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnSetDateTime.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSetDateTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSetDateTime.Location = new System.Drawing.Point(6, 193);
+            this.btnSetDateTime.Name = "btnSetDateTime";
+            this.btnSetDateTime.Size = new System.Drawing.Size(138, 23);
+            this.btnSetDateTime.TabIndex = 7;
+            this.btnSetDateTime.Text = "SetDateTime";
+            this.btnSetDateTime.UseVisualStyleBackColor = false;
+            this.btnSetDateTime.Click += new System.EventHandler(this.btnSetDateTime_Click);
+            // 
+            // btnReadEmployerData
+            // 
+            this.btnReadEmployerData.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnReadEmployerData.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReadEmployerData.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReadEmployerData.Location = new System.Drawing.Point(6, 135);
+            this.btnReadEmployerData.Name = "btnReadEmployerData";
+            this.btnReadEmployerData.Size = new System.Drawing.Size(138, 23);
+            this.btnReadEmployerData.TabIndex = 5;
+            this.btnReadEmployerData.Text = "ReadEmployerData";
+            this.btnReadEmployerData.UseVisualStyleBackColor = false;
+            this.btnReadEmployerData.Click += new System.EventHandler(this.btnReadEmployerData_Click);
+            // 
+            // btnChangeUserData
+            // 
+            this.btnChangeUserData.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnChangeUserData.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnChangeUserData.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChangeUserData.Location = new System.Drawing.Point(6, 48);
+            this.btnChangeUserData.Name = "btnChangeUserData";
+            this.btnChangeUserData.Size = new System.Drawing.Size(138, 23);
+            this.btnChangeUserData.TabIndex = 2;
+            this.btnChangeUserData.Text = "ChangeUserData";
+            this.btnChangeUserData.UseVisualStyleBackColor = false;
+            this.btnChangeUserData.Click += new System.EventHandler(this.btnChangeUserData_Click);
+            // 
+            // btnAddUser
+            // 
+            this.btnAddUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnAddUser.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAddUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddUser.Location = new System.Drawing.Point(6, 19);
+            this.btnAddUser.Name = "btnAddUser";
+            this.btnAddUser.Size = new System.Drawing.Size(138, 23);
+            this.btnAddUser.TabIndex = 1;
+            this.btnAddUser.Text = "AddUser";
+            this.btnAddUser.UseVisualStyleBackColor = false;
+            this.btnAddUser.Click += new System.EventHandler(this.btnAddUser_Click);
+            // 
+            // grpConnection
+            // 
+            this.grpConnection.Controls.Add(this.txtTCPPort);
+            this.grpConnection.Controls.Add(this.txtIPAddress);
+            this.grpConnection.Controls.Add(this.lblTCPPort);
+            this.grpConnection.Controls.Add(this.lblIPAddress);
+            this.grpConnection.Location = new System.Drawing.Point(3, 3);
+            this.grpConnection.Name = "grpConnection";
+            this.grpConnection.Size = new System.Drawing.Size(348, 46);
+            this.grpConnection.TabIndex = 1;
+            this.grpConnection.TabStop = false;
+            this.grpConnection.Text = ":: Conexão ::";
+            // 
+            // txtTCPPort
+            // 
+            this.txtTCPPort.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTCPPort.Location = new System.Drawing.Point(275, 18);
+            this.txtTCPPort.Name = "txtTCPPort";
+            this.txtTCPPort.Size = new System.Drawing.Size(62, 20);
+            this.txtTCPPort.TabIndex = 2;
+            this.txtTCPPort.Text = "7000";
+            this.txtTCPPort.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtIPAddress
+            // 
+            this.txtIPAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIPAddress.Location = new System.Drawing.Point(88, 17);
+            this.txtIPAddress.MaxLength = 15;
+            this.txtIPAddress.Name = "txtIPAddress";
+            this.txtIPAddress.Size = new System.Drawing.Size(109, 20);
+            this.txtIPAddress.TabIndex = 1;
+            this.txtIPAddress.Text = "127.0.0.1";
+            this.txtIPAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtIPAddress.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtIPAddress_KeyDown);
+            // 
+            // lblTCPPort
+            // 
+            this.lblTCPPort.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTCPPort.Location = new System.Drawing.Point(203, 18);
+            this.lblTCPPort.Name = "lblTCPPort";
+            this.lblTCPPort.Size = new System.Drawing.Size(66, 20);
+            this.lblTCPPort.TabIndex = 5;
+            this.lblTCPPort.Text = "Porta TCP :";
+            this.lblTCPPort.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblIPAddress
+            // 
+            this.lblIPAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIPAddress.Location = new System.Drawing.Point(6, 18);
+            this.lblIPAddress.Name = "lblIPAddress";
+            this.lblIPAddress.Size = new System.Drawing.Size(76, 20);
+            this.lblIPAddress.TabIndex = 4;
+            this.lblIPAddress.Text = "Endereço IP :";
+            this.lblIPAddress.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // btnFIM01_To_FIM10
+            // 
+            this.btnFIM01_To_FIM10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnFIM01_To_FIM10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFIM01_To_FIM10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFIM01_To_FIM10.Location = new System.Drawing.Point(6, 102);
+            this.btnFIM01_To_FIM10.Name = "btnFIM01_To_FIM10";
+            this.btnFIM01_To_FIM10.Size = new System.Drawing.Size(138, 23);
+            this.btnFIM01_To_FIM10.TabIndex = 11;
+            this.btnFIM01_To_FIM10.Text = "FIM01_To_FIM10";
+            this.btnFIM01_To_FIM10.UseVisualStyleBackColor = false;
+            this.btnFIM01_To_FIM10.Click += new System.EventHandler(this.btnFIM01_To_FIM10_Click);
+            // 
+            // btnFIM10_To_FIM01
+            // 
+            this.btnFIM10_To_FIM01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnFIM10_To_FIM01.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFIM10_To_FIM01.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFIM10_To_FIM01.Location = new System.Drawing.Point(6, 131);
+            this.btnFIM10_To_FIM01.Name = "btnFIM10_To_FIM01";
+            this.btnFIM10_To_FIM01.Size = new System.Drawing.Size(138, 23);
+            this.btnFIM10_To_FIM01.TabIndex = 12;
+            this.btnFIM10_To_FIM01.Text = "FIM10_To_FIM01";
+            this.btnFIM10_To_FIM01.UseVisualStyleBackColor = false;
+            this.btnFIM10_To_FIM01.Click += new System.EventHandler(this.btnFIM10_To_FIM01_Click);
+            // 
+            // frmMain
+            // 
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.Color.Silver;
+            this.ClientSize = new System.Drawing.Size(481, 384);
+            this.Controls.Add(this.pnlMain);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Name = "frmMain";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "IDSysR30 C#";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMain_FormClosed);
+            this.Load += new System.EventHandler(this.frmMain_Load);
+            this.pnlMain.ResumeLayout(false);
+            this.grpLoadDLL.ResumeLayout(false);
+            this.grpOtherFunctions.ResumeLayout(false);
+            this.grpFunctions.ResumeLayout(false);
+            this.grpConnection.ResumeLayout(false);
+            this.grpConnection.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel pnlMain;
+        private System.Windows.Forms.GroupBox grpFunctions;
+        private System.Windows.Forms.GroupBox grpConnection;
+        private System.Windows.Forms.TextBox txtTCPPort;
+        private System.Windows.Forms.TextBox txtIPAddress;
+        private System.Windows.Forms.Label lblTCPPort;
+        private System.Windows.Forms.Label lblIPAddress;
+        private System.Windows.Forms.Button btnDisconnectServer;
+        private System.Windows.Forms.Button btnConnectServer;
+        private System.Windows.Forms.Button btnReadREPCommunication;
+        private System.Windows.Forms.Button btnSetREPCommunication;
+        private System.Windows.Forms.Button btnRequestEventByNSR;
+        private System.Windows.Forms.Button btnReadUserData;
+        private System.Windows.Forms.Button btnSetEmployer;
+        private System.Windows.Forms.Button btnDeleteUser;
+        private System.Windows.Forms.Button btnSetDateTime;
+        private System.Windows.Forms.Button btnReadEmployerData;
+        private System.Windows.Forms.Button btnChangeUserData;
+        private System.Windows.Forms.Button btnAddUser;
+        private System.Windows.Forms.Timer tmrVerifyCommand;
+        private System.Windows.Forms.Button btnRequestNFR;
+        private System.Windows.Forms.Button btnRequestUserByIndex;
+        private System.Windows.Forms.Button btnRequestTotalUsers;
+        private System.Windows.Forms.Button btnRequestTotalNSR;
+        private System.Windows.Forms.Label lblMonitor;
+        private System.Windows.Forms.GroupBox grpOtherFunctions;
+        private System.Windows.Forms.Button btnIsHamsterConnected;
+        private System.Windows.Forms.Button btnGetTemplates_FIM01;
+        private System.Windows.Forms.Button btnGetTemplates_FIM10;
+        internal System.Windows.Forms.GroupBox grpLoadDLL;
+        internal System.Windows.Forms.Button btnLoadDLL;
+        private System.Windows.Forms.Button btnFIM01_To_FIM10;
+        private System.Windows.Forms.Button btnFIM10_To_FIM01;
+    }
+}
+

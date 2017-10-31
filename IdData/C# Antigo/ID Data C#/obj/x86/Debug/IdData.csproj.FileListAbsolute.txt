@@ -1,0 +1,127 @@
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\IdData.Captura.resources
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\IdData.RepEdicao.resources
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\IdData.Principal.resources
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\IdData.Properties.Resources.resources
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\ResGen.read.1.tlog
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\ResGen.write.1.tlog
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\bin\Debug\IdData.exe
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\bin\Debug\IdData.pdb
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\IdData.exe
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\IdData\obj\x86\Debug\IdData.pdb
+D:\IDDATA\Softwares\Desenvolvedores\Assecont\Fontes IdData C#\obj\x86\Debug\IdData.exe
+D:\IDDATA\Softwares\Desenvolvedores\Assecont\Fontes IdData C#\obj\x86\Debug\IdData.pdb
+D:\IDDATA\Softwares\Desenvolvedores\Assecont\ID Data C#\obj\x86\Debug\IdData.exe
+D:\IDDATA\Softwares\Desenvolvedores\Assecont\ID Data C#\obj\x86\Debug\IdData.pdb
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.exe
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.pdb
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Captura.resources
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.RepEdicao.resources
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Principal.resources
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Properties.Resources.resources
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\ResGen.read.1.tlog
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\ResGen.write.1.tlog
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.pdb
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.ProgressImportacao.resources
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe.config
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe.manifest
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.application
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.exe.manifest
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.application
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe.config
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.exe
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.pdb
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe.config
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.exe
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.pdb
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Captura.resources
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.ProgressImportacao.resources
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.RepEdicao.resources
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Principal.resources
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Properties.Resources.resources
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\ResGen.read.1.tlog
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\ResGen.write.1.tlog
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe.manifest
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.application
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.pdb
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\Wr.dll
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\Wr.pdb
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.exe.manifest
+H:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.application
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\Wr.pdb
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Captura.resources
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.ProgressImportacao.resources
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.RepEdicao.resources
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Principal.resources
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Properties.Resources.resources
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\ResGen.read.1.tlog
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\ResGen.write.1.tlog
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe.manifest
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.application
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.pdb
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\Wr.pdb
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.exe.manifest
+C:\Arquivos\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.application
+C:\Progs\Ponto2009\Rep\IdData\Exe C#\ID Data C#\bin\Debug\Wr.dll
+S:\USUARIOS\Wilder\Projetos\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe.config
+S:\USUARIOS\Wilder\Projetos\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.exe
+S:\USUARIOS\Wilder\Projetos\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.pdb
+C:\ProjetoRep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe.config
+C:\ProjetoRep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.exe
+C:\ProjetoRep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.pdb
+C:\ProjetoRep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.csprojResolveAssemblyReference.cache
+C:\ProjetoRep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Captura.resources
+C:\ProjetoRep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.ProgressImportacao.resources
+C:\ProjetoRep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.RepEdicao.resources
+C:\ProjetoRep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Principal.resources
+C:\ProjetoRep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Properties.Resources.resources
+C:\ProjetoRep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.csproj.GenerateResource.Cache
+C:\ProjetoRep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe.manifest
+C:\ProjetoRep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.application
+C:\ProjetoRep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe
+C:\ProjetoRep\IdData\Exe C#\ID Data C#\bin\Debug\IdData.pdb
+C:\ProjetoRep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.exe.manifest
+C:\ProjetoRep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.application
+C:\ProjetoRep\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.HorarioDeVerao.resources
+S:\USUARIOS\Renne\Projetos\Relogios\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.exe
+S:\USUARIOS\Renne\Projetos\Relogios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe.manifest
+S:\USUARIOS\Renne\Projetos\Relogios\IdData\Exe C#\ID Data C#\bin\Debug\IdData.application
+S:\USUARIOS\Renne\Projetos\Relogios\IdData\Exe C#\ID Data C#\bin\Debug\IdData.exe
+S:\USUARIOS\Renne\Projetos\Relogios\IdData\Exe C#\ID Data C#\bin\Debug\IdData.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Captura.resources
+S:\USUARIOS\Renne\Projetos\Relogios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.HorarioDeVerao.resources
+S:\USUARIOS\Renne\Projetos\Relogios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.ProgressImportacao.resources
+S:\USUARIOS\Renne\Projetos\Relogios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.RepEdicao.resources
+S:\USUARIOS\Renne\Projetos\Relogios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Principal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.exe.manifest
+S:\USUARIOS\Renne\Projetos\Relogios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.application
+D:\Projetos\Relógios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.csprojResolveAssemblyReference.cache
+D:\Projetos\Relógios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Captura.resources
+D:\Projetos\Relógios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.HorarioDeVerao.resources
+D:\Projetos\Relógios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.ProgressImportacao.resources
+D:\Projetos\Relógios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.RepEdicao.resources
+D:\Projetos\Relógios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Principal.resources
+D:\Projetos\Relógios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.Properties.Resources.resources
+D:\Projetos\Relógios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.csproj.GenerateResource.Cache
+D:\Projetos\Relógios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.exe
+D:\Projetos\Relógios\IdData\Exe C#\ID Data C#\obj\x86\Debug\IdData.pdb
+D:\Projetos\Relógios\IdData\C# Antigo\ID Data C#\bin\Debug\IdData.exe.config
+D:\Projetos\Relógios\IdData\C# Antigo\ID Data C#\obj\x86\Debug\IdData.exe
+D:\Projetos\Relógios\IdData\C# Antigo\ID Data C#\obj\x86\Debug\IdData.pdb

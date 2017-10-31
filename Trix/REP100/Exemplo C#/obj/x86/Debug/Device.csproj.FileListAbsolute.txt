@@ -1,0 +1,12 @@
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\bin\x86\Debug\Device.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\bin\x86\Debug\Device.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\bin\x86\Debug\Interop.zkemkeeper.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\obj\x86\Debug\Device.DeviceMain.resources
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\obj\x86\Debug\Device.Properties.Resources.resources
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\obj\x86\Debug\Device.csproj.GenerateResource.Cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\obj\x86\Debug\Device.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\obj\x86\Debug\Device.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\bin\x86\Debug\Device.exe.config
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\obj\x86\Debug\Interop.zkemkeeper.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\obj\x86\Debug\Device.csproj.ResolveComReference.cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\obj\x86\Debug\Device.csprojResolveAssemblyReference.cache

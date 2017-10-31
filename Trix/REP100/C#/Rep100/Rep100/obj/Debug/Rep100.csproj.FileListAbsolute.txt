@@ -1,0 +1,22 @@
+c:\users\henriquec\documents\visual studio 2012\Projects\Rep100\Rep100\obj\Debug\Rep100.csprojResolveAssemblyReference.cache
+c:\users\henriquec\documents\visual studio 2012\Projects\Rep100\Rep100\obj\Debug\Rep100.Properties.Resources.resources
+c:\users\henriquec\documents\visual studio 2012\Projects\Rep100\Rep100\obj\Debug\Rep100.csproj.GenerateResource.Cache
+c:\users\henriquec\documents\visual studio 2012\Projects\Rep100\Rep100\bin\Debug\Rep100.exe
+c:\users\henriquec\documents\visual studio 2012\Projects\Rep100\Rep100\bin\Debug\Rep100.pdb
+c:\users\henriquec\documents\visual studio 2012\Projects\Rep100\Rep100\obj\Debug\Rep100.exe
+c:\users\henriquec\documents\visual studio 2012\Projects\Rep100\Rep100\obj\Debug\Rep100.pdb
+c:\users\henriquec\documents\visual studio 2012\Projects\Rep100\Rep100\obj\Debug\Interop.zkemkeeper.dll
+c:\users\henriquec\documents\visual studio 2012\Projects\Rep100\Rep100\obj\Debug\Rep100.csproj.ResolveComReference.cache
+c:\users\henriquec\documents\visual studio 2012\Projects\Rep100\Rep100\bin\Debug\Rep100.exe.config
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\bin\Debug\Rep100.exe.config
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\obj\Debug\Interop.zkemkeeper.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\obj\Debug\Rep100.csproj.ResolveComReference.cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\bin\Debug\Rep100.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\bin\Debug\Rep100.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\bin\Debug\AssepontoRep.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\bin\Debug\Wr.Classes.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\obj\Debug\Rep100.Properties.Resources.resources
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\obj\Debug\Rep100.csproj.GenerateResource.Cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\obj\Debug\Rep100.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\obj\Debug\Rep100.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\bin\Debug\Interop.zkemkeeper.dll

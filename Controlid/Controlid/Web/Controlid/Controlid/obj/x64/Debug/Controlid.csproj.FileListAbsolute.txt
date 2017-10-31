@@ -1,0 +1,17 @@
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid\Web\Controlid\Controlid\bin\x64\Debug\Controlid.exe.config
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid\Web\Controlid\Controlid\bin\x64\Debug\Controlid.exe
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid\Web\Controlid\Controlid\bin\x64\Debug\Controlid.pdb
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid\Web\Controlid\Controlid\bin\x64\Debug\AssepontoRep.dll
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid\Web\Controlid\Controlid\bin\x64\Debug\Assepontoweb.Classes.AppDatabases.dll
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid\Web\Controlid\Controlid\bin\x64\Debug\Assepontoweb.Classes.dll
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid\Web\Controlid\Controlid\bin\x64\Debug\Assepontoweb.Types.dll
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid\Web\Controlid\Controlid\bin\x64\Debug\Microsoft.Win32.TaskScheduler.dll
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid\Web\Controlid\Controlid\bin\x64\Debug\RepCid.dll
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid\Web\Controlid\Controlid\bin\x64\Debug\Wr.Classes.Databases.dll
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid\Web\Controlid\Controlid\bin\x64\Debug\Wr.Classes.dll
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid\Web\Controlid\Controlid\obj\x64\Debug\Controlid.Principal.resources
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid\Web\Controlid\Controlid\obj\x64\Debug\Controlid.Properties.Resources.resources
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid\Web\Controlid\Controlid\obj\x64\Debug\Controlid.csproj.GenerateResource.Cache
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid\Web\Controlid\Controlid\obj\x64\Debug\Controlid.exe
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid\Web\Controlid\Controlid\obj\x64\Debug\Controlid.pdb
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid\Web\Controlid\Controlid\obj\x64\Debug\Controlid.csprojResolveAssemblyReference.cache

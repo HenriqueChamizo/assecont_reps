@@ -1,0 +1,93 @@
+	public byte[] StringForBytes(string str)
+        {
+            ASCIIEncoding encoding = new ASCIIEncoding();
+            return encoding.GetBytes(str);
+        }
+
+        public override bool sendInfoEmpresa(int Terminal, out Types.Empregador EmpregadorDados)
+        {
+            if (!base.sendInfoEmpresa(Terminal, out EmpregadorDados)) return false;
+
+            if (Connect(Terminal))
+            {
+                TControle controle = new TControle();
+                controle.endereco = StringForBytes("192.168.1.199");
+                controle.backup = StringForBytes("N");
+                controle.porta = Convert.ToInt16(1001);
+                controle.s_tipo = Convert.ToByte(2);
+                controle.modelo = Convert.ToByte(6);
+                controle.baudrate = 9600;
+                controle.erro = Convert.ToByte(0);
+                controle.atual = Convert.ToByte(1);
+                controle.total = Convert.ToByte(1);
+                controle.start = Convert.ToByte(true);
+
+                TDados dados = new TDados();
+
+                if (Authotelcom.enviaEmpregadorTCP(ref dados, ref controle)) //Linha que retorna a referencia "controle" com o erro = 255
+                {
+                    if ((int)controle.erro != (-1))
+                    {
+                        string tipoId = "1";
+                        string identificador = EmpregadorDados.Pessoa;
+                        string cei = string.IsNullOrEmpty(EmpregadorDados.Cei.Replace(" ", "")) ? "0" : EmpregadorDados.Cei;
+                        string razaoSocial = EmpregadorDados.Nome;
+                        string localPrestServ = EmpregadorDados.Endereco;
+                        string adcOUSubst = "A";
+
+                        dados.tipoId = StringForBytes(tipoId);
+                        dados.identificador = StringForBytes(identificador);
+                        dados.cei = StringForBytes(cei);
+                        dados.razaoSocial = StringForBytes(razaoSocial);
+                        dados.localPrestServ = StringForBytes(localPrestServ);
+                        dados.adcOUSubst = StringForBytes(adcOUSubst);
+                        dados.pin = StringForBytes("");
+                        dados.pis = StringForBytes("");
+                        dados.nome = StringForBytes("");
+                        dados.id_bio = StringForBytes("");
+                        dados.numCartao = StringForBytes("");
+                        dados.senha = StringForBytes("");
+                        dados.mestre = StringForBytes("");
+                        dados.verifica = StringForBytes("");
+
+                        controle.start = Convert.ToByte(false);
+                        if (Authotelcom.enviaEmpregadorTCP(ref dados, ref controle))
+                        {
+                            if (controle.erro == 0)
+                            {
+                                log.AddLog("EMPREGADOR ATUALIZADO COM SUCESSO...", true);
+                                Authotelcom.fecharComunicacao();
+                                return true;
+                            }
+                            else
+                            {
+                                log.AddLog("Erro: " + controle.erro.ToString(), true);
+                                Authotelcom.fecharComunicacao();
+                                return false;
+                            }
+                        }
+                        else
+                        {
+                            log.AddLog("ERRO AO ENVIAR DADOS AO RELÓGIO", true);
+                            Authotelcom.fecharComunicacao();
+                            return false;
+                        }
+                    }
+                    else
+                    {
+                        log.AddLog("ERRO AO ENVIAR DADOS AO RELÓGIO", true);
+                        Authotelcom.fecharComunicacao();
+                        return false;
+                    }
+                }
+                else
+                {
+                    log.AddLog("Erro no envio do comando.", true);
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }

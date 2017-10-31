@@ -1,0 +1,2 @@
+10:29:46 - EnviarDadosSYNC - Foi forçado o cancelamento de uma conexão existente pelo host remoto
+14:07:25 - EnviarDadosSYNC - Foi forçado o cancelamento de uma conexão existente pelo host remoto

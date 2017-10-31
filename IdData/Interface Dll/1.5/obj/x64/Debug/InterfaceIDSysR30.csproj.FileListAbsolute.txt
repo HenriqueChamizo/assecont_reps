@@ -1,0 +1,8 @@
+D:\IDDATA\Softwares\Framework\InterfaceIDSysR30\branches\1.5\bin\x64\Debug\InterfaceIDSysR30.dll
+D:\IDDATA\Softwares\Framework\InterfaceIDSysR30\branches\1.5\bin\x64\Debug\InterfaceIDSysR30.pdb
+D:\IDDATA\Softwares\Framework\InterfaceIDSysR30\branches\1.5\obj\x64\Debug\ResolveAssemblyReference.cache
+D:\IDDATA\Softwares\Framework\InterfaceIDSysR30\branches\1.5\obj\x64\Debug\InterfaceIDSysR30.Properties.Resources.resources
+D:\IDDATA\Softwares\Framework\InterfaceIDSysR30\branches\1.5\obj\x64\Debug\InterfaceIDSysR30.dll
+D:\IDDATA\Softwares\Framework\InterfaceIDSysR30\branches\1.5\obj\x64\Debug\InterfaceIDSysR30.pdb
+D:\IDDATA\Softwares\Framework\InterfaceIDSysR30\branches\1.5\obj\x64\Debug\GenerateResource.read.1.tlog
+D:\IDDATA\Softwares\Framework\InterfaceIDSysR30\branches\1.5\obj\x64\Debug\GenerateResource.write.1.tlog

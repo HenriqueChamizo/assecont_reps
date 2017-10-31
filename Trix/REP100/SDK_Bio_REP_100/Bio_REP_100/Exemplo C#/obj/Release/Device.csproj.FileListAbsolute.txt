@@ -1,0 +1,24 @@
+C:\Documents and Settings\marimcf\Desktop\SDK\SDK_TRIX\Communication Protocol SDK(Fit for 2000,Xp,Vista32Bit)\Demo\C#\Black&White\Device Management\obj\Release\Interop.zkemkeeper.dll
+C:\Documents and Settings\marimcf\Desktop\SDK\SDK_TRIX\Communication Protocol SDK(Fit for 2000,Xp,Vista32Bit)\Demo\C#\Black&White\Device Management\obj\Release\Device.csproj.ResolveComReference.cache
+C:\Documents and Settings\marimcf\Desktop\SDK\SDK_TRIX\Communication Protocol SDK(Fit for 2000,Xp,Vista32Bit)\Demo\C#\Black&White\Device Management\bin\Release\Device.exe
+C:\Documents and Settings\marimcf\Desktop\SDK\SDK_TRIX\Communication Protocol SDK(Fit for 2000,Xp,Vista32Bit)\Demo\C#\Black&White\Device Management\bin\Release\Device.pdb
+C:\Documents and Settings\marimcf\Desktop\SDK\SDK_TRIX\Communication Protocol SDK(Fit for 2000,Xp,Vista32Bit)\Demo\C#\Black&White\Device Management\bin\Release\Interop.zkemkeeper.dll
+C:\Documents and Settings\marimcf\Desktop\SDK\SDK_TRIX\Communication Protocol SDK(Fit for 2000,Xp,Vista32Bit)\Demo\C#\Black&White\Device Management\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\marimcf\Desktop\SDK\SDK_TRIX\Communication Protocol SDK(Fit for 2000,Xp,Vista32Bit)\Demo\C#\Black&White\Device Management\obj\Release\Device.DeviceMain.resources
+C:\Documents and Settings\marimcf\Desktop\SDK\SDK_TRIX\Communication Protocol SDK(Fit for 2000,Xp,Vista32Bit)\Demo\C#\Black&White\Device Management\obj\Release\Device.Properties.Resources.resources
+C:\Documents and Settings\marimcf\Desktop\SDK\SDK_TRIX\Communication Protocol SDK(Fit for 2000,Xp,Vista32Bit)\Demo\C#\Black&White\Device Management\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\marimcf\Desktop\SDK\SDK_TRIX\Communication Protocol SDK(Fit for 2000,Xp,Vista32Bit)\Demo\C#\Black&White\Device Management\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\marimcf\Desktop\SDK\SDK_TRIX\Communication Protocol SDK(Fit for 2000,Xp,Vista32Bit)\Demo\C#\Black&White\Device Management\obj\Release\Device.exe
+C:\Documents and Settings\marimcf\Desktop\SDK\SDK_TRIX\Communication Protocol SDK(Fit for 2000,Xp,Vista32Bit)\Demo\C#\Black&White\Device Management\obj\Release\Device.pdb
+C:\Documents and Settings\marimcf\Desktop\Device Management\obj\Release\Interop.zkemkeeper.dll
+C:\Documents and Settings\marimcf\Desktop\Device Management\obj\Release\Device.csproj.ResolveComReference.cache
+C:\Documents and Settings\marimcf\Desktop\Device Management\obj\Release\Device.exe
+C:\Documents and Settings\marimcf\Desktop\Device Management\obj\Release\Device.pdb
+C:\Documents and Settings\marimcf\Desktop\Device Management\bin\Release\Device.exe
+C:\Documents and Settings\marimcf\Desktop\Device Management\bin\Release\Device.pdb
+C:\Documents and Settings\marimcf\Desktop\Device Management\bin\Release\Interop.zkemkeeper.dll
+C:\Documents and Settings\marimcf\Desktop\Device Management\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\marimcf\Desktop\Device Management\obj\Release\Device.DeviceMain.resources
+C:\Documents and Settings\marimcf\Desktop\Device Management\obj\Release\Device.Properties.Resources.resources
+C:\Documents and Settings\marimcf\Desktop\Device Management\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\marimcf\Desktop\Device Management\obj\Release\GenerateResource-ResGen.write.1.tlog

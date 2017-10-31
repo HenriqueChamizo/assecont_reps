@@ -1,0 +1,49 @@
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.csprojResolveAssemblyReference.cache
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.Form1.resources
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTest.Properties.Resources.resources
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.csproj.GenerateResource.Cache
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTest.exe
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTest.pdb
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\bin\Debug\RepProtocolTest.exe
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\bin\Debug\RepProtocolTest.pdb
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\bin\Debug\RestSharp.dll
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\bin\Debug\RestSharp.xml
+C:\Users\cmenin\Downloads\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTest.exe
+C:\Users\cmenin\Downloads\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTest.pdb
+C:\Users\cmenin\Downloads\RepProtocolTest\RepProtocolTest\bin\Debug\RepProtocolTest.exe
+C:\Users\cmenin\Downloads\RepProtocolTest\RepProtocolTest\bin\Debug\RepProtocolTest.pdb
+C:\Users\cmenin\Downloads\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.Form1.resources
+C:\Users\cmenin\Downloads\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.csproj.GenerateResource.Cache
+C:\Users\cmenin\Downloads\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.Properties.Resources.resources
+C:\Users\cmenin\Downloads\RepProtocolTest\RepProtocolTest\bin\Debug\RepProtocolTest.exe.config
+C:\Users\cmenin\Downloads\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.csprojResolveAssemblyReference.cache
+C:\Users\jmiranda\Desktop\REPG3\RepProtocolTest_2016-02-16_0001\RepProtocolTest\RepProtocolTest\bin\Debug\RepProtocolTest.exe.config
+C:\Users\jmiranda\Desktop\REPG3\RepProtocolTest_2016-02-16_0001\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTest.exe
+C:\Users\jmiranda\Desktop\REPG3\RepProtocolTest_2016-02-16_0001\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTest.pdb
+C:\Users\jmiranda\Desktop\REPG3\RepProtocolTest_2016-02-16_0001\RepProtocolTest\RepProtocolTest\bin\Debug\RepProtocolTest.exe
+C:\Users\jmiranda\Desktop\REPG3\RepProtocolTest_2016-02-16_0001\RepProtocolTest\RepProtocolTest\bin\Debug\RepProtocolTest.pdb
+C:\Users\jmiranda\Desktop\REPG3\RepProtocolTest_2016-02-16_0001\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.csprojResolveAssemblyReference.cache
+C:\Users\jmiranda\Desktop\REPG3\RepProtocolTest_2016-02-16_0001\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.Form1.resources
+C:\Users\jmiranda\Desktop\REPG3\RepProtocolTest_2016-02-16_0001\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.Properties.Resources.resources
+C:\Users\jmiranda\Desktop\REPG3\RepProtocolTest_2016-02-16_0001\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.csproj.GenerateResource.Cache
+C:\gertec\REPG3\RepProtocolTest\RepProtocolTest\RepProtocolTest\bin\Debug\RepProtocolTest.exe.config
+C:\gertec\REPG3\RepProtocolTest\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTest.exe
+C:\gertec\REPG3\RepProtocolTest\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTest.pdb
+C:\Arquivos\PROGS\Ponto2009\Rep\Gertec\Exemplo 2 C#\RepProtocolTest\bin\Debug\RepProtocolTest.exe.config
+C:\Arquivos\PROGS\Ponto2009\Rep\Gertec\Exemplo 2 C#\RepProtocolTest\obj\x86\Debug\RepProtocolTest.exe
+C:\Arquivos\PROGS\Ponto2009\Rep\Gertec\Exemplo 2 C#\RepProtocolTest\obj\x86\Debug\RepProtocolTest.pdb
+C:\Arquivos\PROGS\Ponto2009\Rep\Gertec\Exemplo 2 C#\RepProtocolTest\bin\Debug\RepProtocolTest.exe
+C:\Arquivos\PROGS\Ponto2009\Rep\Gertec\Exemplo 2 C#\RepProtocolTest\bin\Debug\RepProtocolTest.pdb
+C:\Arquivos\PROGS\Ponto2009\Rep\Gertec\Exemplo 2 C#\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.csprojResolveAssemblyReference.cache
+C:\Arquivos\PROGS\Ponto2009\Rep\Gertec\Exemplo 2 C#\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.Form1.resources
+C:\Arquivos\PROGS\Ponto2009\Rep\Gertec\Exemplo 2 C#\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.Properties.Resources.resources
+C:\Arquivos\PROGS\Ponto2009\Rep\Gertec\Exemplo 2 C#\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.csproj.GenerateResource.Cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\Exemplo 2 C#\RepProtocolTest\bin\Debug\RepProtocolTest.exe.config
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\Exemplo 2 C#\RepProtocolTest\obj\x86\Debug\RepProtocolTest.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\Exemplo 2 C#\RepProtocolTest\obj\x86\Debug\RepProtocolTest.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\Exemplo 2 C#\RepProtocolTest\bin\Debug\RepProtocolTest.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\Exemplo 2 C#\RepProtocolTest\bin\Debug\RepProtocolTest.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\Exemplo 2 C#\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.csprojResolveAssemblyReference.cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\Exemplo 2 C#\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.Form1.resources
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\Exemplo 2 C#\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.Properties.Resources.resources
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\Exemplo 2 C#\RepProtocolTest\obj\x86\Debug\RepProtocolTestSuite.csproj.GenerateResource.Cache

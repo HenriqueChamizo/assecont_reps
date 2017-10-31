@@ -1,0 +1,74 @@
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\bin\Debug\Trilobit.exe.config
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\bin\Debug\Trilobit.exe.manifest
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\bin\Debug\Trilobit.application
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\bin\Debug\Trilobit.exe
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\bin\Debug\Trilobit.pdb
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\bin\Debug\RepTrilobit.dll
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.DataSelecao.resources
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.ProgressImportacao.resources
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.RepEdicao.resources
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.Principal.resources
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.Properties.Resources.resources
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.exe.manifest
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.application
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.exe
+C:\Progs\Ponto2009\Rep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.pdb
+C:\Arquivos\Progs\Ponto2009\Rep\Trilobit\Exe C#\bin\Debug\Trilobit.exe.config
+C:\Arquivos\Progs\Ponto2009\Rep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.exe
+C:\Arquivos\Progs\Ponto2009\Rep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.pdb
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exe C#\bin\Debug\Trilobit.exe.config
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exe C#\obj\x86\Debug\Trilobit.exe
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exe C#\obj\x86\Debug\Trilobit.pdb
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exe C#\bin\Debug\Trilobit.exe.manifest
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exe C#\bin\Debug\Trilobit.application
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exe C#\bin\Debug\Trilobit.exe
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exe C#\bin\Debug\Trilobit.pdb
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exe C#\obj\x86\Debug\Trilobit.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exe C#\obj\x86\Debug\Trilobit.DataSelecao.resources
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exe C#\obj\x86\Debug\Trilobit.ProgressImportacao.resources
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exe C#\obj\x86\Debug\Trilobit.RepEdicao.resources
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exe C#\obj\x86\Debug\Trilobit.Principal.resources
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exe C#\obj\x86\Debug\Trilobit.Properties.Resources.resources
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exe C#\obj\x86\Debug\Trilobit.csproj.GenerateResource.Cache
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exe C#\obj\x86\Debug\Trilobit.exe.manifest
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exe C#\obj\x86\Debug\Trilobit.application
+C:\ProjetoRep\Trilobit\Exe C#\bin\Debug\Trilobit.exe.config
+C:\ProjetoRep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.exe
+C:\ProjetoRep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.pdb
+C:\ProjetoRep\Trilobit\Exe C#\bin\Debug\Trilobit.exe.manifest
+C:\ProjetoRep\Trilobit\Exe C#\bin\Debug\Trilobit.application
+C:\ProjetoRep\Trilobit\Exe C#\bin\Debug\Trilobit.exe
+C:\ProjetoRep\Trilobit\Exe C#\bin\Debug\Trilobit.pdb
+C:\ProjetoRep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.csprojResolveAssemblyReference.cache
+C:\ProjetoRep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.DataSelecao.resources
+C:\ProjetoRep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.ProgressImportacao.resources
+C:\ProjetoRep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.RepEdicao.resources
+C:\ProjetoRep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.Principal.resources
+C:\ProjetoRep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.Properties.Resources.resources
+C:\ProjetoRep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.csproj.GenerateResource.Cache
+C:\ProjetoRep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.exe.manifest
+C:\ProjetoRep\Trilobit\Exe C#\obj\x86\Debug\Trilobit.application
+C:\ProjetoRep\Trilobit\Trilobit\bin\Debug\Trilobit.exe.config
+C:\ProjetoRep\Trilobit\Trilobit\obj\x86\Debug\Trilobit.exe
+C:\ProjetoRep\Trilobit\Trilobit\obj\x86\Debug\Trilobit.pdb
+C:\ProjetoRep\Trilobit\Trilobit_Antigo\bin\Debug\Trilobit.exe.config
+C:\ProjetoRep\Trilobit\Trilobit_Antigo\obj\x86\Debug\Trilobit.exe
+C:\ProjetoRep\Trilobit\Trilobit_Antigo\obj\x86\Debug\Trilobit.pdb
+C:\Projetos Reps\Trilobit\Trilobit_Antigo\bin\Debug\Trilobit.exe.config
+C:\Projetos Reps\Trilobit\Trilobit_Antigo\obj\x86\Debug\Trilobit.exe
+C:\Projetos Reps\Trilobit\Trilobit_Antigo\obj\x86\Debug\Trilobit.pdb
+C:\Projetos Reps\Trilobit\Trilobit_Antigo\obj\x86\Debug\Trilobit.csprojResolveAssemblyReference.cache
+C:\Projetos Reps\Trilobit\Trilobit_Antigo\obj\x86\Debug\Trilobit.DataSelecao.resources
+C:\Projetos Reps\Trilobit\Trilobit_Antigo\obj\x86\Debug\Trilobit.ProgressImportacao.resources
+C:\Projetos Reps\Trilobit\Trilobit_Antigo\obj\x86\Debug\Trilobit.RepEdicao.resources
+C:\Projetos Reps\Trilobit\Trilobit_Antigo\obj\x86\Debug\Trilobit.Principal.resources
+C:\Projetos Reps\Trilobit\Trilobit_Antigo\obj\x86\Debug\Trilobit.Properties.Resources.resources
+C:\Projetos Reps\Trilobit\Trilobit_Antigo\obj\x86\Debug\Trilobit.csproj.GenerateResource.Cache
+C:\Projetos Reps\Trilobit\Trilobit_Antigo\bin\Debug\Trilobit.exe
+C:\Projetos Reps\Trilobit\Trilobit_Antigo\bin\Debug\Trilobit.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit_Antigo\bin\Debug\Trilobit.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit_Antigo\obj\x86\Debug\Trilobit.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Trilobit_Antigo\obj\x86\Debug\Trilobit.pdb

@@ -1,0 +1,53 @@
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\C# Novo 2\Gertec\bin\Debug\Gertec.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\C# Novo 2\Gertec\bin\Debug\Gertec.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\C# Novo 2\Gertec\bin\Debug\AssepontoRep.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\C# Novo 2\Gertec\bin\Debug\Wr.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\C# Novo 2\Gertec\obj\Debug\Gertec.csprojResolveAssemblyReference.cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\C# Novo 2\Gertec\obj\Debug\Gertec.Principal.resources
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\C# Novo 2\Gertec\obj\Debug\Gertec.Properties.Resources.resources
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\C# Novo 2\Gertec\obj\Debug\Gertec.csproj.GenerateResource.Cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\C# Novo 2\Gertec\obj\Debug\Gertec.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\C# Novo 2\Gertec\obj\Debug\Gertec.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo Imetro\Imetro2\C# Novo 2\Gertec\obj\Debug\Gertec.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo Imetro\Imetro2\C# Novo 2\Gertec\obj\Debug\Gertec.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo Imetro\Imetro2\C# Novo 2\Gertec\obj\Debug\Gertec.csprojResolveAssemblyReference.cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo Imetro\Imetro2\C# Novo 2\Gertec\obj\Debug\Gertec.Principal.resources
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo Imetro\Imetro2\C# Novo 2\Gertec\obj\Debug\Gertec.Properties.Resources.resources
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo Imetro\Imetro2\C# Novo 2\Gertec\obj\Debug\Gertec.csproj.GenerateResource.Cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo Imetro\Imetro2\C# Novo 2\Gertec\bin\Debug\Gertec.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo Imetro\Imetro2\C# Novo 2\Gertec\bin\Debug\Gertec.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo Imetro\Imetro2\C# Novo 2\Gertec\bin\Debug\AssepontoRep.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo Imetro\Imetro2\C# Novo 2\Gertec\bin\Debug\Wr.Classes.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\bin\Debug\Gertec.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\bin\Debug\Gertec.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\bin\Debug\AssepontoRep.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\bin\Debug\Wr.Classes.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.csprojResolveAssemblyReference.cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.Principal.resources
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.Properties.Resources.resources
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\bin\Debug\Gertec.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\bin\Debug\Gertec.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\bin\Debug\AssepontoRep.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\bin\Debug\Wr.Classes.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.Principal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.csproj.GenerateResource.Cache
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.exe
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.pdb
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\bin\Debug\Gertec.exe
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\bin\Debug\Gertec.pdb
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\bin\Debug\AssepontoRep.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\bin\Debug\Wr.Classes.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\bin\Debug\Excel.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.csprojResolveAssemblyReference.cache
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.Principal.resources
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.Properties.Resources.resources
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.csproj.GenerateResource.Cache
+D:\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.exe
+D:\Projetos\Relógios\Gertec\G3 - Modelo B\C# Novo 2\Gertec\obj\Debug\Gertec.pdb

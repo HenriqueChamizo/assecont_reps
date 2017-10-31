@@ -1,0 +1,8 @@
+RH+00
+RH+00
+RE+00
+*pause*
+RH+00
+RE+00
+*sleep*8000
+RH+00

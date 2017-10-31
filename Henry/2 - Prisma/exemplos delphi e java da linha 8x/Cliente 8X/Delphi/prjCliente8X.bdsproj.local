@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008/08/26 11:17:22.593.pas,C:\Documents and Settings\Eduardo Andrade\Meus documentos\Borland Studio Projects\Unit1.pas=C:\Documents and Settings\Eduardo Andrade\Meus documentos\Borland Studio Projects\GPRS\Cliente\uClienteGPRS.pas</Transaction>
+    <Transaction>2008/08/26 11:17:22.593.dfm,C:\Documents and Settings\Eduardo Andrade\Meus documentos\Borland Studio Projects\Unit1.dfm=C:\Documents and Settings\Eduardo Andrade\Meus documentos\Borland Studio Projects\GPRS\Cliente\uClienteGPRS.dfm</Transaction>
+    <Transaction>2008/08/26 11:17:29.578.bdsproj,C:\Documents and Settings\Eduardo Andrade\Meus documentos\Borland Studio Projects\Project1.bdsproj=C:\Documents and Settings\Eduardo Andrade\Meus documentos\Borland Studio Projects\GPRS\Cliente\prjClienteGPRS.bdsproj</Transaction>
+    <Transaction>2012/05/07 13:36:58.956.pas,C:\Documents and Settings\Rafael O. Pires\Desktop\Prisma Acesso\Cliente\Unit1.pas=</Transaction>
+    <Transaction>2012/07/12 13:01:42.498.bdsproj,Z:\Projetos\Software de Exemplo - Envio de Pacotes 8x\v2.0\Cliente\prjClienteGPRS.bdsproj=Z:\Projetos\Software de Exemplo - Envio de Pacotes 8x\v2.0\Cliente\Cliente8x.bdsproj</Transaction>
+    <Transaction>2012/07/12 13:10:39.891.bdsproj,Z:\Projetos\Software de Exemplo - Envio de Pacotes 8x\v2.0\Cliente\Cliente8x.bdsproj=Z:\Projetos\Software de Exemplo - Envio de Pacotes 8x\v2.0\Cliente\prjClienteGPRS.bdsproj</Transaction>
+    <Transaction>2012/07/12 15:45:51.582.bdsproj,Z:\Projetos\Software de Exemplo - Envio de Pacotes 8x\v2.0\Cliente\prjClienteGPRS.bdsproj=Z:\Projetos\Software de Exemplo - Envio de Pacotes 8x\v2.0\Cliente\prjCliente8X.bdsproj</Transaction>
+  </Transactions>
+</BorlandProject>

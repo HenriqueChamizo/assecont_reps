@@ -1,0 +1,774 @@
+unit REP_DIMEP;
+
+interface
+
+uses
+  ComObj, SysUtils, Classes, WatchComm_TLB, DB, DBClient, ActiveX, Dialogs;
+
+const
+  _MASKDATA           = 'YYYYMMDDhhmmss';
+  _MASKDATAMARCACAO   = 'DDMMYYYY';
+  _MASKHORAMARCACAO   = 'HHMM';  
+  _PORTAUDP           = '3000';
+  _SEPARADORCAMPO     = ';';
+  _SEPARADORREGISTRO  = '|';
+
+type
+  TREPDIMEP = class(TDataModule)
+    cdsBIO: TClientDataSet;
+    cdsBIOPIS: TStringField;
+    cdsBIOBIO: TWideStringField;
+    cdsBIOTamanho: TIntegerField;
+    procedure DataModuleDestroy(Sender: TObject);
+    procedure DataModuleCreate(Sender: TObject);
+  private
+    { Private declarations }
+    FMSG         : String;
+
+    meuREP      : _WatchComm;
+    TCP         : TCPComm;
+    NSR         : Integer;
+
+    // INFORMAÇÃO DO RELÓGIO
+    FIP         : WideString;
+    FPorta      : Integer;
+    FParametro  : Integer;
+    FValor      : WideString;
+    FTimeOut    : Integer;
+
+    // INFORMAÇÃO DO EMPREGADOR
+    FEmpregador     : String;
+    FDocumento      : String;
+    FLocal          : String;
+    FCEI            : String;
+    FTipoDocumento  : String;
+
+    // CONFIGURAÇÃO
+    FInicioHorarioVerao : String;
+    FFimHorarioVerao    : String;
+    FHorarioAtual       : String;
+
+    FQtdeEmpregados     : String;
+
+    FNsrAtual           : string;
+
+    FNumeroModelo       : String;
+    FNumeroFabricante   : String; 
+    FNSerie             : String;
+    FNSerieCompleto     : String;
+
+    FEnderecoIP         : String;
+    FPortaUDP           : String;
+    FMascaraRede        : String;
+    FRoteador           : String;
+    FMacAddress         : String;
+
+    FInicioOperacao     : String;
+    FUltimoRegistro     : String;
+    FRegistrosLivres    : String;
+    FTamanhoMRP         : String;
+    FEspacoLivre        : String;
+    FStatusPapel        : String;
+
+    function conectar: Boolean;
+    procedure desconectar;
+
+    procedure SetIP(Value : WideString);
+    procedure SetPorta(Value : Integer);
+    procedure SetParametro(Value : Integer);
+    procedure SetValor(Value : WideString);
+    procedure SetTimeOut(Value : Integer);
+  public
+    { Public declarations }
+
+    // Empregador
+    function LerEmpregador: Boolean;
+    function AtualizarEmpregador(pTipoDoc:TOleEnum; pNumDoc, pCEI, pRazaoSocial, pLocal:WideString):Boolean;
+    // Empregado
+    function  CadastrarEmpregado(pPIS, pNome, pCracha:WideString; pBiometria:Boolean):Boolean;
+    function  ExcluirEmpregado(const pPIS:WideString):Boolean; overload;
+    function  ExcluirEmpregado(const pPIS, pCracha:WideString):Boolean; overload;
+    function  ExcluirCracha(const pPIS, pCracha:WideString):Boolean;
+    // Configuração
+    function ObterListaConfiguracao: Boolean;
+    function RegistrarHorarioDeVerao(DataInicio, DataFim: TDateTime): Boolean;
+    function RegistrarDataHoraAtual(DataHora: TDateTime): Boolean;
+    // AFD
+    function  LerAFD(pDataInicial, pDataFinal, ArquivoAFD:WideString):Boolean;
+    function  LerAFDViaLista(pDataInicial, pDataFinal:WideString;var pMarcacoes:WideString; pNSR:Integer):Boolean;
+    function  LerFuncionarios(var pFuncionarios: WideString): Boolean;
+
+    // BIOMETRIA
+    function CapturarBiometria(Todas: Boolean = False): Boolean;
+    function RemoverBiometria(pis: String): Boolean;
+  published
+    property MSG        : String  read FMSG;
+    // RELÓGIO PARA CONEXÃO
+    property IP         : WideString  read FIP        write SetIP;
+    property Porta      : Integer     read FPorta     write SetPorta;
+    property Parametro  : Integer     read FParametro write SetParametro;
+    property Valor      : WideString  read FValor     write SetValor;
+    property TimeOut    : Integer     read FTimeOut   write SetTimeOut;
+
+    // EMPREGADOR
+    property GetEmpregador    : String read FEmpregador;    // 202
+    property GetDocumento     : String read FDocumento;     // 203
+    property GetLocal         : String read FLocal;         // 204
+    property GetCEI           : String read FCEI;           // 216
+    property GetTipoDocumento : String read FTipoDocumento; // 217
+
+    // RELOGIO
+    property GetNumeroSerieCompleto : String read FNSerieCompleto;
+    property GetNumeroSerie         : String read FNSerie;
+    property GetNumeroModelo        : String read FNumeroModelo;
+    property GetNumeroFabricante    : String read FNumeroFabricante;
+
+    // REDE
+    property GetEnderecoIP   : WideString read FIP; // read FEnderecoIP
+    property GetPortaUDP     : string read FPortaUDP;
+    property GetMascaraRede  : string read FMascaraRede;
+    property GetRoteador     : string read FRoteador;
+    property GetMacAddress   : string read FMacAddress;
+
+    // DATA/HORA
+    property GetInicioHorarioVerao  : String read FInicioHorarioVerao;
+    property GetFimHorarioVerao     : String read FFimHorarioVerao;
+    property GetHorarioAtual        : String read FHorarioAtual;
+
+    property GetQtdeEmpregados      : string read FQtdeEmpregados;
+    property GetNsrAtual            : string read FNsrAtual;
+
+    property GetInicioOperacao   : string read FInicioOperacao;
+    property GetUltimoRegistro   : string read FUltimoRegistro;
+    property GetRegistrosLivres  : string read FRegistrosLivres;
+    property GetTamanhoMRP       : string read FTamanhoMRP;
+    property GetEspacoLivre      : string read FEspacoLivre;
+    property GetStatusPapel      : string read FStatusPapel;
+
+  end;
+
+var
+  REPDIMEP: TREPDIMEP;
+
+implementation
+
+{$R *.dfm}
+
+{ TREPDIMEP }
+
+function TREPDIMEP.AtualizarEmpregador(pTipoDoc: TOleEnum; pNumDoc, pCEI,
+  pRazaoSocial, pLocal: WideString): Boolean;
+begin
+  try
+    FMSG := '';
+    conectar;
+
+    try
+      meuREP.ChangeEmployer(pTipoDoc, pNumDoc, pCEI, pRazaoSocial, pLocal);
+      Result := True;
+      FMSG := 'Dados do empregador atualizados com êxito.'
+    except
+      on e:Exception do
+      begin
+        FMSG := 'Erro ao alterar empregador ( ' + e.Message + ' ) ';
+        Result := False;
+      end;
+    end;
+  finally
+    desconectar;
+  end;
+end;
+
+function TREPDIMEP.conectar: Boolean;
+begin
+  try
+    meuREP := CoWatchComm_.Create;
+    Result := meuREP <> nil;
+  except
+    FMSG := 'Erro ao criar biblioteca WatchComm';
+  end;
+
+  if not Result then
+    Exit;
+  try
+    TCP := CoTCPComm.Create;
+    Result := TCP <> nil;
+  except
+    FMSG := 'Erro ao criar biblioteca TCPComm';
+  end;
+
+  if TCP = nil then
+    Exit;
+
+  try
+    TCP.CreateTcpComm(FIP, FPorta);
+    TCP.SetTimeOut(TimeOut);
+
+    meuREP.CreateWatchComm(WatchProtocolType_PrintPoint, (TCP as IComm), 1, '1.0.0');
+
+    Result := meuREP.GetPrintPointStatus <> nil;
+  except
+    Result := False;
+  end;
+end;
+
+procedure TREPDIMEP.desconectar;
+begin
+  if TCP <> nil then
+    TCP._Release;
+
+  if meuREP <> nil then
+    meuREP._Release;
+end;
+
+function TREPDIMEP.LerEmpregador: Boolean;
+var
+  resultado: PrintPointEmployerMessage;
+begin
+  // INFORMAÇÃO DO EMPREGADOR
+  FMSG := '';
+  Result := False;
+
+  try
+    try
+      if conectar then
+      begin
+        resultado := meuREP.InquiryEmployeer;
+
+        FEmpregador     := Trim(resultado.name);
+        FDocumento      := Trim(resultado.cpf_cnpj);
+        FCEI            := Trim(resultado.cei);
+        FLocal          := Trim(resultado.address);
+
+        case resultado.EmployerType of
+          EmployeerType_CNPJ : FTipoDocumento := '1';
+          EmployeerType_CPF  : FTipoDocumento := '2';
+        end;
+      end;
+      FMSG := 'Dados do empregador atualizados com êxito.';
+      Result := True;
+    except
+      on e:Exception do
+      begin
+        FMSG := 'Erro ao ler dados do empregador ( ' + e.Message + ' ) ';
+        Result := False;
+      end;
+    end;
+  finally
+    desconectar;
+  end;
+end;
+
+procedure TREPDIMEP.SetIP(Value: WideString);
+begin
+  FIP := Value;
+end;
+
+procedure TREPDIMEP.SetParametro(Value: Integer);
+begin
+  FParametro := Value;
+end;
+
+procedure TREPDIMEP.SetPorta(Value: Integer);
+begin
+  FPorta := Value;
+end;
+
+procedure TREPDIMEP.SetTimeOut(Value: Integer);
+begin
+  FTimeOut := Value;
+end;
+
+procedure TREPDIMEP.SetValor(Value: WideString);
+begin
+  FValor := Value;
+end;
+
+procedure TREPDIMEP.DataModuleDestroy(Sender: TObject);
+begin
+  desconectar;
+end;
+
+function TREPDIMEP.CadastrarEmpregado(pPIS, pNome, pCracha: WideString; pBiometria: Boolean): Boolean;
+begin
+
+  try
+    FMSG := '';
+    Result := False;
+
+    if not conectar then
+      Exit;
+
+    try
+      meuREP.AddEmployee_2(pPIS, pNome, ' ');
+      meuREP.IncludeEmployeesList(False, False);
+      FMSG := 'Funcionário registrado com êxito.';
+    except
+      on e: Exception do
+      begin
+        FMSG := 'Erro ao registrar funcionário "' + pNome + '" no relógio ( ' + e.Message + ' ) ';
+        Result := False;
+      end;
+    end;
+
+    try
+      meuREP.AddCredential(pCracha, pPIS, 0);
+      meuREP.IncludeCredentialList(False);
+      FMSG := 'Funcionário registrado com êxito.';
+    except
+      on e: Exception do
+      begin
+        FMSG := 'Erro ao registrar crachá do funcionário "' + pNome + '" no relógio ( ' + e.Message + ' ) ';
+        Result := False;
+      end;
+    end;
+
+    Result := True;
+  finally
+    desconectar;
+  end;
+end;
+
+function TREPDIMEP.ExcluirCracha(const pPIS, pCracha: WideString): Boolean;
+begin
+  Result := False;
+
+  try
+    if not conectar then
+      Exit;
+
+    try
+      meuREP.AddCredential(pCracha, pPIS, 0);
+      meuREP.ExcludeCredentialList;
+      FMSG := 'Crachá excluido com êxito.';
+    except
+      on e: Exception do
+      begin
+        FMSG := 'Erro ao excluir crachá do relógio ( ' + e.Message + ' ) ';
+        Result := False;
+      end;
+    end;
+
+    Result := True;
+  finally
+    desconectar;
+  end;
+end;
+
+function TREPDIMEP.ExcluirEmpregado(const pPIS: WideString): Boolean;
+begin
+  Result := False;
+
+  try
+    if not conectar then
+      Exit;
+
+    try
+      meuREP.AddEmployee(pPIS);
+      meuREP.ExcludeEmployeesList;
+    except
+      on e: Exception do
+      begin
+        FMSG := 'Erro ao excluir funcionário do relógio ( ' + e.Message + ' ) ';
+        Result := False;
+      end;
+    end;
+
+    FMSG := 'Funcionário excluido com êxito.';
+    Result := True;
+  finally
+    desconectar;
+  end;
+end;
+
+function TREPDIMEP.ExcluirEmpregado(const pPIS, pCracha: WideString): Boolean;
+begin
+  Result := ExcluirCracha(pPIS, pCracha);
+
+  if Result then
+    Result := ExcluirEmpregado(pPIS);
+end;
+
+function TREPDIMEP.ObterListaConfiguracao: Boolean;
+var
+  retorno: PrintPointStatusMessage;
+begin
+  Result := False;
+
+  if not LerEmpregador then
+    Exit;
+
+  try
+    if not conectar then
+      Exit;
+
+    try
+      retorno := meuREP.GetPrintPointStatus;
+
+      FInicioHorarioVerao := FormatDateTime(_MASKDATA, retorno.DSTStart);
+      FFimHorarioVerao    := FormatDateTime(_MASKDATA, retorno.dstEnd);
+      FHorarioAtual       := '';      // DIMEP NÃO TEM ESTE RECURSO
+
+      FEnderecoIP         := FIP;     // DIMEP NÃO TEM ESTE RECURSO
+//      FPortaUDP           := '3000';  // DIMEP NÃO TEM ESTE RECURSO - FIXADO EM 3000 PELA DIMEP
+      FMascaraRede        := '';      // DIMEP NÃO TEM ESTE RECURSO
+      FRoteador           := '';      // DIMEP NÃO TEM ESTE RECURSO
+      FMacAddress         := '';      // DIMEP NÃO TEM ESTE RECURSO
+
+      FInicioOperacao     := '';      // DIMEP NÃO TEM ESTE RECURSO
+      FUltimoRegistro     := '';
+      FRegistrosLivres    := '';
+
+      FTamanhoMRP         := '';      // DIMEP NÃO TEM ESTE RECURSO
+      FEspacoLivre        := '';      // DIMEP NÃO TEM ESTE RECURSO
+      FStatusPapel        := '';      // DIMEP NÃO TEM ESTE RECURSO
+
+      FNsrAtual           := retorno.FinallyNSR;
+      FQtdeEmpregados     := IntToStr(retorno.EmployeesOccupation);
+
+      FNSerieCompleto     := retorno.serialNumber;
+      FNumeroModelo       := Copy(FNSerieCompleto, 6, 5);
+      FNumeroFabricante   := Copy(FNSerieCompleto, 1, 5);
+      FNSerie             := retorno.serialNumberPlate;
+
+    except
+      on e: Exception do
+      begin
+        FMSG := 'Erro ao consultar Configurações do relógio ( ' + e.Message + ' ) ';
+        Result := False;
+      end;
+    end;
+
+    FMSG := 'Configurações consultadas com êxito com êxito.';
+    Result := True;
+  finally
+    desconectar;
+  end;
+end;
+
+procedure TREPDIMEP.DataModuleCreate(Sender: TObject);
+begin
+  FPortaUDP := _PORTAUDP;
+end;
+
+function TREPDIMEP.RegistrarHorarioDeVerao(DataInicio,
+  DataFim: TDateTime): Boolean;
+begin
+  Result := False;
+
+  try
+    if not conectar then
+      Exit;
+
+    try
+        meuREP.AddConfiguration_2(EConfigurationType_DST, DataInicio, DataFim);
+        meuREP.SendSettings;        
+    except
+      on e: Exception do
+      begin
+        FMSG := 'Erro ao enviar data/hora de verão para o relógio ( ' + e.Message + ' ) ';
+        Result := False;
+      end;
+    end;
+
+    FMSG := 'Comando executado com êxito.';
+    Result := True;
+  finally
+    desconectar;
+  end;
+end;
+
+function TREPDIMEP.RegistrarDataHoraAtual(DataHora: TDateTime): Boolean;
+begin
+  Result := False;
+
+  try
+    if not conectar then
+      Exit;
+
+    try
+        meuREP.SetDateTime(DataHora);
+    except
+      on e: Exception do
+      begin
+        FMSG := 'Erro ao enviar data/hora para o relógio ( ' + e.Message + ' ) ';
+        Result := False;
+      end;
+    end;
+
+    FMSG := 'Comando executado com êxito.';
+    Result := True;
+  finally
+    desconectar;
+  end;
+end;
+
+function TREPDIMEP.LerAFD(pDataInicial, pDataFinal, ArquivoAFD: WideString): Boolean;
+var
+  retorno: PSafeArray;
+  LBound, HBound, I : Integer;
+  linha: string;
+  marcacao: MRPRecord_RegistrationMarkingPoint;
+  nsr: Integer;
+  lista: TStrings;
+
+  DataInicial, DataFinal: TDateTime;
+begin
+  Result := False;
+
+  try
+    lista := TStringList.Create;
+
+    if not conectar then
+      Exit;
+
+      DataInicial := StrToDateTime(pDataInicial + ' 00:00:00');
+      DataFinal := StrToDateTime(pDataFinal + ' 23:59:59');
+
+      try
+        retorno := meuREP.InquiryMRPRecords_2(DataInicial, False, False, True, False);
+      except
+        on e:Exception do
+        begin
+          FMSG    := 'Erro inquiryMRP ( ' + e.Message + ' ) ';
+          Result  := False;
+          Exit;
+        end;
+      end;
+
+      SafeArrayGetLBound(retorno, 1, LBound);
+      SafeArrayGetUBound(retorno, 1, HBound);
+
+      try
+
+        for I := LBound to HBound do
+        begin
+          SafeArrayGetElement(retorno, I, marcacao);
+
+          if marcacao.DateTimeMarkingPoint > DataFinal then
+            Break;
+
+          if marcacao.DateTimeMarkingPoint < DataInicial then
+            Continue;
+
+          nsr := StrToInt(Trim(marcacao.nsr));
+
+          linha :=
+            FormatFloat('000000000', nsr) +
+            '3' +
+            FormatDateTime(_MASKDATAMARCACAO, marcacao.DateTimeMarkingPoint) +
+            FormatDateTime(_MASKHORAMARCACAO, marcacao.DateTimeMarkingPoint) +
+            marcacao.pis;
+
+          lista.Add(linha);
+
+          meuREP.ConfirmationReceiptMRPRecords;
+        end;
+
+      except
+        FMSG    := 'Erro ao gerar arquivo, o arquivo não foi salvo';
+        Result  := False;
+        Exit;
+      end;
+
+    FMSG := 'Comando executado com êxito.';
+
+    lista.SaveToFile(ArquivoAFD);
+
+    Result := True;
+  finally
+    desconectar;
+    lista.Destroy;
+    lista := nil;
+  end;
+end;
+
+function TREPDIMEP.LerAFDViaLista(pDataInicial, pDataFinal: WideString;
+  var pMarcacoes: WideString; pNSR: Integer): Boolean;
+var
+  retorno: PSafeArray;
+  // LBound, HBound,
+  I : Integer;
+  linha: string;
+  marcacao: MRPRecord_RegistrationMarkingPoint;
+  nsr: Integer;
+
+  DataInicial, DataFinal: TDateTime;
+begin
+ Result := False;
+
+  try
+    if not conectar then
+      Exit;
+
+      DataInicial := StrToDateTime(pDataInicial + ' 00:00:00');
+      DataFinal := StrToDateTime(pDataFinal + ' 23:59:59');
+      nsr := pNSR;
+
+
+      try
+        // meuREP.RepositioningMRPRecordsPointer_3(IntToStr(nsr)); // Posicionar no NSR
+        meuREP.RepositioningMRPRecordsPointer_2(DataInicial); // Posicionar no NSR
+
+        retorno := meuREP.InquiryMRPRecords(False, False, True, False);
+
+        pMarcacoes := '';
+
+        while retorno <> nil do
+        begin
+          I := 0;
+
+          SafeArrayGetElement(retorno, I, marcacao);
+
+          if marcacao.DateTimeMarkingPoint > DataFinal then
+            Break;
+
+
+          // Aqui ficará a rotina para gravar marcações na tabela.
+          linha :=
+            FormatFloat('000000000', StrToIntDef(marcacao.nsr, -1)) + _SEPARADORCAMPO +
+            '3' + _SEPARADORCAMPO +
+            FormatDateTime(_MASKDATAMARCACAO, marcacao.DateTimeMarkingPoint) + _SEPARADORCAMPO +
+            FormatDateTime(_MASKHORAMARCACAO, marcacao.DateTimeMarkingPoint) + _SEPARADORCAMPO +
+            marcacao.pis;
+
+          pMarcacoes := pMarcacoes + linha + _SEPARADORREGISTRO + #13;
+
+          retorno := meuREP.ConfirmationReceiptMRPRecords;
+        end;
+      except
+        on e:Exception do
+        begin
+          FMSG    := 'Erro inquiryMRP ( ' + e.Message + ' ) ';
+          Result  := False;
+          Exit;
+        end;
+      end;
+
+  finally
+    desconectar;
+  end;
+end;
+
+function TREPDIMEP.LerFuncionarios(var pFuncionarios: WideString): Boolean;
+var
+  funcionario_ : PSafeArray;
+  dados_func_  : PrintPointEmployee;
+  i            : integer;
+  teste        : EOleException;
+begin
+
+  result := false;
+  try
+    try
+      if not conectar then
+        Exit;
+
+      pFuncionarios := '';
+      funcionario_ := meurep.InquiryEmployeeList;
+      i := 0;
+
+      while funcionario_ <> nil do
+      Begin
+
+        SafeArrayGetElement(funcionario_, i, dados_func_);
+
+        pFuncionarios := pFuncionarios + 'PIS: ' + trim(dados_func_.pis) + ' ';
+        pFuncionarios := pFuncionarios + 'Nome: ' + trim(dados_func_.name);
+        pFuncionarios := pFuncionarios + #13;
+
+        funcionario_ := meurep.ConfirmationReceiptEmployeeList;
+      end;
+
+      result := true;
+    except
+      on e:EOleException   do
+      begin
+
+       ShowMessage(E.ClassName + ' Error: ' + E.Message + ' ' + E.Source + ' ' );
+
+
+        if 1=1 then
+         begin
+             if e is EOleException then
+             begin
+                  teste := (e as EOleException);
+
+                  result :=false;
+             end;
+             //teste := (InvalidMessageException)e; // Não funciona.
+             //if teste.InvalidMessageType = InvalidMessageType_UnknownFunction then
+             //begin
+             //  result := false;
+             //  fmsg   := 'Função inválida.'#13#10;
+             //end;
+         end
+         else
+         begin
+            result := false;
+            //fmsg   := 'Erro ao buscar os funcionários'#13#10 + e.Message;
+         end;
+      end;
+      //on InvalidMessageException do // Não funciona.
+      //begin
+           //end;
+      end;
+  finally
+    desconectar;
+  end;
+end;
+
+function TREPDIMEP.CapturarBiometria(Todas: Boolean): Boolean;
+var
+  digital: PrintPointFingerPrintMessage;
+begin
+  try
+    Result := conectar;
+
+    if not Result then
+      Exit;
+
+    if not Todas then
+      digital := meuREP.InquiryFingerPrint(InquiryFingerPrintType_OnlyNew)
+    else
+      digital := meuREP.InquiryFingerPrint(InquiryFingerPrintType_All);
+
+    if cdsBIO.Active then
+      cdsBIO.Close;
+
+    cdsBIO.CreateDataSet;
+
+    while digital <> nil do
+    begin
+      cdsBIO.Append;
+      cdsBIOPIS.Value := String(digital.pis);
+      cdsBIOBIO.Value := digital.fingerPrint;
+      cdsBIOTamanho.Value := Length(digital.fingerPrint);
+      cdsBIO.Post;
+
+      digital := meuREP.ConfirmationReceiptFingerPrint;
+    end;
+
+  finally
+    desconectar;
+end;
+end;
+
+function TREPDIMEP.RemoverBiometria(pis: String): Boolean;
+var
+  digital: PrintPointFingerPrintMessage;
+begin
+  try
+    Result := conectar;
+
+    if not Result then
+      Exit;
+
+    meuREP.ExcludeFingerPrint(pis);
+
+  finally
+    desconectar;
+  end;
+end;
+
+end.

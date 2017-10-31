@@ -1,0 +1,129 @@
+<?xml version="1.0" standalone="yes"?>
+<MRP>
+  <MRP>
+    <NSR>1</NSR>
+    <Tipo>2</Tipo>
+    <Data>20100409</Data>
+    <Hora>1307</Hora>
+    <Registro>105741912000219000000000000TRILOBIT COM, MONT. E FABRIC. PLACAS ELETRONICAS LTDA                                                                                                 RUA ALVARENGA, 1377 - 05509-002 - BUTANTÃ - SÃO PAULO - SP                                          </Registro>
+  </MRP>
+  <MRP>
+    <NSR>2</NSR>
+    <Tipo>2</Tipo>
+    <Data>20100409</Data>
+    <Hora>1332</Hora>
+    <Registro>112345678901234000000000000TRILOBIT2                                                                                                                                             RUA ALVARENGA, 1377                                                                                 </Registro>
+  </MRP>
+  <MRP>
+    <NSR>3</NSR>
+    <Tipo>5</Tipo>
+    <Data>20100409</Data>
+    <Hora>1332</Hora>
+    <Registro>I000000003456Renne                                               </Registro>
+  </MRP>
+  <MRP>
+    <NSR>4</NSR>
+    <Tipo>3</Tipo>
+    <Data>20100409</Data>
+    <Hora>1332</Hora>
+    <Registro>000000003456</Registro>
+  </MRP>
+  <MRP>
+    <NSR>5</NSR>
+    <Tipo>3</Tipo>
+    <Data>20100409</Data>
+    <Hora>1332</Hora>
+    <Registro>000000003456</Registro>
+  </MRP>
+  <MRP>
+    <NSR>6</NSR>
+    <Tipo>5</Tipo>
+    <Data>20100409</Data>
+    <Hora>1333</Hora>
+    <Registro>A000000003456Wilder                                              </Registro>
+  </MRP>
+  <MRP>
+    <NSR>7</NSR>
+    <Tipo>5</Tipo>
+    <Data>20100409</Data>
+    <Hora>1335</Hora>
+    <Registro>E000000003456Wilder                                              </Registro>
+  </MRP>
+  <MRP>
+    <NSR>8</NSR>
+    <Tipo>5</Tipo>
+    <Data>20100409</Data>
+    <Hora>1335</Hora>
+    <Registro>I000000000001Func1                                               </Registro>
+  </MRP>
+  <MRP>
+    <NSR>9</NSR>
+    <Tipo>5</Tipo>
+    <Data>20100409</Data>
+    <Hora>1335</Hora>
+    <Registro>I000000000002Func2                                               </Registro>
+  </MRP>
+  <MRP>
+    <NSR>10</NSR>
+    <Tipo>5</Tipo>
+    <Data>20100409</Data>
+    <Hora>1335</Hora>
+    <Registro>I000000000003Func3                                               </Registro>
+  </MRP>
+  <MRP>
+    <NSR>11</NSR>
+    <Tipo>3</Tipo>
+    <Data>20100409</Data>
+    <Hora>1336</Hora>
+    <Registro>000000000001</Registro>
+  </MRP>
+  <MRP>
+    <NSR>12</NSR>
+    <Tipo>3</Tipo>
+    <Data>20100409</Data>
+    <Hora>1336</Hora>
+    <Registro>000000000002</Registro>
+  </MRP>
+  <MRP>
+    <NSR>13</NSR>
+    <Tipo>3</Tipo>
+    <Data>20100409</Data>
+    <Hora>1336</Hora>
+    <Registro>000000000003</Registro>
+  </MRP>
+  <MRP>
+    <NSR>14</NSR>
+    <Tipo>3</Tipo>
+    <Data>20100409</Data>
+    <Hora>1357</Hora>
+    <Registro>000000000001</Registro>
+  </MRP>
+  <MRP>
+    <NSR>15</NSR>
+    <Tipo>2</Tipo>
+    <Data>20100409</Data>
+    <Hora>1458</Hora>
+    <Registro>322555222000122000000000000Xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx                                                                                                             Rua Abc, 100                                                                                        </Registro>
+  </MRP>
+  <MRP>
+    <NSR>16</NSR>
+    <Tipo>2</Tipo>
+    <Data>20100409</Data>
+    <Hora>1648</Hora>
+    <Registro>111222333300012000000000000Assecont Contabilidade                                                                                                                                Rua Mario, 194                                                                                      </Registro>
+  </MRP>
+  <MRP>
+    <NSR>17</NSR>
+    <Tipo>2</Tipo>
+    <Data>20100409</Data>
+    <Hora>1656</Hora>
+    <Registro>111222333300012000000000000Teste S/A                                                                                                                                             Rua Mario, 194                                                                                      </Registro>
+  </MRP>
+  <MRP>
+    <NSR>18</NSR>
+    <Tipo>2</Tipo>
+    <Data>20100413</Data>
+    <Hora>1725</Hora>
+    <Registro>111222333300012000000000000Teste S/A                                                                                                                                             Rua Mario, 194                                                                                      </Registro>
+  </MRP>
+</MRP>

@@ -1,0 +1,22 @@
+C:\ProjetoRep\IdDataRep\IdData\IdData\bin\Debug\IdData.exe.config
+C:\ProjetoRep\IdDataRep\IdData\IdData\obj\x86\Debug\IdData.Properties.Resources.resources
+C:\ProjetoRep\IdDataRep\IdData\IdData\bin\Debug\IdData.exe
+C:\ProjetoRep\IdDataRep\IdData\IdData\bin\Debug\IdData.pdb
+C:\ProjetoRep\IdDataRep\IdData\IdData\bin\Debug\AssepontoRep.dll
+C:\ProjetoRep\IdDataRep\IdData\IdData\bin\Debug\Wr.dll
+C:\ProjetoRep\IdDataRep\IdData\IdData\bin\Debug\AssepontoRep.pdb
+C:\ProjetoRep\IdDataRep\IdData\IdData\obj\x86\Debug\IdData.exe
+C:\ProjetoRep\IdDataRep\IdData\IdData\obj\x86\Debug\IdData.pdb
+C:\ProjetoRep\IdDataRep\IdData\IdData\obj\x86\Debug\IdData.csprojResolveAssemblyReference.cache
+C:\ProjetoRep\IdDataRep\IdData\IdData\obj\x86\Debug\IdData.csproj.GenerateResource.Cache
+C:\ProjetoRep\IdDataRep\IdData\IdData\obj\x86\Debug\Interop.NBioBSPCOMLib.dll
+C:\ProjetoRep\IdDataRep\IdData\IdData\obj\x86\Debug\IdData.csproj.ResolveComReference.cache
+C:\Projetos Reps\IdDataRep\IdData\IdData\bin\Debug\IdData.exe.config
+C:\Projetos Reps\IdDataRep\IdData\IdData\obj\x86\Debug\Interop.NBioBSPCOMLib.dll
+C:\Projetos Reps\IdDataRep\IdData\IdData\obj\x86\Debug\IdData.csproj.ResolveComReference.cache
+C:\Projetos Reps\IdDataRep\IdData\IdData\obj\x86\Debug\IdData.csprojResolveAssemblyReference.cache
+C:\Projetos Reps\IdDataRep\IdData\IdData\obj\x86\Debug\IdData.Properties.Resources.resources
+C:\Projetos Reps\IdDataRep\IdData\IdData\obj\x86\Debug\IdData.csproj.GenerateResource.Cache
+D:\Projetos\Relógios\IdDataRep\IdData\IdData\bin\Debug\IdData.exe.config
+D:\Projetos\Relógios\IdDataRep\IdData\IdData\obj\x86\Debug\Interop.NBioBSPCOMLib.dll
+D:\Projetos\Relógios\IdDataRep\IdData\IdData\obj\x86\Debug\IdData.csproj.ResolveComReference.cache

@@ -1,0 +1,31 @@
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\KurumimREPII\KurumimREPII\bin\Debug\KurumimREPII.exe
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\KurumimREPII\KurumimREPII\bin\Debug\KurumimREPII.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\KurumimREPII\KurumimREPII\bin\Debug\AssepontoRep.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\KurumimREPII\KurumimREPII\bin\Debug\Wr.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\KurumimREPII\KurumimREPII\bin\Debug\AssepontoRep.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\KurumimREPII\KurumimREPII\obj\Debug\KurumimREPII.Principal.resources
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\KurumimREPII\KurumimREPII\obj\Debug\KurumimREPII.Properties.Resources.resources
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\KurumimREPII\KurumimREPII\obj\Debug\KurumimREPII.csproj.GenerateResource.Cache
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\KurumimREPII\KurumimREPII\obj\Debug\KurumimREPII.exe
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\KurumimREPII\KurumimREPII\obj\Debug\KurumimREPII.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\KurumimREPII\KurumimREPII\obj\Debug\KurumimREPII.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\KurumimREPII\KurumimREPII\obj\Debug\KurumimREPII.exe
+S:\USUARIOS\Renne\Projetos\Relogios\KurumimREPII\KurumimREPII\obj\Debug\KurumimREPII.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\KurumimREPII\KurumimREPII\obj\Debug\KurumimREPII.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\KurumimREPII\KurumimREPII\obj\Debug\KurumimREPII.Principal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\KurumimREPII\KurumimREPII\obj\Debug\KurumimREPII.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\KurumimREPII\KurumimREPII\obj\Debug\KurumimREPII.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\KurumimREPII\KurumimREPII\bin\Debug\KurumimREPII.exe
+S:\USUARIOS\Renne\Projetos\Relogios\KurumimREPII\KurumimREPII\bin\Debug\KurumimREPII.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\KurumimREPII\KurumimREPII\bin\Debug\AssepontoRep.dll
+S:\USUARIOS\Renne\Projetos\Relogios\KurumimREPII\KurumimREPII\bin\Debug\AssepontoRep.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Kurumim\C#\KurumimREPII\KurumimREPII\obj\Debug\KurumimREPII.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Kurumim\Kurumim REP II Bio NT\C#\KurumimREPII\KurumimREPII\obj\Debug\KurumimREPII.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Kurumim\Kurumim REP II Bio NT\C#\KurumimREPII\KurumimREPII\obj\Debug\KurumimREPII.Principal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Kurumim\Kurumim REP II Bio NT\C#\KurumimREPII\KurumimREPII\obj\Debug\KurumimREPII.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Kurumim\Kurumim REP II Bio NT\C#\KurumimREPII\KurumimREPII\obj\Debug\KurumimREPII.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\Kurumim\Kurumim REP II Bio NT\C#\KurumimREPII\KurumimREPII\bin\Debug\KurumimREPII.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Kurumim\Kurumim REP II Bio NT\C#\KurumimREPII\KurumimREPII\bin\Debug\KurumimREPII.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Kurumim\Kurumim REP II Bio NT\C#\KurumimREPII\KurumimREPII\bin\Debug\AssepontoRep.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Kurumim\Kurumim REP II Bio NT\C#\KurumimREPII\KurumimREPII\bin\Debug\Wr.Classes.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Kurumim\Kurumim REP II Bio NT\C#\KurumimREPII\KurumimREPII\obj\Debug\KurumimREPII.pdb

@@ -1,0 +1,80 @@
+C:\Arquivos\Progs\Ponto2009\Rep\Gertec\C# Novo\Gertec\obj\x86\Debug\Gertec.Properties.Resources.resources
+C:\Arquivos\Progs\Ponto2009\Rep\Gertec\C# Novo\Gertec\bin\Debug\Gertec.exe.config
+C:\Arquivos\Progs\Ponto2009\Rep\Gertec\C# Novo\Gertec\bin\Debug\REP_Gertec.dll
+C:\Arquivos\Progs\Ponto2009\Rep\Gertec\C# Novo\Gertec\bin\Debug\Gertec.exe
+C:\Arquivos\Progs\Ponto2009\Rep\Gertec\C# Novo\Gertec\bin\Debug\Gertec.pdb
+C:\Arquivos\Progs\Ponto2009\Rep\Gertec\C# Novo\Gertec\bin\Debug\AssepontoRep.dll
+C:\Arquivos\Progs\Ponto2009\Rep\Gertec\C# Novo\Gertec\bin\Debug\Wr.dll
+C:\Arquivos\Progs\Ponto2009\Rep\Gertec\C# Novo\Gertec\bin\Debug\AssepontoRep.pdb
+C:\Arquivos\Progs\Ponto2009\Rep\Gertec\C# Novo\Gertec\bin\Debug\Wr.pdb
+C:\Arquivos\Progs\Ponto2009\Rep\Gertec\C# Novo\Gertec\obj\x86\Debug\Gertec.exe
+C:\Arquivos\Progs\Ponto2009\Rep\Gertec\C# Novo\Gertec\obj\x86\Debug\Gertec.pdb
+C:\Arquivos\PROGS\Ponto2009\Rep\Gertec\C# Novo\Gertec\obj\x86\Debug\Gertec.csprojResolveAssemblyReference.cache
+C:\Arquivos\PROGS\Ponto2009\Rep\Gertec\C# Novo\Gertec\obj\x86\Debug\Gertec.csproj.GenerateResource.Cache
+C:\ProjetoRep\Gertec\C# Novo\Gertec\bin\Debug\Gertec.exe.config
+C:\ProjetoRep\Gertec\C# Novo\Gertec\obj\x86\Debug\Gertec.exe
+C:\ProjetoRep\Gertec\C# Novo\Gertec\obj\x86\Debug\Gertec.pdb
+C:\ProjetoRep\Gertec\C# Novo\Gertec\bin\Debug\REP_Gertec.dll
+C:\ProjetoRep\Gertec\C# Novo\Gertec\bin\Debug\Gertec.exe
+C:\ProjetoRep\Gertec\C# Novo\Gertec\bin\Debug\Gertec.pdb
+C:\ProjetoRep\Gertec\C# Novo\Gertec\bin\Debug\AssepontoRep.dll
+C:\ProjetoRep\Gertec\C# Novo\Gertec\bin\Debug\AssepontoRep.pdb
+C:\ProjetoRep\Gertec\C# Novo\Gertec\bin\Debug\Wr.pdb
+C:\ProjetoRep\Gertec\C# Novo\Gertec\obj\x86\Debug\Gertec.csprojResolveAssemblyReference.cache
+C:\ProjetoRep\Gertec\C# Novo\Gertec\obj\x86\Debug\Gertec.Properties.Resources.resources
+C:\ProjetoRep\Gertec\C# Novo\Gertec\obj\x86\Debug\Gertec.csproj.GenerateResource.Cache
+C:\ProjetoRep\Gertec\Gertec_Novo\Gertec\bin\Debug\Gertec.exe.config
+C:\ProjetoRep\Gertec\Gertec_Novo\Gertec\obj\x86\Debug\Gertec.exe
+C:\ProjetoRep\Gertec\Gertec_Novo\Gertec\obj\x86\Debug\Gertec.pdb
+C:\ProjetoRep\Gertec\Gertec_Novo\Gertec\bin\Debug\REP_Gertec.dll
+C:\ProjetoRep\Gertec\Gertec_Novo\Gertec\bin\Debug\Gertec.exe
+C:\ProjetoRep\Gertec\Gertec_Novo\Gertec\bin\Debug\Gertec.pdb
+C:\ProjetoRep\Gertec\Gertec_Novo\Gertec\bin\Debug\AssepontoRep.dll
+C:\ProjetoRep\Gertec\Gertec_Novo\Gertec\bin\Debug\AssepontoRep.pdb
+C:\ProjetoRep\Gertec\Gertec_Novo\Gertec\bin\Debug\Wr.pdb
+C:\ProjetoRep\Gertec\Gertec_Novo\Gertec\obj\x86\Debug\Gertec.csprojResolveAssemblyReference.cache
+C:\ProjetoRep\Gertec\Gertec_Novo\Gertec\obj\x86\Debug\Gertec.Properties.Resources.resources
+C:\ProjetoRep\Gertec\Gertec_Novo\Gertec\obj\x86\Debug\Gertec.csproj.GenerateResource.Cache
+C:\Projetos Reps\Gertec\Gertec_Novo\Gertec\bin\Debug\Gertec.exe.config
+C:\Projetos Reps\Gertec\Gertec_Novo\Gertec\obj\x86\Debug\Gertec.exe
+C:\Projetos Reps\Gertec\Gertec_Novo\Gertec\obj\x86\Debug\Gertec.pdb
+C:\Projetos Reps\Gertec\Gertec_Novo\Gertec\bin\Debug\REP_Gertec.dll
+C:\Projetos Reps\Gertec\Gertec_Novo\Gertec\bin\Debug\Gertec.exe
+C:\Projetos Reps\Gertec\Gertec_Novo\Gertec\bin\Debug\Gertec.pdb
+C:\Projetos Reps\Gertec\Gertec_Novo\Gertec\bin\Debug\AssepontoRep.dll
+C:\Projetos Reps\Gertec\Gertec_Novo\Gertec\bin\Debug\AssepontoRep.pdb
+C:\Projetos Reps\Gertec\Gertec_Novo\Gertec\bin\Debug\Wr.pdb
+C:\Projetos Reps\Gertec\Gertec_Novo\Gertec\obj\x86\Debug\Gertec.csprojResolveAssemblyReference.cache
+C:\Projetos Reps\Gertec\Gertec_Novo\Gertec\obj\x86\Debug\Gertec.Properties.Resources.resources
+C:\Projetos Reps\Gertec\Gertec_Novo\Gertec\obj\x86\Debug\Gertec.csproj.GenerateResource.Cache
+C:\Projetos Reps\Gertec\Gertec_Novo\Gertec\bin\Debug\Wr.dll
+C:\Projetos Reps\Gertec\Gertec_Novo\Gertec\bin\Debug\HumanAPIClient.dll
+C:\Projetos Reps\Gertec\Gertec_Novo\Gertec\bin\Debug\HumanAPIClient.pdb
+C:\Projetos Reps\Gertec\Gertec_Novo\Gertec\bin\Debug\HumanAPIClient.xml
+C:\Projetos Reps\Gertec\Gertec_Novo\Gertec\obj\x86\Debug\Gertec.Principal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec_Novo\Gertec\bin\Debug\Gertec.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec_Novo\Gertec\obj\x86\Debug\Gertec.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec_Novo\Gertec\obj\x86\Debug\Gertec.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec_Novo\Gertec\obj\x86\Debug\Gertec.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec_Novo\Gertec\obj\x86\Debug\Gertec.Principal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec_Novo\Gertec\obj\x86\Debug\Gertec.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec_Novo\Gertec\obj\x86\Debug\Gertec.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec_Novo\Gertec\bin\Debug\REP_Gertec.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec_Novo\Gertec\bin\Debug\Gertec.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec_Novo\Gertec\bin\Debug\Gertec.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec_Novo\Gertec\bin\Debug\AssepontoRep.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec_Novo\Gertec\bin\Debug\AssepontoRep.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\Gertec\bin\Debug\Gertec.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\Gertec\obj\x86\Debug\Gertec.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\Gertec\obj\x86\Debug\Gertec.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\Gertec\bin\Debug\REP_Gertec.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\Gertec\bin\Debug\Gertec.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\Gertec\bin\Debug\Gertec.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\Gertec\bin\Debug\AssepontoRep.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\Gertec\obj\x86\Debug\Gertec.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\Gertec\obj\x86\Debug\Gertec.Principal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\Gertec\obj\x86\Debug\Gertec.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\Gertec\obj\x86\Debug\Gertec.csproj.GenerateResource.Cache
+C:\Arquivos\PROGS\Ponto2009\Rep\Gertec\Gertec\Gertec\bin\Debug\Gertec.exe.config
+C:\Arquivos\PROGS\Ponto2009\Rep\Gertec\Gertec\Gertec\obj\x86\Debug\Gertec.exe
+C:\Arquivos\PROGS\Ponto2009\Rep\Gertec\Gertec\Gertec\obj\x86\Debug\Gertec.pdb

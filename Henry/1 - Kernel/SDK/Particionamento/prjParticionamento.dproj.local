@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009/05/15 13:09:13.281.pas,C:\Documents and Settings\Eduardo Andrade.DPENG04\Meus documentos\Borland Studio Projects\Unit1.pas=C:\Documents and Settings\Eduardo Andrade.DPENG04\Meus documentos\Borland Studio Projects\Bpl\Teste CaptureImage Kernel\uCapturaImagem.pas</Transaction>
+    <Transaction>2009/05/15 13:09:13.281.dfm,C:\Documents and Settings\Eduardo Andrade.DPENG04\Meus documentos\Borland Studio Projects\Unit1.dfm=C:\Documents and Settings\Eduardo Andrade.DPENG04\Meus documentos\Borland Studio Projects\Bpl\Teste CaptureImage Kernel\uCapturaImagem.dfm</Transaction>
+    <Transaction>2009/05/15 13:09:16.828.bdsproj,C:\Documents and Settings\Eduardo Andrade.DPENG04\Meus documentos\Borland Studio Projects\Project1.bdsproj=C:\Documents and Settings\Eduardo Andrade.DPENG04\Meus documentos\Borland Studio Projects\Bpl\Teste CaptureImage Kernel\prjCapturaImagem.bdsproj</Transaction>
+    <Transaction>2009/05/15 15:04:51.031.bdsproj,C:\Documents and Settings\Eduardo Andrade.DPENG04\Meus documentos\Borland Studio Projects\CaptureEnviaTemplate Kernel 7x\prjCapturaImagem.bdsproj=C:\Documents and Settings\Eduardo Andrade.DPENG04\Meus documentos\Borland Studio Projects\CaptureEnviaTemplate Kernel 7x\prjCapturaEnviaTemplate.bdsproj</Transaction>
+    <Transaction>2009/05/15 15:52:35.937.bdsproj,C:\Documents and Settings\Eduardo Andrade.DPENG04\Meus documentos\Borland Studio Projects\Particionamento Kernel 7x\prjCapturaEnviaTemplate.bdsproj=C:\Documents and Settings\Eduardo Andrade.DPENG04\Meus documentos\Borland Studio Projects\Particionamento Kernel 7x\prjParticionamento.bdsproj</Transaction>
+    <Transaction>2009/05/15 15:52:41.703.pas,C:\Documents and Settings\Eduardo Andrade.DPENG04\Meus documentos\Borland Studio Projects\Particionamento Kernel 7x\uCapturaImagem.pas=C:\Documents and Settings\Eduardo Andrade.DPENG04\Meus documentos\Borland Studio Projects\Particionamento Kernel 7x\uParticionamento.pas</Transaction>
+    <Transaction>2009/05/15 15:52:41.703.dfm,C:\Documents and Settings\Eduardo Andrade.DPENG04\Meus documentos\Borland Studio Projects\Particionamento Kernel 7x\uCapturaImagem.dfm=C:\Documents and Settings\Eduardo Andrade.DPENG04\Meus documentos\Borland Studio Projects\Particionamento Kernel 7x\uParticionamento.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

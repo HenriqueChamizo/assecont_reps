@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="MRP" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="MRP" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MRP">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NSR" type="xs:long" minOccurs="0" />
+              <xs:element name="Tipo" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="Data" type="xs:string" minOccurs="0" />
+              <xs:element name="Hora" type="xs:string" minOccurs="0" />
+              <xs:element name="Registro" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

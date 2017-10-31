@@ -1,0 +1,28 @@
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exemplo C#\bin\Debug\RepExemplo.exe
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exemplo C#\bin\Debug\RepExemplo.pdb
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exemplo C#\obj\Debug\RepExemplo.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exemplo C#\obj\Debug\RepExemplo.frmExemplo.resources
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exemplo C#\obj\Debug\RepExemplo.Properties.Resources.resources
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exemplo C#\obj\Debug\RepExemplo.csproj.GenerateResource.Cache
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exemplo C#\obj\Debug\RepExemplo.exe
+S:\USUARIOS\Wilder\Projetos\Trilobit\Exemplo C#\obj\Debug\RepExemplo.pdb
+C:\ProjetoRep\Trilobit\Exemplo C#\obj\Debug\RepExemplo.exe
+C:\ProjetoRep\Trilobit\Exemplo C#\obj\Debug\RepExemplo.pdb
+C:\ProjetoRep\Trilobit\Exemplo C#\bin\Debug\RepExemplo.exe
+C:\ProjetoRep\Trilobit\Exemplo C#\bin\Debug\RepExemplo.pdb
+C:\ProjetoRep\Trilobit\Exemplo C#\obj\Debug\RepExemplo.csprojResolveAssemblyReference.cache
+C:\ProjetoRep\Trilobit\Exemplo C#\obj\Debug\RepExemplo.frmExemplo.resources
+C:\ProjetoRep\Trilobit\Exemplo C#\obj\Debug\RepExemplo.Properties.Resources.resources
+C:\ProjetoRep\Trilobit\Exemplo C#\obj\Debug\RepExemplo.csproj.GenerateResource.Cache
+C:\ProjetoRep\Trilobit\Exemplo C#\bin\Debug\RepTrilobit.dll
+C:\Projetos Reps\Trilobit\Exemplo C#\obj\Debug\RepExemplo.exe
+C:\Projetos Reps\Trilobit\Exemplo C#\obj\Debug\RepExemplo.pdb
+C:\Projetos Reps\Trilobit\Exemplo C#\bin\Debug\RepExemplo.exe
+C:\Projetos Reps\Trilobit\Exemplo C#\bin\Debug\RepExemplo.pdb
+C:\Projetos Reps\Trilobit\Exemplo C#\bin\Debug\RepTrilobit.dll
+C:\Projetos Reps\Trilobit\Exemplo C#\obj\Debug\RepExemplo.csprojResolveAssemblyReference.cache
+C:\Projetos Reps\Trilobit\Exemplo C#\obj\Debug\RepExemplo.frmExemplo.resources
+C:\Projetos Reps\Trilobit\Exemplo C#\obj\Debug\RepExemplo.Properties.Resources.resources
+C:\Projetos Reps\Trilobit\Exemplo C#\obj\Debug\RepExemplo.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Exemplo C#\obj\Debug\RepExemplo.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Trilobit\Exemplo C#\obj\Debug\RepExemplo.pdb

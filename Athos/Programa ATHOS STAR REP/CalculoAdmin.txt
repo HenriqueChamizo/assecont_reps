@@ -1,0 +1,8 @@
+SENHA ADMIN DO PROGRAMA DO REP ATHOS
+
+RESULT = ((Dia * Mes + ((54321 / Dia))) + Ano) + Hora
+
+SE (Dia Mod 2 diferente de 0) então
+   SENHA = Inteiro de (RESULT/3)
+SE NÃO
+   SENHA = RESULT

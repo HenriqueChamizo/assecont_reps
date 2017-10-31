@@ -1,0 +1,4 @@
+ATUALIZAR HORARIO DE VERAO
+
+C:\Users\Administrador\Downloads\SDKKurumimREPII>CKRep.exe /er /net /nr000080024
+60002602 /s1001 /ip192.168.1.199

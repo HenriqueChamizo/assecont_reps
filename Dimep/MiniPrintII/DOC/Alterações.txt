@@ -1,0 +1,171 @@
+************************************************** 2.2.0.12 *************************************************
+
+- Atualização da dll do Face. A dll antiga retornava erro quando solicitado exclusão de template e/ou pessoa que não exista.
+
+************************************************** 2.2.0.11 *************************************************
+
+- Alteração no envio e recebimento de digitais na comunicação com o modelo MiniPrint sensor Sagem.
+
+************************************************** 2.2.0.10 *************************************************
+
+- Inclusão das propriedades "MRPVersion" e "RecordsTotal" (total de registros de ponto).
+
+************************************************** 2.2.0.9 **************************************************
+
+- Inclusão da mensagem de inclusão de centro de custo (chile) => IncludeCostCenter()
+
+- Inclusão da mensagem de exclusão de centro de custo (chile) => ExcludeCostCenter()
+
+- Inclusão da mensagem de limpeza da lista de centro de custo (chile) => ClearCostCenterList()
+
+- Correção do problema de envio e recebimento de templates para o MiniPrint. A mensagem estava sendo tratada como se fosse para um relógios modelo PrintPoint II.
+
+************************************************** 2.2.0.8 **************************************************
+
+- Durante a transmissão de digitais para o REP existe um processo onde o equipamento envia a digital para o módulo biométrico e aguarda a resposta do mesmo. Enquanto essa resposta não chega para o equipamento é sinalizado para o software que a solicitação ainda está sendo processada. O problema é que existem situações onde o equipamento fica infinitamente nesse estado de "processando" e a watchComm aguardando a finalização do processo. A alteração realizada nessa versão foi feita com o intuito de identificar essa situação. Assim, a watchComm permanecerá nesse estado de processando por 3 segundos. Passado isso, uma exceção do tipo "TimeoutException" será gerada para o software consumidor.
+
+Obs: Quando na chamada do método "IncludeFingerPrint" ocorrer uma exceção do tipo "TimeOutException", recomendo que a conexão seja fechada "CloseConnection()", reaberta "OpenConnection()" e seja feita uma nova tentativa de envio da mesma digital.
+
+************************************************** 2.2.0.7 **************************************************
+
+- Correção do erro "Index was outside the bounds of the array" que ocorria com frequência no cliente FlexTronics. O erro era causado quando o Socket retornava uma mensagem com tamanho 0 (zero). A dll espera uma mensagem de tamanho superior a zero ou um erro, logo, quando recebia uma mensagem de tamanho zero, ocorria um erro no tratamento da mensagem. Ainda não foi possível identificar um padrão para provocar tal acontecimento.
+
+************************************************** 2.2.0.6 **************************************************
+
+- Adaptação as novas dlls fornecidas pela ZK Software para comunicação com os equipamentos PrintPoint Li, Face ID e BioLite.
+
+************************************************** 2.2.0.5 **************************************************
+
+- Melhoria da comunicação com o relógio BioPoint.
+	- Prever buffer da tibo;
+	- Controlar número de mensagem.
+
+************************************************** 2.1.0.0 **************************************************
+
+- Biometria do BioPoint
+
+- SDK do BioPoint
+
+- Comando para configuração infraero (PrintPoint II)
+
+************************************************** 2.0.0.1 **************************************************
+
+- Inclusão do formato de cartão Wiegand 34 (configurações)
+
+- Inclusão do parâmetro Habilita paridade nas leituras Wiegand (Configurações)
+
+- Alteração do parâmetro habilita Wiegand 37 Bits (EnabledWiegand37Bits) para tipo de utlização do Wiegand 37 Bit (Wiegand37BitsUseType), que aceita um dentre os seguintes valores : Não usa (NotUse), Padrão H10302 (Default H10302) ou Padrão H10304 (Default H10302).
+
+- Correção de problema na transmissão de templates.
+
+- Correção do problema referente a coleta BioPoint.
+
+- Quando uma exceção do tipo InvalidMessaException for gerada, a propriedade message conterá uma string que identificará o enum corresponde a propriedade InvalidMessageType (vide tabela de erros do protocolo). Tal alteração é necessária, pois a classe InvalidMessaException não é identificada no Delphi como sendo uma classe de exceção, logo, o desenvolvedor não consegue tratar tal exceção adequadamente. Abaixo todas as strings que representam o enumerador InvalidMessageType:
+	- UnknownFunction
+	- InvalidData
+	- OutOfMemory
+	- CardWithMoreDigitsThanProgrammed
+	- FailureBiometricModule
+	- InvalidFingerprint
+	- DuplicateFingerprint
+	- FieldNotInformed
+	- InvalidProtocol
+	- EquipmentWasNotActivated
+	- EquipmentAlreadyActivated
+	- FunctionNotPermitted
+	- EquipmentWithoutEmployer
+	- EquipmentNotViolated
+	- InvalidPassword
+	- CapacityExceededOfBiometricModule
+	- BiometricModuleReturnedError
+	- MRPReturnedError
+	- WithoutDataToBeTransmitted
+
+************************************************** 2.0.0.0 **************************************************
+
+- Remoção dos zeros a esquerda do endereço IP.
+
+- Inclusão do parâmetro obrigatório “version” nos construtores. Tal parâmetro deve ser informado no formato "99.99.9999".
+
+- Alteração dos métodos referentes a transmissão de templates (prevendo sensores diferentes).
+
+- Integração com o relógio MiniPrint.
+
+- Integração com o relógio MD 1704 (inclusive exemplo de uso e documentação).
+
+- Criação da pasta "DLL" na raiz da instalação, para facilitar o acesso a dll watchcomm por parte dos integradores.
+
+************************************************** 1.0.0.14 **************************************************
+
+- Criação da classe de exceção DeviceConnectionException. Tal exceção é lançada quando não é possível efetuar conexão com o relógio. Para manter padrão com exceção que anteriormente era lançada "InvalidOperationException", a mensagem "TCPComm has been unable to stablish TCP connection. Check parameters or contact support." está sendo mantida.
+
+- Correção do tratamento do NACK do relógio. 
+
+************************************************** 1.0.0.13 **************************************************
+
+- A comunicação ficava "travada" durante uma transmissão de template, caso um funcionário efetue uma marcação no relógio. Para contornar o problema, a rotina que trata os processos de ocupado/processando foi otimizada.
+
+************************************************** 1.0.0.12 **************************************************
+
+- Criação do método "ClearCredencialList" para apagar uma lista de credenciais previamente carregadas no componente. Ou seja, apaga a lista de crendenciais do componente e não do relógio. Para apagar a lista de credenciais do relógio existe o método "ExcludeCredentialList".
+
+- Criação do método "ClearEmployeeList" para apagar a lista de funcionários previamente carregadas no componente. Ou seja, apaga a lista de funcionários do componente e não do relógio. Para apagar a lista de funcionários do relógio existe o método "ExcludeEmployeesList".
+
+- Caso o relógio retorne NACK, a excessão "InvalidMessageException" será gerada. Tal excessão possui a propriedade "InvalidMessageType" que retorna um Enum correspondente ao erro retornado pelo relógio.
+
+- Criação da propriedade "Connected" na classe WatchComm. Tal propriedade indica se existe uma conexão com o relógio ou não.
+
+- Alteração do evento "ProgressOfEmployedListTransmation". Adicionado um parâmetro que indica se a lista está sendo enviada para o relógio em modo de inclusão ou em modo de exclusão.
+
+- Alteração do evento "ProgressOfCredencialListTransmation". Adicionado um parâmetro que indica se a lista está sendo enviada para o relógio em modo de inclusão ou em modo de exclusão.
+
+************************************************** 1.0.0.11 **************************************************
+
+- Inclusão do comando para envio das configurações parciais (horário de verão e configurações referentes a impressora). O atual comando de envio de configurações apenas será aceito pelo relógio, caso o mesmo esteja em estado de manutenção (nova exigência para homologação dos relógios).
+
+- O tratamento dado aos relógios BioPoint, MicroPoint XP, etc, onde o firmware não envia uma determinada sequencia de bytes que faz com que a TIBO entre em estado de configuração, estava sendo feito também para o PrintPoint. Tal tratamento deixou de ser efetuado para o PrintPoint. Recomendo que todos atualizem seus sistemas com essa nova versão o quanto antes. Essa alteração é muito significativa. Para maiores detalhes, por favor, procurem-me.
+
+************************************************** 1.0.0.10 **************************************************
+
+- Transmissão da lista de funcionários em ordem crescente de PIS (quando inclusão) e em ordem decrescente (quando exclusão), a fim de obter-se mais performance (conforme orientação do Marcelo Centenaro).
+
+- Transmissão da lista de credenciais em ordem crescente de Nº de Crendencial (quando inclusão) e em ordem decrescente (quando exclusão), a fim de obter-se mais performance (conforme orientação do Marcelo Centenaro).
+
+************************************************** 1.0.0.9 **************************************************
+
+- Inclusão da Configuração Wiegand 32 Especial.
+
+- Inclusão das configurações de Mapa para SmartCard.
+
+- Alteração do modo de conexão. Pode-se trabalhar no modo conectado (onde o usuário da DLL determina o momento de realizar a conexão) ou pode trabalhar no modo desconectado (como funciona atualmente na versão 1.0.0.8, ou seja, a cada chamada de método a própria dll se encarrega por conectar e desconectar). O modo de conexão é determinado via construtor da classe WatchComm.
+
+************************************************** 1.0.0.8 **************************************************
+
+- Melhora na performance no processo de coleta.
+
+- Adaptação do método GetImmediateStatus para não perder compatibilidade com a versão ST do REP.
+
+************************************************** 1.0.0.7 **************************************************
+
+- Definição dos seguintes métodos na interface IWatchCom:
+	AddConfiguration
+	AddMaster
+	AddCredential
+	AddEmployee
+
+- Alteração no comando de status e status imediato:
+	- Propriedade REPState alterada. Agora possui apenas os valores "Em Manutenção" e "Operação Normal".
+	- Incluida a propriedade MRPState. Tal propriedade possui os seguintes valores: "Operação Normal", "Sem Empregador", "Sem Ativação Inicial", "Erro" e "Inicializando".
+	- Incluída a propriedade AFDGeneration. Tal propriedade possui os seguintes valores: "Não está gerando" e "Está gerando".
+	- Incluída a propriedade RIMGeneration. Tal propriedade possui os seguintes valores: "Não está gerando" e "Está gerando".
+	- Incluída a propriedade Tipo de Alimentação. Tal propriedade possui os seguintes valores: "Alimentação por Bateria" e "Alimentação AC".
+
+************************************************** 1.0.0.6 **************************************************
+
+- Comando para ativação do firmware de BootLoader.
+
+- Propriedade Versão do Firmware da MRP no comando de Status.
+
+************************************************** 1.0.0.5 **************************************************
+
+- Implementação dos comandos "CancelEmployeeTransmission" e "CancelCredentialTransmission" no Assembly WatchComm.dll.

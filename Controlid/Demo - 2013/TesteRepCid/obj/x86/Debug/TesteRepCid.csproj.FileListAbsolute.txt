@@ -1,0 +1,17 @@
+S:\Suporte\ASSEPONTO4\COLETORES REPS PONTO4\CONTROLID\SDK_REP_iDX_2013-08-13\Demo\TesteRepCid\bin\Debug\TesteRepCid.exe.config
+S:\Suporte\ASSEPONTO4\COLETORES REPS PONTO4\CONTROLID\SDK_REP_iDX_2013-08-13\Demo\TesteRepCid\bin\Debug\TesteRepCid.exe
+S:\Suporte\ASSEPONTO4\COLETORES REPS PONTO4\CONTROLID\SDK_REP_iDX_2013-08-13\Demo\TesteRepCid\bin\Debug\TesteRepCid.pdb
+S:\Suporte\ASSEPONTO4\COLETORES REPS PONTO4\CONTROLID\SDK_REP_iDX_2013-08-13\Demo\TesteRepCid\bin\Debug\RepCid.dll
+S:\Suporte\ASSEPONTO4\COLETORES REPS PONTO4\CONTROLID\SDK_REP_iDX_2013-08-13\Demo\TesteRepCid\obj\x86\Debug\ResolveAssemblyReference.cache
+S:\Suporte\ASSEPONTO4\COLETORES REPS PONTO4\CONTROLID\SDK_REP_iDX_2013-08-13\Demo\TesteRepCid\obj\x86\Debug\TesteRepCid.frmConfig.resources
+S:\Suporte\ASSEPONTO4\COLETORES REPS PONTO4\CONTROLID\SDK_REP_iDX_2013-08-13\Demo\TesteRepCid\obj\x86\Debug\TesteRepCid.frmMain.resources
+S:\Suporte\ASSEPONTO4\COLETORES REPS PONTO4\CONTROLID\SDK_REP_iDX_2013-08-13\Demo\TesteRepCid\obj\x86\Debug\TesteRepCid.frmUser.resources
+S:\Suporte\ASSEPONTO4\COLETORES REPS PONTO4\CONTROLID\SDK_REP_iDX_2013-08-13\Demo\TesteRepCid\obj\x86\Debug\TesteRepCid.frmUsuarios.resources
+S:\Suporte\ASSEPONTO4\COLETORES REPS PONTO4\CONTROLID\SDK_REP_iDX_2013-08-13\Demo\TesteRepCid\obj\x86\Debug\TesteRepCid.Properties.Resources.resources
+S:\Suporte\ASSEPONTO4\COLETORES REPS PONTO4\CONTROLID\SDK_REP_iDX_2013-08-13\Demo\TesteRepCid\obj\x86\Debug\GenerateResource.read.1.tlog
+S:\Suporte\ASSEPONTO4\COLETORES REPS PONTO4\CONTROLID\SDK_REP_iDX_2013-08-13\Demo\TesteRepCid\obj\x86\Debug\GenerateResource.write.1.tlog
+S:\Suporte\ASSEPONTO4\COLETORES REPS PONTO4\CONTROLID\SDK_REP_iDX_2013-08-13\Demo\TesteRepCid\obj\x86\Debug\TesteRepCid.exe
+S:\Suporte\ASSEPONTO4\COLETORES REPS PONTO4\CONTROLID\SDK_REP_iDX_2013-08-13\Demo\TesteRepCid\obj\x86\Debug\TesteRepCid.pdb
+C:\ProjetoRep\ControlId\Demo\TesteRepCid\bin\Debug\TesteRepCid.exe.config
+C:\ProjetoRep\ControlId\Demo\TesteRepCid\obj\x86\Debug\TesteRepCid.exe
+C:\ProjetoRep\ControlId\Demo\TesteRepCid\obj\x86\Debug\TesteRepCid.pdb

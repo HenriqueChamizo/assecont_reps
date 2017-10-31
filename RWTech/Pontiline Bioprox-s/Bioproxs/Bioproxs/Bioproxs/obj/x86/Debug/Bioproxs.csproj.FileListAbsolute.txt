@@ -1,0 +1,11 @@
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\bin\x86\Debug\Bioproxs.exe
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\bin\x86\Debug\Bioproxs.exe.config
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\bin\x86\Debug\AssepontoRep.dll
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\bin\x86\Debug\System.Net.Http.dll
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\bin\x86\Debug\System.Net.Http.xml
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\obj\x86\Debug\Bioproxs.Form1.resources
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\obj\x86\Debug\Bioproxs.Properties.Resources.resources
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\obj\x86\Debug\Bioproxs.csproj.GenerateResource.Cache
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\obj\x86\Debug\Bioproxs.exe
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\obj\x86\Debug\Bioproxs.pdb
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\bin\x86\Debug\Bioproxs.pdb

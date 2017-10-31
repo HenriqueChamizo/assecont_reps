@@ -1,0 +1,31 @@
+C:\Documents and Settings\marimcf\Desktop\Device Management\obj\Debug\Interop.zkemkeeper.dll
+C:\Documents and Settings\marimcf\Desktop\Device Management\obj\Debug\Device.csproj.ResolveComReference.cache
+C:\Documents and Settings\marimcf\Desktop\Device Management\bin\Debug\Device.exe
+C:\Documents and Settings\marimcf\Desktop\Device Management\bin\Debug\Device.pdb
+C:\Documents and Settings\marimcf\Desktop\Device Management\bin\Debug\Interop.zkemkeeper.dll
+C:\Documents and Settings\marimcf\Desktop\Device Management\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\marimcf\Desktop\Device Management\obj\Debug\Device.DeviceMain.resources
+C:\Documents and Settings\marimcf\Desktop\Device Management\obj\Debug\Device.Properties.Resources.resources
+C:\Documents and Settings\marimcf\Desktop\Device Management\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\marimcf\Desktop\Device Management\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\marimcf\Desktop\Device Management\obj\Debug\Device.exe
+C:\Documents and Settings\marimcf\Desktop\Device Management\obj\Debug\Device.pdb
+C:\Documents and Settings\marimcf\Desktop\Bio REP 100\Exemplo C#\obj\Debug\Interop.zkemkeeper.dll
+C:\Documents and Settings\marimcf\Desktop\Bio REP 100\Exemplo C#\obj\Debug\Device.csproj.ResolveComReference.cache
+C:\Documents and Settings\marimcf\Desktop\Bio REP 100\Exemplo C#\obj\Debug\Device.exe
+C:\Documents and Settings\marimcf\Desktop\Bio REP 100\Exemplo C#\obj\Debug\Device.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\SDK_Bio_REP_100\Bio_REP_100\Exemplo C#\obj\Debug\Device.csproj.ResolveComReference.cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\SDK_Bio_REP_100\Bio_REP_100\Exemplo C#\obj\Debug\Device.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\SDK_Bio_REP_100\Bio_REP_100\Exemplo C#\obj\Debug\Device.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\obj\Debug\Device.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\obj\Debug\Device.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\bin\Debug\Device.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\bin\Debug\Device.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\obj\Debug\Device.csprojResolveAssemblyReference.cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\obj\Debug\Device.DeviceMain.resources
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\obj\Debug\Device.Properties.Resources.resources
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\obj\Debug\Device.csproj.GenerateResource.Cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\bin\Debug\Interop.zkemkeeper.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\obj\Debug\Interop.zkemkeeper.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\obj\Debug\Device.csproj.ResolveComReference.cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\Exemplo C#\bin\Debug\Device.exe.config

@@ -1,0 +1,15 @@
+Versão do SDK RepTrilobit: 1.0.0.12
+17:12:20 - EnviarPacote - Aguardando resposta do 192.168.1.99:19001. 2000:1/4
+17:12:22 - EnviarPacote - Aguardando resposta do 192.168.1.99:19001. 2000:2/4
+17:12:24 - EnviarPacote - Aguardando resposta do 192.168.1.99:19001. 2000:3/4
+17:12:26 - EnviarDadosSYNC - Ocorreu timeout de comunicação com 192.168.1.99:19001
+17:14:47 - EnviarPacote - Aguardando resposta do 192.168.1.99:19001. 2000:1/4
+17:14:49 - EnviarPacote - Aguardando resposta do 192.168.1.99:19001. 2000:2/4
+17:14:51 - EnviarPacote - Aguardando resposta do 192.168.1.99:19001. 2000:3/4
+17:14:53 - EnviarDadosSYNC - Ocorreu timeout de comunicação com 192.168.1.99:19001
+17:15:05 - IPv4Valido - Endereço IP inválido foi especificado.
+17:15:09 - IPv4Valido - Endereço IP inválido foi especificado.
+17:15:45 - EnviarPacote - Aguardando resposta do 192.168.1.99:19001. 2000:1/4
+17:15:47 - EnviarPacote - Aguardando resposta do 192.168.1.99:19001. 2000:2/4
+17:15:49 - EnviarPacote - Aguardando resposta do 192.168.1.99:19001. 2000:3/4
+17:15:51 - EnviarDadosSYNC - Ocorreu timeout de comunicação com 192.168.1.99:19001

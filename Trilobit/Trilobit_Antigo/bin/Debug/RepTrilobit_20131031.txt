@@ -1,0 +1,10 @@
+Versão do SDK RepTrilobit: 1.0.0.24
+10:36:20 - EmpacotarEnviarDados - Aguardando resposta do 192.168.1.213:19001. 2000:1/4
+10:36:22 - EmpacotarEnviarDados - Aguardando resposta do 192.168.1.213:19001. 2000:2/4
+10:36:24 - EmpacotarEnviarDados - Aguardando resposta do 192.168.1.213:19001. 2000:3/4
+10:36:26 - EnviarDadosSYNC - REP 192.168.1.213:19001. Erro=Ocorreu timeout de comunicação com 192.168.1.213:19001
+10:36:26 - LerAFD - Ocorreu timeout de comunicação com 192.168.1.213:19001
+10:36:56 - EmpacotarEnviarDados - Aguardando resposta do 192.168.1.213:19001. 2000:1/4
+10:36:58 - EmpacotarEnviarDados - Aguardando resposta do 192.168.1.213:19001. 2000:2/4
+10:37:00 - EmpacotarEnviarDados - Aguardando resposta do 192.168.1.213:19001. 2000:3/4
+10:37:03 - EnviarDadosSYNC - REP 192.168.1.213:19001. Erro=Ocorreu timeout de comunicação com 192.168.1.213:19001

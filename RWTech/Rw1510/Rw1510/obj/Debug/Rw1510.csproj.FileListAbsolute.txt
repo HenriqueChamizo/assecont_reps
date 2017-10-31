@@ -1,0 +1,22 @@
+C:\Rw1510\Rw1510\bin\Debug\Rw1510.exe.config
+C:\Projetos Reps\Rw1510\Rw1510\bin\Debug\Rw1510.exe.config
+C:\Projetos Reps\Rw1510\Rw1510\obj\Debug\Rw1510.csprojResolveAssemblyReference.cache
+C:\Projetos Reps\Rw1510\Rw1510\obj\Debug\Rw1510.Properties.Resources.resources
+C:\Projetos Reps\Rw1510\Rw1510\obj\Debug\Rw1510.csproj.GenerateResource.Cache
+C:\Projetos Reps\Rw1510\Rw1510\bin\Debug\Rw1510.exe
+C:\Projetos Reps\Rw1510\Rw1510\bin\Debug\Rw1510.pdb
+C:\Projetos Reps\Rw1510\Rw1510\bin\Debug\AssepontoRep.dll
+C:\Projetos Reps\Rw1510\Rw1510\bin\Debug\Wr.dll
+C:\Projetos Reps\Rw1510\Rw1510\bin\Debug\HumanAPIClient.dll
+C:\Projetos Reps\Rw1510\Rw1510\bin\Debug\AssepontoRep.pdb
+C:\Projetos Reps\Rw1510\Rw1510\bin\Debug\Wr.pdb
+C:\Projetos Reps\Rw1510\Rw1510\bin\Debug\HumanAPIClient.pdb
+C:\Projetos Reps\Rw1510\Rw1510\bin\Debug\HumanAPIClient.xml
+C:\Projetos Reps\Rw1510\Rw1510\obj\Debug\Rw1510.exe
+C:\Projetos Reps\Rw1510\Rw1510\obj\Debug\Rw1510.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Rw1510\Rw1510\bin\Debug\Rw1510.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Rw1510\Rw1510\obj\Debug\Rw1510.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Rw1510\Rw1510\obj\Debug\Rw1510.pdb
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\Relógios\RWTech\Rw1510\Rw1510\bin\Debug\Rw1510.exe.config
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\Relógios\RWTech\Rw1510\Rw1510\obj\Debug\Rw1510.exe
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\Relógios\RWTech\Rw1510\Rw1510\obj\Debug\Rw1510.pdb

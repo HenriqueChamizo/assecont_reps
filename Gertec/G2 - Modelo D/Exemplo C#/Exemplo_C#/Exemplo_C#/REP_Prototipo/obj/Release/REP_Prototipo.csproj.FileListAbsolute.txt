@@ -1,0 +1,45 @@
+C:\ProjetoRep\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\bin\Release\REP_Prototipo.exe.config
+C:\ProjetoRep\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\bin\Release\REP_Prototipo.exe
+C:\ProjetoRep\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\bin\Release\REP_Prototipo.pdb
+C:\ProjetoRep\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.csprojResolveAssemblyReference.cache
+C:\ProjetoRep\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.Form1.resources
+C:\ProjetoRep\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.Properties.Resources.resources
+C:\ProjetoRep\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.csproj.GenerateResource.Cache
+C:\ProjetoRep\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.exe
+C:\ProjetoRep\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.pdb
+C:\Projetos Reps\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\bin\Release\REP_Prototipo.exe.config
+C:\Projetos Reps\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.exe
+C:\Projetos Reps\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.pdb
+C:\Projetos Reps\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\bin\Release\REP_Prototipo.exe
+C:\Projetos Reps\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\bin\Release\REP_Prototipo.pdb
+C:\Projetos Reps\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.csprojResolveAssemblyReference.cache
+C:\Projetos Reps\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.Form1.resources
+C:\Projetos Reps\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.Properties.Resources.resources
+C:\Projetos Reps\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\bin\Release\REP_Prototipo.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\bin\Release\REP_Prototipo.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\bin\Release\REP_Prototipo.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.Form1.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\SDK_Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\bin\Release\REP_Prototipo.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\SDK_Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\SDK_Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\SDK_Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\bin\Release\REP_Prototipo.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\SDK_Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\bin\Release\REP_Prototipo.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\SDK_Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\SDK_Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.Form1.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\SDK_Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\SDK_Gertec\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.csproj.GenerateResource.Cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G2 - Modelo D\Exemplo C#\Exemplo_C#\Exemplo_C#\REP_Prototipo\bin\Release\REP_Prototipo.exe.config
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G2 - Modelo D\Exemplo C#\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G2 - Modelo D\Exemplo C#\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G2 - Modelo D\Exemplo C#\Exemplo_C#\Exemplo_C#\REP_Prototipo\bin\Release\REP_Prototipo.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G2 - Modelo D\Exemplo C#\Exemplo_C#\Exemplo_C#\REP_Prototipo\bin\Release\REP_Prototipo.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G2 - Modelo D\Exemplo C#\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.csprojResolveAssemblyReference.cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G2 - Modelo D\Exemplo C#\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.Form1.resources
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G2 - Modelo D\Exemplo C#\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.Properties.Resources.resources
+C:\Disco D\Trabalhos\Projetos\Relógios\Gertec\G2 - Modelo D\Exemplo C#\Exemplo_C#\Exemplo_C#\REP_Prototipo\obj\Release\REP_Prototipo.csproj.GenerateResource.Cache

@@ -1,0 +1,1581 @@
+Getting MRP Status
+Timeout. Retrying...
+Getting MRP Status
+Timeout. Retrying...
+Getting MRP Status
+Timeout. Retrying...
+Getting MRP Status
+Timeout. Retrying...
+Getting MRP Status
+Timeout. Retrying...
+14:14:10: Before req.GetResponse()
+14:14:10: After req.GetResponse(), before Stream read
+14:14:10: After Stream read
+14:14:55: Before req.GetResponse()
+14:14:55: After req.GetResponse(), before Stream read
+14:14:55: After Stream read
+14:14:58: Before req.GetResponse()
+14:14:58: After req.GetResponse(), before Stream read
+14:14:58: After Stream read
+14:15:02: Before req.GetResponse()
+14:15:02: After req.GetResponse(), before Stream read
+14:15:02: After Stream read
+14:15:03: Before req.GetResponse()
+14:15:06: After req.GetResponse(), before Stream read
+14:15:06: After Stream read
+14:15:06: Before req.GetResponse()
+14:15:09: After req.GetResponse(), before Stream read
+14:15:09: After Stream read
+14:15:10: Before req.GetResponse()
+14:15:13: After req.GetResponse(), before Stream read
+14:15:13: After Stream read
+14:15:13: Before req.GetResponse()
+14:15:17: After req.GetResponse(), before Stream read
+14:15:17: After Stream read
+14:15:17: Before req.GetResponse()
+14:15:20: After req.GetResponse(), before Stream read
+14:15:20: After Stream read
+14:15:21: Before req.GetResponse()
+14:15:24: After req.GetResponse(), before Stream read
+14:15:24: After Stream read
+14:15:24: Before req.GetResponse()
+14:15:27: After req.GetResponse(), before Stream read
+14:15:27: After Stream read
+14:15:28: Before req.GetResponse()
+14:15:31: After req.GetResponse(), before Stream read
+14:15:31: After Stream read
+14:15:31: Before req.GetResponse()
+14:16:36: Before req.GetResponse()
+14:17:02: Before req.GetResponse()
+14:20:04: Before req.GetResponse()
+14:20:04: After req.GetResponse(), before Stream read
+14:20:04: After Stream read
+14:20:07: Before req.GetResponse()
+14:20:07: After req.GetResponse(), before Stream read
+14:20:07: After Stream read
+14:20:07: Before req.GetResponse()
+14:20:10: After req.GetResponse(), before Stream read
+14:20:10: After Stream read
+14:20:11: Before req.GetResponse()
+14:20:14: After req.GetResponse(), before Stream read
+14:20:14: After Stream read
+14:20:14: Before req.GetResponse()
+14:20:17: After req.GetResponse(), before Stream read
+14:20:17: After Stream read
+14:20:18: Before req.GetResponse()
+14:20:21: After req.GetResponse(), before Stream read
+14:20:21: After Stream read
+14:20:22: Before req.GetResponse()
+14:20:25: After req.GetResponse(), before Stream read
+14:20:25: After Stream read
+14:20:25: Before req.GetResponse()
+14:20:28: After req.GetResponse(), before Stream read
+14:20:28: After Stream read
+14:20:29: Before req.GetResponse()
+14:20:32: After req.GetResponse(), before Stream read
+14:20:32: After Stream read
+14:20:32: Before req.GetResponse()
+14:20:35: After req.GetResponse(), before Stream read
+14:20:35: After Stream read
+14:20:36: Before req.GetResponse()
+14:20:39: After req.GetResponse(), before Stream read
+14:20:39: After Stream read
+14:21:04: Before req.GetResponse()
+14:21:04: After req.GetResponse(), before Stream read
+14:21:04: After Stream read
+14:21:05: Before req.GetResponse()
+14:21:46: Before req.GetResponse()
+14:21:53: Before req.GetResponse()
+14:22:31: Before req.GetResponse()
+14:22:31: After req.GetResponse(), before Stream read
+14:22:31: After Stream read
+14:22:43: Before req.GetResponse()
+14:22:43: After req.GetResponse(), before Stream read
+14:22:43: After Stream read
+Post body: NFR=12345&
+Response ok. LastNfrChanged set to TRUE
+14:22:50: Before req.GetResponse()
+14:22:51: After req.GetResponse(), before Stream read
+14:22:51: After Stream read
+14:23:38: Before req.GetResponse()
+14:23:38: After req.GetResponse(), before Stream read
+14:23:38: After Stream read
+14:24:23: Before req.GetResponse()
+14:24:23: After req.GetResponse(), before Stream read
+14:24:23: After Stream read
+14:24:28: Before req.GetResponse()
+14:24:28: After req.GetResponse(), before Stream read
+14:24:28: After Stream read
+14:24:29: Before req.GetResponse()
+Getting MRP Status
+14:26:07: Before req.GetResponse()
+14:26:07: After req.GetResponse(), before Stream read
+14:26:07: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+03654119000176012345678901GERTEC%20BRASIL%20LTDAAV%2E%20JABAQUARA%2C%203060%20%2D%20SAO%20PAULO
+Post Data Bin.:
+303336353431313930303031373630313233343536373839303147455254454325323042524153494C2532304C54444141562532452532304A41424151554152412532432532303330363025323025324425323053414F2532305041554C4F
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:12345
+NSR:000000000
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A31323334350A4E53523A3030303030303030300A53454E48413A31323334
+Post Data SHA1: 821A92F49D1B6D2B0568658F8420E4AA0E489BC9
+Post Data SHA1 16 MSB: 821A92F49D1B6D2B0568658F8420E4AA
+Auth Data SHA1: F6F6CE2C4336EAB166E9F9726A5650B10C5DA6F2
+Auth Data SHA1 16 MSB: F6F6CE2C4336EAB166E9F9726A5650B1
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 514BABBBE138A6BC767E4FF528557B56
+Post body: CNPJ=03654119000176&CEI=01234567890&TIPO=1&NOME=GERTEC%20BRASIL%20LTDA&END=AV%2E%20JABAQUARA%2C%203060%20%2D%20SAO%20PAULO&AUT=69604699610;514BABBBE138A6BC767E4FF528557B56
+Response ok. LastNfrChanged set to TRUE
+14:33:54: Before req.GetResponse()
+14:33:54: After req.GetResponse(), before Stream read
+14:33:54: After Stream read
+14:33:57: Before req.GetResponse()
+14:33:57: After req.GetResponse(), before Stream read
+14:33:57: After Stream read
+14:34:03: Before req.GetResponse()
+14:34:04: After req.GetResponse(), before Stream read
+14:34:04: After Stream read
+Post body: NFR=12345000000000001&
+Response ok. LastNfrChanged set to TRUE
+14:34:11: Before req.GetResponse()
+14:34:11: After req.GetResponse(), before Stream read
+14:34:11: After Stream read
+14:34:22: Before req.GetResponse()
+14:34:22: After req.GetResponse(), before Stream read
+14:34:22: After Stream read
+14:34:22: Before req.GetResponse()
+14:34:25: After req.GetResponse(), before Stream read
+14:34:25: After Stream read
+14:34:26: Before req.GetResponse()
+14:34:29: After req.GetResponse(), before Stream read
+14:34:29: After Stream read
+14:34:29: Before req.GetResponse()
+14:34:33: After req.GetResponse(), before Stream read
+14:34:33: After Stream read
+14:34:33: Before req.GetResponse()
+14:34:36: After req.GetResponse(), before Stream read
+14:34:36: After Stream read
+14:34:37: Before req.GetResponse()
+14:34:40: After req.GetResponse(), before Stream read
+14:34:40: After Stream read
+14:34:40: Before req.GetResponse()
+14:34:43: After req.GetResponse(), before Stream read
+14:34:43: After Stream read
+14:34:44: Before req.GetResponse()
+14:34:47: After req.GetResponse(), before Stream read
+14:34:47: After Stream read
+14:34:48: Before req.GetResponse()
+14:34:51: After req.GetResponse(), before Stream read
+14:34:51: After Stream read
+14:34:51: Before req.GetResponse()
+14:34:54: After req.GetResponse(), before Stream read
+14:34:54: After Stream read
+14:34:57: Before req.GetResponse()
+14:37:49: Before req.GetResponse()
+14:37:49: After req.GetResponse(), before Stream read
+14:37:49: After Stream read
+14:37:53: Before req.GetResponse()
+14:37:53: After req.GetResponse(), before Stream read
+14:37:53: After Stream read
+14:38:38: Before req.GetResponse()
+14:38:38: After req.GetResponse(), before Stream read
+14:38:38: After Stream read
+14:38:40: Before req.GetResponse()
+14:38:43: After req.GetResponse(), before Stream read
+14:38:43: After Stream read
+14:38:43: Before req.GetResponse()
+14:38:46: After req.GetResponse(), before Stream read
+14:38:46: After Stream read
+14:38:47: Before req.GetResponse()
+14:38:50: After req.GetResponse(), before Stream read
+14:38:50: After Stream read
+14:38:51: Before req.GetResponse()
+14:38:54: After req.GetResponse(), before Stream read
+14:38:54: After Stream read
+14:38:54: Before req.GetResponse()
+14:38:57: After req.GetResponse(), before Stream read
+14:38:57: After Stream read
+14:38:58: Before req.GetResponse()
+14:39:01: After req.GetResponse(), before Stream read
+14:39:01: After Stream read
+14:39:01: Before req.GetResponse()
+14:39:04: After req.GetResponse(), before Stream read
+14:39:04: After Stream read
+14:39:05: Before req.GetResponse()
+14:39:08: After req.GetResponse(), before Stream read
+14:39:08: After Stream read
+14:39:09: Before req.GetResponse()
+14:39:12: After req.GetResponse(), before Stream read
+14:39:12: After Stream read
+14:39:12: Before req.GetResponse()
+14:41:39: Before req.GetResponse()
+14:42:10: Before req.GetResponse()
+14:42:10: After req.GetResponse(), before Stream read
+14:42:10: After Stream read
+14:42:12: Before req.GetResponse()
+14:42:15: After req.GetResponse(), before Stream read
+14:42:15: After Stream read
+14:42:15: Before req.GetResponse()
+14:42:18: After req.GetResponse(), before Stream read
+14:42:18: After Stream read
+14:42:19: Before req.GetResponse()
+14:42:22: After req.GetResponse(), before Stream read
+14:42:22: After Stream read
+14:42:22: Before req.GetResponse()
+14:42:26: After req.GetResponse(), before Stream read
+14:42:26: After Stream read
+14:42:26: Before req.GetResponse()
+14:42:29: After req.GetResponse(), before Stream read
+14:42:29: After Stream read
+14:42:30: Before req.GetResponse()
+14:42:33: After req.GetResponse(), before Stream read
+14:42:33: After Stream read
+14:42:33: Before req.GetResponse()
+14:42:36: After req.GetResponse(), before Stream read
+14:42:36: After Stream read
+14:42:37: Before req.GetResponse()
+14:42:40: After req.GetResponse(), before Stream read
+14:42:40: After Stream read
+14:42:40: Before req.GetResponse()
+14:42:43: After req.GetResponse(), before Stream read
+14:42:43: After Stream read
+14:42:44: Before req.GetResponse()
+14:42:47: After req.GetResponse(), before Stream read
+14:42:47: After Stream read
+14:42:48: Before req.GetResponse()
+14:42:51: After req.GetResponse(), before Stream read
+14:42:51: After Stream read
+14:42:51: Before req.GetResponse()
+14:43:06: Before req.GetResponse()
+14:46:03: Before req.GetResponse()
+14:46:03: After req.GetResponse(), before Stream read
+14:46:03: After Stream read
+14:46:05: Before req.GetResponse()
+14:46:08: After req.GetResponse(), before Stream read
+14:46:08: After Stream read
+14:46:09: Before req.GetResponse()
+14:46:12: After req.GetResponse(), before Stream read
+14:46:12: After Stream read
+14:46:12: Before req.GetResponse()
+14:46:15: After req.GetResponse(), before Stream read
+14:46:15: After Stream read
+14:46:16: Before req.GetResponse()
+14:46:19: After req.GetResponse(), before Stream read
+14:46:19: After Stream read
+14:46:20: Before req.GetResponse()
+14:46:23: After req.GetResponse(), before Stream read
+14:46:23: After Stream read
+14:46:39: Before req.GetResponse()
+14:46:39: After req.GetResponse(), before Stream read
+14:46:39: After Stream read
+14:46:40: Before req.GetResponse()
+14:46:43: After req.GetResponse(), before Stream read
+14:46:43: After Stream read
+14:46:45: Before req.GetResponse()
+14:46:48: After req.GetResponse(), before Stream read
+14:46:48: After Stream read
+14:46:51: Before req.GetResponse()
+14:46:51: After req.GetResponse(), before Stream read
+14:46:51: After Stream read
+14:46:55: Before req.GetResponse()
+14:46:55: After req.GetResponse(), before Stream read
+14:46:55: After Stream read
+14:46:57: Before req.GetResponse()
+14:47:00: After req.GetResponse(), before Stream read
+14:47:00: After Stream read
+14:47:00: Before req.GetResponse()
+14:47:04: After req.GetResponse(), before Stream read
+14:47:04: After Stream read
+14:47:04: Before req.GetResponse()
+14:47:07: After req.GetResponse(), before Stream read
+14:47:07: After Stream read
+14:47:08: Before req.GetResponse()
+14:47:11: After req.GetResponse(), before Stream read
+14:47:11: After Stream read
+14:47:11: Before req.GetResponse()
+14:47:14: After req.GetResponse(), before Stream read
+14:47:14: After Stream read
+14:49:02: Before req.GetResponse()
+14:49:29: Before req.GetResponse()
+14:50:54: Before req.GetResponse()
+14:50:54: After req.GetResponse(), before Stream read
+14:50:54: After Stream read
+14:50:57: Before req.GetResponse()
+14:50:57: After req.GetResponse(), before Stream read
+14:50:57: After Stream read
+14:50:57: Before req.GetResponse()
+14:51:00: After req.GetResponse(), before Stream read
+14:51:00: After Stream read
+14:51:01: Before req.GetResponse()
+14:51:04: After req.GetResponse(), before Stream read
+14:51:04: After Stream read
+14:51:05: Before req.GetResponse()
+14:51:08: After req.GetResponse(), before Stream read
+14:51:08: After Stream read
+14:51:08: Before req.GetResponse()
+14:51:11: After req.GetResponse(), before Stream read
+14:51:11: After Stream read
+14:51:12: Before req.GetResponse()
+14:51:15: After req.GetResponse(), before Stream read
+14:51:15: After Stream read
+14:51:15: Before req.GetResponse()
+14:51:18: After req.GetResponse(), before Stream read
+14:51:18: After Stream read
+14:51:19: Before req.GetResponse()
+14:51:22: After req.GetResponse(), before Stream read
+14:51:22: After Stream read
+14:51:23: Before req.GetResponse()
+14:51:26: After req.GetResponse(), before Stream read
+14:51:26: After Stream read
+14:51:26: Before req.GetResponse()
+14:51:29: After req.GetResponse(), before Stream read
+14:51:29: After Stream read
+14:51:40: Before req.GetResponse()
+14:51:40: After req.GetResponse(), before Stream read
+14:51:40: After Stream read
+14:51:42: Before req.GetResponse()
+14:51:42: After req.GetResponse(), before Stream read
+14:51:42: After Stream read
+14:51:45: Before req.GetResponse()
+14:51:45: After req.GetResponse(), before Stream read
+14:51:45: After Stream read
+14:51:50: Before req.GetResponse()
+14:51:50: After req.GetResponse(), before Stream read
+14:51:50: After Stream read
+14:51:50: Before req.GetResponse()
+14:51:53: After req.GetResponse(), before Stream read
+14:51:53: After Stream read
+14:52:00: Before req.GetResponse()
+14:52:00: After req.GetResponse(), before Stream read
+14:52:00: After Stream read
+14:52:07: Before req.GetResponse()
+14:52:22: Before req.GetResponse()
+14:53:11: Before req.GetResponse()
+14:53:18: Before req.GetResponse()
+14:54:01: Before req.GetResponse()
+14:54:34: Before req.GetResponse()
+14:56:03: Before req.GetResponse()
+18:34:21: Before req.GetResponse()
+18:34:22: After req.GetResponse(), before Stream read
+18:34:22: After Stream read
+18:34:24: Before req.GetResponse()
+18:34:24: After req.GetResponse(), before Stream read
+18:34:24: After Stream read
+18:34:34: Before req.GetResponse()
+18:34:34: After req.GetResponse(), before Stream read
+18:34:34: After Stream read
+18:34:41: Before req.GetResponse()
+18:34:41: After req.GetResponse(), before Stream read
+18:34:41: After Stream read
+18:35:52: Before req.GetResponse()
+18:35:52: After req.GetResponse(), before Stream read
+18:35:52: After Stream read
+18:35:54: Before req.GetResponse()
+18:35:57: After req.GetResponse(), before Stream read
+18:35:57: After Stream read
+18:36:03: Before req.GetResponse()
+18:36:03: After req.GetResponse(), before Stream read
+18:36:03: After Stream read
+18:39:22: Before req.GetResponse()
+18:39:22: After req.GetResponse(), before Stream read
+18:39:22: After Stream read
+18:39:26: Before req.GetResponse()
+18:39:26: After req.GetResponse(), before Stream read
+18:39:26: After Stream read
+18:39:33: Before req.GetResponse()
+18:39:33: After req.GetResponse(), before Stream read
+18:39:33: After Stream read
+18:46:19: Before req.GetResponse()
+18:46:19: After req.GetResponse(), before Stream read
+18:46:19: After Stream read
+18:56:09: Before req.GetResponse()
+18:56:09: After req.GetResponse(), before Stream read
+18:56:09: After Stream read
+18:56:54: Before req.GetResponse()
+18:56:54: After req.GetResponse(), before Stream read
+18:56:54: After Stream read
+18:56:55: Before req.GetResponse()
+18:56:58: After req.GetResponse(), before Stream read
+18:56:58: After Stream read
+18:56:59: Before req.GetResponse()
+18:57:02: After req.GetResponse(), before Stream read
+18:57:02: After Stream read
+09:50:31: Before req.GetResponse()
+09:50:31: After req.GetResponse(), before Stream read
+09:50:31: After Stream read
+09:50:34: Before req.GetResponse()
+09:50:34: After req.GetResponse(), before Stream read
+09:50:34: After Stream read
+10:06:13: Before req.GetResponse()
+10:06:13: After req.GetResponse(), before Stream read
+10:06:13: After Stream read
+10:06:22: Before req.GetResponse()
+10:06:22: After req.GetResponse(), before Stream read
+10:06:22: After Stream read
+Getting MRP Status
+10:06:53: Before req.GetResponse()
+10:06:53: After req.GetResponse(), before Stream read
+10:06:53: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+172%2E18%2E4%2E171255%2E255%2E255%2E0172%2E18%2E4%2E2
+Post Data Bin.:
+3137322532453138253245342532453137313235352532453235352532453235352532453031373225324531382532453425324532
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000019
+NSR:000002524
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303031390A4E53523A3030303030323532340A53454E48413A31323334
+Post Data SHA1: CBA57DDE2626754D8373F20C037A94528CFFFB3D
+Post Data SHA1 16 MSB: CBA57DDE2626754D8373F20C037A9452
+Auth Data SHA1: 4B5A3771014EDB01A84DA2DAE5FDC45CBC860603
+Auth Data SHA1 16 MSB: 4B5A3771014EDB01A84DA2DAE5FDC45C
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 8F9C1325829C80403660366A7D87826C
+Post body: IP=172%2E18%2E4%2E171&MASK=255%2E255%2E255%2E0&GAT=172%2E18%2E4%2E2&AUT=69604699610;8F9C1325829C80403660366A7D87826C
+**** AUTHENTICATED POST ****
+Post Data Str.:
+172%2E18%2E4%2E171255%2E255%2E255%2E0172%2E18%2E4%2E2
+Post Data Bin.:
+3137322532453138253245342532453137313235352532453235352532453235352532453031373225324531382532453425324532
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000019
+NSR:000002524
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303031390A4E53523A3030303030323532340A53454E48413A31323334
+Post Data SHA1: CBA57DDE2626754D8373F20C037A94528CFFFB3D
+Post Data SHA1 16 MSB: CBA57DDE2626754D8373F20C037A9452
+Auth Data SHA1: 4B5A3771014EDB01A84DA2DAE5FDC45CBC860603
+Auth Data SHA1 16 MSB: 4B5A3771014EDB01A84DA2DAE5FDC45C
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 8F9C1325829C80403660366A7D87826C
+Post body: IP=172%2E18%2E4%2E171&MASK=255%2E255%2E255%2E0&GAT=172%2E18%2E4%2E2&AUT=69604699610;8F9C1325829C80403660366A7D87826C
+**** AUTHENTICATED POST ****
+Post Data Str.:
+172%2E18%2E4%2E171255%2E255%2E255%2E0172%2E18%2E4%2E2
+Post Data Bin.:
+3137322532453138253245342532453137313235352532453235352532453235352532453031373225324531382532453425324532
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000019
+NSR:000002524
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303031390A4E53523A3030303030323532340A53454E48413A31323334
+Post Data SHA1: CBA57DDE2626754D8373F20C037A94528CFFFB3D
+Post Data SHA1 16 MSB: CBA57DDE2626754D8373F20C037A9452
+Auth Data SHA1: 4B5A3771014EDB01A84DA2DAE5FDC45CBC860603
+Auth Data SHA1 16 MSB: 4B5A3771014EDB01A84DA2DAE5FDC45C
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 8F9C1325829C80403660366A7D87826C
+Post body: IP=172%2E18%2E4%2E171&MASK=255%2E255%2E255%2E0&GAT=172%2E18%2E4%2E2&AUT=69604699610;8F9C1325829C80403660366A7D87826C
+**** AUTHENTICATED POST ****
+Post Data Str.:
+172%2E18%2E4%2E171255%2E255%2E255%2E0172%2E18%2E4%2E2
+Post Data Bin.:
+3137322532453138253245342532453137313235352532453235352532453235352532453031373225324531382532453425324532
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000019
+NSR:000002524
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303031390A4E53523A3030303030323532340A53454E48413A31323334
+Post Data SHA1: CBA57DDE2626754D8373F20C037A94528CFFFB3D
+Post Data SHA1 16 MSB: CBA57DDE2626754D8373F20C037A9452
+Auth Data SHA1: 4B5A3771014EDB01A84DA2DAE5FDC45CBC860603
+Auth Data SHA1 16 MSB: 4B5A3771014EDB01A84DA2DAE5FDC45C
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 8F9C1325829C80403660366A7D87826C
+Post body: IP=172%2E18%2E4%2E171&MASK=255%2E255%2E255%2E0&GAT=172%2E18%2E4%2E2&AUT=69604699610;8F9C1325829C80403660366A7D87826C
+**** AUTHENTICATED POST ****
+Post Data Str.:
+172%2E18%2E4%2E171255%2E255%2E255%2E0172%2E18%2E4%2E2
+Post Data Bin.:
+3137322532453138253245342532453137313235352532453235352532453235352532453031373225324531382532453425324532
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000019
+NSR:000002524
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303031390A4E53523A3030303030323532340A53454E48413A31323334
+Post Data SHA1: CBA57DDE2626754D8373F20C037A94528CFFFB3D
+Post Data SHA1 16 MSB: CBA57DDE2626754D8373F20C037A9452
+Auth Data SHA1: 4B5A3771014EDB01A84DA2DAE5FDC45CBC860603
+Auth Data SHA1 16 MSB: 4B5A3771014EDB01A84DA2DAE5FDC45C
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 8F9C1325829C80403660366A7D87826C
+Post body: IP=172%2E18%2E4%2E171&MASK=255%2E255%2E255%2E0&GAT=172%2E18%2E4%2E2&AUT=69604699610;8F9C1325829C80403660366A7D87826C
+10:07:39: Before req.GetResponse()
+10:07:39: After req.GetResponse(), before Stream read
+10:07:39: After Stream read
+10:07:41: Before req.GetResponse()
+10:07:44: After req.GetResponse(), before Stream read
+10:07:44: After Stream read
+Post body: IP=172%2E18%2E4%2E171&MASK=255%2E255%2E255%2E0&GAT=172%2E18%2E4%2E2&
+Post body: IP=172%2E18%2E4%2E171&MASK=255%2E255%2E255%2E0&GAT=172%2E18%2E4%2E2&
+Post body: IP=172%2E18%2E4%2E171&MASK=255%2E255%2E255%2E0&GAT=172%2E18%2E4%2E2&
+Post body: IP=172%2E18%2E4%2E171&MASK=255%2E255%2E255%2E0&GAT=172%2E18%2E4%2E2&
+Post body: IP=172%2E18%2E4%2E171&MASK=255%2E255%2E255%2E0&GAT=172%2E18%2E4%2E2&
+Post body: IP=172%2E18%2E4%2E171&MASK=255%2E255%2E255%2E0&GAT=172%2E18%2E4%2E2&
+Post body: IP=172%2E18%2E4%2E171&MASK=255%2E255%2E255%2E0&GAT=172%2E18%2E4%2E2&
+Post body: IP=172%2E18%2E4%2E171&MASK=255%2E255%2E255%2E0&GAT=172%2E18%2E4%2E2&
+Post body: IP=172%2E18%2E4%2E171&MASK=255%2E255%2E255%2E0&GAT=172%2E18%2E4%2E2&
+Post body: IP=172%2E18%2E4%2E171&MASK=255%2E255%2E255%2E0&GAT=172%2E18%2E4%2E2&
+10:51:51: Before req.GetResponse()
+10:51:51: After req.GetResponse(), before Stream read
+10:51:51: After Stream read
+Post body: IP=172%2E18%2E4%2E171&Mask=255%2E255%2E255%2E0&Gateway=172%2E18%2E4%2E2&
+Response ok. LastNfrChanged set to TRUE
+10:51:56: Before req.GetResponse()
+10:51:56: After req.GetResponse(), before Stream read
+10:51:56: After Stream read
+10:51:57: Before req.GetResponse()
+10:52:00: After req.GetResponse(), before Stream read
+10:52:00: After Stream read
+10:52:02: Before req.GetResponse()
+10:52:05: After req.GetResponse(), before Stream read
+10:52:05: After Stream read
+10:58:39: Before req.GetResponse()
+10:58:39: After req.GetResponse(), before Stream read
+10:58:39: After Stream read
+Post body: IP=172%2E18%2E4%2E173&Mask=255%2E255%2E255%2E0&Gateway=172%2E18%2E4%2E2&
+Response ok. LastNfrChanged set to TRUE
+10:59:03: Before req.GetResponse()
+10:59:12: Before req.GetResponse()
+10:59:12: After req.GetResponse(), before Stream read
+10:59:12: After Stream read
+Post body: IP=172%2E18%2E4%2E171&Mask=255%2E255%2E255%2E0&Gateway=172%2E18%2E4%2E2&
+Response ok. LastNfrChanged set to TRUE
+10:59:23: Before req.GetResponse()
+10:59:23: After req.GetResponse(), before Stream read
+10:59:23: After Stream read
+11:07:49: Before req.GetResponse()
+11:07:57: Before req.GetResponse()
+11:08:05: Before req.GetResponse()
+11:08:13: Before req.GetResponse()
+11:08:23: Before req.GetResponse()
+11:08:26: After req.GetResponse(), before Stream read
+11:08:26: After Stream read
+11:08:29: Before req.GetResponse()
+11:08:29: After req.GetResponse(), before Stream read
+11:08:29: After Stream read
+11:08:45: Before req.GetResponse()
+11:08:51: Before req.GetResponse()
+11:10:09: Before req.GetResponse()
+11:10:09: After req.GetResponse(), before Stream read
+11:10:09: After Stream read
+11:10:11: Before req.GetResponse()
+11:10:14: After req.GetResponse(), before Stream read
+11:10:14: After Stream read
+11:10:17: Before req.GetResponse()
+11:10:17: After req.GetResponse(), before Stream read
+11:10:17: After Stream read
+11:13:42: Before req.GetResponse()
+11:13:42: After req.GetResponse(), before Stream read
+11:13:42: After Stream read
+11:16:43: Before req.GetResponse()
+11:16:43: After req.GetResponse(), before Stream read
+11:16:43: After Stream read
+Post body: IP=172%2E18%2E4%2E171&Mask=255%2E255%2E255%2E0&Gateway=172%2E18%2E4%2E2&
+Response ok. LastNfrChanged set to TRUE
+11:19:06: Before req.GetResponse()
+11:19:06: After req.GetResponse(), before Stream read
+11:19:06: After Stream read
+Post body: Interface=5&
+Post body: Interface=5&
+Post body: Interface=5&
+Post body: Interface=5&
+Post body: Interface=5&
+11:20:01: Before req.GetResponse()
+11:20:09: Before req.GetResponse()
+11:21:08: Before req.GetResponse()
+11:22:04: Before req.GetResponse()
+11:22:05: After req.GetResponse(), before Stream read
+11:22:05: After Stream read
+Post body: Interface=0&
+Post body: Interface=0&
+Post body: Interface=0&
+Post body: Interface=0&
+Post body: Interface=0&
+11:23:50: Before req.GetResponse()
+11:25:11: Before req.GetResponse()
+11:25:18: Before req.GetResponse()
+11:26:10: Before req.GetResponse()
+11:26:10: After req.GetResponse(), before Stream read
+11:26:10: After Stream read
+11:26:11: Before req.GetResponse()
+11:26:14: After req.GetResponse(), before Stream read
+11:26:14: After Stream read
+11:26:15: Before req.GetResponse()
+11:26:18: After req.GetResponse(), before Stream read
+11:26:18: After Stream read
+11:26:20: Before req.GetResponse()
+11:26:23: After req.GetResponse(), before Stream read
+11:26:23: After Stream read
+Post body: Interface=0
+Post body: Interface=0
+Post body: Interface=0
+Post body: Interface=0
+Post body: Interface=0
+11:28:12: Before req.GetResponse()
+11:28:12: After req.GetResponse(), before Stream read
+11:28:12: After Stream read
+11:28:14: Before req.GetResponse()
+11:28:14: After req.GetResponse(), before Stream read
+11:28:14: After Stream read
+11:28:16: Before req.GetResponse()
+11:28:19: After req.GetResponse(), before Stream read
+11:28:19: After Stream read
+Post body: Interface=0
+Post body: Interface=0
+Post body: Interface=0
+Post body: Interface=0
+Post body: Interface=0
+11:57:01: Before req.GetResponse()
+11:57:01: After req.GetResponse(), before Stream read
+11:57:01: After Stream read
+11:57:03: Before req.GetResponse()
+11:57:06: After req.GetResponse(), before Stream read
+11:57:06: After Stream read
+12:09:12: Before req.GetResponse()
+12:09:12: After req.GetResponse(), before Stream read
+12:09:12: After Stream read
+12:09:24: Before req.GetResponse()
+12:09:24: After req.GetResponse(), before Stream read
+12:09:24: After Stream read
+12:09:25: Before req.GetResponse()
+12:09:28: After req.GetResponse(), before Stream read
+12:09:28: After Stream read
+12:09:30: Before req.GetResponse()
+12:09:33: After req.GetResponse(), before Stream read
+12:09:33: After Stream read
+13:56:12: Before req.GetResponse()
+13:56:12: After req.GetResponse(), before Stream read
+13:56:12: After Stream read
+13:56:13: Before req.GetResponse()
+13:56:16: After req.GetResponse(), before Stream read
+13:56:16: After Stream read
+14:05:35: Before req.GetResponse()
+14:05:35: After req.GetResponse(), before Stream read
+14:05:35: After Stream read
+14:05:48: Before req.GetResponse()
+14:05:48: After req.GetResponse(), before Stream read
+14:05:48: After Stream read
+14:08:38: Before req.GetResponse()
+14:08:38: After req.GetResponse(), before Stream read
+14:08:38: After Stream read
+14:08:38: Before req.GetResponse()
+14:08:41: After req.GetResponse(), before Stream read
+14:08:41: After Stream read
+14:08:42: Before req.GetResponse()
+14:08:45: After req.GetResponse(), before Stream read
+14:08:45: After Stream read
+14:08:45: Before req.GetResponse()
+14:08:48: After req.GetResponse(), before Stream read
+14:08:48: After Stream read
+14:08:49: Before req.GetResponse()
+14:08:52: After req.GetResponse(), before Stream read
+14:08:52: After Stream read
+14:08:59: Before req.GetResponse()
+14:08:59: After req.GetResponse(), before Stream read
+14:08:59: After Stream read
+14:09:00: Before req.GetResponse()
+14:09:03: After req.GetResponse(), before Stream read
+14:09:03: After Stream read
+14:09:03: Before req.GetResponse()
+14:09:06: After req.GetResponse(), before Stream read
+14:09:06: After Stream read
+14:09:07: Before req.GetResponse()
+14:09:10: After req.GetResponse(), before Stream read
+14:09:10: After Stream read
+14:09:10: Before req.GetResponse()
+14:09:13: After req.GetResponse(), before Stream read
+14:09:13: After Stream read
+14:09:18: Before req.GetResponse()
+14:09:18: After req.GetResponse(), before Stream read
+14:09:18: After Stream read
+14:09:21: Before req.GetResponse()
+14:09:21: After req.GetResponse(), before Stream read
+14:09:21: After Stream read
+14:09:24: Before req.GetResponse()
+14:09:27: After req.GetResponse(), before Stream read
+14:09:27: After Stream read
+16:12:03: Before req.GetResponse()
+16:12:16: Before req.GetResponse()
+16:12:16: After req.GetResponse(), before Stream read
+16:12:16: After Stream read
+16:12:16: Before request to http://172.18.4.171/MRP/Regs/NextReg
+16:12:16: Before req.GetResponse()
+16:12:19: After req.GetResponse(), before Stream read
+16:12:19: After Stream read
+16:12:19: After response, before parse
+16:12:19: After parse
+16:12:19: Before req.GetResponse()
+16:12:22: After req.GetResponse(), before Stream read
+16:12:22: After Stream read
+16:12:31: Before req.GetResponse()
+16:12:31: After req.GetResponse(), before Stream read
+16:12:31: After Stream read
+16:12:31: Before request to http://172.18.4.171/MRP/Regs/NextReg
+16:12:31: Before req.GetResponse()
+16:12:34: After req.GetResponse(), before Stream read
+16:12:34: After Stream read
+16:12:34: After response, before parse
+16:12:34: After parse
+16:12:34: Before request to http://172.18.4.171/MRP/Regs/NextReg
+16:12:34: Before req.GetResponse()
+16:12:38: After req.GetResponse(), before Stream read
+16:12:38: After Stream read
+16:12:38: After response, before parse
+16:12:38: After parse
+16:12:38: Before request to http://172.18.4.171/MRP/Regs/NextReg
+16:12:38: Before req.GetResponse()
+16:12:41: After req.GetResponse(), before Stream read
+16:12:41: After Stream read
+16:12:41: After response, before parse
+16:12:41: After parse
+16:12:41: Before request to http://172.18.4.171/MRP/Regs/NextReg
+16:12:41: Before req.GetResponse()
+16:18:12: Before req.GetResponse()
+16:18:12: After req.GetResponse(), before Stream read
+16:18:12: After Stream read
+16:18:14: Before req.GetResponse()
+16:18:14: After req.GetResponse(), before Stream read
+16:18:14: After Stream read
+16:18:17: Before req.GetResponse()
+16:18:17: After req.GetResponse(), before Stream read
+16:18:17: After Stream read
+16:32:40: Before req.GetResponse()
+16:32:41: After req.GetResponse(), before Stream read
+16:32:41: After Stream read
+16:32:41: Before req.GetResponse()
+16:32:44: After req.GetResponse(), before Stream read
+16:32:44: After Stream read
+16:32:45: Before req.GetResponse()
+16:32:58: Before req.GetResponse()
+16:35:11: Before req.GetResponse()
+16:35:19: Before req.GetResponse()
+16:35:31: Before req.GetResponse()
+11:59:36: Before req.GetResponse()
+12:00:01: Before req.GetResponse()
+13:02:16: Before req.GetResponse()
+13:47:01: Before req.GetResponse()
+13:47:04: After req.GetResponse(), before Stream read
+13:47:04: After Stream read
+13:47:07: Before req.GetResponse()
+13:47:07: After req.GetResponse(), before Stream read
+13:47:07: After Stream read
+13:47:07: Before req.GetResponse()
+13:47:11: After req.GetResponse(), before Stream read
+13:47:11: After Stream read
+13:47:21: Before req.GetResponse()
+13:47:24: After req.GetResponse(), before Stream read
+13:47:24: After Stream read
+13:47:28: Before req.GetResponse()
+13:47:28: After req.GetResponse(), before Stream read
+13:47:28: After Stream read
+13:47:31: Before req.GetResponse()
+13:47:31: After req.GetResponse(), before Stream read
+13:47:31: After Stream read
+13:47:32: Before req.GetResponse()
+13:47:35: After req.GetResponse(), before Stream read
+13:47:35: After Stream read
+13:47:39: Before req.GetResponse()
+13:47:39: After req.GetResponse(), before Stream read
+13:47:39: After Stream read
+13:47:43: Before req.GetResponse()
+13:47:47: After req.GetResponse(), before Stream read
+13:47:47: After Stream read
+13:47:51: Before req.GetResponse()
+13:47:51: After req.GetResponse(), before Stream read
+13:47:51: After Stream read
+13:48:06: Before req.GetResponse()
+13:48:06: After req.GetResponse(), before Stream read
+13:48:06: After Stream read
+13:48:12: Before req.GetResponse()
+13:48:15: After req.GetResponse(), before Stream read
+13:48:15: After Stream read
+13:48:24: Before req.GetResponse()
+13:48:24: After req.GetResponse(), before Stream read
+13:48:24: After Stream read
+13:48:26: Before req.GetResponse()
+13:48:26: After req.GetResponse(), before Stream read
+13:48:26: After Stream read
+13:48:29: Before req.GetResponse()
+13:48:29: After req.GetResponse(), before Stream read
+13:48:29: After Stream read
+Post body: Key=111111111&Security=WPA2&SSID=ssid%2Dwifi%2Dxyz
+Response ok. LastNfrChanged set to TRUE
+13:48:46: Before req.GetResponse()
+13:48:46: After req.GetResponse(), before Stream read
+13:48:46: After Stream read
+Post body: Key=234567890&Security=NONE&SSID=ssid%2Dteste2
+Response ok. LastNfrChanged set to TRUE
+13:49:10: Before req.GetResponse()
+13:49:10: After req.GetResponse(), before Stream read
+13:49:10: After Stream read
+Post body: Key=234567890&Security=WEP64&SSID=ssid%2Dteste2yz
+Timeout. Retrying...
+Post body: Key=234567890&Security=WEP64&SSID=ssid%2Dteste2yz
+Response ok. LastNfrChanged set to TRUE
+13:49:30: Before req.GetResponse()
+13:49:30: After req.GetResponse(), before Stream read
+13:49:30: After Stream read
+Post body: Key=234567890&Security=NONE&SSID=ssid%2Dteste2yz
+Response ok. LastNfrChanged set to TRUE
+13:50:18: Before req.GetResponse()
+13:50:18: After req.GetResponse(), before Stream read
+13:50:18: After Stream read
+13:53:36: Before req.GetResponse()
+13:53:47: Before req.GetResponse()
+13:55:22: Before req.GetResponse()
+16:46:51: Before req.GetResponse()
+16:51:34: Before req.GetResponse()
+16:51:34: After req.GetResponse(), before Stream read
+16:51:34: After Stream read
+16:51:35: Before req.GetResponse()
+16:51:38: After req.GetResponse(), before Stream read
+16:51:38: After Stream read
+Getting MRP Status
+16:51:47: Before req.GetResponse()
+16:51:47: After req.GetResponse(), before Stream read
+16:51:47: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+165147211015
+Post Data Bin.:
+313635313437323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000012
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031320A53454E48413A31323334
+Post Data SHA1: 6EB2FBE47AF9CB9AC49203ADB02A8A2B3AF6A4BB
+Post Data SHA1 16 MSB: 6EB2FBE47AF9CB9AC49203ADB02A8A2B
+Auth Data SHA1: B7E28E52F46F4247FD9B1CC1CF003EA53CF48973
+Auth Data SHA1 16 MSB: B7E28E52F46F4247FD9B1CC1CF003EA5
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 99C86FA07183C5549281036E9C5711F2
+Post body: HORA=16&MIN=51&SEG=47&DIA=21&MES=10&ANO=15AUT=69604699610;99C86FA07183C5549281036E9C5711F2
+Getting MRP Status
+16:51:51: Before req.GetResponse()
+16:51:54: After req.GetResponse(), before Stream read
+16:51:54: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+165147211015
+Post Data Bin.:
+313635313437323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000012
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031320A53454E48413A31323334
+Post Data SHA1: 6EB2FBE47AF9CB9AC49203ADB02A8A2B3AF6A4BB
+Post Data SHA1 16 MSB: 6EB2FBE47AF9CB9AC49203ADB02A8A2B
+Auth Data SHA1: B7E28E52F46F4247FD9B1CC1CF003EA53CF48973
+Auth Data SHA1 16 MSB: B7E28E52F46F4247FD9B1CC1CF003EA5
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 99C86FA07183C5549281036E9C5711F2
+Post body: HORA=16&MIN=51&SEG=47&DIA=21&MES=10&ANO=15AUT=69604699610;99C86FA07183C5549281036E9C5711F2
+Getting MRP Status
+16:51:57: Before req.GetResponse()
+16:52:00: After req.GetResponse(), before Stream read
+16:52:00: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+165147211015
+Post Data Bin.:
+313635313437323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000012
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031320A53454E48413A31323334
+Post Data SHA1: 6EB2FBE47AF9CB9AC49203ADB02A8A2B3AF6A4BB
+Post Data SHA1 16 MSB: 6EB2FBE47AF9CB9AC49203ADB02A8A2B
+Auth Data SHA1: B7E28E52F46F4247FD9B1CC1CF003EA53CF48973
+Auth Data SHA1 16 MSB: B7E28E52F46F4247FD9B1CC1CF003EA5
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 99C86FA07183C5549281036E9C5711F2
+Post body: HORA=16&MIN=51&SEG=47&DIA=21&MES=10&ANO=15AUT=69604699610;99C86FA07183C5549281036E9C5711F2
+Getting MRP Status
+16:52:03: Before req.GetResponse()
+16:52:06: After req.GetResponse(), before Stream read
+16:52:06: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+165147211015
+Post Data Bin.:
+313635313437323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000012
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031320A53454E48413A31323334
+Post Data SHA1: 6EB2FBE47AF9CB9AC49203ADB02A8A2B3AF6A4BB
+Post Data SHA1 16 MSB: 6EB2FBE47AF9CB9AC49203ADB02A8A2B
+Auth Data SHA1: B7E28E52F46F4247FD9B1CC1CF003EA53CF48973
+Auth Data SHA1 16 MSB: B7E28E52F46F4247FD9B1CC1CF003EA5
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 99C86FA07183C5549281036E9C5711F2
+Post body: HORA=16&MIN=51&SEG=47&DIA=21&MES=10&ANO=15AUT=69604699610;99C86FA07183C5549281036E9C5711F2
+Getting MRP Status
+16:52:09: Before req.GetResponse()
+16:52:12: After req.GetResponse(), before Stream read
+16:52:12: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+165147211015
+Post Data Bin.:
+313635313437323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000012
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031320A53454E48413A31323334
+Post Data SHA1: 6EB2FBE47AF9CB9AC49203ADB02A8A2B3AF6A4BB
+Post Data SHA1 16 MSB: 6EB2FBE47AF9CB9AC49203ADB02A8A2B
+Auth Data SHA1: B7E28E52F46F4247FD9B1CC1CF003EA53CF48973
+Auth Data SHA1 16 MSB: B7E28E52F46F4247FD9B1CC1CF003EA5
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 99C86FA07183C5549281036E9C5711F2
+Post body: HORA=16&MIN=51&SEG=47&DIA=21&MES=10&ANO=15AUT=69604699610;99C86FA07183C5549281036E9C5711F2
+Getting MRP Status
+16:52:33: Before req.GetResponse()
+16:52:33: After req.GetResponse(), before Stream read
+16:52:33: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+165233211015
+Post Data Bin.:
+313635323333323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000012
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031320A53454E48413A31323334
+Post Data SHA1: D984D0B40AEB5678304E7B0FD59EF30AE4CFABA3
+Post Data SHA1 16 MSB: D984D0B40AEB5678304E7B0FD59EF30A
+Auth Data SHA1: B7E28E52F46F4247FD9B1CC1CF003EA53CF48973
+Auth Data SHA1 16 MSB: B7E28E52F46F4247FD9B1CC1CF003EA5
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 7BB039F619366F688F73CE43B954C7A6
+Post body: HORA=16&MIN=52&SEG=33&DIA=21&MES=10&ANO=15AUT=12345678909;7BB039F619366F688F73CE43B954C7A6
+Getting MRP Status
+16:52:36: Before req.GetResponse()
+16:52:39: After req.GetResponse(), before Stream read
+16:52:39: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+165233211015
+Post Data Bin.:
+313635323333323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000012
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031320A53454E48413A31323334
+Post Data SHA1: D984D0B40AEB5678304E7B0FD59EF30AE4CFABA3
+Post Data SHA1 16 MSB: D984D0B40AEB5678304E7B0FD59EF30A
+Auth Data SHA1: B7E28E52F46F4247FD9B1CC1CF003EA53CF48973
+Auth Data SHA1 16 MSB: B7E28E52F46F4247FD9B1CC1CF003EA5
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 7BB039F619366F688F73CE43B954C7A6
+Post body: HORA=16&MIN=52&SEG=33&DIA=21&MES=10&ANO=15AUT=12345678909;7BB039F619366F688F73CE43B954C7A6
+Getting MRP Status
+16:52:42: Before req.GetResponse()
+16:52:45: After req.GetResponse(), before Stream read
+16:52:45: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+165233211015
+Post Data Bin.:
+313635323333323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000012
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031320A53454E48413A31323334
+Post Data SHA1: D984D0B40AEB5678304E7B0FD59EF30AE4CFABA3
+Post Data SHA1 16 MSB: D984D0B40AEB5678304E7B0FD59EF30A
+Auth Data SHA1: B7E28E52F46F4247FD9B1CC1CF003EA53CF48973
+Auth Data SHA1 16 MSB: B7E28E52F46F4247FD9B1CC1CF003EA5
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 7BB039F619366F688F73CE43B954C7A6
+Post body: HORA=16&MIN=52&SEG=33&DIA=21&MES=10&ANO=15AUT=12345678909;7BB039F619366F688F73CE43B954C7A6
+Getting MRP Status
+16:52:48: Before req.GetResponse()
+16:52:51: After req.GetResponse(), before Stream read
+16:52:51: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+165233211015
+Post Data Bin.:
+313635323333323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000012
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031320A53454E48413A31323334
+Post Data SHA1: D984D0B40AEB5678304E7B0FD59EF30AE4CFABA3
+Post Data SHA1 16 MSB: D984D0B40AEB5678304E7B0FD59EF30A
+Auth Data SHA1: B7E28E52F46F4247FD9B1CC1CF003EA53CF48973
+Auth Data SHA1 16 MSB: B7E28E52F46F4247FD9B1CC1CF003EA5
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 7BB039F619366F688F73CE43B954C7A6
+Post body: HORA=16&MIN=52&SEG=33&DIA=21&MES=10&ANO=15AUT=12345678909;7BB039F619366F688F73CE43B954C7A6
+Getting MRP Status
+16:52:55: Before req.GetResponse()
+Timeout. Retrying...
+Getting MRP Status
+16:53:06: Before req.GetResponse()
+16:53:06: After req.GetResponse(), before Stream read
+16:53:06: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+165306211015
+Post Data Bin.:
+313635333036323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000012
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031320A53454E48413A31323334
+Post Data SHA1: 22C305DF9D19FAE7A10334CDE4E318B85C37BBE7
+Post Data SHA1 16 MSB: 22C305DF9D19FAE7A10334CDE4E318B8
+Auth Data SHA1: B7E28E52F46F4247FD9B1CC1CF003EA53CF48973
+Auth Data SHA1 16 MSB: B7E28E52F46F4247FD9B1CC1CF003EA5
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 79535CC424CF5F1AB2B61377D506F10C
+Post body: HORA=16&MIN=53&SEG=06&DIA=21&MES=10&ANO=15AUT=12345678909;79535CC424CF5F1AB2B61377D506F10C
+Getting MRP Status
+16:53:09: Before req.GetResponse()
+16:53:12: After req.GetResponse(), before Stream read
+16:53:12: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+165306211015
+Post Data Bin.:
+313635333036323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000012
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031320A53454E48413A31323334
+Post Data SHA1: 22C305DF9D19FAE7A10334CDE4E318B85C37BBE7
+Post Data SHA1 16 MSB: 22C305DF9D19FAE7A10334CDE4E318B8
+Auth Data SHA1: B7E28E52F46F4247FD9B1CC1CF003EA53CF48973
+Auth Data SHA1 16 MSB: B7E28E52F46F4247FD9B1CC1CF003EA5
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 79535CC424CF5F1AB2B61377D506F10C
+Post body: HORA=16&MIN=53&SEG=06&DIA=21&MES=10&ANO=15AUT=12345678909;79535CC424CF5F1AB2B61377D506F10C
+Getting MRP Status
+16:53:15: Before req.GetResponse()
+Timeout. Retrying...
+Getting MRP Status
+16:53:20: Before req.GetResponse()
+16:53:20: After req.GetResponse(), before Stream read
+16:53:20: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+165306211015
+Post Data Bin.:
+313635333036323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000012
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031320A53454E48413A31323334
+Post Data SHA1: 22C305DF9D19FAE7A10334CDE4E318B85C37BBE7
+Post Data SHA1 16 MSB: 22C305DF9D19FAE7A10334CDE4E318B8
+Auth Data SHA1: B7E28E52F46F4247FD9B1CC1CF003EA53CF48973
+Auth Data SHA1 16 MSB: B7E28E52F46F4247FD9B1CC1CF003EA5
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 79535CC424CF5F1AB2B61377D506F10C
+Post body: HORA=16&MIN=53&SEG=06&DIA=21&MES=10&ANO=15AUT=12345678909;79535CC424CF5F1AB2B61377D506F10C
+Getting MRP Status
+16:53:23: Before req.GetResponse()
+16:53:26: After req.GetResponse(), before Stream read
+16:53:26: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+165306211015
+Post Data Bin.:
+313635333036323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000012
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031320A53454E48413A31323334
+Post Data SHA1: 22C305DF9D19FAE7A10334CDE4E318B85C37BBE7
+Post Data SHA1 16 MSB: 22C305DF9D19FAE7A10334CDE4E318B8
+Auth Data SHA1: B7E28E52F46F4247FD9B1CC1CF003EA53CF48973
+Auth Data SHA1 16 MSB: B7E28E52F46F4247FD9B1CC1CF003EA5
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 79535CC424CF5F1AB2B61377D506F10C
+Post body: HORA=16&MIN=53&SEG=06&DIA=21&MES=10&ANO=15AUT=12345678909;79535CC424CF5F1AB2B61377D506F10C
+Timeout. Retrying...
+16:54:32: Before req.GetResponse()
+16:54:32: After req.GetResponse(), before Stream read
+16:54:32: After Stream read
+Getting MRP Status
+16:57:04: Before req.GetResponse()
+16:57:04: After req.GetResponse(), before Stream read
+16:57:04: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+165704211015
+Post Data Bin.:
+313635373034323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000013
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031330A53454E48413A31323334
+Post Data SHA1: E34C4EC03D7E8F5FD3B35EBEDD1A770666B65F36
+Post Data SHA1 16 MSB: E34C4EC03D7E8F5FD3B35EBEDD1A7706
+Auth Data SHA1: FF0B7234F0CB9F7F1BFD073B3CCCE0DB17492CC0
+Auth Data SHA1 16 MSB: FF0B7234F0CB9F7F1BFD073B3CCCE0DB
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 1EC4873EE5865884B31BD34F194077E0
+Post body: HORA=16&MIN=57&SEG=04&DIA=21&MES=10&ANO=15AUT=12345678909;1EC4873EE5865884B31BD34F194077E0
+Getting MRP Status
+16:57:07: Before req.GetResponse()
+16:57:10: After req.GetResponse(), before Stream read
+16:57:10: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+165704211015
+Post Data Bin.:
+313635373034323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000013
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031330A53454E48413A31323334
+Post Data SHA1: E34C4EC03D7E8F5FD3B35EBEDD1A770666B65F36
+Post Data SHA1 16 MSB: E34C4EC03D7E8F5FD3B35EBEDD1A7706
+Auth Data SHA1: FF0B7234F0CB9F7F1BFD073B3CCCE0DB17492CC0
+Auth Data SHA1 16 MSB: FF0B7234F0CB9F7F1BFD073B3CCCE0DB
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 1EC4873EE5865884B31BD34F194077E0
+Post body: HORA=16&MIN=57&SEG=04&DIA=21&MES=10&ANO=15AUT=12345678909;1EC4873EE5865884B31BD34F194077E0
+Getting MRP Status
+16:57:13: Before req.GetResponse()
+16:57:16: After req.GetResponse(), before Stream read
+16:57:16: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+165704211015
+Post Data Bin.:
+313635373034323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000013
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031330A53454E48413A31323334
+Post Data SHA1: E34C4EC03D7E8F5FD3B35EBEDD1A770666B65F36
+Post Data SHA1 16 MSB: E34C4EC03D7E8F5FD3B35EBEDD1A7706
+Auth Data SHA1: FF0B7234F0CB9F7F1BFD073B3CCCE0DB17492CC0
+Auth Data SHA1 16 MSB: FF0B7234F0CB9F7F1BFD073B3CCCE0DB
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 1EC4873EE5865884B31BD34F194077E0
+Post body: HORA=16&MIN=57&SEG=04&DIA=21&MES=10&ANO=15AUT=12345678909;1EC4873EE5865884B31BD34F194077E0
+Getting MRP Status
+16:57:19: Before req.GetResponse()
+16:57:22: After req.GetResponse(), before Stream read
+16:57:22: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+165704211015
+Post Data Bin.:
+313635373034323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000013
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031330A53454E48413A31323334
+Post Data SHA1: E34C4EC03D7E8F5FD3B35EBEDD1A770666B65F36
+Post Data SHA1 16 MSB: E34C4EC03D7E8F5FD3B35EBEDD1A7706
+Auth Data SHA1: FF0B7234F0CB9F7F1BFD073B3CCCE0DB17492CC0
+Auth Data SHA1 16 MSB: FF0B7234F0CB9F7F1BFD073B3CCCE0DB
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 1EC4873EE5865884B31BD34F194077E0
+Post body: HORA=16&MIN=57&SEG=04&DIA=21&MES=10&ANO=15AUT=12345678909;1EC4873EE5865884B31BD34F194077E0
+Getting MRP Status
+16:57:25: Before req.GetResponse()
+16:57:28: After req.GetResponse(), before Stream read
+16:57:28: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+165704211015
+Post Data Bin.:
+313635373034323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000013
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031330A53454E48413A31323334
+Post Data SHA1: E34C4EC03D7E8F5FD3B35EBEDD1A770666B65F36
+Post Data SHA1 16 MSB: E34C4EC03D7E8F5FD3B35EBEDD1A7706
+Auth Data SHA1: FF0B7234F0CB9F7F1BFD073B3CCCE0DB17492CC0
+Auth Data SHA1 16 MSB: FF0B7234F0CB9F7F1BFD073B3CCCE0DB
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): 1EC4873EE5865884B31BD34F194077E0
+Post body: HORA=16&MIN=57&SEG=04&DIA=21&MES=10&ANO=15AUT=12345678909;1EC4873EE5865884B31BD34F194077E0
+17:02:19: Before req.GetResponse()
+17:03:30: Before req.GetResponse()
+17:03:30: After req.GetResponse(), before Stream read
+17:03:30: After Stream read
+Getting MRP Status
+17:03:32: Before req.GetResponse()
+17:03:35: After req.GetResponse(), before Stream read
+17:03:35: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+170332211015
+Post Data Bin.:
+313730333332323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000013
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031330A53454E48413A31323334
+Post Data SHA1: 8A836BD7A134DC9E48ABC4E41172AA981E23BD08
+Post Data SHA1 16 MSB: 8A836BD7A134DC9E48ABC4E41172AA98
+Auth Data SHA1: FF0B7234F0CB9F7F1BFD073B3CCCE0DB17492CC0
+Auth Data SHA1 16 MSB: FF0B7234F0CB9F7F1BFD073B3CCCE0DB
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): B056A9161F32EA2ECB2E7C16EB0F7DA1
+Post body: HORA=17&MIN=03&SEG=32&DIA=21&MES=10&ANO=15&AUT=12345678909;B056A9161F32EA2ECB2E7C16EB0F7DA1
+Response ok. LastNfrChanged set to TRUE
+Getting MRP Status
+17:03:46: Before req.GetResponse()
+17:03:46: After req.GetResponse(), before Stream read
+17:03:46: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+170346211015
+Post Data Bin.:
+313730333436323131303135
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000014
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031340A53454E48413A31323334
+Post Data SHA1: F074B229AC79B38F700E450B1E3D46AED165878F
+Post Data SHA1 16 MSB: F074B229AC79B38F700E450B1E3D46AE
+Auth Data SHA1: 37577165FE36072D257B1ED48D142F5828EB7660
+Auth Data SHA1 16 MSB: 37577165FE36072D257B1ED48D142F58
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): DAD956631B5E4640C0F59EB897D035A3
+Post body: HORA=17&MIN=03&SEG=46&DIA=21&MES=10&ANO=15&AUT=12345678909;DAD956631B5E4640C0F59EB897D035A3
+Response ok. LastNfrChanged set to TRUE
+15:52:22: Before req.GetResponse()
+15:52:22: After req.GetResponse(), before Stream read
+15:52:22: After Stream read
+Getting MRP Status
+15:52:27: Before req.GetResponse()
+15:52:27: After req.GetResponse(), before Stream read
+15:52:27: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+155227080316
+Post Data Bin.:
+313535323237303830333136
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000001
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303030310A53454E48413A31323334
+Post Data SHA1: 42203395443DB8F49BB551EF70B5F175691723E7
+Post Data SHA1 16 MSB: 42203395443DB8F49BB551EF70B5F175
+Auth Data SHA1: 842207F9EC7CC6D944BB692D59376DC0C6328EBF
+Auth Data SHA1 16 MSB: 842207F9EC7CC6D944BB692D59376DC0
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): F71067AD80B42896E50EE91016EE7E98
+Post body: HORA=15&MIN=52&SEG=27&DIA=08&MES=03&ANO=16&AUT=69604699610;F71067AD80B42896E50EE91016EE7E98
+Response ok. LastNfrChanged set to TRUE
+15:53:31: Before req.GetResponse()
+15:53:31: After req.GetResponse(), before Stream read
+15:53:31: After Stream read
+15:53:31: Before req.GetResponse()
+15:53:35: After req.GetResponse(), before Stream read
+15:53:35: After Stream read
+15:53:35: Before req.GetResponse()
+15:53:38: After req.GetResponse(), before Stream read
+15:53:38: After Stream read
+15:53:39: Before req.GetResponse()
+15:53:42: After req.GetResponse(), before Stream read
+15:53:42: After Stream read
+15:53:54: Before req.GetResponse()
+15:53:54: After req.GetResponse(), before Stream read
+15:53:54: After Stream read
+Getting MRP Status
+15:54:11: Before req.GetResponse()
+15:54:11: After req.GetResponse(), before Stream read
+15:54:11: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+155411080316
+Post Data Bin.:
+313535343131303830333136
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000003
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303030330A53454E48413A31323334
+Post Data SHA1: 26212492AF058D2C6ABEF1FE51E715E13E7D9B2F
+Post Data SHA1 16 MSB: 26212492AF058D2C6ABEF1FE51E715E1
+Auth Data SHA1: 1F8CFC67CD25C691616291178F4F7A5365B53F3C
+Auth Data SHA1 16 MSB: 1F8CFC67CD25C691616291178F4F7A53
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): C7DC8C3D07E9BF2286AF65A505CDD487
+Post body: HORA=15&MIN=54&SEG=11&DIA=08&MES=03&ANO=16&AUT=69604699610;C7DC8C3D07E9BF2286AF65A505CDD487
+Response ok. LastNfrChanged set to TRUE
+Getting MRP Status
+10:49:41: Before req.GetResponse()
+Timeout. Retrying...
+Getting MRP Status
+10:49:47: Before req.GetResponse()
+Timeout. Retrying...
+Getting MRP Status
+10:49:52: Before req.GetResponse()
+Timeout. Retrying...
+Getting MRP Status
+10:49:57: Before req.GetResponse()
+Timeout. Retrying...
+Getting MRP Status
+10:50:02: Before req.GetResponse()
+Timeout. Retrying...
+Getting MRP Status
+10:50:53: Before req.GetResponse()
+Timeout. Retrying...
+Getting MRP Status
+10:50:58: Before req.GetResponse()
+Timeout. Retrying...
+Getting MRP Status
+10:51:03: Before req.GetResponse()
+Timeout. Retrying...
+Getting MRP Status
+10:51:08: Before req.GetResponse()
+Timeout. Retrying...
+Getting MRP Status
+10:51:13: Before req.GetResponse()
+Timeout. Retrying...
+Getting MRP Status
+11:18:13: Before req.GetResponse()
+11:18:13: After req.GetResponse(), before Stream read
+11:18:13: After Stream read
+LastNfrChanged set to FALSE
+**** AUTHENTICATED POST ****
+Post Data Str.:
+111811300316
+Post Data Bin.:
+313131383131333030333136
+Auth Data Str.:
+GERTEC
+MARQUE PONTO G4
+NFR:00000000000000002
+NSR:000000018
+SENHA:1234
+Auth Data Bin.:
+4745525445430A4D415251554520504F4E544F2047340A4E46523A30303030303030303030303030303030320A4E53523A3030303030303031380A53454E48413A31323334
+Post Data SHA1: BF0B8040553C93A14850A93141F23830A9143656
+Post Data SHA1 16 MSB: BF0B8040553C93A14850A93141F23830
+Auth Data SHA1: 08CFE409BDBF5C5B1258EAA6C6A65979FE5758CD
+Auth Data SHA1 16 MSB: 08CFE409BDBF5C5B1258EAA6C6A65979
+AES(Post Data SHA1 16 MSB, Auth Data SHA1 16 MSB): AE37B791E3596700BF00907FC906EC2E
+Post body: HORA=11&MIN=18&SEG=11&DIA=30&MES=03&ANO=16&AUT=69604699610;AE37B791E3596700BF00907FC906EC2E
+Response ok. LastNfrChanged set to TRUE
+11:31:33: Before req.GetResponse()
+11:31:33: After req.GetResponse(), before Stream read
+11:31:33: After Stream read
+11:31:33: Before req.GetResponse()
+11:31:36: After req.GetResponse(), before Stream read
+11:31:36: After Stream read
+11:31:37: Before req.GetResponse()
+11:31:40: After req.GetResponse(), before Stream read
+11:31:40: After Stream read
+11:31:40: Before req.GetResponse()
+11:31:43: After req.GetResponse(), before Stream read
+11:31:43: After Stream read
+11:31:44: Before req.GetResponse()
+11:31:47: After req.GetResponse(), before Stream read
+11:31:47: After Stream read
+11:31:55: Before req.GetResponse()
+11:31:55: After req.GetResponse(), before Stream read
+11:31:55: After Stream read
+12:45:52: Before req.GetResponse()
+12:45:52: After req.GetResponse(), before Stream read
+12:45:52: After Stream read
+12:59:05: Before req.GetResponse()
+12:59:05: After req.GetResponse(), before Stream read
+12:59:05: After Stream read
+12:59:05: Before request to http://192.168.1.188/MRP/Regs/NextReg
+12:59:05: Before req.GetResponse()
+12:59:08: After req.GetResponse(), before Stream read
+12:59:08: After Stream read
+12:59:08: After response, before parse
+12:59:08: After parse
+12:59:08: Before req.GetResponse()
+12:59:11: After req.GetResponse(), before Stream read
+12:59:11: After Stream read
+09:31:01: Before req.GetResponse()
+11:45:34: Before req.GetResponse()
+11:45:35: After req.GetResponse(), before Stream read
+11:45:35: After Stream read
+13:02:04: Before req.GetResponse()
+13:02:04: After req.GetResponse(), before Stream read
+13:02:04: After Stream read
+13:26:23: Before req.GetResponse()
+13:26:23: After req.GetResponse(), before Stream read
+13:26:23: After Stream read
+13:28:27: Before req.GetResponse()
+13:28:27: After req.GetResponse(), before Stream read
+13:28:27: After Stream read
+13:28:36: Before req.GetResponse()
+13:28:37: After req.GetResponse(), before Stream read
+13:28:37: After Stream read
+13:28:37: Before request to http://192.168.1.187/MRP/Regs/NextReg
+13:28:37: Before req.GetResponse()
+13:28:40: After req.GetResponse(), before Stream read
+13:28:40: After Stream read
+13:28:40: After response, before parse
+13:28:40: After parse
+13:28:40: Before request to http://192.168.1.187/MRP/Regs/NextReg
+13:28:40: Before req.GetResponse()
+13:28:43: After req.GetResponse(), before Stream read
+13:28:43: After Stream read
+13:28:43: After response, before parse
+13:28:43: After parse
+13:28:43: Before req.GetResponse()
+13:28:46: After req.GetResponse(), before Stream read
+13:28:46: After Stream read
+13:39:03: Before req.GetResponse()
+13:39:04: After req.GetResponse(), before Stream read
+13:39:04: After Stream read
+13:39:04: Before request to http://192.168.1.187/MRP/Regs/NextReg
+13:39:04: Before req.GetResponse()
+13:39:07: After req.GetResponse(), before Stream read
+13:39:07: After Stream read
+13:39:07: After response, before parse
+13:39:07: After parse
+13:39:07: Before request to http://192.168.1.187/MRP/Regs/NextReg
+13:39:07: Before req.GetResponse()
+13:39:10: After req.GetResponse(), before Stream read
+13:39:10: After Stream read
+13:39:10: After response, before parse
+13:39:10: After parse
+13:39:10: Before req.GetResponse()
+13:39:13: After req.GetResponse(), before Stream read
+13:39:13: After Stream read
+15:30:31: Before req.GetResponse()
+Getting MRP Status
+15:30:39: Before req.GetResponse()
+Timeout. Retrying...
+Getting MRP Status
+15:30:44: Before req.GetResponse()
+Timeout. Retrying...
+Getting MRP Status
+15:30:49: Before req.GetResponse()
+Timeout. Retrying...
+Getting MRP Status
+15:30:54: Before req.GetResponse()
+Timeout. Retrying...
+Getting MRP Status
+15:30:59: Before req.GetResponse()
+Timeout. Retrying...
+15:31:09: Before req.GetResponse()
+15:31:44: Before req.GetResponse()
+15:31:45: After req.GetResponse(), before Stream read
+15:31:45: After Stream read
+Post body: Key=n0vasenh%40&Security=WPA2&SSID=ASSEAP%2D02&
+Response ok. LastNfrChanged set to TRUE
+15:32:25: Before req.GetResponse()
+Post body: Key=n0vasenh%40&Security=WPA2&SSID=ASSEAP%2D02&
+Timeout. Retrying...
+Post body: Key=n0vasenh%40&Security=WPA2&SSID=ASSEAP%2D02&
+Response ok. LastNfrChanged set to TRUE
+15:33:06: Before req.GetResponse()
+15:33:17: Before req.GetResponse()

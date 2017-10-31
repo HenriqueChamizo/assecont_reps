@@ -1,0 +1,14 @@
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\bin\x64\Debug\TesteRepCid.exe.config
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\bin\x64\Debug\TesteRepCid.exe
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\bin\x64\Debug\TesteRepCid.pdb
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\bin\x64\Debug\RepCid.dll
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\bin\x64\Debug\RepCid.xml
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\obj\x64\Debug\test-Form.csprojResolveAssemblyReference.cache
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\obj\x64\Debug\TesteRepCid.frmConfig.resources
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\obj\x64\Debug\TesteRepCid.frmMain.resources
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\obj\x64\Debug\TesteRepCid.frmUser.resources
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\obj\x64\Debug\TesteRepCid.frmUsuarios.resources
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\obj\x64\Debug\TesteRepCid.Properties.Resources.resources
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\obj\x64\Debug\test-Form.csproj.GenerateResource.Cache
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\obj\x64\Debug\TesteRepCid.exe
+D:\BitBucket\Assecont\Relogios\Controlid\Demo - 2015\test-Form\obj\x64\Debug\TesteRepCid.pdb

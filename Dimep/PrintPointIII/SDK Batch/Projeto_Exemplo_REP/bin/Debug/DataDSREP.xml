@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<dsSDKREP xmlns="http://tempuri.org/dsSDKREP.xsd">
+  <dtHistoricoComandos>
+    <DataHora>29/09/2015 19:20:44</DataHora>
+    <Comando>--&gt; Atualização de Data e Hora</Comando>
+    <Descricao>29/09/2015 19:20</Descricao>
+  </dtHistoricoComandos>
+  <dtHistoricoComandos>
+    <DataHora>29/09/2015 19:21:13</DataHora>
+    <Comando>&lt;-- ERRO Atualização de Data e Hora</Comando>
+    <Descricao>O tempo limite da operação acabou.</Descricao>
+  </dtHistoricoComandos>
+  <dtHistoricoComandos>
+    <DataHora>29/09/2015 19:21:42</DataHora>
+    <Comando>--&gt; Atualização de Data e Hora</Comando>
+    <Descricao>29/09/2015 19:21</Descricao>
+  </dtHistoricoComandos>
+  <dtHistoricoComandos>
+    <DataHora>29/09/2015 19:21:42</DataHora>
+    <Comando>&lt;-- ERRO Atualização de Data e Hora</Comando>
+    <Descricao>Invalid RSA parameters.</Descricao>
+  </dtHistoricoComandos>
+  <dtHistoricoComandos>
+    <DataHora>29/09/2015 19:22:10</DataHora>
+    <Comando>--&gt; Atualização de Data e Hora</Comando>
+    <Descricao>29/09/2015 19:22</Descricao>
+  </dtHistoricoComandos>
+  <dtHistoricoComandos>
+    <DataHora>29/09/2015 19:22:10</DataHora>
+    <Comando>&lt;-- ERRO Atualização de Data e Hora</Comando>
+    <Descricao>Invalid RSA parameters.</Descricao>
+  </dtHistoricoComandos>
+  <dtHistoricoComandos>
+    <DataHora>29/09/2015 19:22:42</DataHora>
+    <Comando>--&gt; Atualização de Data e Hora</Comando>
+    <Descricao>29/09/2015 19:22</Descricao>
+  </dtHistoricoComandos>
+  <dtHistoricoComandos>
+    <DataHora>29/09/2015 19:22:42</DataHora>
+    <Comando>&lt;-- ERRO Atualização de Data e Hora</Comando>
+    <Descricao>Invalid RSA parameters.</Descricao>
+  </dtHistoricoComandos>
+  <dtMensagensDisplay>
+    <Codigo>1</Codigo>
+    <Mensagem>Teste</Mensagem>
+  </dtMensagensDisplay>
+</dsSDKREP>

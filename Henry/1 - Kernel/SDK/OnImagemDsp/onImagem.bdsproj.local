@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009/01/15 11:19:27.187.pas,C:\Documents and Settings\jefersonsc\Meus documentos\Borland Studio Projects\Unit1.pas=E:\Projetos\Delphi\Henry7x\SDK\Delphi\OnImagemDsp\Unit1.pas</Transaction>
+    <Transaction>2009/01/15 11:19:27.187.dfm,C:\Documents and Settings\jefersonsc\Meus documentos\Borland Studio Projects\Unit1.dfm=E:\Projetos\Delphi\Henry7x\SDK\Delphi\OnImagemDsp\Unit1.dfm</Transaction>
+    <Transaction>2009/01/15 11:19:29.109.bdsproj,C:\Documents and Settings\jefersonsc\Meus documentos\Borland Studio Projects\Project1.bdsproj=E:\Projetos\Delphi\Henry7x\SDK\Delphi\OnImagemDsp\Project1.bdsproj</Transaction>
+    <Transaction>2009/01/19 07:33:13.515.bdsproj,D:\Eduardo\7x\OnImagemDsp\OnImagemDsp\Project1.bdsproj=D:\Eduardo\7x\OnImagemDsp\OnImagemDsp\onImagem.bdsproj</Transaction>
+    <Transaction>2009/01/19 07:33:20.609.pas,D:\Eduardo\7x\OnImagemDsp\OnImagemDsp\Unit1.pas=D:\Eduardo\7x\OnImagemDsp\OnImagemDsp\uPrincipal.pas</Transaction>
+    <Transaction>2009/01/19 07:33:20.609.dfm,D:\Eduardo\7x\OnImagemDsp\OnImagemDsp\Unit1.dfm=D:\Eduardo\7x\OnImagemDsp\OnImagemDsp\uPrincipal.dfm</Transaction>
+    <Transaction>2009/01/19 08:32:20.593.pas,D:\Eduardo\7x\OnImagemDsp\OnImagemDsp\Unit1.pas=D:\Eduardo\7x\OnImagemDsp\OnImagemDsp\uResposta.pas</Transaction>
+  </Transactions>
+</BorlandProject>

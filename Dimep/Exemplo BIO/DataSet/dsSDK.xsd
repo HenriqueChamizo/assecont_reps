@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsSDK" targetNamespace="http://tempuri.org/dsSDK.xsd" xmlns:mstns="http://tempuri.org/dsSDK.xsd" xmlns="http://tempuri.org/dsSDK.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsSDK" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsSDK" msprop:Generator_UserDSName="dsSDK">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtMarcacao" msprop:Generator_UserTableName="dtMarcacao" msprop:Generator_RowEvArgName="dtMarcacaoRowChangeEvent" msprop:Generator_TableVarName="tabledtMarcacao" msprop:Generator_TablePropName="dtMarcacao" msprop:Generator_RowDeletingName="dtMarcacaoRowDeleting" msprop:Generator_RowChangingName="dtMarcacaoRowChanging" msprop:Generator_RowDeletedName="dtMarcacaoRowDeleted" msprop:Generator_TableClassName="dtMarcacaoDataTable" msprop:Generator_RowChangedName="dtMarcacaoRowChanged" msprop:Generator_RowEvHandlerName="dtMarcacaoRowChangeEventHandler" msprop:Generator_RowClassName="dtMarcacaoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cartao" msprop:Generator_ColumnVarNameInTable="columnCartao" msprop:Generator_ColumnPropNameInRow="Cartao" msprop:Generator_ColumnPropNameInTable="CartaoColumn" msprop:Generator_UserColumnName="Cartao" type="xs:string" minOccurs="0" />
+              <xs:element name="DataHoraGravacao" msprop:Generator_ColumnVarNameInTable="columnDataHoraGravacao" msprop:Generator_ColumnPropNameInRow="DataHoraGravacao" msprop:Generator_ColumnPropNameInTable="DataHoraGravacaoColumn" msprop:Generator_UserColumnName="DataHoraGravacao" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Evento" msprop:Generator_ColumnVarNameInTable="columnEvento" msprop:Generator_ColumnPropNameInRow="Evento" msprop:Generator_ColumnPropNameInTable="EventoColumn" msprop:Generator_UserColumnName="Evento" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtStatus" msprop:Generator_UserTableName="dtStatus" msprop:Generator_RowEvArgName="dtStatusRowChangeEvent" msprop:Generator_TableVarName="tabledtStatus" msprop:Generator_TablePropName="dtStatus" msprop:Generator_RowDeletingName="dtStatusRowDeleting" msprop:Generator_RowChangingName="dtStatusRowChanging" msprop:Generator_RowDeletedName="dtStatusRowDeleted" msprop:Generator_TableClassName="dtStatusDataTable" msprop:Generator_RowChangedName="dtStatusRowChanged" msprop:Generator_RowEvHandlerName="dtStatusRowChangeEventHandler" msprop:Generator_RowClassName="dtStatusRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Propriedade" msprop:Generator_ColumnVarNameInTable="columnPropriedade" msprop:Generator_ColumnPropNameInRow="Propriedade" msprop:Generator_ColumnPropNameInTable="PropriedadeColumn" msprop:Generator_UserColumnName="Propriedade" type="xs:string" minOccurs="0" />
+              <xs:element name="Valor" msprop:Generator_ColumnVarNameInTable="columnValor" msprop:Generator_ColumnPropNameInRow="Valor" msprop:Generator_ColumnPropNameInTable="ValorColumn" msprop:Generator_UserColumnName="Valor" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtFuncionarios" msprop:Generator_UserTableName="dtFuncionarios" msprop:Generator_RowEvArgName="dtFuncionariosRowChangeEvent" msprop:Generator_TableVarName="tabledtFuncionarios" msprop:Generator_TablePropName="dtFuncionarios" msprop:Generator_RowDeletingName="dtFuncionariosRowDeleting" msprop:Generator_RowChangingName="dtFuncionariosRowChanging" msprop:Generator_RowDeletedName="dtFuncionariosRowDeleted" msprop:Generator_TableClassName="dtFuncionariosDataTable" msprop:Generator_RowChangedName="dtFuncionariosRowChanged" msprop:Generator_RowEvHandlerName="dtFuncionariosRowChangeEventHandler" msprop:Generator_RowClassName="dtFuncionariosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cartao" msprop:Generator_ColumnVarNameInTable="columnCartao" msprop:Generator_ColumnPropNameInRow="Cartao" msprop:Generator_ColumnPropNameInTable="CartaoColumn" msprop:Generator_UserColumnName="Cartao" type="xs:long" minOccurs="0" />
+              <xs:element name="CodigoMensagem" msprop:Generator_ColumnVarNameInTable="columnCodigoMensagem" msprop:Generator_ColumnPropNameInRow="CodigoMensagem" msprop:Generator_ColumnPropNameInTable="CodigoMensagemColumn" msprop:Generator_UserColumnName="CodigoMensagem" type="xs:int" minOccurs="0" />
+              <xs:element name="CodigoJornada" msprop:Generator_ColumnVarNameInTable="columnCodigoJornada" msprop:Generator_ColumnPropNameInRow="CodigoJornada" msprop:Generator_ColumnPropNameInTable="CodigoJornadaColumn" msprop:Generator_UserColumnName="CodigoJornada" type="xs:short" minOccurs="0" />
+              <xs:element name="ContadorAcesso1" msprop:Generator_ColumnVarNameInTable="columnContadorAcesso1" msprop:Generator_ColumnPropNameInRow="ContadorAcesso1" msprop:Generator_ColumnPropNameInTable="ContadorAcesso1Column" msprop:Generator_UserColumnName="ContadorAcesso1" type="xs:short" minOccurs="0" />
+              <xs:element name="ContadorAcesso2" msprop:Generator_ColumnVarNameInTable="columnContadorAcesso2" msprop:Generator_ColumnPropNameInRow="ContadorAcesso2" msprop:Generator_ColumnPropNameInTable="ContadorAcesso2Column" msprop:Generator_UserColumnName="ContadorAcesso2" type="xs:short" minOccurs="0" />
+              <xs:element name="ContadorAcesso3" msprop:Generator_ColumnVarNameInTable="columnContadorAcesso3" msprop:Generator_ColumnPropNameInRow="ContadorAcesso3" msprop:Generator_ColumnPropNameInTable="ContadorAcesso3Column" msprop:Generator_UserColumnName="ContadorAcesso3" type="xs:short" minOccurs="0" />
+              <xs:element name="ContadorAcesso4" msprop:Generator_ColumnVarNameInTable="columnContadorAcesso4" msprop:Generator_ColumnPropNameInRow="ContadorAcesso4" msprop:Generator_ColumnPropNameInTable="ContadorAcesso4Column" msprop:Generator_UserColumnName="ContadorAcesso4" type="xs:short" minOccurs="0" />
+              <xs:element name="ContadorAcesso5" msprop:Generator_ColumnVarNameInTable="columnContadorAcesso5" msprop:Generator_ColumnPropNameInRow="ContadorAcesso5" msprop:Generator_ColumnPropNameInTable="ContadorAcesso5Column" msprop:Generator_UserColumnName="ContadorAcesso5" type="xs:short" minOccurs="0" />
+              <xs:element name="ContadorAcesso6" msprop:Generator_ColumnVarNameInTable="columnContadorAcesso6" msprop:Generator_ColumnPropNameInRow="ContadorAcesso6" msprop:Generator_ColumnPropNameInTable="ContadorAcesso6Column" msprop:Generator_UserColumnName="ContadorAcesso6" type="xs:short" minOccurs="0" />
+              <xs:element name="Senha" msprop:Generator_ColumnVarNameInTable="columnSenha" msprop:Generator_ColumnPropNameInRow="Senha" msprop:Generator_ColumnPropNameInTable="SenhaColumn" msprop:Generator_UserColumnName="Senha" type="xs:long" minOccurs="0" />
+              <xs:element name="Via" msprop:Generator_ColumnVarNameInTable="columnVia" msprop:Generator_ColumnPropNameInRow="Via" msprop:Generator_ColumnPropNameInTable="ViaColumn" msprop:Generator_UserColumnName="Via" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtTemplatesRecebido" msprop:Generator_UserTableName="dtTemplatesRecebido" msprop:Generator_RowEvArgName="dtTemplatesRecebidoRowChangeEvent" msprop:Generator_TableVarName="tabledtTemplatesRecebido" msprop:Generator_TablePropName="dtTemplatesRecebido" msprop:Generator_RowDeletingName="dtTemplatesRecebidoRowDeleting" msprop:Generator_RowChangingName="dtTemplatesRecebidoRowChanging" msprop:Generator_RowDeletedName="dtTemplatesRecebidoRowDeleted" msprop:Generator_TableClassName="dtTemplatesRecebidoDataTable" msprop:Generator_RowChangedName="dtTemplatesRecebidoRowChanged" msprop:Generator_RowEvHandlerName="dtTemplatesRecebidoRowChangeEventHandler" msprop:Generator_RowClassName="dtTemplatesRecebidoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cartao" msdata:Caption="PIS" msprop:Generator_ColumnVarNameInTable="columnCartao" msprop:Generator_ColumnPropNameInRow="Cartao" msprop:Generator_ColumnPropNameInTable="CartaoColumn" msprop:Generator_UserColumnName="Cartao" type="xs:string" minOccurs="0" />
+              <xs:element name="Template" msprop:Generator_ColumnVarNameInTable="columnTemplate" msprop:Generator_ColumnPropNameInRow="Template" msprop:Generator_ColumnPropNameInTable="TemplateColumn" msprop:Generator_UserColumnName="Template" type="xs:string" minOccurs="0" />
+              <xs:element name="Dedo1" msprop:Generator_ColumnVarNameInTable="columnDedo1" msprop:Generator_ColumnPropNameInRow="Dedo1" msprop:Generator_ColumnPropNameInTable="Dedo1Column" msprop:Generator_UserColumnName="Dedo1" type="xs:short" minOccurs="0" />
+              <xs:element name="Dedo2" msprop:Generator_ColumnVarNameInTable="columnDedo2" msprop:Generator_ColumnPropNameInRow="Dedo2" msprop:Generator_ColumnPropNameInTable="Dedo2Column" msprop:Generator_UserColumnName="Dedo2" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtTemplatesParaEnvio" msprop:Generator_UserTableName="dtTemplatesParaEnvio" msprop:Generator_RowEvArgName="dtTemplatesParaEnvioRowChangeEvent" msprop:Generator_TableVarName="tabledtTemplatesParaEnvio" msprop:Generator_TablePropName="dtTemplatesParaEnvio" msprop:Generator_RowDeletingName="dtTemplatesParaEnvioRowDeleting" msprop:Generator_RowChangingName="dtTemplatesParaEnvioRowChanging" msprop:Generator_RowDeletedName="dtTemplatesParaEnvioRowDeleted" msprop:Generator_TableClassName="dtTemplatesParaEnvioDataTable" msprop:Generator_RowChangedName="dtTemplatesParaEnvioRowChanged" msprop:Generator_RowEvHandlerName="dtTemplatesParaEnvioRowChangeEventHandler" msprop:Generator_RowClassName="dtTemplatesParaEnvioRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cartao" msdata:Caption="PIS" msprop:Generator_ColumnVarNameInTable="columnCartao" msprop:Generator_ColumnPropNameInRow="Cartao" msprop:Generator_ColumnPropNameInTable="CartaoColumn" msprop:Generator_UserColumnName="Cartao" type="xs:string" minOccurs="0" />
+              <xs:element name="Template" msprop:Generator_ColumnVarNameInTable="columnTemplate" msprop:Generator_ColumnPropNameInRow="Template" msprop:Generator_ColumnPropNameInTable="TemplateColumn" msprop:Generator_UserColumnName="Template" type="xs:string" minOccurs="0" />
+              <xs:element name="Dedo1" msprop:Generator_ColumnVarNameInTable="columnDedo1" msprop:Generator_ColumnPropNameInRow="Dedo1" msprop:Generator_ColumnPropNameInTable="Dedo1Column" msprop:Generator_UserColumnName="Dedo1" type="xs:short" minOccurs="0" />
+              <xs:element name="Dedo2" msprop:Generator_ColumnVarNameInTable="columnDedo2" msprop:Generator_ColumnPropNameInRow="Dedo2" msprop:Generator_ColumnPropNameInTable="Dedo2Column" msprop:Generator_UserColumnName="Dedo2" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtSupervisores" msprop:Generator_UserTableName="dtSupervisores" msprop:Generator_RowEvArgName="dtSupervisoresRowChangeEvent" msprop:Generator_TableVarName="tabledtSupervisores" msprop:Generator_TablePropName="dtSupervisores" msprop:Generator_RowDeletingName="dtSupervisoresRowDeleting" msprop:Generator_RowChangingName="dtSupervisoresRowChanging" msprop:Generator_RowDeletedName="dtSupervisoresRowDeleted" msprop:Generator_TableClassName="dtSupervisoresDataTable" msprop:Generator_RowChangedName="dtSupervisoresRowChanged" msprop:Generator_RowEvHandlerName="dtSupervisoresRowChangeEventHandler" msprop:Generator_RowClassName="dtSupervisoresRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cartao" msprop:Generator_ColumnVarNameInTable="columnCartao" msprop:Generator_ColumnPropNameInRow="Cartao" msprop:Generator_ColumnPropNameInTable="CartaoColumn" msprop:Generator_UserColumnName="Cartao" type="xs:string" minOccurs="0" />
+              <xs:element name="Senha" msprop:Generator_ColumnVarNameInTable="columnSenha" msprop:Generator_ColumnPropNameInRow="Senha" msprop:Generator_ColumnPropNameInTable="SenhaColumn" msprop:Generator_UserColumnName="Senha" type="xs:long" minOccurs="0" />
+              <xs:element name="PermissaoDataHora" msprop:Generator_ColumnVarNameInTable="columnPermissaoDataHora" msprop:Generator_ColumnPropNameInRow="PermissaoDataHora" msprop:Generator_ColumnPropNameInTable="PermissaoDataHoraColumn" msprop:Generator_UserColumnName="PermissaoDataHora" type="xs:boolean" minOccurs="0" />
+              <xs:element name="PermissaoProgTecnicas" msprop:Generator_ColumnVarNameInTable="columnPermissaoProgTecnicas" msprop:Generator_ColumnPropNameInRow="PermissaoProgTecnicas" msprop:Generator_ColumnPropNameInTable="PermissaoProgTecnicasColumn" msprop:Generator_UserColumnName="PermissaoProgTecnicas" type="xs:boolean" minOccurs="0" />
+              <xs:element name="PenDrivePermissao" msdata:Caption="Permissão Pen Drive" msprop:Generator_ColumnVarNameInTable="columnPenDrivePermissao" msprop:Generator_ColumnPropNameInRow="PenDrivePermissao" msprop:Generator_ColumnPropNameInTable="PenDrivePermissaoColumn" msprop:Generator_UserColumnName="PenDrivePermissao" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

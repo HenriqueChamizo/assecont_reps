@@ -1,0 +1,10 @@
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\bin\Debug\RepProtocolTest.exe
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\bin\Debug\RepProtocolTest.pdb
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\bin\Debug\RestSharp.dll
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\bin\Debug\RestSharp.xml
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTest.csprojResolveAssemblyReference.cache
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTest.Form1.resources
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTest.Properties.Resources.resources
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTest.csproj.GenerateResource.Cache
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTest.exe
+C:\Users\caffonso\documents\visual studio 2010\Projects\RepProtocolTest\RepProtocolTest\obj\x86\Debug\RepProtocolTest.pdb

@@ -1,0 +1,11 @@
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\bin\x86\BioproxsDebug32\Bioproxs.exe.config
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\obj\x86\BioproxsDebug32\Bioproxs.Properties.Resources.resources
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\obj\x86\BioproxsDebug32\Bioproxs.csproj.GenerateResource.Cache
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\bin\x86\BioproxsDebug32\Bioproxs.exe
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\bin\x86\BioproxsDebug32\AssepontoRep.dll
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\bin\x86\BioproxsDebug32\System.Net.Http.dll
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\bin\x86\BioproxsDebug32\Wr.Classes.dll
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\bin\x86\BioproxsDebug32\Excel.dll
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\bin\x86\BioproxsDebug32\ICSharpCode.SharpZipLib.dll
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\bin\x86\BioproxsDebug32\System.Net.Http.xml
+D:\Projetos\Relógios\RWTech\Pontiline Bioprox-s\Bioproxs\Bioproxs\Bioproxs\obj\x86\BioproxsDebug32\Bioproxs.exe

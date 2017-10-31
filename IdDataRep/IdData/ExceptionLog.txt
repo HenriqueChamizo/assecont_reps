@@ -1,0 +1,4 @@
+Não foi possível carregar a DLL NImgConv.dll!
+Não foi possível carregar a DLL NBioBSP.dll!
+Não foi possível carregar a DLL NImgConv.dll!
+Não foi possível carregar a DLL NBioBSP.dll!

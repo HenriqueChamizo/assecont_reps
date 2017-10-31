@@ -1,0 +1,71 @@
+C:\Arquivos\PROGS\Ponto2009\Rep\ControlId\Controlid_IDClass\Controlid_IDClass\bin\Debug\Controlid_IDClass.exe.config
+C:\Arquivos\PROGS\Ponto2009\Rep\ControlId\Controlid_IDClass\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.exe
+C:\Arquivos\PROGS\Ponto2009\Rep\ControlId\Controlid_IDClass\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.pdb
+C:\Arquivos\PROGS\Ponto2009\Rep\ControlId\Controlid_IDClass\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.csprojResolveAssemblyReference.cache
+C:\Arquivos\PROGS\Ponto2009\Rep\ControlId\Controlid_IDClass\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.Principal.resources
+C:\Arquivos\PROGS\Ponto2009\Rep\ControlId\Controlid_IDClass\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.Properties.Resources.resources
+C:\Arquivos\PROGS\Ponto2009\Rep\ControlId\Controlid_IDClass\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.csproj.GenerateResource.Cache
+C:\Arquivos\PROGS\Ponto2009\Rep\ControlId\Controlid_IDClass\Controlid_IDClass\bin\Debug\Controlid_IDClass.exe
+C:\Arquivos\PROGS\Ponto2009\Rep\ControlId\Controlid_IDClass\Controlid_IDClass\bin\Debug\Controlid_IDClass.pdb
+C:\Arquivos\PROGS\Ponto2009\Rep\ControlId\Controlid_IDClass\Controlid_IDClass\bin\Debug\AssepontoRep.dll
+C:\Arquivos\PROGS\Ponto2009\Rep\ControlId\Controlid_IDClass\Controlid_IDClass\bin\Debug\RepCid.dll
+C:\Arquivos\PROGS\Ponto2009\Rep\ControlId\Controlid_IDClass\Controlid_IDClass\bin\Debug\HumanAPIClient.dll
+C:\Arquivos\PROGS\Ponto2009\Rep\ControlId\Controlid_IDClass\Controlid_IDClass\bin\Debug\AssepontoRep.pdb
+C:\Arquivos\PROGS\Ponto2009\Rep\ControlId\Controlid_IDClass\Controlid_IDClass\bin\Debug\Wr.pdb
+C:\Arquivos\PROGS\Ponto2009\Rep\ControlId\Controlid_IDClass\Controlid_IDClass\bin\Debug\HumanAPIClient.pdb
+C:\Arquivos\PROGS\Ponto2009\Rep\ControlId\Controlid_IDClass\Controlid_IDClass\bin\Debug\HumanAPIClient.xml
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.Principal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Controlid_IDClass\bin\Debug\Controlid_IDClass.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Controlid_IDClass\bin\Debug\Controlid_IDClass.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Controlid_IDClass\bin\Debug\Controlid_IDClass.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Controlid_IDClass\bin\Debug\AssepontoRep.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Controlid_IDClass\bin\Debug\RepCid.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Controlid_IDClass\bin\Debug\Wr.Classes.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\ControlId\Controlid_IDClass\Controlid_IDClass\bin\Debug\Controlid_IDClass.exe.config
+C:\Disco D\Trabalhos\Projetos\Relógios\ControlId\Controlid_IDClass\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\ControlId\Controlid_IDClass\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\ControlId\Controlid_IDClass\Controlid_IDClass\bin\Debug\Controlid_IDClass.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\ControlId\Controlid_IDClass\Controlid_IDClass\bin\Debug\Controlid_IDClass.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\ControlId\Controlid_IDClass\Controlid_IDClass\bin\Debug\RepCid.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\ControlId\Controlid_IDClass\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.csprojResolveAssemblyReference.cache
+C:\Disco D\Trabalhos\Projetos\Relógios\ControlId\Controlid_IDClass\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.Principal.resources
+C:\Disco D\Trabalhos\Projetos\Relógios\ControlId\Controlid_IDClass\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.Properties.Resources.resources
+C:\Disco D\Trabalhos\Projetos\Relógios\ControlId\Controlid_IDClass\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\bin\Debug\Controlid_IDClass.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.Principal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\bin\Debug\Controlid_IDClass.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\bin\Debug\Controlid_IDClass.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\bin\Debug\AssepontoRep.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\bin\Debug\RepCid.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\bin\Debug\Wr.Classes.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\bin\Debug\Assepontoweb.Classes.AppDatabases.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\bin\Debug\Wr.Classes.Databases.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+D:\Projetos\Relógios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\bin\Debug\Controlid_IDClass.exe.config
+D:\Projetos\Relógios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\bin\Debug\Controlid_IDClass.exe
+D:\Projetos\Relógios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\bin\Debug\Controlid_IDClass.pdb
+D:\Projetos\Relógios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\bin\Debug\RepCid.dll
+D:\Projetos\Relógios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\bin\Debug\Assepontoweb.Classes.AppDatabases.dll
+D:\Projetos\Relógios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\bin\Debug\Wr.Classes.Databases.dll
+D:\Projetos\Relógios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+D:\Projetos\Relógios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.csprojResolveAssemblyReference.cache
+D:\Projetos\Relógios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.Principal.resources
+D:\Projetos\Relógios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.Properties.Resources.resources
+D:\Projetos\Relógios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.csproj.GenerateResource.Cache
+D:\Projetos\Relógios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.exe
+D:\Projetos\Relógios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.pdb
+D:\BitBucket\Assecont\Relógios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\bin\Debug\Controlid_IDClass.exe.config
+D:\BitBucket\Assecont\Relógios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.exe
+D:\BitBucket\Assecont\Relógios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.pdb
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\bin\Debug\Controlid_IDClass.exe.config
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.exe
+D:\BitBucket\Assecont\Relogios\Controlid\Controlid_IDClass\Web\Controlid_IDClass\obj\x86\Debug\Controlid_IDClass.pdb

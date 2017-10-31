@@ -1,0 +1,18 @@
+C:\Program Files\SDK Batch\Projeto_Exemplo_CH\bin\Debug\ExemploREPCH.exe.config
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Mini Prit III\SDK Batch\Projeto_Exemplo_CH\bin\Debug\ExemploREPCH.exe.config
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Mini Prit III\SDK Batch\Projeto_Exemplo_CH\obj\x86\Debug\ExemploREPCH.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Mini Prit III\SDK Batch\Projeto_Exemplo_CH\obj\x86\Debug\ExemploREPCH.frmPrincipal.resources
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Mini Prit III\SDK Batch\Projeto_Exemplo_CH\obj\x86\Debug\ExemploREPCH.Properties.Resources.resources
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Mini Prit III\SDK Batch\Projeto_Exemplo_CH\obj\x86\Debug\ExemploREPCH.csproj.GenerateResource.Cache
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Mini Prit III\SDK Batch\Projeto_Exemplo_CH\bin\Debug\ExemploREPCH.exe
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Mini Prit III\SDK Batch\Projeto_Exemplo_CH\bin\Debug\ExemploREPCH.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Mini Prit III\SDK Batch\Projeto_Exemplo_CH\bin\Debug\WatchComm.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Mini Prit III\SDK Batch\Projeto_Exemplo_CH\bin\Debug\Interop.zkemkeeper.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Mini Prit III\SDK Batch\Projeto_Exemplo_CH\bin\Debug\Inttelix.Device.FaceAccess.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Mini Prit III\SDK Batch\Projeto_Exemplo_CH\bin\Debug\Inttelix.Device.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Mini Prit III\SDK Batch\Projeto_Exemplo_CH\bin\Debug\Inttelix.Crypto.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Mini Prit III\SDK Batch\Projeto_Exemplo_CH\obj\x86\Debug\ExemploREPCH.exe
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Projetos Reps\Mini Prit III\SDK Batch\Projeto_Exemplo_CH\obj\x86\Debug\ExemploREPCH.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Dimep\PrintPointIII\SDK Batch\Projeto_Exemplo_CH\bin\Debug\ExemploREPCH.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Dimep\PrintPointIII\SDK Batch\Projeto_Exemplo_CH\obj\x86\Debug\ExemploREPCH.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Dimep\PrintPointIII\SDK Batch\Projeto_Exemplo_CH\obj\x86\Debug\ExemploREPCH.pdb
