@@ -1,0 +1,46 @@
+C:\Users\henriquec\Documents\Visual Studio 2012\Projects\Rep100\Rep100\bin\x86\Debug\Rep100.exe.config
+C:\Users\henriquec\Documents\Visual Studio 2012\Projects\Rep100\Rep100\obj\x86\Debug\Interop.zkemkeeper.dll
+C:\Users\henriquec\Documents\Visual Studio 2012\Projects\Rep100\Rep100\obj\x86\Debug\Rep100.csproj.ResolveComReference.cache
+c:\users\henriquec\documents\visual studio 2012\Projects\Rep100\Rep100\obj\x86\Debug\Rep100.Properties.Resources.resources
+c:\users\henriquec\documents\visual studio 2012\Projects\Rep100\Rep100\obj\x86\Debug\Rep100.csproj.GenerateResource.Cache
+C:\Users\henriquec\Documents\Visual Studio 2012\Projects\Rep100\Rep100\obj\x86\Debug\Rep100.csprojResolveAssemblyReference.cache
+C:\Users\henriquec\Documents\Visual Studio 2012\Projects\Rep100\Rep100\bin\x86\Debug\Rep100.exe
+C:\Users\henriquec\Documents\Visual Studio 2012\Projects\Rep100\Rep100\bin\x86\Debug\Rep100.pdb
+C:\Users\henriquec\Documents\Visual Studio 2012\Projects\Rep100\Rep100\bin\x86\Debug\AssepontoRep.dll
+C:\Users\henriquec\Documents\Visual Studio 2012\Projects\Rep100\Rep100\bin\x86\Debug\Wr.dll
+C:\Users\henriquec\Documents\Visual Studio 2012\Projects\Rep100\Rep100\obj\x86\Debug\Rep100.exe
+C:\Users\henriquec\Documents\Visual Studio 2012\Projects\Rep100\Rep100\obj\x86\Debug\Rep100.pdb
+C:\Users\henriquec\Documents\Visual Studio 2012\Projects\Rep100\Rep100\bin\x86\Debug\Interop.zkemkeeper.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\bin\x86\Debug\Rep100.exe.config
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\obj\x86\Debug\Interop.zkemkeeper.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\obj\x86\Debug\Rep100.csproj.ResolveComReference.cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\obj\x86\Debug\Rep100.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\obj\x86\Debug\Rep100.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\bin\x86\Debug\Rep100.exe
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\bin\x86\Debug\Rep100.pdb
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\bin\x86\Debug\AssepontoRep.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\bin\x86\Debug\Interop.zkemkeeper.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\obj\x86\Debug\Rep100.csprojResolveAssemblyReference.cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\obj\x86\Debug\Rep100.Properties.Resources.resources
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\obj\x86\Debug\Rep100.csproj.GenerateResource.Cache
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\bin\x86\Debug\Wr.Classes.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\bin\x86\Debug\Rep100.exe.manifest
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\bin\x86\Debug\zkemkeeper.dll
+C:\Disco D\Trabalhos\Projetos\Relógios\Trix\REP100\C#\Rep100\Rep100\obj\x86\Debug\Rep100.exe.manifest
+S:\USUARIOS\Renne\Projetos\Relogios\Trix\REP100\C#\Rep100\Rep100\bin\x86\Debug\Rep100.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Trix\REP100\C#\Rep100\Rep100\obj\x86\Debug\Rep100.csproj.ResolveComReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Trix\REP100\C#\Rep100\Rep100\obj\x86\Debug\Rep100.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Trix\REP100\C#\Rep100\Rep100\obj\x86\Debug\Rep100.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Trix\REP100\C#\Rep100\Rep100\obj\x86\Debug\Rep100.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Trix\REP100\C#\Rep100\Rep100\obj\x86\Debug\Rep100.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\Trix\REP100\C#\Rep100\Rep100\bin\x86\Debug\Rep100.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Trix\REP100\C#\Rep100\Rep100\bin\x86\Debug\Rep100.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Trix\REP100\C#\Rep100\Rep100\bin\x86\Debug\AssepontoRep.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Trix\REP100\C#\Rep100\Rep100\bin\x86\Debug\Wr.Classes.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Trix\REP100\C#\Rep100\Rep100\bin\x86\Debug\Interop.zkemkeeper.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Trix\REP100\C#\Rep100\Rep100\bin\x86\Debug\Excel.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Trix\REP100\C#\Rep100\Rep100\obj\x86\Debug\Rep100.csprojResolveAssemblyReference.cache
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep100\Rep100\bin\x86\Debug\Rep100.exe.config
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep100\Rep100\obj\x86\Debug\Rep100.csproj.ResolveComReference.cache
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep100\Rep100\obj\x86\Debug\Rep100.exe
+D:\BitBucket\Assecont\Relógios\Trix\REP200\C#\Rep100\Rep100\obj\x86\Debug\Rep100.pdb

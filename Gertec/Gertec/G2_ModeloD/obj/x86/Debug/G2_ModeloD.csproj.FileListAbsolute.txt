@@ -1,0 +1,12 @@
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G2_ModeloD\bin\Debug\REP_Gertec.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G2_ModeloD\bin\Debug\G2_ModeloD.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G2_ModeloD\bin\Debug\G2_ModeloD.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G2_ModeloD\bin\Debug\G2_ModeloD.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G2_ModeloD\bin\Debug\Assepontoweb.Types.dll
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G2_ModeloD\obj\x86\Debug\G2_ModeloD.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G2_ModeloD\obj\x86\Debug\G2_ModeloD.Principal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G2_ModeloD\obj\x86\Debug\G2_ModeloD.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G2_ModeloD\obj\x86\Debug\G2_ModeloD.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G2_ModeloD\obj\x86\Debug\G2_ModeloD.csproj.CoreCompileInputs.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G2_ModeloD\obj\x86\Debug\G2_ModeloD.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G2_ModeloD\obj\x86\Debug\G2_ModeloD.pdb

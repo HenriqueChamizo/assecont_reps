@@ -29,7 +29,7 @@ namespace Gertec
         #region Abstract Override
         public override string getRepFabricante()
         {
-            return "Gertec";
+            return "Gertec 2 - Modelo D";
         }
 
         public override bool getAutenticacao()
@@ -99,6 +99,18 @@ namespace Gertec
         public override bool getBoxFuncoes()
         {
             return false;
+        }
+        public override bool getDisconnectOnExit()
+        {
+            return false;
+        }
+        public override bool getColumnId()
+        {
+            return false;
+        }
+        public override List<Types.Permissao> getPermissoes()
+        {
+            return null;
         }
         #endregion
 

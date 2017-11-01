@@ -1,0 +1,153 @@
+C:\ProjetoRep\ZPMRep\ZPM\ZPM\bin\Debug\ZPM.exe.config
+C:\ProjetoRep\ZPMRep\ZPM\ZPM\bin\Debug\ZPM.exe
+C:\ProjetoRep\ZPMRep\ZPM\ZPM\bin\Debug\ZPM.pdb
+C:\ProjetoRep\ZPMRep\ZPM\ZPM\bin\Debug\AssepontoRep.dll
+C:\ProjetoRep\ZPMRep\ZPM\ZPM\bin\Debug\Wr.dll
+C:\ProjetoRep\ZPMRep\ZPM\ZPM\bin\Debug\AssepontoRep.pdb
+C:\ProjetoRep\ZPMRep\ZPM\ZPM\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\ProjetoRep\ZPMRep\ZPM\ZPM\obj\x86\Debug\ZPM.Properties.Resources.resources
+C:\ProjetoRep\ZPMRep\ZPM\ZPM\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\ProjetoRep\ZPMRep\ZPM\ZPM\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\ProjetoRep\ZPMRep\ZPM\ZPM\obj\x86\Debug\ZPM.exe
+C:\ProjetoRep\ZPMRep\ZPM\ZPM\obj\x86\Debug\ZPM.pdb
+C:\Arquivos\Progs\Ponto2009\Rep\ZPMRep_Novo\ZPM\ZPM\bin\Debug\ZPM.exe.config
+C:\Arquivos\Progs\Ponto2009\Rep\ZPMRep_Novo\ZPM\ZPM\obj\x86\Debug\ZPM.exe
+C:\Arquivos\Progs\Ponto2009\Rep\ZPMRep_Novo\ZPM\ZPM\obj\x86\Debug\ZPM.pdb
+C:\Arquivos\Progs\Ponto2009\Rep\ZPMRep_Novo\ZPM\ZPM\bin\Debug\ZPM.exe
+C:\Arquivos\Progs\Ponto2009\Rep\ZPMRep_Novo\ZPM\ZPM\bin\Debug\ZPM.pdb
+C:\Arquivos\Progs\Ponto2009\Rep\ZPMRep_Novo\ZPM\ZPM\bin\Debug\AssepontoRep.dll
+C:\Arquivos\Progs\Ponto2009\Rep\ZPMRep_Novo\ZPM\ZPM\bin\Debug\Wr.dll
+C:\Arquivos\Progs\Ponto2009\Rep\ZPMRep_Novo\ZPM\ZPM\bin\Debug\AssepontoRep.pdb
+C:\Arquivos\Progs\Ponto2009\Rep\ZPMRep_Novo\ZPM\ZPM\bin\Debug\Wr.pdb
+C:\Arquivos\Progs\Ponto2009\Rep\ZPMRep_Novo\ZPM\ZPM\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Arquivos\Progs\Ponto2009\Rep\ZPMRep_Novo\ZPM\ZPM\obj\x86\Debug\ZPM.Properties.Resources.resources
+C:\Arquivos\Progs\Ponto2009\Rep\ZPMRep_Novo\ZPM\ZPM\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Arquivos\Progs\Ponto2009\Rep\ZPMRep_Novo\ZPM\ZPM\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\bin\Debug\ZPM.exe.config
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\bin\Debug\ZPM.exe.manifest
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\bin\Debug\ZPM.application
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\bin\Debug\ZPM.exe
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\bin\Debug\ZPM.pdb
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\bin\Debug\AssepontoRep.dll
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\bin\Debug\Wr.dll
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\bin\Debug\AssepontoRep.pdb
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\bin\Debug\Wr.pdb
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\obj\x86\Debug\ZPM.ImportacaoMarcacoes.resources
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\obj\x86\Debug\ZPM.Principal.resources
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\obj\x86\Debug\ZPM.Properties.Resources.resources
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\obj\x86\Debug\ZPM.exe.manifest
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\obj\x86\Debug\ZPM.application
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\obj\x86\Debug\ZPM.exe
+C:\ProjetoRep\ZPMRep_Novo\ZPM\ZPM\obj\x86\Debug\ZPM.pdb
+C:\ProjetoRep\ZPM_Rep_novo\ZPM\ZPM\obj\x86\Debug\ZPM.ImportacaoMarcacoes.resources
+C:\ProjetoRep\ZPM_Rep_novo\ZPM\ZPM\obj\x86\Debug\ZPM.Principal.resources
+C:\ProjetoRep\ZPM_Rep_novo\ZPM\ZPM\obj\x86\Debug\ZPM.Properties.Resources.resources
+C:\ProjetoRep\ZPM_Rep_novo\ZPM\ZPM\obj\x86\Debug\ZPM.csproj.GenerateResource.Cache
+C:\ProjetoRep\ZPM_Rep_novo\ZPM\ZPM\bin\Debug\ZPM.exe.config
+C:\ProjetoRep\ZPM_Atualizado\ZPM\ZPM\bin\Debug\ZPM.exe.config
+C:\ProjetoRep\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.csprojResolveAssemblyReference.cache
+C:\ProjetoRep\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.ImportacaoMarcacoes.resources
+C:\ProjetoRep\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.Principal.resources
+C:\ProjetoRep\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.Properties.Resources.resources
+C:\ProjetoRep\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.csproj.GenerateResource.Cache
+C:\ProjetoRep\ZPM_Atualizado\ZPM\ZPM\bin\Debug\ZPM.exe.manifest
+C:\ProjetoRep\ZPM_Atualizado\ZPM\ZPM\bin\Debug\ZPM.application
+C:\ProjetoRep\ZPM_Atualizado\ZPM\ZPM\bin\Debug\ZPM.exe
+C:\ProjetoRep\ZPM_Atualizado\ZPM\ZPM\bin\Debug\ZPM.pdb
+C:\ProjetoRep\ZPM_Atualizado\ZPM\ZPM\bin\Debug\AssepontoRep.dll
+C:\ProjetoRep\ZPM_Atualizado\ZPM\ZPM\bin\Debug\Wr.dll
+C:\ProjetoRep\ZPM_Atualizado\ZPM\ZPM\bin\Debug\AssepontoRep.pdb
+C:\ProjetoRep\ZPM_Atualizado\ZPM\ZPM\bin\Debug\Wr.pdb
+C:\ProjetoRep\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.exe.manifest
+C:\ProjetoRep\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.application
+C:\ProjetoRep\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.exe
+C:\ProjetoRep\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM_Atualizado\ZPM\ZPM\bin\Debug\ZPM.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.exe
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.ImportacaoMarcacoes.resources
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.Principal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM_Atualizado\ZPM\ZPM\bin\Debug\ZPM.exe.manifest
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM_Atualizado\ZPM\ZPM\bin\Debug\ZPM.application
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM_Atualizado\ZPM\ZPM\bin\Debug\ZPM.exe
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM_Atualizado\ZPM\ZPM\bin\Debug\ZPM.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM_Atualizado\ZPM\ZPM\bin\Debug\AssepontoRep.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.exe.manifest
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.application
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM_Atualizado\ZPM\ZPM\bin\Debug\AssepontoRep.dll
+C:\Projetos Reps\ZPM_Atualizado\ZPM\ZPM\bin\Debug\ZPM.exe.config
+C:\Projetos Reps\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.exe
+C:\Projetos Reps\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.pdb
+C:\Projetos Reps\ZPM_Atualizado\ZPM\ZPM\bin\Debug\ZPM.exe.manifest
+C:\Projetos Reps\ZPM_Atualizado\ZPM\ZPM\bin\Debug\ZPM.application
+C:\Projetos Reps\ZPM_Atualizado\ZPM\ZPM\bin\Debug\ZPM.exe
+C:\Projetos Reps\ZPM_Atualizado\ZPM\ZPM\bin\Debug\ZPM.pdb
+C:\Projetos Reps\ZPM_Atualizado\ZPM\ZPM\bin\Debug\AssepontoRep.dll
+C:\Projetos Reps\ZPM_Atualizado\ZPM\ZPM\bin\Debug\AssepontoRep.pdb
+C:\Projetos Reps\ZPM_Atualizado\ZPM\ZPM\bin\Debug\Wr.pdb
+C:\Projetos Reps\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.csprojResolveAssemblyReference.cache
+C:\Projetos Reps\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.ImportacaoMarcacoes.resources
+C:\Projetos Reps\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.Principal.resources
+C:\Projetos Reps\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.Properties.Resources.resources
+C:\Projetos Reps\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.csproj.GenerateResource.Cache
+C:\Projetos Reps\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.exe.manifest
+C:\Projetos Reps\ZPM_Atualizado\ZPM\ZPM\obj\x86\Debug\ZPM.application
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM\ZPM\bin\Debug\ZPM.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM\ZPM\obj\x86\Debug\ZPM.exe
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM\ZPM\obj\x86\Debug\ZPM.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM\ZPM\obj\x86\Debug\ZPM.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM\ZPM\obj\x86\Debug\ZPM.ImportacaoMarcacoes.resources
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM\ZPM\obj\x86\Debug\ZPM.Principal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM\ZPM\obj\x86\Debug\ZPM.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM\ZPM\obj\x86\Debug\ZPM.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R130\ZPM\bin\Debug\ZPM.exe.config
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R130\ZPM\obj\x86\Debug\ZPM.exe
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R130\ZPM\obj\x86\Debug\ZPM.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R130\ZPM\obj\x86\Debug\ZPM.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R130\ZPM\obj\x86\Debug\ZPM.ImportacaoMarcacoes.resources
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R130\ZPM\obj\x86\Debug\ZPM.Principal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R130\ZPM\obj\x86\Debug\ZPM.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R130\ZPM\obj\x86\Debug\ZPM.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R130\ZPM\bin\Debug\ZPM.exe.manifest
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R130\ZPM\bin\Debug\ZPM.application
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R130\ZPM\bin\Debug\ZPM.exe
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R130\ZPM\bin\Debug\ZPM.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R130\ZPM\bin\Debug\AssepontoRep.dll
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R130\ZPM\bin\Debug\AssepontoRep.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R130\ZPM\obj\x86\Debug\ZPM.exe.manifest
+S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R130\ZPM\obj\x86\Debug\ZPM.application
+D:\Projetos\Relógios\ZPM\ZPM R130\ZPM\bin\Debug\ZPM.exe.config
+D:\Projetos\Relógios\ZPM\ZPM R130\ZPM\obj\x86\Debug\ZPM.exe
+D:\Projetos\Relógios\ZPM\ZPM R130\ZPM\obj\x86\Debug\ZPM.pdb
+D:\Projetos\Relógios\ZPM\ZPM R130\ZPM\bin\Debug\ZPM.exe.manifest
+D:\Projetos\Relógios\ZPM\ZPM R130\ZPM\bin\Debug\ZPM.application
+D:\Projetos\Relógios\ZPM\ZPM R130\ZPM\bin\Debug\ZPM.exe
+D:\Projetos\Relógios\ZPM\ZPM R130\ZPM\bin\Debug\ZPM.pdb
+D:\Projetos\Relógios\ZPM\ZPM R130\ZPM\bin\Debug\AssepontoRep.pdb
+D:\Projetos\Relógios\ZPM\ZPM R130\ZPM\obj\x86\Debug\ZPM.csprojResolveAssemblyReference.cache
+D:\Projetos\Relógios\ZPM\ZPM R130\ZPM\obj\x86\Debug\ZPM.ImportacaoMarcacoes.resources
+D:\Projetos\Relógios\ZPM\ZPM R130\ZPM\obj\x86\Debug\ZPM.Principal.resources
+D:\Projetos\Relógios\ZPM\ZPM R130\ZPM\obj\x86\Debug\ZPM.Properties.Resources.resources
+D:\Projetos\Relógios\ZPM\ZPM R130\ZPM\obj\x86\Debug\ZPM.csproj.GenerateResource.Cache
+D:\Projetos\Relógios\ZPM\ZPM R130\ZPM\obj\x86\Debug\ZPM.exe.manifest
+D:\Projetos\Relógios\ZPM\ZPM R130\ZPM\obj\x86\Debug\ZPM.application
+D:\Projetos\Relógios\ZPM\ZPM R100\ZPM\bin\Debug\ZPM.exe.config
+D:\Projetos\Relógios\ZPM\ZPM R100\ZPM\obj\x86\Debug\ZPM.exe
+D:\Projetos\Relógios\ZPM\ZPM R100\ZPM\obj\x86\Debug\ZPM.pdb
+D:\Projetos\Relógios\ZPM\ZPM R100\ZPM\bin\Debug\ZPM.exe.manifest
+D:\Projetos\Relógios\ZPM\ZPM R100\ZPM\bin\Debug\ZPM.application
+D:\Projetos\Relógios\ZPM\ZPM R100\ZPM\bin\Debug\ZPM.exe
+D:\Projetos\Relógios\ZPM\ZPM R100\ZPM\bin\Debug\ZPM.pdb
+D:\Projetos\Relógios\ZPM\ZPM R100\ZPM\obj\x86\Debug\ZPM.ImportacaoMarcacoes.resources
+D:\Projetos\Relógios\ZPM\ZPM R100\ZPM\obj\x86\Debug\ZPM.Principal.resources
+D:\Projetos\Relógios\ZPM\ZPM R100\ZPM\obj\x86\Debug\ZPM.Properties.Resources.resources
+D:\Projetos\Relógios\ZPM\ZPM R100\ZPM\obj\x86\Debug\ZPM.csproj.GenerateResource.Cache
+D:\Projetos\Relógios\ZPM\ZPM R100\ZPM\obj\x86\Debug\ZPM.exe.manifest
+D:\Projetos\Relógios\ZPM\ZPM R100\ZPM\obj\x86\Debug\ZPM.application
+D:\Projetos\Relógios\ZPM\ZPM R100\ZPM\obj\x86\Debug\ZPM.csprojResolveAssemblyReference.cache

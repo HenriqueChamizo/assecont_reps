@@ -39,7 +39,7 @@ namespace Gertec
         #region Abstract Override
         public override string getRepFabricante()
         {
-            return "Gertec";
+            return "Gertec 3 - Modelo A";
         }
 
         public override int getPortaPadrao()
@@ -113,6 +113,26 @@ namespace Gertec
         }
 
         public override bool getAutenticacao()
+        {
+            return true;
+        }
+
+        public override bool getColumnId()
+        {
+            return true;
+        }
+
+        public override bool getDisconnectOnExit()
+        {
+            return true;
+        }
+
+        public override List<Types.Permissao> getPermissoes()
+        {
+            return null;
+        }
+
+        public override bool getPin()
         {
             return true;
         }

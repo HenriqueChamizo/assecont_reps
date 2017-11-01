@@ -1,0 +1,41 @@
+﻿Principais diferenças da versão 1.0.0.12:
+"""""""""""""""""""""""""""""""""""""""""
+
+- validação do CEI: rejeita caracteres de controle
+- arquivos de log melhorados
+- correção: aceita números IP com menos de 15 dígitos nas funções de exportar registros
+- correção: problema de comunicação nas funções de exportar registros (com número de tentativas limitado)
+
+
+Instalação ou atualização da DLL:
+"""""""""""""""""""""""""""""""""
+
+A instalação deve ser feita manualmente, de acordo com o programa a ser usado. Veja os procedimentos abaixo.
+
+
+
+Instalação com o Sgrep 1.0.0.14:
+""""""""""""""""""""""""""""""""
+
+1. A DLL existente na pasta de instalação do Sgrep deve ser renomeada (por exemplo para "Keypass1510.dll_original") ou apagada. O mesmo deve ser feito com o arquivo Keypass1510.ini.
+
+2. Copiar os arquivos Keypass1510.dll e Keypass1510.ini para esta mesma pasta.
+
+
+
+Instalação com o Ponto Secullum 4:
+""""""""""""""""""""""""""""""""""
+
+1. Na pasta de instalação do Ponto Secullum (normalmente C:\Arquivos de programas\Ponto4), existe uma subpasta chamada KeyPass. O arquivo "Keypass1510.dll" existente nessa pasta deve ser renomeado (por exemplo para "Keypass1510.dll_original") ou apagado. O arquivo Keypass1510.ini pode ser mantido como está.
+
+2. Copiar os arquivos Keypass1510.dll e Keypass1510.ini para apasta de instalação do Ponto Secullum: C:\Arquivos de programas\Ponto4 . (ATENÇÃO! Não é dentro subpasta Keypass!)
+
+
+
+Instalação com outros programas:
+""""""""""""""""""""""""""""""""
+
+Se o arquivo Keypass1510.dll estiver normalmente na mesma pasta do programa, os passos devem ser iguais aos do Sgrep. Caso contrário, pode haver problemas no funcionamento da DLL (consultar a Keypass).
+
+
+

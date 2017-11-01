@@ -11,7 +11,7 @@ using System.Text.RegularExpressions;
 
 namespace Gertec
 {
-    class Bridge : AssepontoRep.Bridge
+    public class Bridge : AssepontoRep.Bridge
     {
         RepProtocolTestSuite.RepProtocol repProtocol;
         Form Principal;
@@ -35,7 +35,7 @@ namespace Gertec
         #endregion
 
         #region Abstract Override
-        public override string getRepFabricante() { return "Gertec"; }
+        public override string getRepFabricante() { return "Gertec 3 - Modelo B"; }
         public override int getPortaPadrao() { return 5290; }
         public override string getArquivoUsb(){   return "cadastro.bd";   }
         public override bool getGerarBackup(){  return true;    }

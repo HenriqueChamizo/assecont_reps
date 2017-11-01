@@ -34,7 +34,19 @@
   <ItemGroup>
     <Reference Include="AssepontoRep, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Dll\AssepontoRep.dll</HintPath>
+      <HintPath>..\..\..\..\AssepontoRep\AssepontoRep (web)\AssepontoRep.dll</HintPath>
+    </Reference>
+    <Reference Include="Assepontoweb.Classes">
+      <HintPath>..\..\..\..\AssepontoRep\AssepontoRep (web)\Assepontoweb.Classes.dll</HintPath>
+    </Reference>
+    <Reference Include="Assepontoweb.Classes.AppDatabases">
+      <HintPath>..\..\..\..\AssepontoRep\AssepontoRep (web)\Assepontoweb.Classes.AppDatabases.dll</HintPath>
+    </Reference>
+    <Reference Include="Assepontoweb.Types">
+      <HintPath>..\..\..\..\AssepontoRep\AssepontoRep (web)\Assepontoweb.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.TaskScheduler">
+      <HintPath>..\..\..\..\AssepontoRep\AssepontoRep (web)\Microsoft.Win32.TaskScheduler.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,8 +58,11 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="Wr">
-      <HintPath>..\..\..\AssepontoRep\AssepontoRep\bin\Debug\Wr.dll</HintPath>
+    <Reference Include="Wr.Classes">
+      <HintPath>..\..\..\..\AssepontoRep\AssepontoRep (web)\Wr.Classes.dll</HintPath>
+    </Reference>
+    <Reference Include="Wr.Classes.Databases">
+      <HintPath>..\..\..\..\AssepontoRep\AssepontoRep (web)\Wr.Classes.Databases.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

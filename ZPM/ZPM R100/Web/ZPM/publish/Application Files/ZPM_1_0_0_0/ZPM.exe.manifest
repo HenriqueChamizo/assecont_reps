@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="ZPM.exe" version="1.0.0.0" publicKeyToken="5a41f7d2e31bf8e1" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ZPM" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="ZPM.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AssepontoRep.dll" size="80384">
+      <assemblyIdentity name="AssepontoRep" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>WmL7fRwo+y5miwDVv5oomNZZHWY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Wr.dll" size="69120">
+      <assemblyIdentity name="Wr" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Tz/buOJ3hJPwoUk7cSDI2H8Bjeg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ZPM.exe" size="30720">
+      <assemblyIdentity name="ZPM" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>nSxCeKaxDjyD7qHrulxhcgx+S+k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ZPM.exe.config" size="144">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cpzNzlRjZspwKGLNlX6RAlU3880=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ASSECONT\flaviar" issuerKeyHash="7bb5b395c55acea107186e5276e816a826a7f33c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>XE6K5bqlYBclXHeDtkzWesLStD4=</DigestValue></Reference></SignedInfo><SignatureValue>mV3Si4tSjp58u5yK0SCenT55jLNt+QI9F94joKRvEXlSuHoektYLH6yenrT9SNfIRgMhFyRHjH+CN9ECmqOzZU+5g81iWPLeI+stP0VZc/GDtaeejnpBVYokDRTyOgv+EGdcfWMR7RcYe6xUvvCZEhhOuZ3sKq/KYY0yr/JDeBQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rR4E5sZ41kNXfHBpivZxU51g8ri8mLaJb9ZL+z3Os/JVjSDSDSrRjhdwQGSR+ILGazhOqR9wB6YU5GG7mClm0Db3A+Z3jNCitzTpe9AUF74Ouraqh970gsVo6RxWVatKUj15xOrzzeL3ThaTEp9R/r9QjiRDkINTZfD10/vQTgU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3eb4d2c27ad64cb683775c251760a5bae58a4e5c" Description="" Url=""><as:assemblyIdentity name="ZPM.exe" version="1.0.0.0" publicKeyToken="5a41f7d2e31bf8e1" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ASSECONT\flaviar</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>o+SRjkxM8j6Xwg7VSWKghRoRb0M=</DigestValue></Reference></SignedInfo><SignatureValue>ANzFF6D2T+tTh+C7uzfK/PB/KMKAWc+U2O3/N0pxWS+VT0Z4q4VmKS7bnF80BZcfRU9OTmbKrcSJGVNoKWiybYklRpp8bBo18UiFwBxgbGyABVRhnnTKYzSKngZ04sYMfIq5KjXx6lTZ4L26J6T++OF6mFBRxVK51tQK7Ynb3o4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rR4E5sZ41kNXfHBpivZxU51g8ri8mLaJb9ZL+z3Os/JVjSDSDSrRjhdwQGSR+ILGazhOqR9wB6YU5GG7mClm0Db3A+Z3jNCitzTpe9AUF74Ouraqh970gsVo6RxWVatKUj15xOrzzeL3ThaTEp9R/r9QjiRDkINTZfD10/vQTgU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQbRmyotd6+49EtXdGv/aZSTANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAAQQBTAFMARQBDAE8ATgBUAFwAZgBsAGEAdgBpAGEAcjAeFw0xMzA5MjMxNzUxNDRaFw0xNDA5MjMyMzUxNDRaMCsxKTAnBgNVBAMeIABBAFMAUwBFAEMATwBOAFQAXABmAGwAYQB2AGkAYQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtHgTmxnjWQ1d8cGmK9nFTnWDyuLyYtolv1kv7Pc6z8lWNININKtGOF3BAZJH4gsZrOE6pH3AHphTkYbuYKWbQNvcD5neM0KK3NOl70BQXvg66tqqH3vSCxWjpHFZVq0pSPXnE6vPN4vdOFpMSn1H+v1COJEOQg1Nl8PXT+9BOBQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAKsoJXGiuzMR/RNP26C2xO6g5s0jqGd5TsITtlVLbSJ21Nlumm90iCbzrx0+2n+i3ueiVHy4h1bk2woqrVoA9bHxvHC+3Q7UsvsFMzB46aAX/vNexx4gilIpNdAsYTiLQGs1OI3RJ2SpX+WQybommgcOL5uS8ZoU6U1QEKGaJiCC</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

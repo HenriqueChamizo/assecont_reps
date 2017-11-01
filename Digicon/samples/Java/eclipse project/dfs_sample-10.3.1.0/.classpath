@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="lib/cdfs-10.3.1.0.dll"/>
+	<classpathentry kind="lib" path="lib/jdfs-10.3.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/jni4net.j-0.8.6.0.jar"/>
+	<classpathentry kind="lib" path="lib/dfs-10.3.1.0.dll"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

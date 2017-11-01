@@ -1,0 +1,8 @@
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G3_ModeloB\obj\Debug\G3_ModeloB.Principal.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G3_ModeloB\obj\Debug\G3_ModeloB.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G3_ModeloB\obj\Debug\G3_ModeloB.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G3_ModeloB\obj\Debug\G3_ModeloB.csproj.CoreCompileInputs.cache
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G3_ModeloB\bin\Debug\G3_ModeloB.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G3_ModeloB\bin\Debug\G3_ModeloB.pdb
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G3_ModeloB\obj\Debug\G3_ModeloB.exe
+S:\USUARIOS\Renne\Projetos\Relogios\Gertec\Gertec\G3_ModeloB\obj\Debug\G3_ModeloB.pdb

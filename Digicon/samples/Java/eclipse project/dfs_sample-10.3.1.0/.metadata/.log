@@ -1,0 +1,27 @@
+!SESSION 2012-07-09 16:36:24.205 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Trabalho\Projeto ACESSO\Workstation\jdfs\workspaceJar\jdfs-10.1.1.0
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2012-07-09 16:36:27.259
+!MESSAGE DDMS files not found: C:\Program Files (x86)\Eclipse\eclipse_helios\platform-tools\adb.exe C:\Program Files (x86)\Eclipse\eclipse_helios\tools\hprof-conv.exe C:\Program Files (x86)\Eclipse\eclipse_helios\tools\traceview.bat 
+!SESSION 2012-07-10 15:56:40.955 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Trabalho\Projeto ACESSO\Workstation\jdfs\workspaceJar\jdfs-10.1.1.0
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2012-07-10 15:56:44.098
+!MESSAGE DDMS files not found: C:\Program Files (x86)\Eclipse\eclipse_helios\platform-tools\adb.exe C:\Program Files (x86)\Eclipse\eclipse_helios\tools\hprof-conv.exe C:\Program Files (x86)\Eclipse\eclipse_helios\tools\traceview.bat 
+!SESSION 2012-07-10 17:32:45.124 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Trabalho\Projeto ACESSO\Workstation\jdfs\workspaceJar\jdfs-10.1.1.0
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2012-07-10 17:32:48.094
+!MESSAGE DDMS files not found: C:\Program Files (x86)\Eclipse\eclipse_helios\platform-tools\adb.exe C:\Program Files (x86)\Eclipse\eclipse_helios\tools\hprof-conv.exe C:\Program Files (x86)\Eclipse\eclipse_helios\tools\traceview.bat 
