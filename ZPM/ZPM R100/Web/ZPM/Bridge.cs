@@ -29,7 +29,7 @@ namespace ZPM
 
         #region Overrides Abstract
         public override int     getPortaPadrao()                { return 5000; }
-        public override string  getRepFabricante()              { return "ZPM"; }
+        public override string  getRepFabricante()              { return "ZPM - R100"; }
         public override string  getArquivoUsb()                 { return "ZPM"; }
         public override bool    getGerarUsb()                   { return true; }
         public override bool    getGerarBackup()                { return false; }
@@ -46,6 +46,8 @@ namespace ZPM
         public override bool getAutenticacao() { return false; }
         public override bool getPin(){ return false; }
         public override bool getDisconnectOnExit(){ return false; }
+        public override bool getColumnId() { return false; }
+        public override List<Types.Permissao> getPermissoes() { return null; }
         #endregion
 
         #region CONEXAO
@@ -411,8 +413,6 @@ namespace ZPM
             bool Result = false;
             int NRegistrosLidos = 0;
 
-            DateTime DataInicial;
-            DateTime DataFinal;
 
             StringBuilder PIS = new StringBuilder(11);
             StringBuilder DataHora = new StringBuilder(19);
@@ -421,7 +421,7 @@ namespace ZPM
 
             //Marcacoes marcacoes = new Marcacoes(TerminalDados);
 
-            if (!getPeriodo(out DataInicial, out DataFinal)) return false;
+            if (!getPeriodo(out DateTime DataInicial, out DateTime DataFinal)) return false;
             //REPZPM_DLL.ID_Comando = REPZPM_DLL.DLLREP_BuscaPonto(REPZPM_DLL.Handle, DataInicial.ToString("dd/MM/yyyy"), DataFinal.ToString("dd/MM/yyyy"));
             
             //if (REPZPM_DLL.ID_Comando == -4)

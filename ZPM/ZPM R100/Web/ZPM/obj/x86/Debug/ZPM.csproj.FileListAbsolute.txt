@@ -193,3 +193,25 @@ S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R100\Web\ZPM\obj\x86\Debug\ZPM.cspro
 S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R100\Web\ZPM\obj\x86\Debug\ZPM.exe.manifest
 S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R100\Web\ZPM\obj\x86\Debug\ZPM.application
 S:\USUARIOS\Renne\Projetos\Relogios\ZPM\ZPM R100\Web\ZPM\obj\x86\Debug\ZPM.csprojResolveAssemblyReference.cache
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\obj\x86\Debug\ZPM.csprojResolveAssemblyReference.cache
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\obj\x86\Debug\ZPM.ImportacaoMarcacoes.resources
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\obj\x86\Debug\ZPM.Principal.resources
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\obj\x86\Debug\ZPM.Properties.Resources.resources
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\obj\x86\Debug\ZPM.csproj.GenerateResource.Cache
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\obj\x86\Debug\ZPM.csproj.CoreCompileInputs.cache
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\obj\x86\Debug\ZPM.exe
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\obj\x86\Debug\ZPM.pdb
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\bin\Debug\ZPM.exe.config
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\bin\Debug\ZPM.exe.manifest
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\bin\Debug\ZPM.application
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\bin\Debug\ZPM.exe
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\bin\Debug\ZPM.pdb
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\bin\Debug\AssepontoRep.dll
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\bin\Debug\Assepontoweb.Classes.AppDatabases.dll
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\bin\Debug\Assepontoweb.Classes.dll
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\bin\Debug\Assepontoweb.Types.dll
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\bin\Debug\Wr.Classes.Databases.dll
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\bin\Debug\Wr.Classes.dll
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\obj\x86\Debug\ZPM.exe.manifest
+C:\Disco D\GitHub\assecont_reps\ZPM\ZPM R100\Web\ZPM\obj\x86\Debug\ZPM.application

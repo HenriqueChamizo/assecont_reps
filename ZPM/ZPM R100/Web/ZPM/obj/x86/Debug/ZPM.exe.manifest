@@ -43,38 +43,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AssepontoRep.dll" size="137728">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AssepontoRep.dll" size="141824">
       <assemblyIdentity name="AssepontoRep" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>GbwFXohEaZERPTLgZf6plAPWwa4=</dsig:DigestValue>
+        <dsig:DigestValue>keXNu0tUxzUEeIgtpufMhwfKiAQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Assepontoweb.Classes.dll" size="75264">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Assepontoweb.Classes.dll" size="95232">
       <assemblyIdentity name="Assepontoweb.Classes" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>zcEICDKiikCcCTgBLt0bqCcMLCk=</dsig:DigestValue>
+        <dsig:DigestValue>WikU+9OJktn/JmmlvyKDnwJkOi0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Assepontoweb.Classes.AppDatabases.dll" size="998400">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Assepontoweb.Classes.AppDatabases.dll" size="900608">
       <assemblyIdentity name="Assepontoweb.Classes.AppDatabases" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>h3Yk/lY+Vjeik/pUOzFbjreZ8sU=</dsig:DigestValue>
+        <dsig:DigestValue>BGS8vSfoQ6RdzIR2aq+hgJfAvuc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -86,7 +86,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>d2EBdSwaMk6ljDhKyDhxDPmSEuw=</dsig:DigestValue>
+        <dsig:DigestValue>4QqIUxdCjaBlxfa4F+x+qhJI8M4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -103,14 +103,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Wr.Classes.dll" size="1776128">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Wr.Classes.dll" size="1787904">
       <assemblyIdentity name="Wr.Classes" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>cOdoRj67JuD4O398YrbsHAPoS8s=</dsig:DigestValue>
+        <dsig:DigestValue>tKu4pQIj1JHB+qWTCEBJElL/hn8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -127,14 +127,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ZPM.exe" size="38400">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ZPM.exe" size="37376">
       <assemblyIdentity name="ZPM" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>MlewthjwVfu64jnHXbJSimQKEWk=</dsig:DigestValue>
+        <dsig:DigestValue>lnQkmysfOALP9/80ezNDGB2lIRE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
